@@ -1,3 +1,9 @@
 venv/
 __pycache__/
 .env
+keploy.exe
+keploy.exe.exe
+WinDivert.dll
+WinDivert64.sys
+keploy_agent.log
+keploy-logs.txt
