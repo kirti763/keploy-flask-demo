@@ -1,5 +1,6 @@
 name: Update Star Count
-
+permissions:
+  contents: write
 on:
   workflow_dispatch:
   schedule:
