@@ -1,0 +1,30 @@
+name: Update Star Count
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 0 * * *"
+
+jobs:
+  update-stars:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 18
+
+      - name: Run star script
+        run: node scripts/fetch-star-count.js
+        env:
+          GITHUB_TOKEN: ${{ secrets.STARGAZER_TOKEN }}
+
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add stars-history.csv
+          git commit -m "update: daily star count" || echo "No changes"
+          git push
