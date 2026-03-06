@@ -32,7 +32,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
        
         run: |
-          node scripts/fetchStargazers.js
+          node scripts/fetch-all-Stargazers.js
           echo "exit_code=$?" >> $GITHUB_OUTPUT
         continue-on-error: true
 
