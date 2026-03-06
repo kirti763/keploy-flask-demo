@@ -2,7 +2,7 @@ const https = require("https");
 const fs = require("fs");
 const path = require("path");
 
-const ORG = "kirti763";
+const ORG = "keploy";
 const OUTPUT_FILE = path.resolve(__dirname, "../data/stargazers.csv");
 const DELAY_MS = 300;
 const PER_PAGE = 100;
