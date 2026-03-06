@@ -1,0 +1,64 @@
+name: Track Keploy Stargazers
+
+on:
+  schedule:
+    # Runs every day at 02:00 UTC
+    - cron: "0 2 * * *"
+  workflow_dispatch: 
+
+permissions:
+  contents: write
+
+jobs:
+  fetch-stargazers:
+    name: Fetch & Commit Stargazers
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Set up Node.js 20
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Run stargazer tracker
+        id: tracker
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+       
+        run: |
+          node scripts/fetchStargazers.js
+          echo "exit_code=$?" >> $GITHUB_OUTPUT
+        continue-on-error: true
+
+      - name: Check exit code
+        run: |
+          CODE=${{ steps.tracker.outputs.exit_code }}
+          if [ "$CODE" = "1" ]; then
+            echo "❌ Script failed with a fatal error."
+            exit 1
+          fi
+          echo "Script finished with code $CODE"
+
+      - name: Commit updated stargazers CSV
+        if: steps.tracker.outputs.exit_code == '0'
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          git add data/stargazers.csv
+
+          # Only commit if there are staged changes
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            TIMESTAMP=$(date -u +"%Y-%m-%d %H:%M UTC")
+            git commit -m "chore(data): update stargazers CSV [${TIMESTAMP}]"
+            git push
+            echo "✅ CSV committed and pushed."
+          fi
