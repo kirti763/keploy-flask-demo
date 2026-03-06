@@ -1,0 +1,351 @@
+issue_number,repo_name,title,state,created_at,updated_at,author,issue_url
+3898,keploy,[bug]: ALPN negotiation blocks HTTP/2 upgrade for HTTP/1.1 requests with Upgrade header,open,2026-03-04T05:25:45Z,2026-03-04T05:25:45Z,zesty-clawd,https://github.com/keploy/keploy/issues/3898
+3897,keploy,Vulnerability in keploy project,open,2026-03-03T11:19:55Z,2026-03-03T11:19:55Z,ankitdn,https://github.com/keploy/keploy/issues/3897
+3891,keploy,"fix: correct typo ""DEPRICATED"" → ""DEPRECATED"" in deprecated flag message",open,2026-03-01T08:23:30Z,2026-03-01T08:24:15Z,DhineshPonnarasan,https://github.com/keploy/keploy/issues/3891
+3890,keploy,[feature]: Add a virtual field bookCount,open,2026-02-28T13:38:41Z,2026-02-28T13:38:53Z,hindochahitarth,https://github.com/keploy/keploy/issues/3890
+3889,keploy,[feature]: Implement a search query,open,2026-02-28T13:32:25Z,2026-02-28T13:32:36Z,hindochahitarth,https://github.com/keploy/keploy/issues/3889
+3888,keploy,[feature]: Search Books by Name (Partial Match),open,2026-02-28T12:36:18Z,2026-02-28T12:36:36Z,hindochahitarth,https://github.com/keploy/keploy/issues/3888
+3887,keploy,[feature]:  Update Author Mutation,open,2026-02-28T12:12:31Z,2026-02-28T12:13:39Z,hindochahitarth,https://github.com/keploy/keploy/issues/3887
+3883,keploy,[feature]: Add --json Output Support to keploy doctor,open,2026-02-27T16:09:45Z,2026-02-27T16:09:55Z,Yashvi29-power,https://github.com/keploy/keploy/issues/3883
+3882,keploy,[feature]: Improve structured logging by adding command context fields,open,2026-02-27T16:00:19Z,2026-02-28T11:52:04Z,Diyap235,https://github.com/keploy/keploy/issues/3882
+3878,keploy,[feature]: Add Built-in Health Check Command for Keploy Agent,open,2026-02-27T10:33:19Z,2026-02-27T10:33:38Z,Yashvi29-power,https://github.com/keploy/keploy/issues/3878
+3872,keploy,[bug]: Noise assertions silently dropped during YAML decode due to incorrect type assertion,open,2026-02-27T05:24:50Z,2026-02-27T05:25:13Z,zesty-clawd,https://github.com/keploy/keploy/issues/3872
+3871,keploy,"[bug]: AfterTestRun agent hook fails with ""connection refused"" in Docker Compose mode",open,2026-02-26T20:01:23Z,2026-02-27T06:57:36Z,pathakharshit,https://github.com/keploy/keploy/issues/3871
+3869,keploy,[bug]: Improve Text Contrast and Visibility in “Success Stories” and “Integration Resources” Section on Solutions Page,open,2026-02-26T15:25:38Z,2026-02-26T15:26:20Z,Disumakadiya,https://github.com/keploy/keploy/issues/3869
+3867,keploy,[bug]: [Security/Bug]: Potential DoS vulnerability via decompression bomb - Team T066,open,2026-02-26T13:30:27Z,2026-02-26T13:53:35Z,chaitany851P,https://github.com/keploy/keploy/issues/3867
+3864,keploy,[feature]: Add performance testing pipeline for oss,open,2026-02-26T05:42:33Z,2026-03-06T05:55:53Z,Yogeshjindal,https://github.com/keploy/keploy/issues/3864
+3854,keploy,[bug]: HTTP agent leaks response bodies in MockOutgoing and UpdateMockParams,open,2026-02-24T17:29:38Z,2026-02-26T17:22:53Z,kushpatel2601,https://github.com/keploy/keploy/issues/3854
+3851,keploy,[bug]: Incomplete or inconsistent panic recovery and error handling in critical data parser functions,open,2026-02-24T16:24:37Z,2026-02-24T16:25:11Z,dhrumil246,https://github.com/keploy/keploy/issues/3851
+3849,keploy,[bug]: [blog-website] Section underline overlaps heading text on mobile view,open,2026-02-24T15:03:08Z,2026-02-24T15:11:32Z,sumitahmed,https://github.com/keploy/keploy/issues/3849
+3843,keploy,"[bug]: `status_code_class` Assertion Always Evaluates Against `""2xx""` Due to Hardcoded Literal - T152",open,2026-02-24T05:11:37Z,2026-02-25T09:56:26Z,Krish3017,https://github.com/keploy/keploy/issues/3843
+3842,keploy,[feature]: Intelligent Test Suite Minimization,open,2026-02-24T04:44:10Z,2026-02-24T04:46:34Z,Ayush-Vyas,https://github.com/keploy/keploy/issues/3842
+3838,keploy,[feature]:Library Demo Enhancement to add CRUD Operations,open,2026-02-23T18:01:18Z,2026-02-24T01:31:14Z,hindochahitarth,https://github.com/keploy/keploy/issues/3838
+3837,keploy,[feature]: Add Structured Logging Support in CLI Instead of Plain Logging,open,2026-02-23T17:25:38Z,2026-02-25T15:17:19Z,Diyap235,https://github.com/keploy/keploy/issues/3837
+3836,keploy,[Feature]: Prevent Concurrent CLI Execution to Avoid Data Corruption,open,2026-02-23T17:04:27Z,2026-02-23T17:05:50Z,Diyap235,https://github.com/keploy/keploy/issues/3836
+3835,keploy,[feature]: Enhancement: Add Test Execution Summary with Success Rate and Endpoint Coverage,open,2026-02-23T16:03:03Z,2026-02-24T15:39:18Z,7JankiPanchal,https://github.com/keploy/keploy/issues/3835
+3834,keploy,[bug]:Infinite DNS loop causing system hang and blocking traffic capture,open,2026-02-23T15:28:16Z,2026-02-24T15:17:22Z,Talaviya-Sarthak,https://github.com/keploy/keploy/issues/3834
+3833,keploy,[bug]:Community Channel Listings Are Inconsistent Between Main Website and Documentation Page,open,2026-02-23T13:04:58Z,2026-02-23T13:07:59Z,RutviShah2,https://github.com/keploy/keploy/issues/3833
+3832,keploy,[bug]: Host OS Permission Issues for Tracepoints,open,2026-02-23T12:46:54Z,2026-02-23T12:47:27Z,Talaviya-Sarthak,https://github.com/keploy/keploy/issues/3832
+3830,keploy,[bug]:  Inconsistent Display of GitHub and VS Code Stats in Mobile View,open,2026-02-23T07:02:10Z,2026-02-23T16:20:39Z,RutviShah2,https://github.com/keploy/keploy/issues/3830
+3829,keploy,[bug]: Fix incorrect variadic handling in Highlight functions causing bracketed output when ANSI is disabled Team 177,open,2026-02-22T18:22:58Z,2026-02-22T18:27:50Z,ybthummar,https://github.com/keploy/keploy/issues/3829
+3827,keploy,[bug]: startTCPDNSServer swallows startup errors (always returns nil) - Team 177,open,2026-02-22T13:04:35Z,2026-02-22T16:23:32Z,BhavyaManvar,https://github.com/keploy/keploy/issues/3827
+3824,keploy,"[feature]: Add a user-selectable Dark and Light theme toggle in the Keploy web interface to improve accessibility, user comfort, and overall UI experience.",open,2026-02-22T10:16:50Z,2026-02-23T15:16:21Z,RutviShah2,https://github.com/keploy/keploy/issues/3824
+3822,keploy,[feature]: Implementation of Sensitive Data Redaction for TypeScript SDK - Team T066,open,2026-02-22T08:42:03Z,2026-02-22T08:42:25Z,chaitany851P,https://github.com/keploy/keploy/issues/3822
+3821,keploy,[Team T188] Use-after-close in isGoBinary — reads ELF file sections after closing it,open,2026-02-22T07:45:24Z,2026-02-22T08:11:27Z,24cs062,https://github.com/keploy/keploy/issues/3821
+3819,keploy,Improve error handling & network resilience in contact form AJAX submission,open,2026-02-21T21:34:42Z,2026-02-22T06:49:23Z,ohmbhatia,https://github.com/keploy/keploy/issues/3819
+3811,keploy,[feature]: add sse and http streaming support,open,2026-02-19T05:53:15Z,2026-03-05T06:02:53Z,officialasishkumar,https://github.com/keploy/keploy/issues/3811
+3810,keploy,"[bug]: Broken X (Twitter) Profile Link – Shows ""Account Does Not Exist""",open,2026-02-18T16:35:27Z,2026-02-21T17:58:03Z,Surajiitmjnu,https://github.com/keploy/keploy/issues/3810
+3796,keploy,[bug]: External link is opening in the same tab instead of a new tab,open,2026-02-17T10:12:53Z,2026-02-21T18:21:36Z,Surajiitmjnu,https://github.com/keploy/keploy/issues/3796
+3790,keploy,[feature]: Add persistent test run history and new keploy runs CLI command,open,2026-02-15T22:26:25Z,2026-02-21T18:46:09Z,DARSHAN-R-DARSHAN,https://github.com/keploy/keploy/issues/3790
+3788,keploy,UI: Section overlap issue on Unit Test Generator landing page,open,2026-02-15T09:44:53Z,2026-02-21T18:02:00Z,DARSHAN-R-DARSHAN,https://github.com/keploy/keploy/issues/3788
+3787,keploy,C# Docker Quickstart Not Available in Quickstart Filter,open,2026-02-14T10:47:21Z,2026-02-14T10:47:21Z,Srinu346,https://github.com/keploy/keploy/issues/3787
+3783,keploy,🐛 Fix: Incorrect VS Code Extension Marketplace URL in Blog,open,2026-02-13T13:20:02Z,2026-02-13T13:28:48Z,DARSHAN-R-DARSHAN,https://github.com/keploy/keploy/issues/3783
+3776,keploy,UI: Heading text overlaps with divider line on documentation pages,open,2026-02-12T21:06:11Z,2026-02-13T10:24:12Z,DARSHAN-R-DARSHAN,https://github.com/keploy/keploy/issues/3776
+3774,keploy,[feature]: Add “Most Popular” section to Blog Page for better content discoverability,open,2026-02-12T18:02:20Z,2026-02-21T17:49:17Z,Rugved-dev18,https://github.com/keploy/keploy/issues/3774
+3755,keploy,"[bug]: Navbar dropdown not opening on (iPad Mini  ,iPad Air,iPad Pro) responsive viewport",open,2026-02-10T06:56:10Z,2026-02-13T05:47:18Z,Surajiitmjnu,https://github.com/keploy/keploy/issues/3755
+3753,keploy,[feature]: Allow VSCode Extension to load CLI-generated testcases,open,2026-02-09T23:34:49Z,2026-02-09T23:35:00Z,GitEngHar,https://github.com/keploy/keploy/issues/3753
+3748,keploy,[feature]: Improve Resources dropdown UI to match Community & Technology menu,open,2026-02-09T19:31:22Z,2026-02-11T17:48:48Z,aspirant-22,https://github.com/keploy/keploy/issues/3748
+3745,keploy,[bug]: Navbar dropdown icon does not change on hover,open,2026-02-09T05:32:04Z,2026-02-21T17:07:15Z,Surajiitmjnu,https://github.com/keploy/keploy/issues/3745
+3744,keploy,[bug]: Inconsistent Hover Underline on Navbar “Resources” Item,open,2026-02-09T05:17:12Z,2026-02-21T18:19:23Z,Surajiitmjnu,https://github.com/keploy/keploy/issues/3744
+3739,keploy,[bug]: Proxy readyChan Deadlock / Double-Send Panic,open,2026-02-08T16:06:44Z,2026-02-08T16:07:11Z,vishalharkal15,https://github.com/keploy/keploy/issues/3739
+3738,keploy,[feature]: Configurable custom matchers for more reliable replay comparisons,open,2026-02-08T10:35:57Z,2026-02-10T18:22:30Z,roushnisareen,https://github.com/keploy/keploy/issues/3738
+3737,keploy,[bug]: Broken Footer Navigation — “VS Code Extension” Link Returns 404,open,2026-02-07T18:50:22Z,2026-02-22T04:48:27Z,Surajiitmjnu,https://github.com/keploy/keploy/issues/3737
+3727,keploy,Issue: Deprecated Next.js Image Configuration & Console Statements,open,2026-02-05T18:21:09Z,2026-02-05T18:21:33Z,Abhineshhh,https://github.com/keploy/keploy/issues/3727
+3726,keploy,[bug]: Inconsistent VS Code install count displayed between desktop and mobile navigation,open,2026-02-05T17:54:05Z,2026-02-22T16:01:06Z,Surajiitmjnu,https://github.com/keploy/keploy/issues/3726
+3724,keploy,[Enhancement]: HTTP/1.1 pipelining not supported in recorder,open,2026-02-05T15:22:34Z,2026-02-05T15:22:34Z,Syedowais312,https://github.com/keploy/keploy/issues/3724
+3723,keploy,[bug]:  Author pages briefly show “No posts found” during fallback build,open,2026-02-05T14:02:53Z,2026-02-24T13:50:31Z,devlopharsh,https://github.com/keploy/keploy/issues/3723
+3720,keploy,[enhance]: Incomplete Pagination in getAllPosts due to Missing pageInfo,open,2026-02-04T19:00:35Z,2026-02-04T19:02:38Z,devlopharsh,https://github.com/keploy/keploy/issues/3720
+3713,keploy,fix(docs): align headings and Table of Contents in quickstart samples,open,2026-02-03T17:10:49Z,2026-02-03T17:10:49Z,Srinu346,https://github.com/keploy/keploy/issues/3713
+3708,keploy,[bug]: pushConfigChange silently succeeds on non-200 API responses,open,2026-02-03T09:30:21Z,2026-02-03T09:34:16Z,dilshad-aee,https://github.com/keploy/keploy/issues/3708
+3702,keploy,[enhance]:  Optimize IPv4 address conversion by using bitwise operations,open,2026-02-02T21:18:52Z,2026-02-02T21:18:52Z,armaanngupta,https://github.com/keploy/keploy/issues/3702
+3689,keploy,Proxy Client Connections Not Tracked or Cleaned Up,open,2026-01-31T16:37:41Z,2026-01-31T19:36:53Z,AnujShrivastava01,https://github.com/keploy/keploy/issues/3689
+3685,keploy,Silent failures in proxy connection handling due to nil error returns,open,2026-01-30T17:52:27Z,2026-01-30T17:52:27Z,AnujShrivastava01,https://github.com/keploy/keploy/issues/3685
+3684,keploy,Blog UX: Infinite testimonial marquee causes perceived duplicate content,open,2026-01-30T17:34:04Z,2026-01-30T17:59:07Z,agarwalpranav0711,https://github.com/keploy/keploy/issues/3684
+3670,keploy,"[feature]: Improve fetchAPI robustness: explicit HTTP error handling, timeouts, and retry strategy",open,2026-01-28T08:19:02Z,2026-02-22T17:03:56Z,devlopharsh,https://github.com/keploy/keploy/issues/3670
+3649,keploy,[docs]: fix broken anchors in the doc website,open,2026-01-26T12:00:03Z,2026-02-21T18:41:53Z,nehagup,https://github.com/keploy/keploy/issues/3649
+3642,keploy,[bug]: Race condition in MockManager causing data race during map initialization,open,2026-01-26T05:39:17Z,2026-01-27T05:22:35Z,pigeio,https://github.com/keploy/keploy/issues/3642
+3641,keploy,[bug]: Pin Next.js version to avoid dependency drift.,open,2026-01-26T05:27:26Z,2026-01-26T05:29:23Z,devlopharsh,https://github.com/keploy/keploy/issues/3641
+3639,keploy,[feature]: Add Unit Tests for AgentClient (pkg/platform/http),open,2026-01-25T18:38:06Z,2026-01-25T18:38:18Z,VishalPainjane,https://github.com/keploy/keploy/issues/3639
+3638,keploy,[blog-website]: UI/UX enhancement for writers.keploy.io,open,2026-01-25T13:36:21Z,2026-02-24T16:31:16Z,mounika-10782,https://github.com/keploy/keploy/issues/3638
+3635,keploy,[bug] blog-website: Deprecated Next.js Image Config & Environment Setup Issues,open,2026-01-24T20:48:50Z,2026-01-25T17:04:27Z,mishraa-G,https://github.com/keploy/keploy/issues/3635
+3634,keploy,[blog-website]: Author bio popup on hover over blog cards,open,2026-01-24T20:31:54Z,2026-02-21T17:08:06Z,ParvathyPadmakumar,https://github.com/keploy/keploy/issues/3634
+3631,keploy,[feature]: Add reading list bookmarks with localStorage persistence,open,2026-01-24T06:50:40Z,2026-01-24T19:14:00Z,Abiram08,https://github.com/keploy/keploy/issues/3631
+3629,keploy,[docs]: FastHTTP + Postgres Docker Quickstart Missing,open,2026-01-23T14:19:28Z,2026-01-27T09:57:12Z,Srinu346,https://github.com/keploy/keploy/issues/3629
+3622,keploy,[blog-website]: X (Twitter) footer link redirects to a non-existent account,open,2026-01-23T07:08:03Z,2026-02-23T07:51:23Z,Surajiitmjnu,https://github.com/keploy/keploy/issues/3622
+3621,keploy,[blog-website]: Some links in “What our community thinks” section are not working,open,2026-01-23T06:25:23Z,2026-02-22T11:00:41Z,Surajiitmjnu,https://github.com/keploy/keploy/issues/3621
+3620,keploy,[feature]: Improve error messages for network proxy failures with actionable solutions,open,2026-01-23T06:03:19Z,2026-01-26T05:27:33Z,Nsanjayboruds,https://github.com/keploy/keploy/issues/3620
+3615,keploy,[bug]:  Panic in CreateConfig when configData is empty or contains only comments,open,2026-01-22T20:29:21Z,2026-01-26T09:04:26Z,pigeio,https://github.com/keploy/keploy/issues/3615
+3600,keploy,[feature]:  Add a link that direct to schema coverage in test Generated not run mail,open,2026-01-22T07:36:17Z,2026-01-22T08:00:42Z,ananyareddyKeploy,https://github.com/keploy/keploy/issues/3600
+3599,keploy,[sample-python]: Add a FastAPI + MongoDB sample for test suite using Keploy API Test Generator,open,2026-01-21T17:50:07Z,2026-01-25T17:04:25Z,syedali237,https://github.com/keploy/keploy/issues/3599
+3588,keploy,[Feature]: Automated Performance Regression Detection and Latency Analytics,open,2026-01-21T07:16:43Z,2026-01-21T07:17:23Z,Manishnemade12,https://github.com/keploy/keploy/issues/3588
+3580,keploy,[bug]: Race condition during mock updates can cause intermittent mock matching failures,open,2026-01-20T06:59:48Z,2026-01-25T18:24:40Z,Ady0333,https://github.com/keploy/keploy/issues/3580
+3579,keploy,[feature]: Add simple social sharing options to blog posts,open,2026-01-19T20:54:11Z,2026-01-25T17:04:25Z,Abiram08,https://github.com/keploy/keploy/issues/3579
+3578,keploy,[feature]: Show estimated reading time on blog posts,open,2026-01-19T20:49:42Z,2026-01-25T17:04:24Z,Abiram08,https://github.com/keploy/keploy/issues/3578
+3577,keploy,[blog-website]: CoverImage Component Crash on Missing Image Node,open,2026-01-19T16:30:25Z,2026-01-25T17:04:24Z,guruvedhanth-s,https://github.com/keploy/keploy/issues/3577
+3575,keploy,[feature]: automatically set delay based on recording time,open,2026-01-19T13:13:01Z,2026-02-24T13:44:51Z,slayerjain,https://github.com/keploy/keploy/issues/3575
+3571,keploy,[bug]: Windows Native: Keploy fails when cmd.exe / powershell.exe aren’t in PATH (hard dependency on shells),open,2026-01-19T10:07:20Z,2026-01-28T08:17:17Z,ayush3160,https://github.com/keploy/keploy/issues/3571
+3569,keploy,[bug]:  panic on malformed MySQL binary datetime crashes Keploy agent,open,2026-01-19T07:54:31Z,2026-01-25T17:22:14Z,Syedowais312,https://github.com/keploy/keploy/issues/3569
+3563,keploy,[blog-website]: Newsletter subscription component exists but is never displayed on the website,open,2026-01-17T04:55:32Z,2026-01-25T17:04:24Z,guruvedhanth-s,https://github.com/keploy/keploy/issues/3563
+3555,keploy,[bug]: Remove duplicate templating pass in SimulateHTTP and add regression tests,open,2026-01-16T09:22:19Z,2026-01-18T14:51:55Z,Nsanjayboruds,https://github.com/keploy/keploy/issues/3555
+3551,keploy,[bug]: Deprecated grpc.DialContext usage triggers staticcheck warning SA1019,open,2026-01-16T06:34:21Z,2026-01-16T06:34:29Z,pigeio,https://github.com/keploy/keploy/issues/3551
+3550,keploy,[feature]: linter for PR changes for samples-go,open,2026-01-16T06:15:23Z,2026-01-20T13:37:21Z,khareyash05,https://github.com/keploy/keploy/issues/3550
+3549,keploy,[blog-website]: Visible breadcrumb trail for improved blog navigation and context,open,2026-01-15T23:24:33Z,2026-01-22T06:51:00Z,ChinmayeeWuriti08,https://github.com/keploy/keploy/issues/3549
+3543,keploy,[bug]: Table of Contents Scrollbar for Long Articles,open,2026-01-15T14:31:20Z,2026-01-29T08:13:42Z,AnujShrivastava01,https://github.com/keploy/keploy/issues/3543
+3534,keploy,[bug]: change 2-dev to 3-dev,open,2026-01-14T09:08:40Z,2026-01-14T09:20:35Z,officialasishkumar,https://github.com/keploy/keploy/issues/3534
+3531,keploy,[bug]: Runtime Error: JSON marshalling fails for OutgoingReq due to unsupported func type in tls.Config (SA1026),open,2026-01-14T07:26:00Z,2026-01-14T14:36:34Z,pigeio,https://github.com/keploy/keploy/issues/3531
+3521,keploy,"Add New Quickstarts for More Languages (Rust, Ruby, C++, Perl, PHP)",open,2026-01-12T11:50:19Z,2026-02-17T05:27:58Z,Achanandhi-M,https://github.com/keploy/keploy/issues/3521
+3515,keploy,[bug]: Fix multiple stability issues and runtime panics found via staticcheck,open,2026-01-11T04:59:13Z,2026-01-11T05:15:56Z,pigeio,https://github.com/keploy/keploy/issues/3515
+3509,keploy,[bug]: sync.Map passed by value causing lock copy violations detected by go vet,open,2026-01-09T14:28:28Z,2026-01-09T18:02:37Z,pigeio,https://github.com/keploy/keploy/issues/3509
+3506,keploy,[blog-website]: add Husky pre-commit hooks for code quality in blog-website,open,2026-01-08T17:31:22Z,2026-01-13T03:56:38Z,syedali237,https://github.com/keploy/keploy/issues/3506
+3505,keploy,[feature]:  Dockerfile and docker-compose support for S3-Keploy quickstart,open,2026-01-08T17:29:09Z,2026-01-08T17:29:31Z,PrajaktaNaik17,https://github.com/keploy/keploy/issues/3505
+3500,keploy,"[bug]: In Windows System Trae Extension,the command ""show pytest || install pytest"" displayed is missing ""pip"".",open,2026-01-08T08:27:38Z,2026-01-29T09:53:31Z,AliteTom,https://github.com/keploy/keploy/issues/3500
+3495,keploy,[bug]: UI content hidden due to left sidebar dock overlap,open,2026-01-07T10:36:36Z,2026-02-21T17:09:21Z,vishnukothakapu,https://github.com/keploy/keploy/issues/3495
+3492,keploy,[bug]:  Global noise configuration not get applied during replay for json structure to validate and ignore the data value,open,2026-01-06T12:33:10Z,2026-01-20T23:05:22Z,salimz1,https://github.com/keploy/keploy/issues/3492
+3485,keploy,[bug]: Hardcoded 3-second sleep in process shutdown causes slow test runs and unverified termination,open,2026-01-05T22:08:18Z,2026-01-05T22:17:53Z,Gagan202005,https://github.com/keploy/keploy/issues/3485
+3483,keploy,[bug]: Agent readiness timeout is hardcoded with inconsistent values (120s vs 30s) and not configurable,open,2026-01-05T19:47:25Z,2026-01-05T20:13:59Z,Gagan202005,https://github.com/keploy/keploy/issues/3483
+3479,keploy,[bug]: Channel Leak in PassThrough Function Causes Memory and Goroutine Leaks,open,2026-01-05T18:41:59Z,2026-01-05T19:29:04Z,Gagan202005,https://github.com/keploy/keploy/issues/3479
+3478,keploy,[bug]: UI Overlapping Issue on Screen,open,2026-01-05T12:47:47Z,2026-01-13T17:09:58Z,shubhampatil496,https://github.com/keploy/keploy/issues/3478
+3476,keploy,[docs]: Provide Quick Start Instructions for Users & Contributors,open,2026-01-05T10:22:57Z,2026-01-06T15:55:25Z,ShubhamSinghRawat10,https://github.com/keploy/keploy/issues/3476
+3465,keploy,[bug]: Fix potential nil pointer dereference in unLoad function for udpp4 field,open,2026-01-04T09:19:54Z,2026-01-04T18:04:06Z,shiavm006,https://github.com/keploy/keploy/issues/3465
+3463,keploy,[bug]:  Mock dropping during re-record causes incomplete mappings and test failures,open,2026-01-03T22:37:21Z,2026-01-03T23:32:36Z,Gagan202005,https://github.com/keploy/keploy/issues/3463
+3456,keploy,[bug]: Schema Matcher Only Validates First HTTP Response Status Code,open,2026-01-02T20:41:30Z,2026-01-03T22:38:46Z,Gagan202005,https://github.com/keploy/keploy/issues/3456
+3449,keploy,[bug]: Keploy hangs when intercepting MySQL/TiDB connections with CLIENT_DEPRECATE_EOF capability,open,2026-01-02T09:08:16Z,2026-01-04T18:11:55Z,harshitashankar,https://github.com/keploy/keploy/issues/3449
+3444,keploy,Call for Keploy Adopters (Organizations & Individual Users),open,2026-01-01T09:45:21Z,2026-02-24T15:15:40Z,Achanandhi-M,https://github.com/keploy/keploy/issues/3444
+3440,keploy,[blog-website]: improve the styling and the ui of the testimonial marquee on blog home page,open,2025-12-31T23:25:26Z,2026-02-22T09:11:23Z,amaan-bhati,https://github.com/keploy/keploy/issues/3440
+3439,keploy,[blog-website]: Improve Search Shortcut Display Based on User Operating System (Ctrl + K vs Cmd + K),open,2025-12-31T13:02:41Z,2026-01-01T14:27:40Z,Abhi0049k,https://github.com/keploy/keploy/issues/3439
+3437,keploy,[blog-website]: beautify tags on blog reading posts,open,2025-12-31T12:33:49Z,2026-01-11T11:47:28Z,amaan-bhati,https://github.com/keploy/keploy/issues/3437
+3431,keploy,[blog-website]: Fix blog navbar dropdown ui on mobile devices,open,2025-12-30T09:39:14Z,2026-01-09T06:53:55Z,amaan-bhati,https://github.com/keploy/keploy/issues/3431
+3429,keploy,[blog-website]: Fix new blog navbar alignment on scroll and shrink,open,2025-12-30T09:26:28Z,2026-01-12T11:09:17Z,amaan-bhati,https://github.com/keploy/keploy/issues/3429
+3428,keploy,[blog-website]: Fix blog navbar alignment on desktop,open,2025-12-30T09:19:22Z,2026-01-12T11:13:22Z,amaan-bhati,https://github.com/keploy/keploy/issues/3428
+3427,keploy,[blog-website] Fix Blog navbar Logo on shrink,open,2025-12-30T09:13:36Z,2026-01-09T06:58:14Z,amaan-bhati,https://github.com/keploy/keploy/issues/3427
+3420,keploy,[bug]: MySQL Connection Pool Exhaustion in Record Mode Due to Blocking RecordOutgoing,open,2025-12-26T04:40:49Z,2026-01-06T04:27:44Z,harshitashankar,https://github.com/keploy/keploy/issues/3420
+3412,keploy,[bug]:  Add mutex protection to prevent concurrent map writes in test replay,open,2025-12-24T10:50:26Z,2025-12-24T17:40:01Z,codeMaestro78,https://github.com/keploy/keploy/issues/3412
+3410,keploy,[bug]: macOS Docker: Connection refused due to IPv6 loopback (::1) resolution,open,2025-12-23T17:03:31Z,2026-01-01T17:15:51Z,AdityaUmale,https://github.com/keploy/keploy/issues/3410
+3400,keploy,[feature]: Automatic PII Detection and Masking in Mocks and Test Cases,open,2025-12-20T01:01:27Z,2026-01-02T12:51:09Z,naman9271,https://github.com/keploy/keploy/issues/3400
+3379,keploy,[bug]: Replace insecure hardcoded file permissions (0777) with secure constants,open,2025-12-15T18:33:41Z,2025-12-19T23:49:06Z,ahmed0-07,https://github.com/keploy/keploy/issues/3379
+3370,keploy,[bug] Record Service: Deadlock and Data Race during error-triggered shutdown,open,2025-12-13T03:34:55Z,2026-01-28T05:47:04Z,kartikgoyal137,https://github.com/keploy/keploy/issues/3370
+3362,keploy,[bug]: Incorrect Timestamp Access for gRPC Test Cases,open,2025-12-10T17:41:00Z,2025-12-11T18:50:33Z,remo-lab,https://github.com/keploy/keploy/issues/3362
+3360,keploy,[bug]: ip not found error when run with docker compose up,open,2025-12-10T16:28:55Z,2025-12-17T13:10:38Z,AkashKumar7902,https://github.com/keploy/keploy/issues/3360
+3351,keploy,[feature]: remove inclusion of delay time in the test run summary,open,2025-12-09T06:10:39Z,2026-02-18T05:10:00Z,Sarthak160,https://github.com/keploy/keploy/issues/3351
+3346,keploy,[Refactor/UI]: Fix typo 'VersionIdenitfier' and inconsistent version label in CLI,open,2025-12-07T06:26:48Z,2025-12-12T11:08:05Z,Ady0333,https://github.com/keploy/keploy/issues/3346
+3344,keploy,[bug]: Broken Colima detection on Windows due to incorrect parsing of 'docker context ls',open,2025-12-07T05:40:41Z,2025-12-07T05:43:42Z,Ady0333,https://github.com/keploy/keploy/issues/3344
+3342,keploy,[bug]: Resource leak due to early returns in proxy cleanup functions,open,2025-12-06T16:06:18Z,2025-12-12T14:00:43Z,remo-lab,https://github.com/keploy/keploy/issues/3342
+3298,keploy,[feature]: add a sticky share to social media component in blog website,open,2025-11-21T11:45:00Z,2026-02-12T18:29:06Z,amaan-bhati,https://github.com/keploy/keploy/issues/3298
+3293,keploy,[feature]: add skeleton loaders in the blog website for better user experience,open,2025-11-20T12:11:13Z,2026-02-21T18:46:53Z,amaan-bhati,https://github.com/keploy/keploy/issues/3293
+3275,keploy,[bug]: TLS Issue After Keploy Records S3 Calls,open,2025-11-14T08:46:19Z,2025-11-16T07:09:36Z,Achanandhi-M,https://github.com/keploy/keploy/issues/3275
+3219,keploy,[feature]: ignore mockery generated files from go coverage calculation,open,2025-11-05T07:03:16Z,2025-12-02T16:41:52Z,AkashKumar7902,https://github.com/keploy/keploy/issues/3219
+3198,keploy,"[bug]: Release workflow is triggered on git tag push, leading to accidental releases",open,2025-11-03T09:29:05Z,2026-01-04T19:34:41Z,AkashKumar7902,https://github.com/keploy/keploy/issues/3198
+3140,keploy,[feature]: add postgres ssl pipeline,open,2025-10-16T05:06:25Z,2025-12-17T06:15:05Z,anjupathak03,https://github.com/keploy/keploy/issues/3140
+3132,keploy,[bug]: Unwanted orange horizontal line overlapping text on blog homepage,open,2025-10-14T16:13:31Z,2026-01-19T21:14:34Z,Gouravjaat07,https://github.com/keploy/keploy/issues/3132
+3119,keploy,[feature]: Add a pipeline to test the colima support,open,2025-10-10T09:18:12Z,2026-01-13T12:37:06Z,ayush3160,https://github.com/keploy/keploy/issues/3119
+3109,keploy,[bug]: If the current docker context is not default then use the correct context,open,2025-10-09T13:36:36Z,2025-10-15T16:21:02Z,nehagup,https://github.com/keploy/keploy/issues/3109
+3084,keploy,[blog-website] Add Modern UI Components to Landing Page,open,2025-10-01T11:59:30Z,2025-12-16T07:25:08Z,amaan-bhati,https://github.com/keploy/keploy/issues/3084
+3083,keploy,[blog-website] Add Dark/Light Mode Support with Toggle,open,2025-10-01T11:56:44Z,2026-01-04T09:05:47Z,amaan-bhati,https://github.com/keploy/keploy/issues/3083
+3082,keploy,[blog-website] Redesign Testimonials Section (Blog Website),open,2025-10-01T11:49:40Z,2026-01-20T13:54:19Z,amaan-bhati,https://github.com/keploy/keploy/issues/3082
+3081,keploy,[blog-website] Add Search Functionality in Navbar (Blog Website),open,2025-10-01T11:47:14Z,2026-02-22T10:59:11Z,amaan-bhati,https://github.com/keploy/keploy/issues/3081
+3080,keploy,"[devrel-program] SEO, Open Graph, Sitemap, and Performance Optimizations",open,2025-10-01T10:35:36Z,2025-10-09T22:31:15Z,amaan-bhati,https://github.com/keploy/keploy/issues/3080
+3079,keploy,"[writers-program] SEO, Open Graph, Sitemap, and Performance Optimizations (Writers Program Website)",open,2025-10-01T10:13:29Z,2025-10-06T18:19:35Z,amaan-bhati,https://github.com/keploy/keploy/issues/3079
+3078,keploy,[devrel-program] Add Dark/Light Mode Support with Toggle (DevRel Website),open,2025-10-01T10:10:08Z,2025-11-08T09:10:10Z,amaan-bhati,https://github.com/keploy/keploy/issues/3078
+3077,keploy,[writers-program] Add Blog Publishing Flow Documentation Page,open,2025-10-01T10:03:15Z,2025-12-26T13:44:12Z,amaan-bhati,https://github.com/keploy/keploy/issues/3077
+3076,keploy,[writers-program] Add Resources Page for Writers,open,2025-10-01T10:00:15Z,2026-01-01T17:45:11Z,amaan-bhati,https://github.com/keploy/keploy/issues/3076
+3075,keploy,[writers-program] Add Dark/Light Mode Support with Toggle,open,2025-10-01T09:52:48Z,2026-01-30T04:59:37Z,amaan-bhati,https://github.com/keploy/keploy/issues/3075
+3074,keploy,[writers-program] Create Writers Page with Cards for Contributors,open,2025-10-01T06:28:52Z,2025-12-28T06:15:06Z,amaan-bhati,https://github.com/keploy/keploy/issues/3074
+3072,keploy,[writers-program] Modern Navigation and Layout (Navbar + Footer),open,2025-09-30T21:43:32Z,2026-01-12T19:05:29Z,amaan-bhati,https://github.com/keploy/keploy/issues/3072
+3071,keploy,"[writers-program] Modern UI Components for Key Sections(Offers, Flow, Evaluation, Guidelines)",open,2025-09-30T21:40:38Z,2025-12-24T15:11:26Z,amaan-bhati,https://github.com/keploy/keploy/issues/3071
+3070,keploy,"[writers-program] Improve Typography, Fonts, and Information Hierarchy (Post-Migration)",open,2025-09-30T21:25:47Z,2025-11-25T11:15:14Z,amaan-bhati,https://github.com/keploy/keploy/issues/3070
+3069,keploy,[writers-program] Migrate Writers site to Next.js 15 + TypeScript + Tailwind,open,2025-09-30T21:17:29Z,2025-11-28T12:10:17Z,amaan-bhati,https://github.com/keploy/keploy/issues/3069
+3068,keploy,"[devrel-program] Establish best practices: folder structure, code quality, and README update",open,2025-09-30T21:00:47Z,2025-10-09T22:30:53Z,amaan-bhati,https://github.com/keploy/keploy/issues/3068
+3067,keploy,"[devrel-program] Add Navbar, Footer, and new UI components (Modal, Details)",open,2025-09-30T20:57:39Z,2025-11-19T06:17:57Z,amaan-bhati,https://github.com/keploy/keploy/issues/3067
+3066,keploy,[devrel-program] Redesign DevRel website with a modern 2025 look (inspired by keploy.io),open,2025-09-30T20:53:41Z,2026-01-29T11:56:46Z,amaan-bhati,https://github.com/keploy/keploy/issues/3066
+3065,keploy,[devrel-program] Migrate DevRel website to Next.js + TypeScript,open,2025-09-30T20:47:43Z,2025-10-09T22:31:24Z,amaan-bhati,https://github.com/keploy/keploy/issues/3065
+3035,keploy,[feature]: fail lint if keploy/integrations is present in manifest files,open,2025-09-23T11:59:34Z,2025-09-25T09:20:26Z,AkashKumar7902,https://github.com/keploy/keploy/issues/3035
+3032,keploy,[feature]: add pipelines for dns and tls,open,2025-09-23T06:08:11Z,2025-09-25T06:24:11Z,AkashKumar7902,https://github.com/keploy/keploy/issues/3032
+3002,keploy,[fix]: Improve announcement banner design in docs website,open,2025-09-16T12:53:31Z,2025-11-19T06:16:55Z,Achanandhi-M,https://github.com/keploy/keploy/issues/3002
+2998,keploy,[fix]: Improve Keploy docs website mobile-friendly,open,2025-09-16T11:44:06Z,2025-12-17T13:22:13Z,Achanandhi-M,https://github.com/keploy/keploy/issues/2998
+2988,keploy,[bug]: make secret Sanitization fast,open,2025-09-12T20:56:06Z,2025-10-11T01:20:20Z,officialasishkumar,https://github.com/keploy/keploy/issues/2988
+2981,keploy,[fix]: Secrets should work without config.yaml,open,2025-09-12T11:51:32Z,2025-09-22T09:36:28Z,officialasishkumar,https://github.com/keploy/keploy/issues/2981
+2975,keploy,[bug]: Fix broken 404 page on documentation website,open,2025-09-11T12:12:58Z,2025-11-23T02:53:03Z,Achanandhi-M,https://github.com/keploy/keploy/issues/2975
+2961,keploy,[feature]: Test suite bug flow,open,2025-09-09T09:22:46Z,2025-09-24T06:43:05Z,charankamarapu,https://github.com/keploy/keploy/issues/2961
+2897,keploy,[bug]: use client-go without tls get error,open,2025-08-20T09:32:19Z,2025-08-26T06:31:50Z,nnntlh,https://github.com/keploy/keploy/issues/2897
+2894,keploy,Built-in Test Metrics & Analytics,open,2025-08-19T10:08:50Z,2026-02-22T05:37:17Z,harshadagarad,https://github.com/keploy/keploy/issues/2894
+2878,keploy,[feature]: Add utility to capture the network calls for debugging,open,2025-08-12T06:09:48Z,2025-09-24T05:59:42Z,ayush3160,https://github.com/keploy/keploy/issues/2878
+2835,keploy,[bug]: Integer Overflow in Frame Length Calculation,open,2025-07-11T13:33:53Z,2026-01-14T11:24:52Z,Godrulerz,https://github.com/keploy/keploy/issues/2835
+2830,keploy,[bug]:,open,2025-07-07T11:07:29Z,2025-07-09T11:53:33Z,ereanha,https://github.com/keploy/keploy/issues/2830
+2804,keploy,[feature]: it should be customers review section | Tarun Uttam,open,2025-06-19T16:14:38Z,2025-09-02T14:36:45Z,zastixx,https://github.com/keploy/keploy/issues/2804
+2793,keploy,[feature]: Adding a Metrics Using Prometheus and grafana,open,2025-06-18T18:40:35Z,2025-06-22T15:34:58Z,Ayush170803,https://github.com/keploy/keploy/issues/2793
+2769,keploy,[docs]: Redesign and Implement Navbar Using TailwindCSS or UI Library,open,2025-06-17T11:04:08Z,2025-11-17T06:13:36Z,amaan-bhati,https://github.com/keploy/keploy/issues/2769
+2767,keploy,feat: Allow setting nested config options like filters and bypassRules via CLI flags,open,2025-06-17T06:54:26Z,2025-06-21T13:12:59Z,gouravkrosx,https://github.com/keploy/keploy/issues/2767
+2734,keploy,[bug]: Exit CLI if logger initialization fails during startup,open,2025-05-29T08:33:53Z,2025-05-29T12:39:59Z,Shreya2619,https://github.com/keploy/keploy/issues/2734
+2716,keploy,[feature]: support for multiple mongo passwords,open,2025-05-07T07:04:30Z,2025-12-09T02:40:07Z,khareyash05,https://github.com/keploy/keploy/issues/2716
+2696,keploy,[docs]: Pipelines failing,open,2025-04-27T06:25:22Z,2025-08-03T07:28:47Z,khareyash05,https://github.com/keploy/keploy/issues/2696
+2690,keploy,[feature]: add pre-commit hook for lint check,open,2025-04-23T08:27:59Z,2025-04-25T16:02:38Z,AkashKumar7902,https://github.com/keploy/keploy/issues/2690
+2665,keploy,chore: find a way to set the maxDynamicTableSize used in hpack grpc for decoding headers,open,2025-04-14T11:47:52Z,2025-12-25T19:15:39Z,gouravkrosx,https://github.com/keploy/keploy/issues/2665
+2657,keploy,chore: change the type of all time based flags to duration.,open,2025-04-14T10:39:01Z,2026-01-08T19:44:48Z,gouravkrosx,https://github.com/keploy/keploy/issues/2657
+2654,keploy,[bug]: Fix Load More button,open,2025-04-14T06:02:52Z,2026-01-12T05:45:20Z,TvisharajiK,https://github.com/keploy/keploy/issues/2654
+2653,keploy,[bug]: Fix PostCard & HeroPost Layout Consistency in blog website,open,2025-04-14T05:59:09Z,2026-01-28T17:31:24Z,TvisharajiK,https://github.com/keploy/keploy/issues/2653
+2640,keploy,[bug]: support multi‑value headers (e.g. Set‑Cookie),open,2025-04-05T13:06:51Z,2025-04-17T13:29:29Z,EslamAhmed171,https://github.com/keploy/keploy/issues/2640
+2637,keploy,[bug]: Theme Inconsistency at /playground – Reverts to Light Mode Unexpectedly,open,2025-04-03T09:55:58Z,2025-04-05T11:29:10Z,michael-020,https://github.com/keploy/keploy/issues/2637
+2636,keploy,[bug]: favicon for keploy regression page is missing,open,2025-03-30T08:22:13Z,2025-04-01T10:43:40Z,Arpit529Srivastava,https://github.com/keploy/keploy/issues/2636
+2631,keploy,[feature]: Support Multiple Docker Networks and Compose Files,open,2025-03-28T18:38:46Z,2025-12-06T13:05:04Z,AHMED-D007A,https://github.com/keploy/keploy/issues/2631
+2618,keploy,[gsoc]: App Dashboard with Metrics and Chart,open,2025-03-25T08:41:40Z,2025-03-26T11:03:07Z,konippi,https://github.com/keploy/keploy/issues/2618
+2614,keploy,[feature]: Addition of a new Typescript sample of Nestjs GraphQL,open,2025-03-23T19:29:10Z,2025-03-23T19:31:40Z,HarshSharma0801,https://github.com/keploy/keploy/issues/2614
+2610,keploy,[bug]: Syntax Error in .github/workflows/cla.yml (Invalid if: Condition),open,2025-03-22T17:54:21Z,2025-03-23T07:04:53Z,Lakshya429,https://github.com/keploy/keploy/issues/2610
+2608,keploy,[feature]: Schema Comparison System for Keploy Contract Testing,open,2025-03-22T04:07:13Z,2025-12-06T13:20:06Z,Arpit529Srivastava,https://github.com/keploy/keploy/issues/2608
+2607,keploy,[feature]: Enhancement Of Contract Testing by introducing Provider-driven Contract Testing,open,2025-03-22T02:22:06Z,2025-03-24T19:16:06Z,Arpit529Srivastava,https://github.com/keploy/keploy/issues/2607
+2602,keploy,[feature]: Automate Stargazers Fetching with GitHub Actions (Cron Job),open,2025-03-19T13:52:53Z,2025-03-27T09:55:14Z,amaan-bhati,https://github.com/keploy/keploy/issues/2602
+2601,keploy,[feature]: Improve GitHub API Rate Limit Handling for Large Repositories in the stargazers script,open,2025-03-19T13:51:27Z,2025-04-08T07:13:36Z,amaan-bhati,https://github.com/keploy/keploy/issues/2601
+2597,keploy,[feature]: Enhancement: Consumer-Driven Contract Testing Package Improvements,open,2025-03-18T19:48:43Z,2025-03-19T21:37:27Z,Arpit529Srivastava,https://github.com/keploy/keploy/issues/2597
+2594,keploy,[feature]: Improve Validation Logic for Test Cases in Provider and Consumer-Driven Contract Testing,open,2025-03-18T10:29:55Z,2025-03-20T20:53:00Z,HarshSharma0801,https://github.com/keploy/keploy/issues/2594
+2590,keploy,[bug]: Invalid json is allowed in test case,open,2025-03-17T06:23:19Z,2025-03-20T20:54:08Z,charankamarapu,https://github.com/keploy/keploy/issues/2590
+2587,keploy,[bug]:  List Matching In JSON isn't Working Properly,open,2025-03-17T05:04:42Z,2025-04-04T14:05:43Z,EslamAhmed171,https://github.com/keploy/keploy/issues/2587
+2586,keploy,[feature]: Implement Provider-Driven Contract Testing in Keploy for Efficient Contract Management,open,2025-03-17T01:12:41Z,2025-03-17T01:25:18Z,HarshSharma0801,https://github.com/keploy/keploy/issues/2586
+2585,keploy,[feature]:  Unified Schema Management & Consumer-Driven Contract Testing Enhancements.,open,2025-03-16T22:38:15Z,2025-03-19T17:30:52Z,Arpit529Srivastava,https://github.com/keploy/keploy/issues/2585
+2583,keploy,[feature]: Enhance Consumer-Driven Contract Testing in Keploy with Improved Storage and Validation,open,2025-03-14T20:43:50Z,2025-03-14T20:53:54Z,HarshSharma0801,https://github.com/keploy/keploy/issues/2583
+2582,keploy,[feature]: Add a CRUD API with Actix Web and SurrealDB,open,2025-03-12T18:36:41Z,2025-03-15T12:04:05Z,AMS003010,https://github.com/keploy/keploy/issues/2582
+2578,keploy,[feature]: Adding Rate us  and feedback sections for user attraction,open,2025-03-11T20:48:11Z,2025-03-30T13:28:15Z,aniket866,https://github.com/keploy/keploy/issues/2578
+2577,keploy,[feature]: [good UI]: Drak theme switch,open,2025-03-11T20:38:11Z,2025-04-18T15:24:35Z,aniket866,https://github.com/keploy/keploy/issues/2577
+2570,keploy,SSL error prevents users from accessing the website securely,open,2025-03-09T02:35:24Z,2025-03-09T02:35:53Z,Khushi281300,https://github.com/keploy/keploy/issues/2570
+2569,keploy,[feature]: dark mode theme,open,2025-03-08T15:31:43Z,2026-02-22T06:04:53Z,fit-edoc,https://github.com/keploy/keploy/issues/2569
+2568,keploy,[feature]: Register form,open,2025-03-08T07:07:18Z,2026-02-22T06:05:20Z,Aditya90456,https://github.com/keploy/keploy/issues/2568
+2566,keploy,"[feature]: Enhance Signal Handling, Graceful Shutdown, and Error Handling in Keploy",open,2025-03-07T10:03:48Z,2026-02-17T16:17:36Z,UTSAVS26,https://github.com/keploy/keploy/issues/2566
+2564,keploy,[bug]: VirtualCPR Directory Name is Hard Coded in Keploy's Codebase when Performing Contract Testing,open,2025-03-07T06:42:14Z,2025-03-07T13:04:37Z,HarshSharma0801,https://github.com/keploy/keploy/issues/2564
+2556,keploy,"[docs]: Add multi-language document support (Chinese/Japanese/Spanish, etc.)",open,2025-03-01T08:33:30Z,2026-01-07T19:15:11Z,aAAaqwq,https://github.com/keploy/keploy/issues/2556
+2555,keploy,[bug]: Extra Margin/Height Issue on Mobile and Tablet View,open,2025-02-28T19:36:44Z,2025-03-04T08:28:24Z,satyam969,https://github.com/keploy/keploy/issues/2555
+2552,keploy,[bug]: Sidebar's opener tag's alignment is not constant.,open,2025-02-25T04:11:20Z,2025-03-20T20:55:04Z,Aditya-eddy,https://github.com/keploy/keploy/issues/2552
+2551,keploy,[bug]:  sidebar in playground console is not constant.,open,2025-02-25T04:05:07Z,2025-03-21T04:58:43Z,Aditya-eddy,https://github.com/keploy/keploy/issues/2551
+2550,keploy,[feature]: improve the LCP on mobile for blog-website,open,2025-02-24T06:53:36Z,2025-12-14T05:59:40Z,Sonichigo,https://github.com/keploy/keploy/issues/2550
+2546,keploy,[feature]: implement pagination in blog-website,open,2025-02-18T07:32:56Z,2025-06-20T19:29:36Z,Sonichigo,https://github.com/keploy/keploy/issues/2546
+2543,keploy,fix: Identify and Resolve Issues in Keploy Contract Testing Implementation,open,2025-02-12T07:57:51Z,2025-03-22T06:45:58Z,gouravkrosx,https://github.com/keploy/keploy/issues/2543
+2541,keploy,Analysis: Implement Microservices Architecture with HTTP APIs & Validate Keploy Contract Testing,open,2025-02-12T07:35:37Z,2025-03-31T19:13:31Z,gouravkrosx,https://github.com/keploy/keploy/issues/2541
+2536,keploy,[feature]: update api fellowship website theme to match main website,open,2025-02-07T06:42:54Z,2025-04-05T16:39:43Z,Sonichigo,https://github.com/keploy/keploy/issues/2536
+2535,keploy,[feature]:  update devrel website theme to match main website,open,2025-02-07T06:39:34Z,2025-03-27T14:23:31Z,Sonichigo,https://github.com/keploy/keploy/issues/2535
+2534,keploy,[feature]: update ui of blog-website navbar,open,2025-02-07T06:34:12Z,2025-06-17T10:54:17Z,Sonichigo,https://github.com/keploy/keploy/issues/2534
+2533,keploy,[feature]: Integrate RAG Bot with a Vector Database,open,2025-02-07T04:02:26Z,2025-04-22T06:16:59Z,Sonichigo,https://github.com/keploy/keploy/issues/2533
+2532,keploy,[feature]: PR Analysis with Linting & Static Analysis in testGPT,open,2025-02-07T03:52:46Z,2025-03-24T10:11:58Z,Sonichigo,https://github.com/keploy/keploy/issues/2532
+2531,keploy,[feature]: a GitHub App to Trigger GitHub Actions,open,2025-02-07T03:49:39Z,2025-03-05T08:56:11Z,Sonichigo,https://github.com/keploy/keploy/issues/2531
+2529,keploy,Error while running spring boot application,open,2025-02-05T13:56:26Z,2025-02-17T12:00:38Z,mridul14,https://github.com/keploy/keploy/issues/2529
+2528,keploy,[feature]: Checking of HTML-Based Test Validation,open,2025-02-05T09:13:04Z,2026-02-25T03:24:03Z,Sonichigo,https://github.com/keploy/keploy/issues/2528
+2527,keploy,[feature]: Denoise Unexpected Parameters in Keploy Testcases,open,2025-02-05T09:05:56Z,2025-03-10T23:55:49Z,Sonichigo,https://github.com/keploy/keploy/issues/2527
+2526,keploy,[feature]: Implement Idempotency Check for GET Requests,open,2025-02-05T09:04:24Z,2025-02-07T03:56:28Z,Sonichigo,https://github.com/keploy/keploy/issues/2526
+2520,keploy,[feature]: Add Hono-Drizzle-Postgres Todo App Sample,open,2025-02-02T05:10:56Z,2025-02-02T05:11:19Z,ayyush08,https://github.com/keploy/keploy/issues/2520
+2518,keploy,[feature]: Add support for capturing `HTTP2` incoming traffic,open,2025-01-27T08:22:14Z,2025-01-27T08:40:53Z,gouravkrosx,https://github.com/keploy/keploy/issues/2518
+2515,keploy,[bug]: Authored By and Reviewed By blank on individual blog page,open,2025-01-22T15:08:22Z,2025-06-18T00:08:25Z,lokendra-singh-rao,https://github.com/keploy/keploy/issues/2515
+2510,keploy,[bug]: test continue to pass even after changing the request,open,2025-01-16T13:22:07Z,2025-02-04T20:31:09Z,AbyPaul01,https://github.com/keploy/keploy/issues/2510
+2496,keploy,analysis: Consolidate more JS related issues,open,2025-01-07T07:36:51Z,2025-02-05T07:09:41Z,slayerjain,https://github.com/keploy/keploy/issues/2496
+2483,keploy,[feature]: Denoise HTML content,open,2024-12-30T08:46:51Z,2025-01-22T14:58:52Z,chadyred,https://github.com/keploy/keploy/issues/2483
+2482,keploy,[bug]: Twitter Icon Should Be Replaced with X Icon,open,2024-12-27T10:33:48Z,2025-01-22T08:08:48Z,SayantaniDeb,https://github.com/keploy/keploy/issues/2482
+2480,keploy,[feature]: Mac Native Support – Diverting Outgoing Calls to Keploy Proxy,open,2024-12-26T10:26:06Z,2025-11-13T08:24:16Z,Hermione2408,https://github.com/keploy/keploy/issues/2480
+2479,keploy,[bug]:  Java integration documentation,open,2024-12-25T17:25:40Z,2025-01-06T08:45:40Z,barkhaaroraa,https://github.com/keploy/keploy/issues/2479
+2473,keploy,[feature]: add Husky library for the website,open,2024-12-16T18:34:16Z,2026-02-22T06:06:49Z,ab7022,https://github.com/keploy/keploy/issues/2473
+2456,keploy,[feature]: make robust denoise functionality for large reponses,open,2024-12-03T09:59:53Z,2025-01-09T05:38:57Z,Sarthak160,https://github.com/keploy/keploy/issues/2456
+2439,keploy,[feature]: Add Likes and Comments Functionality to Blog Website,open,2024-11-20T10:45:28Z,2025-06-17T14:18:52Z,Hermione2408,https://github.com/keploy/keploy/issues/2439
+2436,keploy,[feature]: Update Presentation of the Latest Blog Post on the Landing Page,open,2024-11-20T10:23:24Z,2025-06-19T05:26:58Z,Hermione2408,https://github.com/keploy/keploy/issues/2436
+2434,keploy,[feature]: Enhance Blog Website Landing Page Design,open,2024-11-20T10:11:34Z,2025-06-19T11:24:26Z,Hermione2408,https://github.com/keploy/keploy/issues/2434
+2430,keploy,[bug]: test with spring-boot and mysql hangs,open,2024-11-19T05:31:41Z,2024-11-19T11:12:27Z,swaroopar,https://github.com/keploy/keploy/issues/2430
+2428,keploy,[bug]: UTG packages installation and uninstallation,open,2024-11-18T23:52:41Z,2025-04-18T10:36:51Z,AhmedLotfy02,https://github.com/keploy/keploy/issues/2428
+2407,keploy,"[Test]: Integration testing feature [vscode extension] on sample repos, opensource projects",open,2024-11-09T14:24:52Z,2025-01-09T05:42:25Z,AhmedLotfy02,https://github.com/keploy/keploy/issues/2407
+2390,keploy,[bug]: Keploy for developers section on keploys official website UI overlapping,open,2024-10-29T13:19:25Z,2024-11-03T13:57:13Z,AdleenaLobo,https://github.com/keploy/keploy/issues/2390
+2389,keploy,[bug]: Improve the performance of the site/landing page,open,2024-10-29T10:00:25Z,2025-03-12T17:24:22Z,Shu12388y,https://github.com/keploy/keploy/issues/2389
+2384,keploy,[feature]: Careers page for Keploy,open,2024-10-28T10:51:08Z,2025-03-21T07:03:48Z,TvisharajiK,https://github.com/keploy/keploy/issues/2384
+2382,keploy,[feature]: Pricing Page,open,2024-10-28T10:47:23Z,2024-11-27T17:56:19Z,TvisharajiK,https://github.com/keploy/keploy/issues/2382
+2381,keploy,[feature]: Navbar Dock,open,2024-10-28T10:44:55Z,2024-11-04T08:44:44Z,TvisharajiK,https://github.com/keploy/keploy/issues/2381
+2379,keploy,[feature]: Add Rust Support for Unit Test Generation (UTG) in VS code Extention,open,2024-10-26T06:18:07Z,2025-01-01T18:55:19Z,akshat99812,https://github.com/keploy/keploy/issues/2379
+2341,keploy,[docs]: Prepare the docs and organise the samples-csharp repository,open,2024-10-10T21:28:02Z,2025-06-17T10:51:37Z,Swpn0neel,https://github.com/keploy/keploy/issues/2341
+2340,keploy,Create a .NET and MongoDB sample app,open,2024-10-10T21:25:37Z,2025-06-17T10:53:10Z,Swpn0neel,https://github.com/keploy/keploy/issues/2340
+2334,keploy,Create a Springboot-Elastic sample app,open,2024-10-09T06:47:58Z,2025-06-17T10:53:16Z,Swpn0neel,https://github.com/keploy/keploy/issues/2334
+2333,keploy,Create a Springboot-Redis sample app,open,2024-10-09T06:45:55Z,2025-06-17T10:53:21Z,Swpn0neel,https://github.com/keploy/keploy/issues/2333
+2323,keploy,[feature]: Enhance HTTP Request/Response Struct with http.Header and Custom JSON Marshing,open,2024-10-04T20:11:31Z,2025-06-17T10:53:25Z,rajputdivyanshu81,https://github.com/keploy/keploy/issues/2323
+2318,keploy,[feature]: increase coverage in vscode extension,open,2024-10-03T08:48:50Z,2024-10-03T13:37:53Z,shivamsouravjha,https://github.com/keploy/keploy/issues/2318
+2302,keploy,[feature]: separate agent for instrumentation from the keploy client,open,2024-09-24T06:01:35Z,2024-09-24T06:01:48Z,Sarthak160,https://github.com/keploy/keploy/issues/2302
+2276,keploy,[bug]: Support more levels of Indentation while adding noise,open,2024-09-10T07:32:09Z,2025-06-03T15:05:16Z,khareyash05,https://github.com/keploy/keploy/issues/2276
+2258,keploy,[feature]: Add Tests to the Jetbrains Plugin and CI Pipeline,open,2024-08-31T09:16:56Z,2025-11-28T07:55:40Z,SkySingh04,https://github.com/keploy/keploy/issues/2258
+2257,keploy,[feature]: Add Tests to the VSCode Extension and CI Pipeline,open,2024-08-31T09:07:52Z,2024-12-22T03:00:42Z,SkySingh04,https://github.com/keploy/keploy/issues/2257
+2242,keploy,[feature]: add basic smoke tests for linux and macOS,open,2024-08-26T10:17:12Z,2026-02-22T04:58:33Z,slayerjain,https://github.com/keploy/keploy/issues/2242
+2240,keploy,[bug]: Malformed request when keploy listens to more than one interacting services,open,2024-08-24T19:13:56Z,2024-10-29T11:06:53Z,AhmedLotfy02,https://github.com/keploy/keploy/issues/2240
+2238,keploy,"[bug]: Java app with Keploy breaks when ""copy"" word existings in test set name",open,2024-08-23T12:39:56Z,2024-10-02T07:31:11Z,shivamsouravjha,https://github.com/keploy/keploy/issues/2238
+2234,keploy,[feature]: Add support for tailwind in Jetbrains Plugin,open,2024-08-21T19:48:19Z,2024-11-06T16:08:29Z,SkySingh04,https://github.com/keploy/keploy/issues/2234
+2233,keploy,[feature]: Add Support for Complete Summary in Jetbrains Plugin,open,2024-08-21T19:45:28Z,2024-11-08T11:08:16Z,SkySingh04,https://github.com/keploy/keploy/issues/2233
+2218,keploy,[feature]: GitHub Actions Test Bench for Django Postgres,open,2024-08-20T06:28:57Z,2024-08-20T06:29:09Z,Abbhiishek,https://github.com/keploy/keploy/issues/2218
+2206,keploy,[bug]: Docker issue when Running more than one Keploy Containers simultaneously,open,2024-08-12T07:32:16Z,2024-08-12T07:32:30Z,khareyash05,https://github.com/keploy/keploy/issues/2206
+2199,keploy,[feature]: GitHub Actions Test Bench for Express Mongoose,open,2024-08-08T16:00:45Z,2024-08-12T07:32:52Z,Abbhiishek,https://github.com/keploy/keploy/issues/2199
+2198,keploy,[Feature]: Change links color on blog page similar to the one in docs,open,2024-08-08T14:34:27Z,2025-06-18T13:05:31Z,TvisharajiK,https://github.com/keploy/keploy/issues/2198
+2175,keploy,[feature]: Start re-recording upon Re-Run test cases in Keploy Vscode extension,open,2024-08-03T12:43:52Z,2024-11-27T07:11:10Z,SkySingh04,https://github.com/keploy/keploy/issues/2175
+2174,keploy,[bug]: Improve UI of recorded test cases in Keploy Vscode extension,open,2024-08-03T12:41:38Z,2025-08-30T10:26:06Z,SkySingh04,https://github.com/keploy/keploy/issues/2174
+2165,keploy,[docs]: add S3 sample app on documentation website,open,2024-08-01T11:37:15Z,2025-06-18T12:49:57Z,Sonichigo,https://github.com/keploy/keploy/issues/2165
+2159,keploy,[feature]: add orbiting circles for community section on landing page,open,2024-07-30T14:24:50Z,2024-11-11T06:56:02Z,nehagup,https://github.com/keploy/keploy/issues/2159
+2158,keploy,[feature]: add a dock for mobile screens with socials as option,open,2024-07-30T14:22:11Z,2024-10-15T10:00:52Z,nehagup,https://github.com/keploy/keploy/issues/2158
+2147,keploy,[feature]:  Add support for retaining context when extension focus changes,open,2024-07-28T18:17:40Z,2025-09-27T21:22:59Z,SkySingh04,https://github.com/keploy/keploy/issues/2147
+2146,keploy,[feature]: Testing and Bug Fixing for zsh Scripts,open,2024-07-28T18:09:42Z,2025-01-22T07:52:28Z,SkySingh04,https://github.com/keploy/keploy/issues/2146
+2145,keploy,[feature]: Add support for tailwind in vscode extension,open,2024-07-28T17:57:06Z,2024-09-26T17:36:44Z,SkySingh04,https://github.com/keploy/keploy/issues/2145
+2144,keploy,[feature]: Add support for calling the vscode API directly via svelte,open,2024-07-28T17:51:34Z,2024-09-26T17:36:45Z,SkySingh04,https://github.com/keploy/keploy/issues/2144
+2129,keploy,[bug]: TypeError [ERR_INVALID_ARG_TYPE] in node application,open,2024-07-24T10:28:55Z,2024-09-26T17:37:47Z,shivamsouravjha,https://github.com/keploy/keploy/issues/2129
+2127,keploy,[feature]: Add branch and function coverage to coverage struct,open,2024-07-24T06:50:01Z,2024-11-27T06:31:28Z,AkashKumar7902,https://github.com/keploy/keploy/issues/2127
+2113,keploy,[feature]: Implement a RAG based AI chatbot for our Keploy website,open,2024-07-21T22:47:45Z,2024-11-27T06:32:08Z,Swpn0neel,https://github.com/keploy/keploy/issues/2113
+2111,keploy,[feature]: Create a sample app using Node.js and MySQL,open,2024-07-21T22:37:34Z,2024-11-27T06:29:39Z,Swpn0neel,https://github.com/keploy/keploy/issues/2111
+2110,keploy,[feature]: Create a sample app using GoLang and S3,open,2024-07-21T22:36:06Z,2025-11-03T18:05:10Z,Swpn0neel,https://github.com/keploy/keploy/issues/2110
+2109,keploy,[feature]: Create a sample app using SpringBoot and DynamoDB,open,2024-07-21T22:34:19Z,2025-06-17T10:55:34Z,Swpn0neel,https://github.com/keploy/keploy/issues/2109
+2080,keploy,feat: find ways to improve docker experience of keploy.,open,2024-07-16T09:26:52Z,2026-02-22T06:02:35Z,gouravkrosx,https://github.com/keploy/keploy/issues/2080
+2076,keploy,[bug]: internal config files are added in keploy config,open,2024-07-16T06:29:44Z,2025-01-04T15:32:43Z,shivamsouravjha,https://github.com/keploy/keploy/issues/2076
+2071,keploy,[feature]: new version is available should be prompted,open,2024-07-15T13:55:22Z,2025-03-19T20:49:28Z,Sonichigo,https://github.com/keploy/keploy/issues/2071
+2048,keploy,[feature]: Create a simple testcase for mattermost,open,2024-07-08T09:16:47Z,2025-12-06T13:16:11Z,Swpn0neel,https://github.com/keploy/keploy/issues/2048
+2047,keploy,[feature]: Add New Version Available Message to keploy,open,2024-07-08T08:45:46Z,2024-11-27T06:20:04Z,Swpn0neel,https://github.com/keploy/keploy/issues/2047
+2046,keploy,[feature]: add support for declaring env variables or file in config,open,2024-07-08T08:43:32Z,2025-11-16T11:50:17Z,Swpn0neel,https://github.com/keploy/keploy/issues/2046
+2043,keploy,[performance]: Improve mobile performance issues for blog website,open,2024-07-07T09:34:54Z,2025-06-17T10:54:45Z,Swpn0neel,https://github.com/keploy/keploy/issues/2043
+2042,keploy,[performance]: Improve mobile performance issues for docs website,open,2024-07-07T09:33:12Z,2025-06-17T10:52:06Z,Swpn0neel,https://github.com/keploy/keploy/issues/2042
+2041,keploy,[feature]: Enable keploy to run the mock server separately,open,2024-07-07T09:20:45Z,2025-06-17T10:55:46Z,Swpn0neel,https://github.com/keploy/keploy/issues/2041
+2039,keploy,[feature]: dark mode for the website,open,2024-07-07T09:16:57Z,2025-06-17T10:56:55Z,Swpn0neel,https://github.com/keploy/keploy/issues/2039
+2034,keploy,[feature]: add support for Podman cli,open,2024-07-05T10:23:02Z,2024-11-13T11:55:39Z,slayerjain,https://github.com/keploy/keploy/issues/2034
+2029,keploy,[feature]: add a gracefully log instead of panic in case of unreadable or ssl encrypted postgres wire message,open,2024-07-03T14:02:49Z,2025-06-17T10:56:59Z,Sarthak160,https://github.com/keploy/keploy/issues/2029
+2026,keploy,[feature]: exports tests as programmatic test files (go/js/other..),open,2024-07-02T17:45:00Z,2024-11-27T05:39:31Z,Swpn0neel,https://github.com/keploy/keploy/issues/2026
+2018,keploy,[feature]: Add schema checks in Keploy assertions logic,open,2024-07-01T21:00:05Z,2026-02-22T06:03:03Z,Swpn0neel,https://github.com/keploy/keploy/issues/2018
+2016,keploy,[feature]: Creating Sample Java Application using JWT Token,open,2024-07-01T20:49:19Z,2024-09-26T17:37:06Z,Swpn0neel,https://github.com/keploy/keploy/issues/2016
+2014,keploy,[feature]: Add comments in keploy yamls to make better editable experience,open,2024-07-01T20:37:31Z,2026-02-22T04:58:24Z,Swpn0neel,https://github.com/keploy/keploy/issues/2014
+2013,keploy,[feature]: Add a CRUD API with SQLX and PostgreSQL,open,2024-07-01T20:35:34Z,2024-11-27T05:31:10Z,Swpn0neel,https://github.com/keploy/keploy/issues/2013
+1903,keploy,[bug]:  generic parser should be fixed,open,2024-05-27T12:28:26Z,2026-02-22T06:01:56Z,shivamsouravjha,https://github.com/keploy/keploy/issues/1903
+1902,keploy,[bug]: do not log any error while reading from client if app is closed.,open,2024-05-27T10:57:39Z,2025-06-17T10:57:08Z,gouravkrosx,https://github.com/keploy/keploy/issues/1902
+1897,keploy,[bug]: Warning: use -cacerts option to access cacerts keystore\nkeytool error: java.io.EOFException\,open,2024-05-26T07:07:35Z,2024-09-26T17:43:56Z,slayerjain,https://github.com/keploy/keploy/issues/1897
+1888,keploy,[feature]: add rerecord assertion,open,2024-05-21T22:42:06Z,2024-11-27T05:28:14Z,EraKin575,https://github.com/keploy/keploy/issues/1888
+1871,keploy,[feature]: add test pipeline for testing `HTTP` parser using different applications,open,2024-05-08T05:30:32Z,2025-06-17T10:57:13Z,gouravkrosx,https://github.com/keploy/keploy/issues/1871
+1845,keploy,[bug]: CVE in codebase,open,2024-04-22T13:15:46Z,2024-11-27T05:21:15Z,shivamsouravjha,https://github.com/keploy/keploy/issues/1845
+1810,keploy,[bug]: Replay starts test-set execution before the containers are started,open,2024-04-10T22:46:10Z,2024-11-27T05:20:00Z,Yaxhveer,https://github.com/keploy/keploy/issues/1810
+1782,keploy,[feature]: Streaming RPC support for gRPC calls,open,2024-04-05T10:44:13Z,2024-11-26T11:52:50Z,aerowisca,https://github.com/keploy/keploy/issues/1782
+1779,keploy,[feature]: performance benchmark for keploy test capturing,open,2024-04-04T08:02:20Z,2024-11-26T11:51:31Z,slayerjain,https://github.com/keploy/keploy/issues/1779
+1768,keploy,[feature]: Types for components.,open,2024-04-02T03:53:08Z,2025-06-18T04:51:10Z,its-kunal,https://github.com/keploy/keploy/issues/1768
+1731,keploy,[feature]: Add support for Application across test sets,open,2024-03-27T10:17:28Z,2024-04-01T09:45:05Z,slayerjain,https://github.com/keploy/keploy/issues/1731
+1652,keploy,[docs]: add ci integration documentation,open,2024-03-05T13:37:52Z,2025-06-17T10:52:12Z,nehagup,https://github.com/keploy/keploy/issues/1652
+1572,keploy,[feat]: Add support in Keploy to read from server initiated calls,open,2024-02-16T06:34:19Z,2025-01-13T15:05:46Z,shivamsouravjha,https://github.com/keploy/keploy/issues/1572
+1509,keploy,[feature]: integrate keploy in Slashbase,open,2024-02-06T11:17:05Z,2024-11-26T11:38:49Z,slayerjain,https://github.com/keploy/keploy/issues/1509
+1460,keploy,[feature]: Ability of Keploy to Modify Dockerfile Entrypoint and Introduce Delay,open,2024-01-30T19:15:17Z,2026-01-19T21:13:08Z,gouravkrosx,https://github.com/keploy/keploy/issues/1460
+1426,keploy,[feature]: refactor connection tracker to use separate goroutines for every conn,open,2024-01-23T15:58:40Z,2024-11-26T11:36:25Z,slayerjain,https://github.com/keploy/keploy/issues/1426
+1425,keploy,"[feature]: add keploy to popular linux repos like snap, apt for linux",open,2024-01-23T14:54:12Z,2024-11-26T11:35:22Z,slayerjain,https://github.com/keploy/keploy/issues/1425
+1314,keploy,[bug]: Keploy is unable to handle high QPS,open,2024-01-08T12:51:04Z,2024-12-12T18:03:59Z,shivamsouravjha,https://github.com/keploy/keploy/issues/1314
+1254,keploy,*fmt.wrapError: failed to set memlock rlimit: operation not permitted,open,2023-12-27T08:46:41Z,2024-11-26T11:32:42Z,sentry[bot],https://github.com/keploy/keploy/issues/1254
+1251,keploy,[feature]: sentry logs for user command and keploy alias,open,2023-12-27T07:45:32Z,2024-11-26T11:30:02Z,shivamsouravjha,https://github.com/keploy/keploy/issues/1251
+1098,keploy,[feature]: Add support for detecting accurate noisy parameters in the test response,open,2023-11-09T16:23:31Z,2024-11-26T11:27:07Z,Sarthak160,https://github.com/keploy/keploy/issues/1098
+1083,keploy,[docs]: Create TroubleShoot section in readme,open,2023-11-07T06:20:05Z,2025-06-17T10:57:25Z,charankamarapu,https://github.com/keploy/keploy/issues/1083
+1004,keploy,[feature]: add flag for sentry,open,2023-10-12T11:18:43Z,2024-11-26T11:21:25Z,charankamarapu,https://github.com/keploy/keploy/issues/1004
+645,keploy,[bug]: keploy test mode doesn't work with older Debian-based images,open,2023-08-06T07:45:11Z,2024-11-26T11:26:31Z,gouravkrosx,https://github.com/keploy/keploy/issues/645
+236,keploy,[feature]: automatically ignore static files and binary data,open,2022-11-08T06:04:12Z,2024-07-08T09:24:08Z,slayerjain,https://github.com/keploy/keploy/issues/236
+409,keploy,[bug]: optimise large files in the blog git repo,open,2022-10-11T10:43:37Z,2024-11-26T11:15:23Z,slayerjain,https://github.com/keploy/keploy/issues/409
+145,keploy,[feature]: support performance testing,open,2022-07-15T05:52:22Z,2024-09-26T17:37:17Z,nutanrp1,https://github.com/keploy/keploy/issues/145
+2,test-data,Updating the old Keploy UI screenshots,open,2022-09-12T15:40:11Z,2022-09-12T15:40:11Z,littleironical,https://github.com/keploy/test-data/issues/2
+18,react-diff-viewer,Fix JSON diff viewer performance issue causing UI freeze with large payloads,open,2025-09-02T05:30:55Z,2025-09-09T17:54:47Z,sneha0099,https://github.com/keploy/react-diff-viewer/issues/18
+12,react-diff-viewer,feat: add noise ignoring functionality to header and status similar to body,open,2024-01-31T07:23:56Z,2024-02-06T10:21:32Z,nehagup,https://github.com/keploy/react-diff-viewer/issues/12
+55,student-program,[bug]: Combined Code Quality and Accessibility Issues,open,2026-02-26T19:06:01Z,2026-02-26T19:06:42Z,24dce027-jpg,https://github.com/keploy/student-program/issues/55
+51,student-program,"[feature]: Add loading=""lazy"" to testimonial images for better performance",open,2026-02-21T17:06:19Z,2026-02-22T08:51:53Z,dhrumil246,https://github.com/keploy/student-program/issues/51
+11,browser-extension,The Service Worker Lifecycle Bug,open,2026-02-22T05:42:44Z,2026-02-22T09:41:24Z,Aryan-B-Parikh,https://github.com/keploy/browser-extension/issues/11
+6,browser-extension,feat: use service memory heap instead of sessionStorage,open,2022-08-23T10:07:09Z,2024-11-03T12:30:09Z,slayerjain,https://github.com/keploy/browser-extension/issues/6
+5,browser-extension,feat: google account sync should be optional,open,2022-08-23T09:23:24Z,2026-02-22T04:25:59Z,slayerjain,https://github.com/keploy/browser-extension/issues/5
+4,browser-extension,feat: add support for fetch calls,open,2022-08-23T09:22:02Z,2026-01-02T11:13:49Z,slayerjain,https://github.com/keploy/browser-extension/issues/4
+16,jsondiff,Inconsistent order of objects in the result,open,2025-01-14T19:02:58Z,2025-01-15T07:30:39Z,arnabnandikgp,https://github.com/keploy/jsondiff/issues/16
+14,jsondiff,feature: Support configuring the max line length,open,2024-12-11T05:52:40Z,2026-01-05T15:54:05Z,bicyclespokesperson,https://github.com/keploy/jsondiff/issues/14
+9,jsondiff,"Bug: CompareHeaders function fails to handle missing headers properly labels: bug, test-failure",open,2024-10-23T09:12:36Z,2024-10-23T09:12:36Z,akshat99812,https://github.com/keploy/jsondiff/issues/9
+4,jsondiff,feature: add disable flag in Compare and CompareHeaders,open,2024-10-15T09:52:11Z,2024-10-15T12:48:45Z,shivamsouravjha,https://github.com/keploy/jsondiff/issues/4
+8,code-review-agent,Feature Request: Configurable Ollama Base URL,open,2026-02-23T17:56:11Z,2026-02-23T17:56:11Z,dhrumil246,https://github.com/keploy/code-review-agent/issues/8
+10,ecommerce_sample_app,Bug: Idempotency Key Not Checked Before Processing in order_service,open,2026-02-25T12:52:29Z,2026-02-26T17:27:17Z,kushpatel2601,https://github.com/keploy/ecommerce_sample_app/issues/10
+9,ecommerce_sample_app,Improve and restructure README documentation for better clarity Issue 161,open,2026-02-24T05:00:03Z,2026-02-24T05:00:40Z,Jerry-145,https://github.com/keploy/ecommerce_sample_app/issues/9
+7,ecommerce_sample_app,Hardcoded Credentials Security Issue T152,open,2026-02-23T12:18:44Z,2026-02-23T12:20:19Z,Talaviya-Sarthak,https://github.com/keploy/ecommerce_sample_app/issues/7
+6,ecommerce_sample_app,Stock Reservation Response Never Checked in order_service - Team 177,open,2026-02-22T08:40:00Z,2026-02-22T08:40:30Z,ybthummar,https://github.com/keploy/ecommerce_sample_app/issues/6
+5,ecommerce_sample_app,Unhandled ValueError on quantity param in product_service - Team 177,open,2026-02-22T08:09:22Z,2026-02-22T08:34:42Z,BhavyaManvar,https://github.com/keploy/ecommerce_sample_app/issues/5
+4,ecommerce_sample_app,Missing Health Check Endpoints in All Microservices - Team 065,open,2026-02-22T06:19:51Z,2026-02-22T06:20:10Z,Shubhp0712,https://github.com/keploy/ecommerce_sample_app/issues/4
+11,docker-images,"Version Drift, Script Redundancy, and Documentation Errors in docker-images",open,2026-02-22T19:32:18Z,2026-02-22T19:32:39Z,PATELSHAIL7125,https://github.com/keploy/docker-images/issues/11
