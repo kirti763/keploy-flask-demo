@@ -1,4 +1,4 @@
-repo_name,timestamp,username,profile_url,email,blog,twitter,total_stars_at_time
+repo_name,timestamp,username,profile_url
 agent-chart,2024-05-28T03:07:19Z,dalakatt,https://github.com/dalakatt,,,,1
 go-sdk,2022-01-07T18:44:13Z,thunderboltsid,https://github.com/thunderboltsid,,,,47
 go-sdk,2022-01-07T19:12:17Z,anirudhjain75,https://github.com/anirudhjain75,,,,47
