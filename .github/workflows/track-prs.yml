@@ -56,7 +56,7 @@ jobs:
           else
             TIMESTAMP=$(date -u +"%Y-%m-%d %H:%M UTC")
             git commit -m "chore(data): update PRs CSVs [${TIMESTAMP}]"
-            git pull --rebase
+            git pull --rebase origin main
             git push
             echo "✅ CSVs committed and pushed."
           fi
