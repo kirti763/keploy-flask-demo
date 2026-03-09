@@ -166,11 +166,8 @@ async function main() {
   console.log(`🗂   Existing open issues loaded   : ${openKeys.size}`);
   console.log(`🗂   Existing closed issues loaded : ${closedKeys.size}\n`);
 
-  const openStream = fs.createWriteStream(OPEN_CSV, { flags: "a", encoding: "utf8" });
-  const closedStream = fs.createWriteStream(CLOSED_CSV, { flags: "a", encoding: "utf8" });
-
-  let newOpen = 0;
-  let newClosed = 0;
+  const newOpenList = [];
+  const newClosedList = [];
   let skipped = 0;
 
   const repos = await fetchOrgRepos();
@@ -190,21 +187,8 @@ async function main() {
     for (const issue of openIssues) {
       const key = `${repoName}::${issue.number}`;
       if (openKeys.has(key)) { skipped++; continue; }
-
-      const row = [
-        csvEscape(issue.number),
-        csvEscape(repoName),
-        csvEscape(issue.title),
-        csvEscape(issue.state),
-        csvEscape(issue.created_at),
-        csvEscape(issue.updated_at),
-        csvEscape(issue.user?.login || ""),
-        csvEscape(issue.html_url),
-      ].join(",");
-
-      openStream.write(row + "\n");
+      newOpenList.push({ issue, repoName });
       openKeys.add(key);
-      newOpen++;
     }
 
     await sleep(DELAY_MS);
@@ -220,28 +204,45 @@ async function main() {
     for (const issue of closedIssues) {
       const key = `${repoName}::${issue.number}`;
       if (closedKeys.has(key)) { skipped++; continue; }
-
-      const row = [
-        csvEscape(issue.number),
-        csvEscape(repoName),
-        csvEscape(issue.title),
-        csvEscape(issue.state),
-        csvEscape(issue.created_at),
-        csvEscape(issue.closed_at || ""),
-        csvEscape(issue.user?.login || ""),
-        csvEscape(issue.html_url),
-      ].join(",");
-
-      closedStream.write(row + "\n");
+      newClosedList.push({ issue, repoName });
       closedKeys.add(key);
-      newClosed++;
     }
 
     await sleep(DELAY_MS);
   }
 
+  // Sort by date before writing
+  newOpenList.sort((a, b) => new Date(a.issue.created_at) - new Date(b.issue.created_at));
+  newClosedList.sort((a, b) => new Date(a.issue.created_at) - new Date(b.issue.created_at));
+  console.log(`\n📅  Sorted ${newOpenList.length} open issues by created_at`);
+  console.log(`📅  Sorted ${newClosedList.length} closed issues by created_at`);
+
+  const openStream = fs.createWriteStream(OPEN_CSV, { flags: "a", encoding: "utf8" });
+  const closedStream = fs.createWriteStream(CLOSED_CSV, { flags: "a", encoding: "utf8" });
+
+  for (const { issue, repoName } of newOpenList) {
+    const row = [
+      csvEscape(issue.number), csvEscape(repoName), csvEscape(issue.title),
+      csvEscape(issue.state), csvEscape(issue.created_at), csvEscape(issue.updated_at),
+      csvEscape(issue.user?.login || ""), csvEscape(issue.html_url),
+    ].join(",");
+    openStream.write(row + "\n");
+  }
+
+  for (const { issue, repoName } of newClosedList) {
+    const row = [
+      csvEscape(issue.number), csvEscape(repoName), csvEscape(issue.title),
+      csvEscape(issue.state), csvEscape(issue.created_at), csvEscape(issue.closed_at || ""),
+      csvEscape(issue.user?.login || ""), csvEscape(issue.html_url),
+    ].join(",");
+    closedStream.write(row + "\n");
+  }
+
   await new Promise((resolve) => openStream.end(resolve));
   await new Promise((resolve) => closedStream.end(resolve));
+
+  const newOpen = newOpenList.length;
+  const newClosed = newClosedList.length;
 
   const elapsed = ((Date.now() - startTime) / 1000).toFixed(1);
   console.log(`\n${"─".repeat(50)}`);
