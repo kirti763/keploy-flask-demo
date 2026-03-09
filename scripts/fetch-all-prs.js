@@ -169,12 +169,9 @@ async function main() {
   console.log(`🗂   Existing open PRs loaded   : ${openKeys.size}`);
   console.log(`🗂   Existing merged PRs loaded : ${mergedKeys.size}\n`);
 
-  const openStream   = fs.createWriteStream(OPEN_CSV,   { flags: "a", encoding: "utf8" });
-  const mergedStream = fs.createWriteStream(MERGED_CSV, { flags: "a", encoding: "utf8" });
-
-  let newOpen   = 0;
-  let newMerged = 0;
-  let skipped   = 0;
+  const newOpenList   = [];
+  const newMergedList = [];
+  let skipped = 0;
 
   const repos = await fetchOrgRepos();
 
@@ -193,21 +190,8 @@ async function main() {
     for (const pr of openPRs) {
       const key = `${repoName}::${pr.number}`;
       if (openKeys.has(key)) { skipped++; continue; }
-
-      const row = [
-        csvEscape(pr.number),
-        csvEscape(repoName),
-        csvEscape(pr.title),
-        csvEscape(pr.state),
-        csvEscape(pr.created_at),
-        csvEscape(pr.updated_at),
-        csvEscape(pr.user?.login || ""),
-        csvEscape(pr.html_url),
-      ].join(",");
-
-      openStream.write(row + "\n");
+      newOpenList.push({ pr, repoName });
       openKeys.add(key);
-      newOpen++;
     }
 
     await sleep(DELAY_MS);
@@ -226,28 +210,45 @@ async function main() {
     for (const pr of mergedPRs) {
       const key = `${repoName}::${pr.number}`;
       if (mergedKeys.has(key)) { skipped++; continue; }
-
-      const row = [
-        csvEscape(pr.number),
-        csvEscape(repoName),
-        csvEscape(pr.title),
-        csvEscape("merged"),
-        csvEscape(pr.created_at),
-        csvEscape(pr.merged_at),
-        csvEscape(pr.user?.login || ""),
-        csvEscape(pr.html_url),
-      ].join(",");
-
-      mergedStream.write(row + "\n");
+      newMergedList.push({ pr, repoName });
       mergedKeys.add(key);
-      newMerged++;
     }
 
     await sleep(DELAY_MS);
   }
 
+  // Sort by date before writing
+  newOpenList.sort((a, b) => new Date(a.pr.created_at) - new Date(b.pr.created_at));
+  newMergedList.sort((a, b) => new Date(a.pr.merged_at) - new Date(b.pr.merged_at));
+  console.log(`\n📅  Sorted ${newOpenList.length} open PRs by created_at`);
+  console.log(`📅  Sorted ${newMergedList.length} merged PRs by merged_at`);
+
+  const openStream   = fs.createWriteStream(OPEN_CSV,   { flags: "a", encoding: "utf8" });
+  const mergedStream = fs.createWriteStream(MERGED_CSV, { flags: "a", encoding: "utf8" });
+
+  for (const { pr, repoName } of newOpenList) {
+    const row = [
+      csvEscape(pr.number), csvEscape(repoName), csvEscape(pr.title),
+      csvEscape(pr.state), csvEscape(pr.created_at), csvEscape(pr.updated_at),
+      csvEscape(pr.user?.login || ""), csvEscape(pr.html_url),
+    ].join(",");
+    openStream.write(row + "\n");
+  }
+
+  for (const { pr, repoName } of newMergedList) {
+    const row = [
+      csvEscape(pr.number), csvEscape(repoName), csvEscape(pr.title),
+      csvEscape("merged"), csvEscape(pr.created_at), csvEscape(pr.merged_at),
+      csvEscape(pr.user?.login || ""), csvEscape(pr.html_url),
+    ].join(",");
+    mergedStream.write(row + "\n");
+  }
+
   await new Promise((resolve) => openStream.end(resolve));
   await new Promise((resolve) => mergedStream.end(resolve));
+
+  const newOpen   = newOpenList.length;
+  const newMerged = newMergedList.length;
 
   const elapsed = ((Date.now() - startTime) / 1000).toFixed(1);
   console.log(`\n${"─".repeat(50)}`);
