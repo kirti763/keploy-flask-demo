@@ -48,7 +48,7 @@ jobs:
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-
+          git pull --rebase origin main
           git add data/open-prs.csv data/merged-prs.csv
 
           if git diff --cached --quiet; then
@@ -56,7 +56,6 @@ jobs:
           else
             TIMESTAMP=$(date -u +"%Y-%m-%d %H:%M UTC")
             git commit -m "chore(data): update PRs CSVs [${TIMESTAMP}]"
-            git pull --rebase origin main
             git push
             echo "✅ CSVs committed and pushed."
           fi
