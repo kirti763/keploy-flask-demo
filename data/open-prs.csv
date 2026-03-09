@@ -1,0 +1,634 @@
+pr_number,repo_name,title,state,created_at,updated_at,author,pr_url
+2,template,added docs,open,2022-05-08T05:17:29Z,2025-04-17T08:08:48Z,Ayush7614,https://github.com/keploy/template/pull/2
+74,ui,feat(ui): add copy to clipboard feature and installation guide,open,2022-09-20T11:54:57Z,2023-03-03T11:45:17Z,iamskp99,https://github.com/keploy/ui/pull/74
+145,go-sdk,fix: remove defered resp closer from for loop,open,2022-10-27T08:56:48Z,2025-04-17T08:07:32Z,slayerjain,https://github.com/keploy/go-sdk/pull/145
+4,test-data,added more test dump,open,2022-11-23T20:12:26Z,2025-04-17T08:08:43Z,Nishant2907,https://github.com/keploy/test-data/pull/4
+46,typescript-sdk,fix : do not record test-case while in test mode,open,2023-02-23T14:15:00Z,2025-04-17T08:09:12Z,shreyanshshah27,https://github.com/keploy/typescript-sdk/pull/46
+47,typescript-sdk,gh-44 remove/replace headers while recording tc,open,2023-02-23T18:59:35Z,2025-04-17T08:09:11Z,shreyanshshah27,https://github.com/keploy/typescript-sdk/pull/47
+48,typescript-sdk,"feat(mock.ts, keploy.ts, client.ts): Adding Keploy Mode in logs to no…",open,2023-02-25T09:48:46Z,2025-04-17T08:09:09Z,Hermione2408,https://github.com/keploy/typescript-sdk/pull/48
+53,typescript-sdk,"fix(sdk build, package.json): Added .proto file as a part of build files and used it in grpc connection.",open,2023-03-01T14:10:17Z,2025-04-17T08:09:07Z,Hermione2408,https://github.com/keploy/typescript-sdk/pull/53
+58,typescript-sdk,fix: empty-node-fetch-response,open,2023-03-06T16:05:18Z,2025-04-17T08:09:06Z,shreyanshshah27,https://github.com/keploy/typescript-sdk/pull/58
+59,typescript-sdk,Adding Unit test cases for wrappedNodeFetch and adding github actions,open,2023-03-08T17:16:36Z,2025-04-17T08:09:05Z,Hermione2408,https://github.com/keploy/typescript-sdk/pull/59
+175,go-sdk,Adding GRPC support to go-sdk,open,2023-03-10T07:59:19Z,2025-04-17T08:07:29Z,PranshuSrivastava,https://github.com/keploy/go-sdk/pull/175
+66,typescript-sdk,add interceptor for http clients,open,2023-03-14T16:30:52Z,2025-04-17T08:09:03Z,Ramanjs,https://github.com/keploy/typescript-sdk/pull/66
+67,typescript-sdk,update(package.json): os-indpendent copy,open,2023-03-15T06:47:44Z,2025-04-17T08:09:02Z,G0maa,https://github.com/keploy/typescript-sdk/pull/67
+68,typescript-sdk,fix: record even on test mode,open,2023-03-18T08:38:54Z,2025-04-17T08:09:01Z,G0maa,https://github.com/keploy/typescript-sdk/pull/68
+104,ui,Updated CSS,open,2023-03-22T08:21:18Z,2023-03-25T22:01:53Z,Rohitrky2021,https://github.com/keploy/ui/pull/104
+36,website-archive,"fix(.github): adds github workflows for CLA Assistant, Greetings, Building and Linting",open,2023-03-28T10:16:45Z,2023-03-28T10:23:32Z,ItsRoy69,https://github.com/keploy/website-archive/pull/36
+82,typescript-sdk,adding the unittest for wrapped node fetch function and its github action,open,2023-03-29T09:31:24Z,2025-04-17T08:09:00Z,Sekhar-Kumar-Dash,https://github.com/keploy/typescript-sdk/pull/82
+89,typescript-sdk,build: starting  Keploy server from Typescript-SDK,open,2023-04-04T18:22:12Z,2025-04-17T08:08:59Z,Sekhar-Kumar-Dash,https://github.com/keploy/typescript-sdk/pull/89
+90,typescript-sdk,To start keploy server from typescript sdk for all OS,open,2023-04-06T04:30:46Z,2025-04-17T08:08:56Z,Hermione2408,https://github.com/keploy/typescript-sdk/pull/90
+188,go-sdk,fix: add support for setting gin ctx,open,2023-04-08T16:22:37Z,2025-04-17T08:07:28Z,slayerjain,https://github.com/keploy/go-sdk/pull/188
+91,typescript-sdk,fix(mock): NewContext returns a promise,open,2023-04-10T08:56:17Z,2025-04-17T08:08:56Z,re-Tick,https://github.com/keploy/typescript-sdk/pull/91
+25,samples-typescript,feat: (WIP) nestjs+postgresql example,open,2023-10-25T05:26:56Z,2025-04-17T08:09:28Z,SohamRatnaparkhi,https://github.com/keploy/samples-typescript/pull/25
+163,java-sdk,feat: add deduplication in java according to v2,open,2024-02-01T05:25:04Z,2025-04-17T08:09:52Z,Sarthak160,https://github.com/keploy/java-sdk/pull/163
+6,python-sdk,fix: publish to pip workflow,open,2024-02-15T09:46:26Z,2025-04-17T08:08:51Z,PranshuSrivastava,https://github.com/keploy/python-sdk/pull/6
+167,java-sdk,build(deps): bump org.yaml:snakeyaml from 1.28 to 2.0 in /integration,open,2024-02-22T11:40:33Z,2025-04-17T08:09:51Z,dependabot[bot],https://github.com/keploy/java-sdk/pull/167
+169,java-sdk,feat: assert and fail mvn test if the keploy test fails,open,2024-03-03T20:13:45Z,2025-04-17T08:09:50Z,Sarthak160,https://github.com/keploy/java-sdk/pull/169
+68,samples-java,docs: update the petclinic readme for mysql support,open,2024-03-06T13:52:32Z,2025-04-17T08:10:09Z,Sarthak160,https://github.com/keploy/samples-java/pull/68
+69,samples-java,feat: add http client for insert call,open,2024-03-27T12:00:54Z,2025-04-17T08:10:09Z,Sarthak160,https://github.com/keploy/samples-java/pull/69
+70,samples-java,feat: add coverage action,open,2024-04-03T06:48:55Z,2025-04-17T08:10:06Z,charankamarapu,https://github.com/keploy/samples-java/pull/70
+107,typescript-sdk,feat: add function to send graphql request to update testset report,open,2024-04-07T13:31:25Z,2025-04-17T08:08:55Z,AkashKumar7902,https://github.com/keploy/typescript-sdk/pull/107
+10,python-sdk,feat: send graphql request to update testset report with coverage data,open,2024-04-07T14:11:01Z,2025-04-17T08:08:50Z,AkashKumar7902,https://github.com/keploy/python-sdk/pull/10
+173,java-sdk,moved middleware to v2,open,2024-04-09T13:41:35Z,2025-04-17T08:09:47Z,EraKin575,https://github.com/keploy/java-sdk/pull/173
+174,java-sdk,build(deps): bump org.postgresql:postgresql from 42.5.1 to 42.5.5 in /integration,open,2024-04-09T19:52:20Z,2025-04-17T08:09:47Z,dependabot[bot],https://github.com/keploy/java-sdk/pull/174
+176,java-sdk,feat: send graphql request to update report with coverage data,open,2024-04-15T09:11:20Z,2025-04-17T08:09:47Z,AkashKumar7902,https://github.com/keploy/java-sdk/pull/176
+1962,keploy,[add]: conversion from yaml to openAPI schema (json),open,2024-06-13T12:56:12Z,2025-12-16T10:55:39Z,AhmedLotfy02,https://github.com/keploy/keploy/pull/1962
+178,java-sdk,refactor: make a release pipeline for maven central,open,2024-06-24T08:55:10Z,2025-04-17T08:09:45Z,Sarthak160,https://github.com/keploy/java-sdk/pull/178
+114,typescript-sdk,ci: add a github actions for publishing to npm,open,2024-06-25T09:15:07Z,2025-04-17T08:08:53Z,Sarthak160,https://github.com/keploy/typescript-sdk/pull/114
+2064,keploy,feat: support coverage in case of application running in docker,open,2024-07-15T06:21:33Z,2025-12-16T10:55:40Z,AkashKumar7902,https://github.com/keploy/keploy/pull/2064
+109,samples-go,feat: grpc sample application,open,2024-07-23T20:28:17Z,2025-04-17T08:09:23Z,mastersans,https://github.com/keploy/samples-go/pull/109
+76,samples-java,Keploy Integration - Added sample Java application using JWT Token,open,2024-07-26T06:26:47Z,2025-04-17T08:10:05Z,jaiakash,https://github.com/keploy/samples-java/pull/76
+2137,keploy,Fixes CVE in codebase and add github action for analysis for each commit,open,2024-07-26T07:11:21Z,2025-12-16T10:55:39Z,jaiakash,https://github.com/keploy/keploy/pull/2137
+12,vscode-extension,Added Support for Tailwind and  custom themes for Dark and Light,open,2024-07-30T08:36:57Z,2025-04-15T18:54:20Z,sanjay-xdr,https://github.com/keploy/vscode-extension/pull/12
+13,vscode-extension,feat: Added functionality to use vscode api in svelete,open,2024-08-03T10:49:41Z,2025-04-15T18:54:19Z,ayush3160,https://github.com/keploy/vscode-extension/pull/13
+2207,keploy,feat: skip app launch is testSets,open,2024-08-12T11:41:24Z,2025-12-16T10:55:40Z,charankamarapu,https://github.com/keploy/keploy/pull/2207
+6,demo-projects,Adding the animal-java app,open,2024-08-16T01:51:24Z,2025-04-15T18:55:06Z,Aditya-eddy,https://github.com/keploy/demo-projects/pull/6
+2306,keploy,Update configuration file to align with documentation,open,2024-09-25T01:20:40Z,2025-12-16T10:55:39Z,Vibgitcode27,https://github.com/keploy/keploy/pull/2306
+5,JetBrains-extension,Some minor changes on documentation,open,2024-10-03T13:29:15Z,2025-04-15T18:55:04Z,1Shubham7,https://github.com/keploy/JetBrains-extension/pull/5
+87,website,feat/adding-orbiting-circle-animation,open,2024-10-08T17:58:58Z,2025-04-15T18:54:56Z,Neeraj-gagat,https://github.com/keploy/website/pull/87
+2332,keploy,feat: separate agent for instrumentation from the keploy,open,2024-10-08T20:26:56Z,2025-12-16T10:55:41Z,Sarthak160,https://github.com/keploy/keploy/pull/2332
+2344,keploy,feat: enhance denoise function to handle global noise scenarios,open,2024-10-13T06:18:40Z,2025-12-16T10:55:39Z,ayush3160,https://github.com/keploy/keploy/pull/2344
+2345,keploy,refactor: add check to ignore error logs on grpc closed connection,open,2024-10-14T09:28:50Z,2025-12-16T10:55:39Z,Sarthak160,https://github.com/keploy/keploy/pull/2345
+89,website,feat: add orbiting circles for community section on landing page,open,2024-10-15T01:48:27Z,2025-04-15T18:54:54Z,techmannih,https://github.com/keploy/website/pull/89
+90,website,feat: add a dock for mobile screens with socials as option,open,2024-10-15T10:07:47Z,2025-05-27T03:55:05Z,techmannih,https://github.com/keploy/website/pull/90
+4,awesome-testing,Updated the List,open,2024-10-15T18:26:55Z,2025-04-17T08:10:19Z,Swpn0neel,https://github.com/keploy/awesome-testing/pull/4
+2356,keploy,Added instructions for CLA check,open,2024-10-19T04:32:43Z,2025-12-16T10:55:39Z,Tanuj1718,https://github.com/keploy/keploy/pull/2356
+6,jsondiff,Disable Color for Compare and Compare Headers,open,2024-10-20T14:29:07Z,2025-04-21T15:11:51Z,akshat99812,https://github.com/keploy/jsondiff/pull/6
+95,website,feat: event page for keploy with mock data,open,2024-10-23T07:15:43Z,2025-04-15T18:54:52Z,Abbhiishek,https://github.com/keploy/website/pull/95
+10,jsondiff,Compare headers fix,open,2024-10-23T11:39:43Z,2025-04-15T18:55:00Z,akshat99812,https://github.com/keploy/jsondiff/pull/10
+81,vscode-extension,Add Rust Support for Unit Test Generation (UTG),open,2024-10-26T07:19:33Z,2025-04-15T18:54:16Z,akshat99812,https://github.com/keploy/vscode-extension/pull/81
+102,website,Created Careers Page For keploy,open,2024-10-28T19:08:13Z,2025-04-15T18:54:51Z,Ayushmaanagarwal1211,https://github.com/keploy/website/pull/102
+114,website,add: new navbar added,open,2024-10-30T13:48:37Z,2025-04-15T18:54:50Z,techmannih,https://github.com/keploy/website/pull/114
+115,website,Added Career page keploy #2384,open,2024-10-30T17:06:18Z,2025-04-15T18:54:48Z,TusharTemgire,https://github.com/keploy/website/pull/115
+82,samples-java,App sample spring-boot-redis application,open,2024-10-31T13:51:31Z,2025-04-17T08:10:03Z,slashexx,https://github.com/keploy/samples-java/pull/82
+126,website,created career page,open,2024-11-04T19:57:28Z,2025-04-15T18:54:47Z,Sachinnegi825,https://github.com/keploy/website/pull/126
+86,vscode-extension,feat: Add telemetry event tracking in VSCode extension,open,2024-11-17T18:27:45Z,2025-04-15T18:54:15Z,Hermione2408,https://github.com/keploy/vscode-extension/pull/86
+2426,keploy,chore: update prompt,open,2024-11-18T06:29:51Z,2025-12-16T10:55:39Z,shivamsouravjha,https://github.com/keploy/keploy/pull/2426
+2429,keploy,Initial code to fix installation and uninstallation bug on utg,open,2024-11-18T23:56:46Z,2025-12-16T10:55:39Z,AhmedLotfy02,https://github.com/keploy/keploy/pull/2429
+142,website,feat: Pricing Page for keploy,open,2024-11-21T11:03:24Z,2025-04-15T18:54:47Z,heyits-manan,https://github.com/keploy/website/pull/142
+88,vscode-extension,fix: remove dummy tests from the tests generated,open,2024-11-26T08:17:47Z,2025-04-15T18:54:15Z,ayush3160,https://github.com/keploy/vscode-extension/pull/88
+2450,keploy,Windows test,open,2024-11-26T09:00:42Z,2025-12-16T10:55:39Z,charankamarapu,https://github.com/keploy/keploy/pull/2450
+145,website,feat: replace tweet grid with carousel,open,2024-11-27T17:47:29Z,2025-04-15T18:54:45Z,to4to,https://github.com/keploy/website/pull/145
+146,website,Responsiveness of the nav bar is corrected,open,2024-11-27T19:02:29Z,2025-04-15T18:54:44Z,kishalaymodak,https://github.com/keploy/website/pull/146
+2451,keploy,Fix: Error when installing new packages with RunCommand,open,2024-11-28T09:38:31Z,2025-12-16T10:55:39Z,to4to,https://github.com/keploy/keploy/pull/2451
+89,vscode-extension,feat: added keploy version mapping,open,2024-11-29T17:06:32Z,2025-04-15T18:54:13Z,ayush3160,https://github.com/keploy/vscode-extension/pull/89
+15,jsondiff,feat: added regex for noise,open,2024-12-11T08:53:13Z,2025-04-18T17:59:52Z,ayush3160,https://github.com/keploy/jsondiff/pull/15
+75,blog-website,Added Likes and Comments Functionality to Blog Website,open,2024-12-12T07:56:51Z,2025-12-01T10:28:09Z,Sumitsh28,https://github.com/keploy/blog-website/pull/75
+164,website,Replace Twitter Icon with X Icon,open,2024-12-27T11:01:30Z,2025-04-15T18:54:42Z,SayantaniDeb,https://github.com/keploy/website/pull/164
+168,website,Prevent TextSections from Overlapping with Header in Features Component,open,2025-01-06T22:35:44Z,2025-04-15T18:54:40Z,Vibgitcode27,https://github.com/keploy/website/pull/168
+169,website,feat: Added Pricing Page #2382,open,2025-01-16T14:51:50Z,2025-04-15T18:54:38Z,prajwal-dahat0810,https://github.com/keploy/website/pull/169
+170,website,Vivekbhandari27,open,2025-01-22T11:10:43Z,2025-04-15T18:54:38Z,vivekbhandarisec,https://github.com/keploy/website/pull/170
+70,samples-typescript,Added HONOJS and mongodb restapi server,open,2025-01-27T04:17:34Z,2025-10-30T09:11:41Z,Shu12388y,https://github.com/keploy/samples-typescript/pull/70
+2519,keploy,feat: add support for capturing incoming http2 traffic,open,2025-01-27T08:24:37Z,2025-12-16T10:55:39Z,gouravkrosx,https://github.com/keploy/keploy/pull/2519
+172,website,X Icon Fixed,open,2025-02-02T07:53:13Z,2025-04-15T18:54:37Z,red-panda3,https://github.com/keploy/website/pull/172
+2538,keploy,feat: update readme for few fixes and revamp the structure,open,2025-02-10T14:23:39Z,2025-12-16T10:55:39Z,amaan-bhati,https://github.com/keploy/keploy/pull/2538
+23,student-program,Added the new site design 🤩 removed old one 🗑️,open,2025-02-11T22:26:13Z,2025-04-17T08:09:58Z,SaketV8,https://github.com/keploy/student-program/pull/23
+32,devrel-program,Updated devrel website theme to match main website,open,2025-02-13T12:22:05Z,2025-04-17T08:10:13Z,michael-020,https://github.com/keploy/devrel-program/pull/32
+25,student-program,Updated API Fellowship website theme to match main website,open,2025-02-13T16:23:49Z,2025-06-20T16:54:46Z,ayushman31,https://github.com/keploy/student-program/pull/25
+34,devrel-program,Updated DevRel website theme to match main website,open,2025-02-14T19:26:42Z,2025-04-17T08:10:12Z,ayushman31,https://github.com/keploy/devrel-program/pull/34
+95,blog-website,Implemented Pagination in Keploy Blog-website,open,2025-02-18T14:46:30Z,2025-12-01T10:29:29Z,ayushman31,https://github.com/keploy/blog-website/pull/95
+1,openhospital-ui,feat: integration with keploy,open,2025-02-19T10:37:51Z,2025-05-09T10:50:55Z,khareyash05,https://github.com/keploy/openhospital-ui/pull/1
+1,openhospital-core,integration with keploy,open,2025-02-19T10:40:47Z,2025-05-09T10:51:15Z,khareyash05,https://github.com/keploy/openhospital-core/pull/1
+1,openhospital-api,integration with keploy,open,2025-02-19T10:41:18Z,2025-05-09T10:50:13Z,khareyash05,https://github.com/keploy/openhospital-api/pull/1
+2,openhospital-api,Microservice support,open,2025-02-21T07:33:52Z,2025-04-15T18:55:49Z,khareyash05,https://github.com/keploy/openhospital-api/pull/2
+179,website,fix: keep sidebar width constant after collapsing,open,2025-02-28T12:29:30Z,2025-04-15T18:54:34Z,Tanish2207,https://github.com/keploy/website/pull/179
+180,website,[bug]: Twitter Icon Should Be Replaced with X Icon,open,2025-03-01T13:27:19Z,2025-04-15T18:54:33Z,Adelkazzaz,https://github.com/keploy/website/pull/180
+2557,keploy,Embeddings and UTG with vector search,open,2025-03-01T13:34:35Z,2025-12-16T10:55:39Z,ayesparshh,https://github.com/keploy/keploy/pull/2557
+2567,keploy,Feature/enhanced vector matching,open,2025-03-07T22:07:26Z,2025-12-16T10:55:40Z,SanthoshToorpu,https://github.com/keploy/keploy/pull/2567
+182,website,Fixing Sidebar,open,2025-03-10T07:06:22Z,2025-04-15T18:54:32Z,sanjay-xdr,https://github.com/keploy/website/pull/182
+135,samples-go,simple todo api for testing keploy idempotency new feature,open,2025-03-12T15:20:02Z,2025-04-17T08:09:18Z,AHMED-D007A,https://github.com/keploy/samples-go/pull/135
+2581,keploy,Test suite idempotency checker prototype code,open,2025-03-12T15:33:21Z,2025-12-16T10:55:39Z,AHMED-D007A,https://github.com/keploy/keploy/pull/2581
+2584,keploy,Resolves Issue#2242: Adds smoke tests for linux and macOS,open,2025-03-16T01:21:06Z,2025-12-16T10:55:39Z,FilledEther20,https://github.com/keploy/keploy/pull/2584
+2589,keploy,fix: json and xml check while creating test case,open,2025-03-17T06:20:32Z,2025-12-16T10:55:39Z,charankamarapu,https://github.com/keploy/keploy/pull/2589
+2609,keploy,Templatize-TODOs,open,2025-03-22T15:39:41Z,2025-12-16T10:55:39Z,AHMED-D007A,https://github.com/keploy/keploy/pull/2609
+2611,keploy,Automate Stargazers Data Collection with GitHub Actions,open,2025-03-22T19:24:59Z,2025-12-16T10:55:39Z,Lakshya429,https://github.com/keploy/keploy/pull/2611
+2612,keploy,Added workflow and stargazers function,open,2025-03-23T08:18:06Z,2025-12-16T10:55:39Z,HarshSharma0801,https://github.com/keploy/keploy/pull/2612
+72,samples-typescript,Added new nestjs graphql sample,open,2025-03-23T19:22:51Z,2025-04-17T08:09:26Z,HarshSharma0801,https://github.com/keploy/samples-typescript/pull/72
+14,testGPT,"Enhancement: Add PR analysis using linting tools, static analysis and Github API.",open,2025-03-24T09:49:56Z,2025-04-17T08:12:25Z,AyushBurde,https://github.com/keploy/testGPT/pull/14
+2616,keploy,Add comments in keploy yamls to make better editable experience,open,2025-03-24T21:49:29Z,2025-12-16T10:55:39Z,Arpit529Srivastava,https://github.com/keploy/keploy/pull/2616
+187,website,Fix the ts types of testimonial card and svg,open,2025-03-25T18:04:00Z,2025-04-15T18:54:28Z,Shu12388y,https://github.com/keploy/website/pull/187
+2619,keploy,chore: enhance logging in executing command,open,2025-03-26T01:23:17Z,2025-12-16T10:55:39Z,konippi,https://github.com/keploy/keploy/pull/2619
+2628,keploy,feat: support multiple docker-compose files and custom paths,open,2025-03-27T18:17:08Z,2025-12-16T10:55:39Z,AHMED-D007A,https://github.com/keploy/keploy/pull/2628
+2630,keploy,Add support for multiple Docker networks in container setup,open,2025-03-28T18:28:36Z,2025-12-16T10:55:39Z,AHMED-D007A,https://github.com/keploy/keploy/pull/2630
+2632,keploy,Fix cla syntax,open,2025-03-29T00:13:18Z,2025-12-16T10:55:39Z,Ayushmore1214,https://github.com/keploy/keploy/pull/2632
+2635,keploy,idempotencycheck,open,2025-03-29T18:45:18Z,2025-12-16T10:55:39Z,bdharsan04,https://github.com/keploy/keploy/pull/2635
+188,website,bug fixed in the regression page for rust and csharp image,open,2025-03-30T08:59:09Z,2025-04-15T18:54:27Z,Arpit529Srivastava,https://github.com/keploy/website/pull/188
+189,website,feat: add favicon for keploy website subpages,open,2025-03-30T12:56:07Z,2025-04-15T18:54:26Z,Susmita-Dey,https://github.com/keploy/website/pull/189
+16,testGPT,feat: refactor code to go and improve functionality of testGPT,open,2025-04-01T20:40:19Z,2025-11-13T14:43:29Z,rycerzes,https://github.com/keploy/testGPT/pull/16
+139,samples-go,Fix Redis Connection and Docker Configuration for Gin Application,open,2025-04-03T08:36:23Z,2025-05-19T10:42:27Z,dev-priyanshu15,https://github.com/keploy/samples-go/pull/139
+140,samples-go,Update README.md,open,2025-04-03T20:44:34Z,2025-04-19T16:52:54Z,dev-priyanshu15,https://github.com/keploy/samples-go/pull/140
+190,website,fixed theme inconsistency of editor at playground page,open,2025-04-05T11:25:14Z,2025-04-15T18:54:24Z,michael-020,https://github.com/keploy/website/pull/190
+193,website,fix issue #2641,open,2025-04-08T07:44:01Z,2025-04-15T18:54:23Z,Prathamesh026,https://github.com/keploy/website/pull/193
+2642,keploy,Stargazers Contribution for Improve Test Coverage of Keploy Server,open,2025-04-08T10:09:27Z,2025-12-16T10:55:39Z,SHIVAM17102000,https://github.com/keploy/keploy/pull/2642
+2651,keploy,fix: Support multi‑value headers,open,2025-04-13T13:09:55Z,2025-12-16T10:55:39Z,Per0x1de-1337,https://github.com/keploy/keploy/pull/2651
+38,samples-python,Chore/flask mongo gitlab cicd,open,2025-04-14T17:31:58Z,2025-04-17T08:12:16Z,Achanandhi-M,https://github.com/keploy/samples-python/pull/38
+2667,keploy,add: test file for getStargazers service,open,2025-04-15T05:37:13Z,2025-12-16T10:55:39Z,SHIVAM17102000,https://github.com/keploy/keploy/pull/2667
+2680,keploy,feat: Add support for cgroup v2,open,2025-04-19T15:28:28Z,2025-12-16T10:55:39Z,Per0x1de-1337,https://github.com/keploy/keploy/pull/2680
+2685,keploy,"changed time input from 5 to 5s for apitimeout, delay, builddelay",open,2025-04-21T11:22:10Z,2025-12-16T10:55:39Z,ayesparshh,https://github.com/keploy/keploy/pull/2685
+2686,keploy,fix: enable >750KB read system call for http/grpc record,open,2025-04-21T17:56:01Z,2025-12-16T10:55:39Z,Per0x1de-1337,https://github.com/keploy/keploy/pull/2686
+2687,keploy,feat: exempt keploy pr agent from CLA,open,2025-04-22T08:28:16Z,2025-12-16T10:55:39Z,khareyash05,https://github.com/keploy/keploy/pull/2687
+2695,keploy,chore : add pre commit hook,open,2025-04-25T17:05:30Z,2025-12-16T10:55:39Z,khs-alt,https://github.com/keploy/keploy/pull/2695
+2697,keploy,feat: added support for large size payloads,open,2025-04-28T06:15:05Z,2025-12-16T10:55:39Z,kapishupadhyay22,https://github.com/keploy/keploy/pull/2697
+28,student-program,feat: Lighthouse GitHub actions,open,2025-04-29T12:52:02Z,2025-04-29T12:52:32Z,Achanandhi-M,https://github.com/keploy/student-program/pull/28
+2702,keploy,fix: config file path for viper,open,2025-04-30T15:30:05Z,2025-12-16T10:55:39Z,charankamarapu,https://github.com/keploy/keploy/pull/2702
+29,student-program,feat: Added lighthouse integration,open,2025-05-07T09:57:49Z,2025-05-07T10:00:33Z,Achanandhi-M,https://github.com/keploy/student-program/pull/29
+19,writers-program,feat: Added Updated lighthouse integration,open,2025-05-07T10:07:03Z,2025-05-07T10:09:01Z,Achanandhi-M,https://github.com/keploy/writers-program/pull/19
+94,samples-java,add tests by keploy,open,2025-05-19T10:18:19Z,2025-05-19T12:20:48Z,khareyash05,https://github.com/keploy/samples-java/pull/94
+2731,keploy,"feat: Add gRPC recording and demo - Protocol Buffer messages, server/…",open,2025-05-24T11:56:13Z,2025-12-16T10:55:39Z,alvidofaisal,https://github.com/keploy/keploy/pull/2731
+2732,keploy,fix: avoid cancel shadowing in NewCtx by renaming local var,open,2025-05-26T03:17:13Z,2025-12-16T10:55:39Z,Samiran2004,https://github.com/keploy/keploy/pull/2732
+2736,keploy,feat: Add comprehensive performance and security testing capabilities to Keploy,open,2025-05-29T14:13:22Z,2025-12-16T10:55:39Z,AHMED-D007A,https://github.com/keploy/keploy/pull/2736
+2739,keploy,"Enhancements for Mock Uploads, Plan Checks, and Error Handling",open,2025-05-30T06:06:30Z,2025-12-16T10:55:39Z,SahadriX,https://github.com/keploy/keploy/pull/2739
+2761,keploy,gen command without specifying the test path,open,2025-06-11T10:01:08Z,2025-12-16T10:55:39Z,ayesparshh,https://github.com/keploy/keploy/pull/2761
+2,public-apis-collection,Added free Public APIs resource under Developer Tools,open,2025-06-17T16:22:10Z,2025-07-10T10:45:14Z,roni2668,https://github.com/keploy/public-apis-collection/pull/2
+4,public-apis-collection,Added WeatherAPI to Environment & Weather section,open,2025-06-17T17:05:31Z,2025-07-11T08:36:51Z,Ankitaraj15,https://github.com/keploy/public-apis-collection/pull/4
+7,public-apis-collection,Added Bored API to Fun APIs section,open,2025-06-17T21:15:07Z,2025-07-10T13:16:51Z,prakharrrrrrsingh,https://github.com/keploy/public-apis-collection/pull/7
+40,samples-python,Changed server.py,open,2025-06-17T21:59:43Z,2025-08-12T13:47:23Z,SG7504,https://github.com/keploy/samples-python/pull/40
+128,blog-website,Fix: Fix for colon(:) and Hash(#) in Table of Content section in the blog website,open,2025-06-18T00:05:15Z,2026-01-06T23:27:06Z,PratikforCoding,https://github.com/keploy/blog-website/pull/128
+74,samples-typescript,Resolve logic error and add new  feature(Report Booking),open,2025-06-18T01:08:37Z,2025-06-18T01:12:24Z,swarnadeep31,https://github.com/keploy/samples-typescript/pull/74
+41,samples-python,docs: Update README with code coverage instructions and add .coverage…,open,2025-06-18T02:08:57Z,2025-06-20T09:22:01Z,AyoJared,https://github.com/keploy/samples-python/pull/41
+22,writers-program,updated index.html for guidelines clarity,open,2025-06-18T04:42:20Z,2025-06-20T09:30:05Z,SahadriX,https://github.com/keploy/writers-program/pull/22
+42,samples-python,docs: Enhance README with comprehensive documentation and sample listings,open,2025-06-18T06:35:57Z,2025-08-12T13:45:12Z,AryanV-Coder,https://github.com/keploy/samples-python/pull/42
+43,samples-python,Update README.md file,open,2025-06-18T06:43:15Z,2025-08-12T15:38:28Z,Harsh3202,https://github.com/keploy/samples-python/pull/43
+44,samples-python,"Fix: Remove uvloop (unsupported on Windows), add pytest, and configure .gitignore",open,2025-06-18T07:33:21Z,2025-06-27T10:46:17Z,TulsiBasetti,https://github.com/keploy/samples-python/pull/44
+75,samples-typescript,"feat: Enhance node-mongoose course API with modular architecture and new features""",open,2025-06-18T07:35:08Z,2025-10-30T09:00:53Z,ayushh8,https://github.com/keploy/samples-typescript/pull/75
+2776,keploy,feat: reimplementation of gRPC parser that used more of the google lib,open,2025-06-18T08:06:35Z,2025-12-16T10:55:39Z,slayerjain,https://github.com/keploy/keploy/pull/2776
+2778,keploy,[feature] Gracefully handle unreadable or SSL-encrypted startup messages,open,2025-06-18T08:41:56Z,2025-12-16T10:55:39Z,granthpai,https://github.com/keploy/keploy/pull/2778
+17,public-apis-collection,Added Weatherstack API to Environment & Weather category,open,2025-06-18T09:28:15Z,2025-07-11T07:06:42Z,richa-47,https://github.com/keploy/public-apis-collection/pull/17
+45,samples-python,DOCS: Modified README.md to be more readable,open,2025-06-18T09:35:07Z,2025-08-13T06:34:59Z,V-Silpin,https://github.com/keploy/samples-python/pull/45
+46,samples-python,Enhancement: Improve Flask-Mongo Sample Application with Robust Features and Security Updates,open,2025-06-18T10:15:44Z,2025-08-12T13:24:14Z,v-anushka05,https://github.com/keploy/samples-python/pull/46
+47,samples-python,Update __repr__() method models.py,open,2025-06-18T10:24:49Z,2025-08-12T13:21:41Z,consarnproject,https://github.com/keploy/samples-python/pull/47
+20,engineering-prompts,Add LLM factual accuracy evaluation prompt under Prompt Engineering &…,open,2025-06-18T11:20:57Z,2025-07-11T18:47:58Z,AliRizvi433,https://github.com/keploy/engineering-prompts/pull/20
+23,engineering-prompts,Added scalable sentiment analysis engineering prompt,open,2025-06-18T12:07:02Z,2025-07-11T02:50:54Z,arpitarout01,https://github.com/keploy/engineering-prompts/pull/23
+48,samples-python,[Security] Replace insecure password hashing with bcrypt and add input validation,open,2025-06-18T12:09:29Z,2025-08-12T13:21:11Z,Kinshuk2903,https://github.com/keploy/samples-python/pull/48
+26,engineering-prompts,improve read me file,open,2025-06-18T12:56:09Z,2025-07-11T09:38:55Z,pandashreyan,https://github.com/keploy/engineering-prompts/pull/26
+49,samples-python,"Enhance Student API: Fix Security Issues, Add Input Validation & Error Handling",open,2025-06-18T13:16:41Z,2025-08-12T13:19:22Z,2903Aishwarya,https://github.com/keploy/samples-python/pull/49
+29,engineering-prompts,Updated the README.md file with 300% More Content & 9 New Engineering Domains,open,2025-06-18T13:18:49Z,2025-07-11T02:50:37Z,hritika2409,https://github.com/keploy/engineering-prompts/pull/29
+30,public-apis-collection,Added DOG CEO API to readme,open,2025-06-18T13:57:52Z,2025-07-10T12:57:18Z,Samridhi1412,https://github.com/keploy/public-apis-collection/pull/30
+34,engineering-prompts,Add 2 Web Dev Prompts (Performance + Legacy Modernization),open,2025-06-18T15:03:16Z,2025-07-11T06:47:15Z,Uddipta7,https://github.com/keploy/engineering-prompts/pull/34
+35,engineering-prompts,✨ Added New Domain: AI Applications & Intelligent Systems,open,2025-06-18T15:06:16Z,2025-07-11T09:33:43Z,Sameera0103,https://github.com/keploy/engineering-prompts/pull/35
+50,samples-python,Added mock products API with manual testing support via browser,open,2025-06-18T15:10:05Z,2025-06-20T08:15:32Z,anuskagithub,https://github.com/keploy/samples-python/pull/50
+34,student-program,Riyamalhotra,open,2025-06-18T15:14:13Z,2025-06-18T15:14:45Z,riya1421,https://github.com/keploy/student-program/pull/34
+34,public-apis-collection,Added Gutendex API under Books category,open,2025-06-18T15:34:39Z,2025-07-10T12:56:19Z,PRINCE-NATH055,https://github.com/keploy/public-apis-collection/pull/34
+38,engineering-prompts,Add prompt: Reverse a String,open,2025-06-18T15:37:02Z,2025-07-11T07:17:41Z,anjali1803,https://github.com/keploy/engineering-prompts/pull/38
+35,public-apis-collection,Add New Section Space and Science with NASA API in it.,open,2025-06-18T15:39:33Z,2025-07-10T12:54:46Z,sayan3429,https://github.com/keploy/public-apis-collection/pull/35
+39,engineering-prompts,Update README.md,open,2025-06-18T15:40:22Z,2025-07-11T09:32:33Z,hritika2409,https://github.com/keploy/engineering-prompts/pull/39
+79,samples-typescript,feat: add logging system and improvements,open,2025-06-18T16:03:00Z,2025-06-18T16:26:16Z,Kris143k,https://github.com/keploy/samples-typescript/pull/79
+38,public-apis-collection,Add Danbooru API to Anime APIs section,open,2025-06-18T16:06:55Z,2025-07-10T12:49:37Z,medhavisahgal,https://github.com/keploy/public-apis-collection/pull/38
+35,student-program,Added Scroll Up button at the bottom of the homepage,open,2025-06-18T16:12:13Z,2025-06-20T12:20:42Z,nageshkharat,https://github.com/keploy/student-program/pull/35
+26,writers-program,fix: add guard in clPhotoswipe and correct Mailchimp URL,open,2025-06-18T16:43:35Z,2025-06-23T08:41:34Z,raja2576,https://github.com/keploy/writers-program/pull/26
+3,samples-csharp,Added Disease Diagnosis API in C#,open,2025-06-18T16:44:50Z,2025-10-30T08:46:42Z,pratigyan16,https://github.com/keploy/samples-csharp/pull/3
+36,student-program,fix(js): resolved JavaScript validation and dead code issues,open,2025-06-18T16:52:13Z,2025-07-08T19:17:23Z,AnweshaMondal,https://github.com/keploy/student-program/pull/36
+564,docs,docs: added quickstart guide for S3-Keploy,open,2025-06-18T17:39:21Z,2025-11-13T07:14:38Z,kpriyanshu2003,https://github.com/keploy/docs/pull/564
+27,writers-program,Added new env email option and changes in readme,open,2025-06-18T17:47:44Z,2025-06-18T17:47:44Z,KaushikML,https://github.com/keploy/writers-program/pull/27
+47,engineering-prompts,Added Prompt: Real-Time IoT Data Dashboard,open,2025-06-18T17:52:46Z,2025-07-11T09:31:07Z,arpit-kaushal,https://github.com/keploy/engineering-prompts/pull/47
+51,samples-python,fix: add error handling for student endpoints,open,2025-06-18T17:57:17Z,2025-08-12T13:12:31Z,Addiittoee,https://github.com/keploy/samples-python/pull/51
+37,student-program,"Updated the index.html , add the new testimonial card , and uploaded …",open,2025-06-18T17:59:42Z,2025-06-23T08:36:11Z,Shravan9393,https://github.com/keploy/student-program/pull/37
+49,public-apis-collection,feat: add ML/Data Science APIs to collection,open,2025-06-18T18:08:08Z,2025-07-11T08:35:05Z,stealthinator45,https://github.com/keploy/public-apis-collection/pull/49
+51,engineering-prompts,"Enhancement for Prompts in Code Refactoring and Development, UI/UX design and also Content Writing and Marketing for SEO blogs.",open,2025-06-18T18:28:54Z,2025-07-14T05:44:10Z,Asmita-Cr,https://github.com/keploy/engineering-prompts/pull/51
+52,samples-python,yml file updated,open,2025-06-18T18:41:49Z,2025-08-12T13:09:20Z,ananyab1909,https://github.com/keploy/samples-python/pull/52
+146,blog-website,fix: changed links color on blog page to reflect those in docs,open,2025-06-18T19:00:31Z,2025-12-01T10:14:52Z,d-medm,https://github.com/keploy/blog-website/pull/146
+56,engineering-prompts,Restructure Repository with Modular Domain-Based README Files and Direct Access from main README,open,2025-06-18T19:18:56Z,2025-08-02T09:52:45Z,swapna-shree,https://github.com/keploy/engineering-prompts/pull/56
+53,samples-python,Flask-Langchain Chatbot,open,2025-06-18T19:36:04Z,2025-08-12T13:05:00Z,diptarup794,https://github.com/keploy/samples-python/pull/53
+147,blog-website,feat: enhance dark mode and load more posts functionality,open,2025-06-18T19:45:33Z,2025-09-22T10:56:46Z,keshrishi,https://github.com/keploy/blog-website/pull/147
+54,samples-python,Add simple Python script sample,open,2025-06-18T19:53:46Z,2025-06-23T07:19:13Z,Amitanshuuu,https://github.com/keploy/samples-python/pull/54
+55,samples-python,Added Twilio Voice Call feature,open,2025-06-18T20:04:18Z,2025-08-12T13:02:27Z,drishlekh,https://github.com/keploy/samples-python/pull/55
+58,public-apis-collection,Added Open-Meteo API to Environment & Weather section,open,2025-06-18T20:14:47Z,2025-06-26T10:58:19Z,AakritiA04,https://github.com/keploy/public-apis-collection/pull/58
+59,engineering-prompts,Added GenAI Interview Prompts,open,2025-06-18T20:23:23Z,2025-07-11T06:28:39Z,AnuragB2004,https://github.com/keploy/engineering-prompts/pull/59
+84,samples-typescript,Added Keploy Dashboard with frontend and backend,open,2025-06-18T21:24:51Z,2025-06-27T07:53:22Z,gg-nayyar,https://github.com/keploy/samples-typescript/pull/84
+63,engineering-prompts,Add valuable debugging and troubleshooting prompts,open,2025-06-18T21:45:33Z,2025-07-11T06:27:18Z,tanayvasishtha,https://github.com/keploy/engineering-prompts/pull/63
+4,samples-csharp,feat: Created Crud App with MongoDB for testing Keploy,open,2025-06-18T22:14:19Z,2025-11-19T06:21:42Z,Pranav5255,https://github.com/keploy/samples-csharp/pull/4
+57,samples-python,fix: Add fastapi-app service to docker-compose.yml.,open,2025-06-18T23:03:03Z,2025-08-12T13:00:52Z,maverickjit,https://github.com/keploy/samples-python/pull/57
+66,engineering-prompts,Update README.md,open,2025-06-19T02:51:52Z,2025-07-11T06:26:36Z,ruuls,https://github.com/keploy/engineering-prompts/pull/66
+72,public-apis-collection,Added links to text regarding API testing tools,open,2025-06-19T03:04:48Z,2025-07-10T12:23:46Z,menonj15,https://github.com/keploy/public-apis-collection/pull/72
+39,student-program,Update README.md,open,2025-06-19T03:33:12Z,2025-06-27T07:26:28Z,prateekbharadwaj1998,https://github.com/keploy/student-program/pull/39
+59,samples-python,"Enhance README: clearer structure, contribution info, and app overview table",open,2025-06-19T04:08:25Z,2025-08-12T12:57:36Z,devilsrage,https://github.com/keploy/samples-python/pull/59
+60,samples-python,"Refactor student CRUD API: Modular routes, .env config, error handling",open,2025-06-19T04:10:20Z,2025-06-27T07:45:42Z,ReversibleWizard,https://github.com/keploy/samples-python/pull/60
+77,public-apis-collection,Added 5  API to the list,open,2025-06-19T04:34:15Z,2025-07-10T12:08:31Z,Dristisrivastava,https://github.com/keploy/public-apis-collection/pull/77
+69,engineering-prompts,Added new Engineering Prompts,open,2025-06-19T04:37:56Z,2025-07-31T11:35:16Z,anthony-rozario,https://github.com/keploy/engineering-prompts/pull/69
+110,samples-java,docs: correct database name in spring-mysql-redis readme,open,2025-06-19T04:43:07Z,2025-10-30T08:24:19Z,Bipin702,https://github.com/keploy/samples-java/pull/110
+82,public-apis-collection,Added XKCD Comics API under Comics & Entertainment category,open,2025-06-19T04:49:19Z,2025-07-10T11:58:52Z,deepsikhadas05,https://github.com/keploy/public-apis-collection/pull/82
+61,samples-python,Add FastAPI + MongoDB sample app,open,2025-06-19T05:00:19Z,2025-06-19T05:00:19Z,Yuvraajb,https://github.com/keploy/samples-python/pull/61
+62,samples-python,[feature]: Add Flask + SQLite Sample App with Keploy Integration #2798,open,2025-06-19T05:09:17Z,2025-11-05T23:29:29Z,eatulrajput,https://github.com/keploy/samples-python/pull/62
+41,student-program,"added alt attributes, and meta keywords",open,2025-06-19T05:10:26Z,2025-06-27T10:16:09Z,abhi293,https://github.com/keploy/student-program/pull/41
+87,public-apis-collection,Added 5  API to the list,open,2025-06-19T05:30:08Z,2025-07-10T10:58:14Z,srimjam27,https://github.com/keploy/public-apis-collection/pull/87
+90,public-apis-collection,"Add engaging APIs for testing, development, and content enhancement",open,2025-06-19T06:32:12Z,2025-07-11T09:03:03Z,tanayvasishtha,https://github.com/keploy/public-apis-collection/pull/90
+2802,keploy,Http parser fastapi pipeline,open,2025-06-19T08:55:16Z,2025-12-16T10:55:39Z,Bornin112004,https://github.com/keploy/keploy/pull/2802
+88,engineering-prompts,Add AI / ML prompts section,open,2025-06-19T12:00:18Z,2025-07-11T05:54:08Z,sujit-al1809,https://github.com/keploy/engineering-prompts/pull/88
+85,samples-typescript,Add rate limiting middleware for API protection,open,2025-06-19T13:36:59Z,2025-06-28T07:03:47Z,vipulsc,https://github.com/keploy/samples-typescript/pull/85
+63,samples-python,Refactor SMS sender app to use async httpx and improved validation,open,2025-06-19T13:49:14Z,2025-06-27T11:04:42Z,Manodeepray,https://github.com/keploy/samples-python/pull/63
+30,writers-program,"add ""Featured Writers"" section to showcase contributors",open,2025-06-19T15:32:17Z,2025-11-25T18:12:10Z,Dcodder33,https://github.com/keploy/writers-program/pull/30
+44,student-program,"Fix multiple minor issues: copyright year, links, forms, and accessibility",open,2025-06-19T15:56:10Z,2025-06-27T11:08:42Z,PiyushPrasun,https://github.com/keploy/student-program/pull/44
+64,samples-python,Added intro about keploy at the top of README,open,2025-06-19T15:57:04Z,2025-06-19T15:57:04Z,zinaithrahman,https://github.com/keploy/samples-python/pull/64
+65,samples-python,Added a short Keploy description in README,open,2025-06-19T16:19:42Z,2025-08-13T11:54:24Z,zinaithrahman,https://github.com/keploy/samples-python/pull/65
+108,public-apis-collection,Added CoinGecko API under Cryptocurrency section,open,2025-06-19T16:56:04Z,2025-06-27T11:10:13Z,YashSnew,https://github.com/keploy/public-apis-collection/pull/108
+66,samples-python,feat(flask-redis): add /health endpoint & health-test,open,2025-06-19T17:12:24Z,2025-09-15T22:31:43Z,Gaurav-3002,https://github.com/keploy/samples-python/pull/66
+45,student-program,Update README.md,open,2025-06-19T17:12:44Z,2025-06-19T17:13:04Z,zinaithrahman,https://github.com/keploy/student-program/pull/45
+67,samples-python,"feat: refactor views to use DRF status codes, consistent responses, a…",open,2025-06-19T17:47:51Z,2025-08-13T11:32:26Z,alloy77,https://github.com/keploy/samples-python/pull/67
+112,public-apis-collection,Add Keploy Quote API - Test Data Section,open,2025-06-19T18:13:25Z,2025-07-10T11:43:29Z,Awadhesh-Gupta,https://github.com/keploy/public-apis-collection/pull/112
+46,student-program,Added “Student Resources” Section to Homepage,open,2025-06-19T20:24:56Z,2025-10-08T15:06:46Z,Ankita-624,https://github.com/keploy/student-program/pull/46
+154,samples-go,Fiber postgres redis,open,2025-06-19T20:29:21Z,2025-12-09T02:42:03Z,Raj-deepp,https://github.com/keploy/samples-go/pull/154
+2,code-review-agent,feat: AI code review using ollama and qwen3:14b,open,2025-06-20T08:23:29Z,2025-07-26T15:25:38Z,EuclidStellar,https://github.com/keploy/code-review-agent/pull/2
+68,samples-python,Fix incorrect repo link and add beginner tips to flask-redis README,open,2025-06-20T14:22:32Z,2025-08-22T08:24:51Z,jamuna1404,https://github.com/keploy/samples-python/pull/68
+118,public-apis-collection,Created public-apis.jason and added fottball data API,open,2025-06-20T18:28:24Z,2025-07-10T10:51:11Z,Moinak07,https://github.com/keploy/public-apis-collection/pull/118
+2808,keploy,refactor: improve logger configuration and templatize functions,open,2025-06-21T02:25:46Z,2025-12-18T13:57:37Z,Shrutipathak18,https://github.com/keploy/keploy/pull/2808
+115,samples-java,feat: add spring-notes sample app integrated with Keploy,open,2025-06-21T05:37:18Z,2025-10-30T08:16:51Z,Pratham0320,https://github.com/keploy/samples-java/pull/115
+94,engineering-prompts,Added Java inheritance prompt,open,2025-06-21T16:41:28Z,2025-07-11T05:30:33Z,tridha21,https://github.com/keploy/engineering-prompts/pull/94
+98,engineering-prompts,Add LLM prompt: Explain Merge Sort with code and complexity,open,2025-06-22T09:09:46Z,2025-07-11T05:26:10Z,asmxtaa,https://github.com/keploy/engineering-prompts/pull/98
+5,samples-csharp,.NET and MongoDB sample app,open,2025-06-22T23:00:23Z,2025-10-30T08:48:45Z,souradip2k4,https://github.com/keploy/samples-csharp/pull/5
+69,samples-python,DOCS: Overhaul of all the DOCS in samples-python,open,2025-06-23T14:28:12Z,2025-08-21T08:37:57Z,V-Silpin,https://github.com/keploy/samples-python/pull/69
+104,engineering-prompts,Online learning platform Update and rename README.md to Dharani -Ui,open,2025-06-24T06:32:23Z,2025-07-11T05:09:37Z,Dharaniveerappan,https://github.com/keploy/engineering-prompts/pull/104
+106,engineering-prompts,Added API Development Prompts,open,2025-06-24T12:23:59Z,2025-07-14T05:42:37Z,ragesh28,https://github.com/keploy/engineering-prompts/pull/106
+134,public-apis-collection,docs: add JokeAPI to README,open,2025-06-25T09:48:48Z,2025-07-11T08:24:00Z,HemrajShelke,https://github.com/keploy/public-apis-collection/pull/134
+135,public-apis-collection,feat: add Cat Facts API to Fun & Entertainment section,open,2025-06-25T12:34:47Z,2025-06-27T12:04:57Z,ShelkeKishor,https://github.com/keploy/public-apis-collection/pull/135
+1,app-dashboard,"Feature: Implementation of GitHub dashboard with authentication, repo management, and test coverage insights",open,2025-06-26T18:39:34Z,2025-07-03T18:02:38Z,Swapnendu003,https://github.com/keploy/app-dashboard/pull/1
+139,public-apis-collection,Added Open-Meteo API to Environment & Weather section,open,2025-06-30T11:35:39Z,2025-07-11T02:37:51Z,prates09,https://github.com/keploy/public-apis-collection/pull/139
+2,app-dashboard,Feature: Revamp UI with transition from dark to light theme,open,2025-07-01T04:18:24Z,2025-08-04T08:09:03Z,Swapnendu003,https://github.com/keploy/app-dashboard/pull/2
+2823,keploy,Keploy embed for parsing and chunking the codebase and store embeddings in postgres DB,open,2025-07-01T06:45:40Z,2025-12-16T10:55:39Z,ayesparshh,https://github.com/keploy/keploy/pull/2823
+2824,keploy,feat : Added OPTIONS method in schema generation,open,2025-07-01T11:14:59Z,2025-12-16T10:55:39Z,HarshSharma0801,https://github.com/keploy/keploy/pull/2824
+2826,keploy,feat : Added support for reverse proxy,open,2025-07-02T12:01:28Z,2025-12-16T10:55:39Z,HarshSharma0801,https://github.com/keploy/keploy/pull/2826
+2848,keploy,Github Models AI review,open,2025-07-23T14:36:36Z,2025-08-30T05:55:45Z,EuclidStellar,https://github.com/keploy/keploy/pull/2848
+2852,keploy,feat: Allow setting nested config options like filters and bypassRules via CLI flags,open,2025-07-27T15:57:20Z,2025-12-16T10:55:38Z,Ari1009,https://github.com/keploy/keploy/pull/2852
+2853,keploy,docs(readme): add detailed Security & Data Privacy section with workf…,open,2025-07-27T19:25:33Z,2025-12-16T10:55:39Z,BhawnaMehbubani,https://github.com/keploy/keploy/pull/2853
+3,app-dashboard,Integration of interactive charts into dashboard for code coverage insights visualization,open,2025-07-28T06:38:08Z,2025-08-04T08:10:31Z,Swapnendu003,https://github.com/keploy/app-dashboard/pull/3
+2859,keploy,fix: BeforeTestSetRun hook,open,2025-07-31T10:50:42Z,2025-12-16T10:55:39Z,charankamarapu,https://github.com/keploy/keploy/pull/2859
+2862,keploy,"Revert ""feat: optimise mysql test mode""",open,2025-08-01T11:45:31Z,2025-12-16T10:55:39Z,officialasishkumar,https://github.com/keploy/keploy/pull/2862
+2863,keploy,Fix: prevent integer overflow in ExtractHTTP2Frame on 32-bit systems #2835,open,2025-08-03T05:31:22Z,2025-12-16T10:55:38Z,ezParth,https://github.com/keploy/keploy/pull/2863
+4,app-dashboard,Aditon of comprehensive Java/JVM coverage analysis with multi-build tool support,open,2025-08-04T07:48:50Z,2025-08-04T08:10:57Z,Swapnendu003,https://github.com/keploy/app-dashboard/pull/4
+2865,keploy,fix: change the logic to check for templatize data,open,2025-08-05T17:01:11Z,2025-08-22T09:56:02Z,ayush3160,https://github.com/keploy/keploy/pull/2865
+5,app-dashboard,Adition of Ad-hoc Coverage Scanner with Real-time Job Tracking and History,open,2025-08-08T13:31:46Z,2025-08-08T13:31:46Z,Swapnendu003,https://github.com/keploy/app-dashboard/pull/5
+2874,keploy,feat: Add RAG vector database integration for enhanced test generation,open,2025-08-08T14:53:04Z,2025-12-16T10:55:38Z,ishanrajsingh,https://github.com/keploy/keploy/pull/2874
+2875,keploy,feat: configuration for new flask mysql app,open,2025-08-10T23:38:40Z,2025-12-16T10:55:39Z,officialasishkumar,https://github.com/keploy/keploy/pull/2875
+72,samples-python,feat: add django mysql guide,open,2025-08-11T09:08:15Z,2025-08-16T09:17:19Z,Achanandhi-M,https://github.com/keploy/samples-python/pull/72
+2877,keploy,Keploy mcp,open,2025-08-11T11:14:17Z,2025-12-16T10:55:39Z,ayesparshh,https://github.com/keploy/keploy/pull/2877
+2885,keploy,feat: added functionality for api schema generation and assertion,open,2025-08-16T10:31:09Z,2025-12-16T10:55:39Z,HarshSharma0801,https://github.com/keploy/keploy/pull/2885
+6,app-dashboard,Feature: Multi-branch coverage APIs with branch comparison and Docker deployment setup,open,2025-08-17T21:49:44Z,2025-08-17T21:49:44Z,Swapnendu003,https://github.com/keploy/app-dashboard/pull/6
+2887,keploy,doc(readme): add links to translated README versions,open,2025-08-17T23:57:34Z,2025-12-16T10:55:38Z,dowithless,https://github.com/keploy/keploy/pull/2887
+2888,keploy,"doc: add README translations (de, fr, ko, pt, ru, zh)）",open,2025-08-19T02:11:57Z,2025-12-16T10:55:38Z,dowithless,https://github.com/keploy/keploy/pull/2888
+2890,keploy,feat: Enable multi-test-set execution and robust templating engine,open,2025-08-19T07:42:49Z,2025-12-16T10:55:39Z,officialasishkumar,https://github.com/keploy/keploy/pull/2890
+2896,keploy,feat: utility to capture and replay the network packets over proxy,open,2025-08-19T18:37:24Z,2025-12-16T10:55:38Z,ayush3160,https://github.com/keploy/keploy/pull/2896
+7,app-dashboard,Enhance overall user experience with UI/UX refinements,open,2025-08-27T06:36:57Z,2025-09-05T12:03:06Z,Swapnendu003,https://github.com/keploy/app-dashboard/pull/7
+2924,keploy,feat: support for big payload,open,2025-08-27T11:54:19Z,2025-12-16T10:55:39Z,kapishupadhyay22,https://github.com/keploy/keploy/pull/2924
+19,react-diff-viewer,Fix JSON diff viewer performance issue causing UI freeze with large p…,open,2025-09-03T07:12:07Z,2025-12-19T06:34:40Z,sneha0099,https://github.com/keploy/react-diff-viewer/pull/19
+2953,keploy,feat: add support for templatizeV2,open,2025-09-05T13:04:39Z,2025-09-06T21:16:57Z,Sarthak160,https://github.com/keploy/keploy/pull/2953
+655,docs,docs: add docs for test-set-config,open,2025-09-06T08:51:03Z,2025-10-23T06:42:48Z,Sarthak160,https://github.com/keploy/docs/pull/655
+2958,keploy,Add French translation (README-UnitGen-fr-FR.md),open,2025-09-08T14:15:11Z,2025-12-16T10:55:38Z,LoicTrigault,https://github.com/keploy/keploy/pull/2958
+2970,keploy,feat: signal for re-record trigger,open,2025-09-10T09:22:35Z,2025-12-16T10:55:38Z,kapishupadhyay22,https://github.com/keploy/keploy/pull/2970
+2973,keploy,feat: add grpc fuzzer to pipeline,open,2025-09-10T19:41:56Z,2025-12-16T10:55:38Z,AkashKumar7902,https://github.com/keploy/keploy/pull/2973
+2991,keploy,fix: improve secret sanitization performance with batching and concur…,open,2025-09-15T09:20:39Z,2025-12-16T10:55:38Z,kartikeyg0104,https://github.com/keploy/keploy/pull/2991
+2992,keploy,fix: stable templatize and added greedy approach during test mode,open,2025-09-15T11:54:42Z,2025-12-16T10:55:38Z,kapishupadhyay22,https://github.com/keploy/keploy/pull/2992
+3000,keploy,add support to normalize the test response along with templated respo…,open,2025-09-16T12:28:04Z,2025-12-16T10:55:38Z,rupeshsingh-000,https://github.com/keploy/keploy/pull/3000
+671,docs,[fix/docs]: Improve announcement banner color and style,open,2025-09-17T15:00:18Z,2025-11-07T06:36:58Z,anuptiwari17,https://github.com/keploy/docs/pull/671
+672,docs,Fix: Announcement Bar UI and Styling,open,2025-09-17T15:20:15Z,2025-11-07T06:21:00Z,Srinu346,https://github.com/keploy/docs/pull/672
+3008,keploy,feat: prompt the user to templatize the test-set just recorded,open,2025-09-18T07:53:37Z,2025-12-16T10:55:38Z,ayush3160,https://github.com/keploy/keploy/pull/3008
+3011,keploy,add support to normalize the test response along with templated response,open,2025-09-18T11:34:59Z,2025-12-16T10:55:38Z,rupeshsingh-000,https://github.com/keploy/keploy/pull/3011
+3027,keploy,ci: pipeline to test dns,open,2025-09-22T12:38:29Z,2025-12-16T10:55:38Z,AkashKumar7902,https://github.com/keploy/keploy/pull/3027
+683,docs,Align announcement bar with theme colors for consistency and clear visibility(keploy/Docs #3002).,open,2025-09-23T15:36:45Z,2025-11-07T06:36:15Z,Gouravjaat07,https://github.com/keploy/docs/pull/683
+3042,keploy,ci: add tls pipelines,open,2025-09-23T19:55:26Z,2025-12-16T10:55:38Z,AkashKumar7902,https://github.com/keploy/keploy/pull/3042
+3051,keploy,Test error in grpc fuzzer,open,2025-09-25T11:37:50Z,2025-12-16T10:55:38Z,rupeshsingh-000,https://github.com/keploy/keploy/pull/3051
+3089,keploy,feat: fork repo,open,2025-10-03T09:04:49Z,2025-12-16T10:55:38Z,officialasishkumar,https://github.com/keploy/keploy/pull/3089
+78,samples-python,chore: parametize debian codename,open,2025-10-06T09:16:19Z,2025-10-14T09:15:53Z,AkashKumar7902,https://github.com/keploy/samples-python/pull/78
+185,blog-website,Added the Dark/Light Mode Support with Toggle,open,2025-10-06T17:06:01Z,2025-12-30T07:30:28Z,nishantraj278,https://github.com/keploy/blog-website/pull/185
+39,writers-program,Nextjs migration 3069,open,2025-10-07T10:22:10Z,2025-10-23T07:57:02Z,whatsupsumit,https://github.com/keploy/writers-program/pull/39
+40,writers-program,feat: Add modern UI components for Writers Program (Issue #3071),open,2025-10-07T18:46:30Z,2025-10-07T18:46:54Z,NemisysT,https://github.com/keploy/writers-program/pull/40
+41,devrel-program,"feat: complete website migration to NextJS16, restructuring with professional dark mode implementation, SEO Improvements, UI Improvement and Atomic Codebase design done.",open,2025-10-08T13:50:23Z,2025-11-11T11:51:14Z,MishraShardendu22,https://github.com/keploy/devrel-program/pull/41
+89,samples-typescript,Docs/clarify feature setup,open,2025-10-09T11:02:23Z,2025-10-10T11:59:41Z,atishaykeploy,https://github.com/keploy/samples-typescript/pull/89
+3113,keploy,loading indicator during the download and installation process,open,2025-10-09T17:10:14Z,2025-12-16T10:55:38Z,GowreeshKP,https://github.com/keploy/keploy/pull/3113
+41,writers-program,Add and style new Resources page for writers (#3076),open,2025-10-09T19:00:09Z,2025-11-25T18:06:23Z,Sadhana-077,https://github.com/keploy/writers-program/pull/41
+3121,keploy,optimised sanitization time for multiple test sets,open,2025-10-11T01:15:13Z,2025-12-16T10:55:38Z,HifzaanDev,https://github.com/keploy/keploy/pull/3121
+42,writers-program,Upgrade-#3069/ Writers site- Migration to NextJS,open,2025-10-13T17:53:57Z,2025-10-13T19:45:02Z,0xmarq,https://github.com/keploy/writers-program/pull/42
+192,blog-website,Authors page UI,open,2025-10-14T12:56:04Z,2025-11-24T10:29:02Z,kaushiktak19,https://github.com/keploy/blog-website/pull/192
+92,samples-python,feat: enable ssl postgres,open,2025-10-16T04:56:59Z,2025-11-03T12:45:37Z,anjupathak03,https://github.com/keploy/samples-python/pull/92
+3139,keploy,ci: run app with/without ssl in postgres,open,2025-10-16T05:05:10Z,2025-12-16T10:55:38Z,anjupathak03,https://github.com/keploy/keploy/pull/3139
+3146,keploy,fix: added missing flag for gloabl passthrough in case of docker appl…,open,2025-10-16T21:30:40Z,2025-12-16T10:55:38Z,kapishupadhyay22,https://github.com/keploy/keploy/pull/3146
+3148,keploy,fix: suppress usage display for Docker Compose validation errors,open,2025-10-17T08:08:05Z,2025-12-16T10:55:38Z,HifzaanDev,https://github.com/keploy/keploy/pull/3148
+3149,keploy,fix(docker): detect Docker context properly,open,2025-10-19T09:58:39Z,2025-12-16T10:55:38Z,manthansubhash01,https://github.com/keploy/keploy/pull/3149
+3166,keploy,feat: Hide docker-compose example when running Keploy in Docker,open,2025-10-23T15:59:35Z,2025-12-16T10:55:38Z,Deepam02,https://github.com/keploy/keploy/pull/3166
+3168,keploy,feat: integrate shared module with oss,open,2025-10-27T11:48:40Z,2025-12-16T10:55:38Z,ayush3160,https://github.com/keploy/keploy/pull/3168
+710,docs,fix: Enhanced announcement bar UI,open,2025-10-27T21:57:11Z,2025-10-29T07:50:37Z,riddhij-7,https://github.com/keploy/docs/pull/710
+3170,keploy,feat: skipping app restart during test mode,open,2025-10-28T07:46:06Z,2025-10-31T07:34:41Z,kapishupadhyay22,https://github.com/keploy/keploy/pull/3170
+3171,keploy,feat: add cookie support in templatization and fix bugs,open,2025-10-28T11:30:05Z,2025-11-02T21:58:11Z,AkashKumar7902,https://github.com/keploy/keploy/pull/3171
+3187,keploy,ci: added pipeline to test colima support on macos,open,2025-10-30T06:15:50Z,2025-12-16T10:55:38Z,nakul-krishnakumar,https://github.com/keploy/keploy/pull/3187
+3192,keploy,chore: debugging pipelines,open,2025-10-31T07:42:12Z,2025-10-31T07:49:21Z,kapishupadhyay22,https://github.com/keploy/keploy/pull/3192
+3196,keploy,chore: backport fuzzer pipeline,open,2025-11-02T09:02:48Z,2025-11-02T14:43:48Z,anjupathak03,https://github.com/keploy/keploy/pull/3196
+197,blog-website,Added Featured and Latest Posts sections with Bento-style cards,open,2025-11-03T08:12:33Z,2026-01-06T23:39:49Z,skeyur18,https://github.com/keploy/blog-website/pull/197
+3199,keploy,ci: Trigger release workflows on release publish,open,2025-11-03T09:29:28Z,2025-12-16T10:55:38Z,AkashKumar7902,https://github.com/keploy/keploy/pull/3199
+43,writers-program,Add Dark/Light Mode Toggle to Writers Program site,open,2025-11-03T18:16:03Z,2025-12-16T05:46:54Z,AmanKashyap0807,https://github.com/keploy/writers-program/pull/43
+3208,keploy,chore: add debug logs for filtering,open,2025-11-04T08:28:33Z,2025-11-04T08:31:07Z,Sarthak160,https://github.com/keploy/keploy/pull/3208
+3212,keploy,[feat]: Workflow script refactor,open,2025-11-04T10:20:51Z,2025-11-12T06:42:02Z,ShashankShekhar07,https://github.com/keploy/keploy/pull/3212
+3216,keploy,fix: correctly handle multi-value Vary header comparison,open,2025-11-04T23:19:02Z,2025-11-07T05:18:36Z,ShashankShekhar07,https://github.com/keploy/keploy/pull/3216
+3220,keploy,ci: automatic cherry pick commits from main to v2 workflow,open,2025-11-05T07:07:44Z,2025-12-16T10:55:38Z,AkashKumar7902,https://github.com/keploy/keploy/pull/3220
+3231,keploy,docs(cli): improve help description for 'record' command,open,2025-11-06T09:50:40Z,2025-12-16T10:55:38Z,Syedowais312,https://github.com/keploy/keploy/pull/3231
+3239,keploy,Fix/nil header panicfix(http-matcher): prevent panic when actualResponse.Header is nil,open,2025-11-06T17:30:34Z,2025-12-16T10:55:38Z,Syedowais312,https://github.com/keploy/keploy/pull/3239
+3240,keploy,chore: added bigpayload flag,open,2025-11-07T05:37:13Z,2025-12-16T10:55:38Z,anjupathak03,https://github.com/keploy/keploy/pull/3240
+3241,keploy,feat: detch configPath with override configPath and allow config to be generated in configPath,open,2025-11-07T07:31:24Z,2025-12-16T10:55:38Z,officialasishkumar,https://github.com/keploy/keploy/pull/3241
+1,ecommerce_sample_app,feat: merge postman collection,open,2025-11-07T08:45:13Z,2025-11-07T08:45:22Z,Achanandhi-M,https://github.com/keploy/ecommerce_sample_app/pull/1
+3246,keploy,fix(docker-compose): handle docker agent exit cleanly (#3143),open,2025-11-08T16:33:49Z,2025-12-16T10:55:38Z,Syedowais312,https://github.com/keploy/keploy/pull/3246
+3253,keploy,feat: filter mockery-generated files from Go coverage calculation,open,2025-11-10T11:07:16Z,2026-02-05T19:58:25Z,ravi-aman,https://github.com/keploy/keploy/pull/3253
+2,ecommerce_sample_app,feat: integrate keploy for ci-cd,open,2025-11-10T13:29:46Z,2025-11-10T14:04:36Z,Sarthak160,https://github.com/keploy/ecommerce_sample_app/pull/2
+3262,keploy,fix: handling of TXT dns record (#3261),open,2025-11-11T12:59:24Z,2025-12-16T10:55:38Z,gouravkrosx,https://github.com/keploy/keploy/pull/3262
+720,docs,fix: update announcement banner to use theme colors,open,2025-11-12T06:53:10Z,2025-11-13T05:59:56Z,saimanoharigodavarty,https://github.com/keploy/docs/pull/720
+722,docs,fix: Enhanced announcement bar UI (light & dark mode improvement),open,2025-11-13T13:47:54Z,2025-11-26T12:11:33Z,Charul192,https://github.com/keploy/docs/pull/722
+3277,keploy,fix: suppress TLS connection close errors for already-closed S3 connections,open,2025-11-16T00:54:12Z,2026-02-05T19:41:25Z,ravi-aman,https://github.com/keploy/keploy/pull/3277
+3287,keploy,debug: used v2 build instead of latest,open,2025-11-18T02:52:46Z,2025-12-16T10:55:38Z,anjupathak03,https://github.com/keploy/keploy/pull/3287
+3290,keploy,Debug logs mysql,open,2025-11-19T09:25:03Z,2025-11-20T15:43:52Z,gouravkrosx,https://github.com/keploy/keploy/pull/3290
+3292,keploy,feat: synchronous recording with incoming proxy,open,2025-11-20T09:59:12Z,2025-12-16T10:55:38Z,kapishupadhyay22,https://github.com/keploy/keploy/pull/3292
+3295,keploy,feat(rerecord): add noise detection for random IDs & timestamps,open,2025-11-21T06:04:44Z,2026-01-28T08:45:02Z,anjupathak03,https://github.com/keploy/keploy/pull/3295
+3300,keploy,fix: testsets failing because of noisy fields with skip-app-restart flag,open,2025-11-21T12:28:40Z,2025-11-25T10:33:44Z,officialasishkumar,https://github.com/keploy/keploy/pull/3300
+206,blog-website,feat(ui): Add sticky social media share component below blog banner,open,2025-11-21T18:41:05Z,2026-02-02T06:26:46Z,Srinu346,https://github.com/keploy/blog-website/pull/206
+207,blog-website,feat: add skeleton loaders for improved UX on slow networks (#3293),open,2025-11-21T20:49:10Z,2026-01-07T15:42:31Z,krishivsaini,https://github.com/keploy/blog-website/pull/207
+726,docs,feat: ragbot integration with working responses by the bot in ui,open,2025-11-24T09:34:31Z,2025-11-24T09:35:04Z,amaan-bhati,https://github.com/keploy/docs/pull/726
+208,blog-website,UI : Revamp Technology Blog Page,open,2025-11-24T10:15:45Z,2025-12-29T22:20:18Z,kaushiktak19,https://github.com/keploy/blog-website/pull/208
+6,code-review-agent,Add Why This Is Helpful section and improve Contributing guidel…,open,2025-11-24T12:41:01Z,2025-11-24T12:41:01Z,niteshver,https://github.com/keploy/code-review-agent/pull/6
+3305,keploy,change the dest port check,open,2025-11-24T19:44:25Z,2025-12-16T10:55:38Z,harshitashankar,https://github.com/keploy/keploy/pull/3305
+3317,keploy,debug: add logs in http parser,open,2025-11-26T10:09:37Z,2025-11-26T10:53:08Z,anjupathak03,https://github.com/keploy/keploy/pull/3317
+204,go-sdk,Debug logs v3,open,2025-11-26T14:40:11Z,2025-11-27T06:31:55Z,kapishupadhyay22,https://github.com/keploy/go-sdk/pull/204
+3322,keploy,debug: add logs to analyze passthrough func,open,2025-11-28T12:02:31Z,2025-12-01T10:44:55Z,anjupathak03,https://github.com/keploy/keploy/pull/3322
+5,awesome-testing,Add BitDive to API Testing section,open,2025-11-28T15:37:17Z,2025-11-28T15:38:57Z,turmyshevd,https://github.com/keploy/awesome-testing/pull/5
+210,blog-website,Feat/skeleton loaders issue #3293,open,2025-11-28T18:11:43Z,2025-12-29T22:36:22Z,devlopharsh,https://github.com/keploy/blog-website/pull/210
+211,blog-website,feat/#3298/Add sticky social media share component below blog banner.,open,2025-11-29T10:51:04Z,2026-01-15T14:14:58Z,bhanushaliparthhitesh,https://github.com/keploy/blog-website/pull/211
+3324,keploy,feat: added module level debug logs,open,2025-12-01T05:36:41Z,2026-01-16T06:37:23Z,anjupathak03,https://github.com/keploy/keploy/pull/3324
+3330,keploy,fix: resolve order matching bug for primitive arrays in JSON comparis…,open,2025-12-03T17:16:39Z,2025-12-16T10:55:38Z,krishvsoni,https://github.com/keploy/keploy/pull/3330
+3337,keploy,feat(mysql): handle prepared statement ID reuse edge cases,open,2025-12-05T11:07:30Z,2025-12-24T10:05:44Z,codeMaestro78,https://github.com/keploy/keploy/pull/3337
+3350,keploy,fix: prevent sync.Map lock copy in telemetry and CLI provider,open,2025-12-07T16:44:43Z,2026-01-11T11:00:10Z,harshit18-09,https://github.com/keploy/keploy/pull/3350
+728,docs,feat: enhance mobile responsiveness with viewport meta tag and CSS ad…,open,2025-12-08T09:14:54Z,2026-01-06T12:02:47Z,Kunal1522,https://github.com/keploy/docs/pull/728
+3353,keploy,trigger pipelines,open,2025-12-09T11:47:26Z,2025-12-09T11:49:32Z,AkashKumar7902,https://github.com/keploy/keploy/pull/3353
+3354,keploy,feat: Split TimeTaken metric into ExecutionTime and WaitTime,open,2025-12-09T21:19:19Z,2025-12-16T10:55:37Z,Syedowais312,https://github.com/keploy/keploy/pull/3354
+7,code-review-agent,fix: support forked pull requests in diff analysis,open,2025-12-09T22:05:08Z,2025-12-09T22:08:53Z,Sudhanshu-NITR,https://github.com/keploy/code-review-agent/pull/7
+3355,keploy,fix(summary): exclude delay from execution time and update summary label,open,2025-12-09T23:17:12Z,2025-12-19T05:22:13Z,remo-lab,https://github.com/keploy/keploy/pull/3355
+3357,keploy,fix: correct VersionIdentifier typo and CLI banner casing,open,2025-12-10T09:57:34Z,2025-12-16T10:55:37Z,Mayanknishad9,https://github.com/keploy/keploy/pull/3357
+3358,keploy,fix: standardize telemetry field names and fix naming inconsistencies,open,2025-12-10T13:32:36Z,2026-02-18T01:52:14Z,harshit18-09,https://github.com/keploy/keploy/pull/3358
+3363,keploy,V2 cherrypick dbportfix,open,2025-12-11T05:00:20Z,2025-12-12T07:27:21Z,harshitashankar,https://github.com/keploy/keploy/pull/3363
+732,docs,Fix mobile responsible ui,open,2025-12-11T09:05:52Z,2025-12-16T16:02:47Z,Aditya90456,https://github.com/keploy/docs/pull/732
+3366,keploy,Fix/3362 grpc timestamp access,open,2025-12-11T18:28:11Z,2026-01-31T07:38:37Z,remo-lab,https://github.com/keploy/keploy/pull/3366
+3372,keploy,[feature]: remove inclusion of delay time in the test run summary #3351,open,2025-12-13T07:46:45Z,2025-12-18T11:21:33Z,Max-out-00,https://github.com/keploy/keploy/pull/3372
+3381,keploy,feat: enable mocking for non-keploy tests,open,2025-12-16T10:56:51Z,2025-12-16T11:12:40Z,slayerjain,https://github.com/keploy/keploy/pull/3381
+3382,keploy,fix: resolve stub implementation issues for CI pipelines,open,2025-12-16T10:59:33Z,2025-12-16T13:11:25Z,Copilot,https://github.com/keploy/keploy/pull/3382
+116,samples-java,feat: implement Employee and EmployeeDAO classes with CRUD operations,open,2025-12-17T13:40:14Z,2025-12-19T15:24:08Z,Aditya90456,https://github.com/keploy/samples-java/pull/116
+3388,keploy,feat: exclude delay from test execution time in summary,open,2025-12-17T15:01:59Z,2025-12-18T14:28:04Z,WillyEverGreen,https://github.com/keploy/keploy/pull/3388
+3389,keploy,chore: update code of conduct,open,2025-12-17T20:54:02Z,2025-12-17T20:54:03Z,amaan-bhati,https://github.com/keploy/keploy/pull/3389
+20,react-diff-viewer,Update GitHub Actions workflow for testing,open,2025-12-18T13:13:27Z,2025-12-18T13:17:11Z,manasmanohar,https://github.com/keploy/react-diff-viewer/pull/20
+3397,keploy,fix: avoid copying sync.Map in telemetry to prevent race conditions,open,2025-12-19T07:55:11Z,2025-12-24T10:39:20Z,codeMaestro78,https://github.com/keploy/keploy/pull/3397
+223,blog-website,feat: add skeleton loaders for improved UX,open,2025-12-19T09:42:25Z,2026-01-06T19:16:38Z,manthansubhash01,https://github.com/keploy/blog-website/pull/223
+3399,keploy,Fix Unsafe File & Directory Permissions,open,2025-12-20T00:21:27Z,2026-01-02T18:04:30Z,naman9271,https://github.com/keploy/keploy/pull/3399
+3401,keploy,fix: close TOCTOU race in MockManager and add race test,open,2025-12-20T15:08:44Z,2025-12-28T05:31:11Z,remo-lab,https://github.com/keploy/keploy/pull/3401
+3406,keploy,feat: add support for record-replay in windows native,open,2025-12-23T05:38:34Z,2026-01-16T08:04:43Z,anjupathak03,https://github.com/keploy/keploy/pull/3406
+3407,keploy,Add Tcp timeout and Protocol Based MYSQL detection,open,2025-12-23T09:19:55Z,2025-12-29T04:14:22Z,harshitashankar,https://github.com/keploy/keploy/pull/3407
+47,writers-program,feat: Modern UI redesign with Next.js 15 + shadcn/ui for key sections,open,2025-12-24T15:08:32Z,2026-01-21T08:58:29Z,ANAMASGARD,https://github.com/keploy/writers-program/pull/47
+3414,keploy,Fix concurrent map writes during parallel test replay,open,2025-12-24T17:52:33Z,2025-12-26T07:24:36Z,Ankurdeewan,https://github.com/keploy/keploy/pull/3414
+3415,keploy,Fix/concurrent map writes replay,open,2025-12-25T05:34:30Z,2025-12-31T05:27:35Z,codeMaestro78,https://github.com/keploy/keploy/pull/3415
+3416,keploy,Prevent double-close panics in mock correlation by making channel closure idempotent,open,2025-12-25T06:27:58Z,2026-01-07T23:32:18Z,remo-lab,https://github.com/keploy/keploy/pull/3416
+225,blog-website,feat: add professional skeleton loaders for blog and post pages (#3293),open,2025-12-25T07:33:06Z,2025-12-28T15:47:21Z,vivekyadav-3,https://github.com/keploy/blog-website/pull/225
+3419,keploy,refactor: extract accessor functions for test statistics and report variables,open,2025-12-25T20:23:01Z,2025-12-31T05:26:42Z,codeMaestro78,https://github.com/keploy/keploy/pull/3419
+48,writers-program,feat(writers-program): add blog publishing flow documentation page (#3077),open,2025-12-26T13:36:24Z,2025-12-26T15:21:52Z,ANAMASGARD,https://github.com/keploy/writers-program/pull/48
+90,samples-typescript,docs: update Linux Docker Compose note and fix README instructions,open,2025-12-27T09:33:23Z,2025-12-27T09:37:22Z,Sanika1356,https://github.com/keploy/samples-typescript/pull/90
+49,writers-program,feat: add writers page with contributor cards (closes #3074),open,2025-12-28T06:13:53Z,2025-12-28T07:25:34Z,ANAMASGARD,https://github.com/keploy/writers-program/pull/49
+234,blog-website,feat: add vercel.json to solve csp issues,open,2025-12-30T15:38:09Z,2025-12-30T15:44:42Z,amaan-bhati,https://github.com/keploy/blog-website/pull/234
+3432,keploy,feat: add support for multiple mongo passwords #2716,open,2025-12-30T16:30:59Z,2026-01-01T10:58:30Z,pigeio,https://github.com/keploy/keploy/pull/3432
+236,blog-website,Fix Navbar Alignment And Visibility Issues,open,2025-12-30T23:55:01Z,2026-01-30T10:50:25Z,Gagan202005,https://github.com/keploy/blog-website/pull/236
+239,blog-website,fix: Make table of contents headings clickable and scrollable #3438,open,2025-12-31T13:06:01Z,2026-01-05T19:15:02Z,dynamicdhxx,https://github.com/keploy/blog-website/pull/239
+241,blog-website,feat: beautify tags section on blog reading posts,open,2025-12-31T15:10:27Z,2026-01-03T14:55:27Z,Vivekk0712,https://github.com/keploy/blog-website/pull/241
+242,blog-website,feat: add search bar to more stories section on blog reading pages,open,2025-12-31T15:32:09Z,2026-01-03T03:47:23Z,Vivekk0712,https://github.com/keploy/blog-website/pull/242
+244,blog-website,feat(blog): restyle testimonial marquee section,open,2026-01-01T03:41:24Z,2026-01-01T03:41:24Z,dyrpsf,https://github.com/keploy/blog-website/pull/244
+3443,keploy,feat(utgen): add configurable temperature and reasoning-effort params for AI,open,2026-01-01T09:42:59Z,2026-01-01T10:11:11Z,krishivsaini,https://github.com/keploy/keploy/pull/3443
+741,docs,[docs-website]: add branded 404 page to docs site,open,2026-01-01T11:56:31Z,2026-01-07T10:18:13Z,skools-here,https://github.com/keploy/docs/pull/741
+742,docs,Fix the Responsiveness,open,2026-01-01T14:14:49Z,2026-01-12T05:33:39Z,AnujShrivastava01,https://github.com/keploy/docs/pull/742
+743,docs,fix: add styled 404 page to docs website,open,2026-01-01T14:18:14Z,2026-01-09T13:25:54Z,DhruvGoyal404,https://github.com/keploy/docs/pull/743
+246,blog-website,fix Cmd Issue,open,2026-01-01T14:25:31Z,2026-01-30T10:49:51Z,Gagan202005,https://github.com/keploy/blog-website/pull/246
+744,docs,[docs]:404-error-page-for-docs-website.,open,2026-01-01T15:02:01Z,2026-01-27T17:39:23Z,Srinu346,https://github.com/keploy/docs/pull/744
+3448,keploy,fix: macOS Docker connection refused due to IPv6 loopback resolution,open,2026-01-02T01:59:44Z,2026-01-02T01:59:46Z,majiayu000,https://github.com/keploy/keploy/pull/3448
+248,blog-website,Improved UI of testimonials marquee on blog page,open,2026-01-02T06:53:27Z,2026-02-06T04:00:39Z,kams05-ops,https://github.com/keploy/blog-website/pull/248
+3451,keploy,fix: Keploy hangs when intercepting MySQL/TiDB connections with CLIENT_DEPRECATE_EOF capability,open,2026-01-02T09:12:44Z,2026-01-03T18:54:51Z,harshitashankar,https://github.com/keploy/keploy/pull/3451
+195,website,fix: prevent hydration errors in header navigation,open,2026-01-02T13:57:33Z,2026-01-02T14:13:34Z,Preksha0401,https://github.com/keploy/website/pull/195
+745,docs,feat: add styled 404 page with custom pill header and bunny mascot,open,2026-01-02T17:42:20Z,2026-01-06T10:20:10Z,bhanreddy1973,https://github.com/keploy/docs/pull/745
+3457,keploy,fix: validate all HTTP status codes in schema comparison,open,2026-01-02T21:03:34Z,2026-01-15T18:45:02Z,Gagan202005,https://github.com/keploy/keploy/pull/3457
+3460,keploy,feat(schema): Implement OpenAPI schema matching with comparison modes…,open,2026-01-03T15:28:25Z,2026-01-04T12:19:42Z,its-aryansingh,https://github.com/keploy/keploy/pull/3460
+3461,keploy,Fix/remove test summary delay,open,2026-01-03T18:32:13Z,2026-01-19T15:19:39Z,its-aryansingh,https://github.com/keploy/keploy/pull/3461
+3462,keploy,Fix/virtual cpr path,open,2026-01-03T20:25:20Z,2026-01-04T11:46:32Z,its-aryansingh,https://github.com/keploy/keploy/pull/3462
+3464,keploy,Fix: mock dropping issue during keploy rerecord,open,2026-01-03T23:22:23Z,2026-01-13T12:55:15Z,Gagan202005,https://github.com/keploy/keploy/pull/3464
+257,blog-website,feat: implement dark mode toggle with global theme persistence,open,2026-01-04T10:51:23Z,2026-01-06T23:51:18Z,kunalbatra339,https://github.com/keploy/blog-website/pull/257
+3466,keploy,fix(mysql): correct CLIENT_DEPRECATE_EOF bitmask value (Fixes #3449),open,2026-01-04T10:58:36Z,2026-01-24T19:04:14Z,maishivamhoo123,https://github.com/keploy/keploy/pull/3466
+258,blog-website,fix: align navbar width with blog content on scroll,open,2026-01-04T14:21:52Z,2026-01-08T05:23:51Z,kunalbatra339,https://github.com/keploy/blog-website/pull/258
+3469,keploy,Fixed potential nil pointer dereference in unLoad function for udpp4 …,open,2026-01-04T17:27:45Z,2026-01-11T17:36:49Z,adityasharmawork,https://github.com/keploy/keploy/pull/3469
+3470,keploy,fix: add nil check before closing udpp4 link,open,2026-01-04T18:01:03Z,2026-01-04T18:02:03Z,Preksha0401,https://github.com/keploy/keploy/pull/3470
+3471,keploy,Fix mysql.tidb connections,open,2026-01-04T18:10:24Z,2026-01-12T18:39:25Z,adityasharmawork,https://github.com/keploy/keploy/pull/3471
+3472,keploy,fix(ci): trigger release workflow only on published non-prereleases,open,2026-01-04T19:31:07Z,2026-01-19T18:19:44Z,Prathmesh761,https://github.com/keploy/keploy/pull/3472
+3480,keploy,fix: prevent channel leak in PassThrough by properly closing errChannel,open,2026-01-05T18:50:50Z,2026-01-15T18:47:15Z,Gagan202005,https://github.com/keploy/keploy/pull/3480
+3481,keploy,added a nil check closing udpp4,open,2026-01-05T18:51:27Z,2026-01-05T18:52:31Z,Syedowais312,https://github.com/keploy/keploy/pull/3481
+3482,keploy,fix(proxy): close errChannel after all goroutines exit,open,2026-01-05T19:21:58Z,2026-01-11T11:19:02Z,Syedowais312,https://github.com/keploy/keploy/pull/3482
+3484,keploy,feat: add configurable agent readiness timeout to fix inconsistent hardcoded values,open,2026-01-05T20:07:32Z,2026-01-13T12:40:14Z,Gagan202005,https://github.com/keploy/keploy/pull/3484
+3486,keploy,fix: replace hardcoded 3-second sleep with smart process termination,open,2026-01-05T22:15:47Z,2026-01-13T12:39:40Z,Gagan202005,https://github.com/keploy/keploy/pull/3486
+3491,keploy,fix: Remove user delay in test run summary,open,2026-01-06T10:13:38Z,2026-01-07T12:01:03Z,kams05-ops,https://github.com/keploy/keploy/pull/3491
+3498,keploy,add docs in chinese & portuguese,open,2026-01-07T19:17:43Z,2026-01-08T16:44:41Z,harshit-69,https://github.com/keploy/keploy/pull/3498
+262,blog-website,"fix: navbar alignment for both initial and scrolled states (#3428, #3429)",open,2026-01-08T00:59:48Z,2026-01-13T19:28:34Z,Atul-Chahar,https://github.com/keploy/blog-website/pull/262
+263,blog-website,Fix: testimonials slider with improved styling and layout,open,2026-01-08T14:25:33Z,2026-01-30T10:48:38Z,Gagan202005,https://github.com/keploy/blog-website/pull/263
+195,samples-go,feat: add Docker and docker-compose support for S3-Keploy,open,2026-01-08T17:42:02Z,2026-01-21T06:14:29Z,PrajaktaNaik17,https://github.com/keploy/samples-go/pull/195
+3507,keploy,feat: convert time-based flags from uint64 to time.Duration for better User Experience,open,2026-01-08T19:40:38Z,2026-01-23T05:45:13Z,Gagan202005,https://github.com/keploy/keploy/pull/3507
+266,blog-website,Fix broken meta resource paths on blog subpages,open,2026-01-09T11:28:17Z,2026-02-02T18:44:46Z,remo-lab,https://github.com/keploy/blog-website/pull/266
+3511,keploy,fix: avoid copying sync.Map in telemetry and CLI provider,open,2026-01-09T17:55:25Z,2026-01-09T17:59:42Z,Syedowais312,https://github.com/keploy/keploy/pull/3511
+3514,keploy,fix: resolve sync.Map copy-by-value with nil-safety and fix CLI quotes,open,2026-01-10T06:28:33Z,2026-01-10T06:37:43Z,pigeio,https://github.com/keploy/keploy/pull/3514
+3516,keploy,"fix: resolve regex syntax errors, nil-pointer panics, and core linter…",open,2026-01-11T05:06:22Z,2026-01-12T13:37:19Z,pigeio,https://github.com/keploy/keploy/pull/3516
+3518,keploy,fix: replace invalid regex fallback to prevent runtime panics,open,2026-01-11T10:05:25Z,2026-01-13T20:56:15Z,pranjaligoyal31,https://github.com/keploy/keploy/pull/3518
+271,blog-website,feat/add a sticky share/3298,open,2026-01-12T12:16:44Z,2026-02-05T13:20:06Z,kams05-ops,https://github.com/keploy/blog-website/pull/271
+3527,keploy,fix: implement buffered mock file reader to prevent OOM with large mo…,open,2026-01-13T09:31:00Z,2026-01-13T09:55:09Z,Git-HimanshuRathi,https://github.com/keploy/keploy/pull/3527
+3528,keploy,ci: add pipeline to test colima support on macos,open,2026-01-13T14:20:03Z,2026-01-20T12:34:13Z,Git-HimanshuRathi,https://github.com/keploy/keploy/pull/3528
+272,blog-website,feat: revamp 'What our community thinks' section with premium design,open,2026-01-13T19:16:55Z,2026-02-06T13:27:08Z,Atul-Chahar,https://github.com/keploy/blog-website/pull/272
+3532,keploy,fix: ignore unsupported func type in json marshaling,open,2026-01-14T07:35:21Z,2026-01-14T07:35:22Z,pigeio,https://github.com/keploy/keploy/pull/3532
+3533,keploy,feat: add app_port in testcase during recording,open,2026-01-14T08:13:54Z,2026-01-20T05:14:28Z,officialasishkumar,https://github.com/keploy/keploy/pull/3533
+3535,keploy,fix: update default dev version to 3-dev,open,2026-01-14T10:14:37Z,2026-01-27T04:44:40Z,Atul-Chahar,https://github.com/keploy/keploy/pull/3535
+3536,keploy,feat: add support for podman cli,open,2026-01-14T10:38:11Z,2026-01-14T10:40:35Z,Git-HimanshuRathi,https://github.com/keploy/keploy/pull/3536
+273,blog-website,chore: add husky pre-commit checks with lint-staged and prettier,open,2026-01-14T11:15:53Z,2026-01-14T11:27:32Z,syedali237,https://github.com/keploy/blog-website/pull/273
+274,blog-website,fix(blog): move social share bar below banner + make it sticky,open,2026-01-14T18:59:09Z,2026-01-30T10:47:13Z,Gagan202005,https://github.com/keploy/blog-website/pull/274
+3539,keploy,fix: mysql port from hard code to config with default,open,2026-01-15T03:15:06Z,2026-01-15T03:16:14Z,momoxiaocaiji,https://github.com/keploy/keploy/pull/3539
+3540,keploy,fix(docs): align navbar search sizing and spacing,open,2026-01-15T09:42:30Z,2026-01-15T09:51:23Z,Preksha0401,https://github.com/keploy/keploy/pull/3540
+3541,keploy,fix: eliminate staticcheck crash bugs and improve safety,open,2026-01-15T12:04:58Z,2026-01-16T08:23:44Z,suhas-developer07,https://github.com/keploy/keploy/pull/3541
+275,blog-website,feat: add scrollbar to table of contents on long articles,open,2026-01-15T14:37:38Z,2026-01-31T16:12:59Z,AnujShrivastava01,https://github.com/keploy/blog-website/pull/275
+3552,keploy,Refactor/grpc new client,open,2026-01-16T06:38:41Z,2026-01-16T06:40:54Z,pigeio,https://github.com/keploy/keploy/pull/3552
+277,blog-website,feat: Implement Jest and React Testing Library for component testing …,open,2026-01-16T07:02:18Z,2026-03-03T03:30:51Z,Suvam-paul145,https://github.com/keploy/blog-website/pull/277
+3553,keploy,fix: install python from the github actions/setup-python,open,2026-01-16T07:08:29Z,2026-01-16T09:42:14Z,ayush3160,https://github.com/keploy/keploy/pull/3553
+196,samples-go,Risk profile v2,open,2026-01-16T16:25:43Z,2026-01-16T16:25:43Z,khareyash05,https://github.com/keploy/samples-go/pull/196
+3561,keploy,fix: revert back clientclose field in recordoutgoing,open,2026-01-16T18:48:40Z,2026-01-16T18:53:50Z,officialasishkumar,https://github.com/keploy/keploy/pull/3561
+3565,keploy,refactor/remove-duplicate-templating-simulatehttp,open,2026-01-17T07:12:10Z,2026-02-10T02:57:25Z,Nsanjayboruds,https://github.com/keploy/keploy/pull/3565
+3566,keploy,feat: add PII detection to sanitize command,open,2026-01-17T21:01:48Z,2026-01-17T21:52:48Z,raunak-rpm,https://github.com/keploy/keploy/pull/3566
+3567,keploy,refactor: reuse shared testcase templating in SimulateHTTP,open,2026-01-18T17:36:52Z,2026-01-18T18:36:30Z,Syedowais312,https://github.com/keploy/keploy/pull/3567
+3568,keploy,resolved 'pip' missing issue while passing the command to the server …,open,2026-01-18T18:03:33Z,2026-01-18T18:28:39Z,Chin-mayyy,https://github.com/keploy/keploy/pull/3568
+198,samples-go,fix: add linter for PR-only changes in samples-go,open,2026-01-18T23:23:56Z,2026-01-20T06:29:11Z,SaketV8,https://github.com/keploy/samples-go/pull/198
+3570,keploy,refactor: eliminate redundant templating pass in SimulateHTTP,open,2026-01-19T08:49:05Z,2026-01-19T09:17:02Z,aminshahid573,https://github.com/keploy/keploy/pull/3570
+3572,keploy,feat: use proto include for finding proto files,open,2026-01-19T10:52:33Z,2026-01-23T08:48:04Z,officialasishkumar,https://github.com/keploy/keploy/pull/3572
+280,blog-website,Refactor: Implement GraphQL fragments for WordPress API queries,open,2026-01-19T13:04:55Z,2026-01-25T18:35:23Z,soumojit-D48,https://github.com/keploy/blog-website/pull/280
+754,docs,feat: added Module-level Debug Filtering,open,2026-01-19T21:08:19Z,2026-01-22T08:12:39Z,anjupathak03,https://github.com/keploy/docs/pull/754
+3581,keploy,fix: race condition in mock updates during replay,open,2026-01-20T08:05:37Z,2026-01-20T09:52:32Z,Ady0333,https://github.com/keploy/keploy/pull/3581
+3582,keploy,"feat: Mock record , Mock test  and MCP server support",open,2026-01-20T08:13:04Z,2026-01-27T18:09:45Z,anjupathak03,https://github.com/keploy/keploy/pull/3582
+283,blog-website,feat: Add social sharing options to blog posts,open,2026-01-20T10:35:11Z,2026-01-20T10:35:11Z,beingsage,https://github.com/keploy/blog-website/pull/283
+3584,keploy,feat(record): auto-calculate test delay during record,open,2026-01-20T14:32:25Z,2026-01-20T14:39:01Z,Syedowais312,https://github.com/keploy/keploy/pull/3584
+3587,keploy,fix : Auto-calculate test delay during record and save it in keploy.yml,open,2026-01-20T22:46:35Z,2026-01-26T09:00:42Z,Gagan202005,https://github.com/keploy/keploy/pull/3587
+3591,keploy,Fixed Panic in Misconfigured MySQL,open,2026-01-21T09:31:31Z,2026-01-21T09:31:32Z,adityasharmawork,https://github.com/keploy/keploy/pull/3591
+3594,keploy,feat: add robust e2e test pipeline,open,2026-01-21T11:48:36Z,2026-01-22T09:39:31Z,sshivanshg,https://github.com/keploy/keploy/pull/3594
+3597,keploy,fix: output logs in the tmp directory only for non tty also,open,2026-01-21T16:58:50Z,2026-01-21T18:19:33Z,officialasishkumar,https://github.com/keploy/keploy/pull/3597
+93,samples-python,feat: added fastapi-mongo sample,open,2026-01-21T17:54:48Z,2026-02-05T10:33:02Z,syedali237,https://github.com/keploy/samples-python/pull/93
+286,blog-website,fix: resolve React Hook dependency warnings in useEffect hooks,open,2026-01-22T05:47:45Z,2026-01-28T07:23:24Z,YUVRAJRANA10,https://github.com/keploy/blog-website/pull/286
+288,blog-website,feat: add scrollbar to Table of Contents for long articles,open,2026-01-22T10:18:26Z,2026-01-22T10:18:26Z,vaani1127,https://github.com/keploy/blog-website/pull/288
+3610,keploy,Feat/mock test failure management,open,2026-01-22T13:30:41Z,2026-01-24T18:29:02Z,devlopharsh,https://github.com/keploy/keploy/pull/3610
+290,blog-website,feature:show estimated time for reading a particular blog over the ca…,open,2026-01-22T17:27:37Z,2026-03-06T10:38:54Z,devlopharsh,https://github.com/keploy/blog-website/pull/290
+3616,keploy,fix: prevent panic in CreateConfig when yaml node content is empty,open,2026-01-22T20:33:51Z,2026-01-22T20:50:33Z,pigeio,https://github.com/keploy/keploy/pull/3616
+3619,keploy,ci: add PR title lint workflow,open,2026-01-23T05:42:26Z,2026-01-24T12:43:20Z,Gagan202005,https://github.com/keploy/keploy/pull/3619
+3624,keploy,feat: enhance proxy error messages with actionable solutions,open,2026-01-23T09:29:21Z,2026-02-24T07:37:51Z,Nsanjayboruds,https://github.com/keploy/keploy/pull/3624
+296,blog-website,ci: add lint and typecheck workflow,open,2026-01-23T23:07:30Z,2026-01-23T23:07:30Z,Gagan202005,https://github.com/keploy/blog-website/pull/296
+299,blog-website,ci: add prettier check workflow,open,2026-01-23T23:12:45Z,2026-01-23T23:12:45Z,Gagan202005,https://github.com/keploy/blog-website/pull/299
+300,blog-website,Chore/add dependency audit workflow,open,2026-01-23T23:14:57Z,2026-01-30T10:47:54Z,Gagan202005,https://github.com/keploy/blog-website/pull/300
+301,blog-website,fix: handle broken links in community testimonials section,open,2026-01-24T01:50:55Z,2026-03-06T10:07:18Z,Preksha0401,https://github.com/keploy/blog-website/pull/301
+3632,keploy,feat: add advanced reading list hook with localStorage persistence an…,open,2026-01-24T19:22:44Z,2026-01-25T18:44:47Z,Mohima6,https://github.com/keploy/keploy/pull/3632
+303,blog-website,chore: configure environment and update image domains,open,2026-01-24T20:49:44Z,2026-03-06T11:54:29Z,mishraa-G,https://github.com/keploy/blog-website/pull/303
+3640,keploy,test: add comprehensive unit tests for AgentClient,open,2026-01-25T18:55:09Z,2026-01-25T18:56:25Z,VishalPainjane,https://github.com/keploy/keploy/pull/3640
+3643,keploy,Fix:mock manager race condition,open,2026-01-26T05:43:51Z,2026-01-26T08:50:14Z,pigeio,https://github.com/keploy/keploy/pull/3643
+3644,keploy,fix: correct typos in eBPF hooks code,open,2026-01-26T07:03:18Z,2026-01-26T07:37:32Z,samarthsinh2660,https://github.com/keploy/keploy/pull/3644
+3645,keploy,debug: flaky pipelines,open,2026-01-26T07:07:21Z,2026-01-27T06:16:55Z,AkashKumar7902,https://github.com/keploy/keploy/pull/3645
+3646,keploy,feat: improve error messages for network proxy failures with actionab…,open,2026-01-26T07:26:15Z,2026-01-26T07:35:25Z,samarthsinh2660,https://github.com/keploy/keploy/pull/3646
+3652,keploy,fix(cli): resolve inability to set bypassRules via CLI,open,2026-01-26T13:22:32Z,2026-02-04T04:47:39Z,LogicVortex123,https://github.com/keploy/keploy/pull/3652
+759,docs,fix(docs): resolve broken anchors and links in versioned docs,open,2026-01-26T13:26:02Z,2026-02-02T11:47:36Z,VishalPainjane,https://github.com/keploy/docs/pull/759
+3653,keploy,fix: move keploy-log.txt from user dir to tmp and fix postgres bug,open,2026-01-26T15:19:36Z,2026-02-02T09:52:51Z,slayerjain,https://github.com/keploy/keploy/pull/3653
+760,docs,Fix broken anchor,open,2026-01-26T16:12:22Z,2026-02-13T19:18:21Z,SaketV8,https://github.com/keploy/docs/pull/760
+306,blog-website,Fix #3621 broken X/Twitter avatars & links in testimonials by adding fallback image handling,open,2026-01-27T11:59:49Z,2026-03-08T07:18:26Z,anchalsahani,https://github.com/keploy/blog-website/pull/306
+3665,keploy,fix: race condition and minor refactoring,open,2026-01-27T13:52:57Z,2026-01-29T12:53:26Z,kapishupadhyay22,https://github.com/keploy/keploy/pull/3665
+766,docs,fix(docs): add FastHTTP Postgres sample run and test instructions,open,2026-01-27T18:32:13Z,2026-02-12T14:05:41Z,Srinu346,https://github.com/keploy/docs/pull/766
+3666,keploy,Fix/windows no shell dependency,open,2026-01-27T19:17:39Z,2026-01-27T19:25:10Z,pranjaligoyal31,https://github.com/keploy/keploy/pull/3666
+3667,keploy,feat: improve proxy startup error messages with actionable hints,open,2026-01-27T20:04:04Z,2026-01-28T15:16:53Z,Syedowais312,https://github.com/keploy/keploy/pull/3667
+3668,keploy,chore: check pipeline,open,2026-01-28T04:54:11Z,2026-01-28T14:39:13Z,officialasishkumar,https://github.com/keploy/keploy/pull/3668
+3669,keploy,chore: V2 check pipeline,open,2026-01-28T04:55:11Z,2026-01-28T07:46:50Z,officialasishkumar,https://github.com/keploy/keploy/pull/3669
+308,blog-website,Bug/next.js correction to avoid dependency drift,open,2026-01-28T10:10:45Z,2026-03-06T09:55:45Z,devlopharsh,https://github.com/keploy/blog-website/pull/308
+3671,keploy,chore: add next steps for easy debugging,open,2026-01-28T10:49:52Z,2026-01-30T12:22:37Z,Sarthak160,https://github.com/keploy/keploy/pull/3671
+309,blog-website,feat:API robustness enhancement#3670,open,2026-01-28T13:57:36Z,2026-02-17T13:57:27Z,devlopharsh,https://github.com/keploy/blog-website/pull/309
+770,docs,[docs-website] : create rust+mongodb quickstart page,open,2026-01-29T00:01:23Z,2026-02-16T09:54:26Z,Gagan202005,https://github.com/keploy/docs/pull/770
+773,docs,Add Ruby + PostgreSQL quickstart guide,open,2026-01-29T08:16:50Z,2026-02-19T02:39:27Z,Nsanjayboruds,https://github.com/keploy/docs/pull/773
+310,blog-website,Fix #3543 TOC sidebar scrollability for long articles,open,2026-01-29T08:39:44Z,2026-03-08T07:19:00Z,anchalsahani,https://github.com/keploy/blog-website/pull/310
+3675,keploy,MCP Server Integration for AI Assistants,open,2026-01-29T11:06:21Z,2026-02-10T19:06:23Z,anjupathak03,https://github.com/keploy/keploy/pull/3675
+3678,keploy,fix: loop calls for outoing handled for proxy port,open,2026-01-29T15:26:12Z,2026-01-29T15:26:24Z,kapishupadhyay22,https://github.com/keploy/keploy/pull/3678
+54,writers-program,feat: migration to Next.js & add dark mode (Fixes #3075),open,2026-01-29T19:42:28Z,2026-01-30T17:34:31Z,MIHIR2006,https://github.com/keploy/writers-program/pull/54
+94,samples-python,"docs(flask-mongo): improve Windows setup, MongoDB Atlas usage, and port clarity",open,2026-01-30T08:50:16Z,2026-01-30T09:09:07Z,ErrorAayushy,https://github.com/keploy/samples-python/pull/94
+3682,keploy,Mcp server pipeline,open,2026-01-30T11:55:58Z,2026-02-03T16:48:29Z,gouravkrosx,https://github.com/keploy/keploy/pull/3682
+3686,keploy,fix(proxy): explicit error instantiations to prevent silent failures,open,2026-01-30T17:53:54Z,2026-02-02T19:48:12Z,AnujShrivastava01,https://github.com/keploy/keploy/pull/3686
+774,docs,Add Perl + MongoDB quickstart,open,2026-01-30T20:21:39Z,2026-02-05T17:22:20Z,Akshat005Chaudhary,https://github.com/keploy/docs/pull/774
+3687,keploy,Fix silent failures caused by nil error returns in proxy connection handling,open,2026-01-31T07:59:09Z,2026-01-31T08:21:41Z,etk18,https://github.com/keploy/keploy/pull/3687
+311,blog-website,Refactor button styles and component structure,open,2026-01-31T16:32:56Z,2026-03-06T09:37:02Z,Dev00-1,https://github.com/keploy/blog-website/pull/311
+3690,keploy,fix(proxy): properly track and cleanup active client connections,open,2026-01-31T16:39:22Z,2026-02-02T19:47:34Z,AnujShrivastava01,https://github.com/keploy/keploy/pull/3690
+3691,keploy,fix: eliminate data race in concurrent mock matching,open,2026-01-31T20:24:55Z,2026-02-01T20:45:08Z,remo-lab,https://github.com/keploy/keploy/pull/3691
+777,docs,docs(quickstarts): add PHP quickstarter and improve C++ quickstarter (fixes #3521),open,2026-02-01T12:48:21Z,2026-02-15T18:00:55Z,mishraa-G,https://github.com/keploy/docs/pull/777
+3694,keploy,fix: correct shutdown order to stop proxy before application,open,2026-02-01T16:32:37Z,2026-02-01T16:36:28Z,anjupathak03,https://github.com/keploy/keploy/pull/3694
+313,blog-website,fix: replace twitter icon with X,open,2026-02-02T09:06:43Z,2026-03-06T09:34:07Z,Surajiitmjnu,https://github.com/keploy/blog-website/pull/313
+3697,keploy,feat: include protoDir even if protoInclude is given,open,2026-02-02T12:07:29Z,2026-02-10T17:09:12Z,officialasishkumar,https://github.com/keploy/keploy/pull/3697
+93,gsoc,docs: update GSoC README for the 2026 program cycle,open,2026-02-02T13:14:28Z,2026-02-04T09:06:32Z,kams05-ops,https://github.com/keploy/gsoc/pull/93
+3699,keploy,MCP server support with improved mock CLI,open,2026-02-02T14:13:09Z,2026-02-03T21:06:34Z,anjupathak03,https://github.com/keploy/keploy/pull/3699
+779,docs,feat: Add Ruby Sinatra + PostgreSQL quickstart,open,2026-02-02T14:24:51Z,2026-02-03T14:18:12Z,Atul-Chahar,https://github.com/keploy/docs/pull/779
+314,blog-website,fix: resolve duplicate key warning in Twitter testimonials,open,2026-02-02T16:55:50Z,2026-03-06T15:41:20Z,SadhanaShree25,https://github.com/keploy/blog-website/pull/314
+42,devrel-program,"feat: complete website migration to Next.js, TypeScript, and Tailwind",open,2026-02-02T17:42:52Z,2026-02-03T05:09:48Z,kashish00208,https://github.com/keploy/devrel-program/pull/42
+3701,keploy,feat: add unit tests for utils package (#3698),open,2026-02-02T18:19:42Z,2026-02-02T18:42:40Z,PuneetKumar1790,https://github.com/keploy/keploy/pull/3701
+94,gsoc,docs: update GSoC README for 2026,open,2026-02-02T18:34:45Z,2026-02-04T09:07:12Z,remo-lab,https://github.com/keploy/gsoc/pull/94
+3703,keploy,"optimize uint32 to IPv4 string conversion, fixed #3702",open,2026-02-02T21:46:29Z,2026-02-12T18:14:15Z,armaanngupta,https://github.com/keploy/keploy/pull/3703
+3709,keploy,feat: include protoDir even if protoInclude is given,open,2026-02-03T11:07:44Z,2026-02-10T08:08:37Z,officialasishkumar,https://github.com/keploy/keploy/pull/3709
+3710,keploy,fix: return error on non-200 config push,open,2026-02-03T12:04:04Z,2026-02-07T08:09:19Z,dilshad-aee,https://github.com/keploy/keploy/pull/3710
+95,gsoc,Updated Readme for GSoC-2026,open,2026-02-03T15:33:51Z,2026-02-04T09:07:27Z,DARSHAN-R-DARSHAN,https://github.com/keploy/gsoc/pull/95
+315,blog-website,Fix lighthouse_comment workflow to handle workflow_run event context,open,2026-02-03T15:47:18Z,2026-02-03T16:08:13Z,Copilot,https://github.com/keploy/blog-website/pull/315
+780,docs,fix(docs): correct heading hierarchy and Table of Contents in quickstart samples,open,2026-02-03T17:11:23Z,2026-02-11T19:33:29Z,Srinu346,https://github.com/keploy/docs/pull/780
+3714,keploy,feat: mock record/replay and mcp support,open,2026-02-03T17:14:19Z,2026-02-26T07:46:17Z,anjupathak03,https://github.com/keploy/keploy/pull/3714
+10,samples-rust,feat: Add Rust Actix + PostgreSQL sample app,open,2026-02-04T11:17:36Z,2026-02-06T14:18:41Z,Atul-Chahar,https://github.com/keploy/samples-rust/pull/10
+3718,keploy,fix: recording in v3 in case of gRPC,open,2026-02-04T12:18:37Z,2026-02-18T08:50:41Z,officialasishkumar,https://github.com/keploy/keploy/pull/3718
+316,blog-website,Implement loading state with skeleton loader using Hero UI,open,2026-02-04T12:25:52Z,2026-03-06T09:15:22Z,Dev00-1,https://github.com/keploy/blog-website/pull/316
+782,docs,Feat/rust actix postgres quickstart,open,2026-02-04T13:25:15Z,2026-02-06T14:22:53Z,Atul-Chahar,https://github.com/keploy/docs/pull/782
+317,blog-website,fix(bug): completed the paginationinfo in the getAllPosts in api.ts,open,2026-02-04T19:49:55Z,2026-03-06T09:39:35Z,devlopharsh,https://github.com/keploy/blog-website/pull/317
+199,samples-go,Changing the 1 seconds check to 1.5 seconds,open,2026-02-05T06:48:00Z,2026-02-05T06:53:20Z,Yogeshjindal,https://github.com/keploy/samples-go/pull/199
+3725,keploy,feat(http): support HTTP/1.1 pipelining behind feature flag,open,2026-02-05T15:26:48Z,2026-02-05T15:33:01Z,Syedowais312,https://github.com/keploy/keploy/pull/3725
+318,blog-website,Fixed depracated image configuration and remove console statments,open,2026-02-05T18:43:14Z,2026-03-07T07:23:10Z,Abhineshhh,https://github.com/keploy/blog-website/pull/318
+319,blog-website,fix(enhancement): fixed the authorPage fallback by adding a precautiv…,open,2026-02-05T19:00:27Z,2026-03-06T10:33:10Z,devlopharsh,https://github.com/keploy/blog-website/pull/319
+3734,keploy,fix: resolve resource leaks in proxy and deadlock in record service,open,2026-02-06T11:28:24Z,2026-02-06T11:45:36Z,Mayanknishad9,https://github.com/keploy/keploy/pull/3734
+784,docs,"Add quickstarts for slim php framework with mongodb, mysql and postgresql",open,2026-02-08T06:25:36Z,2026-02-18T12:12:48Z,swastikiscoding,https://github.com/keploy/docs/pull/784
+320,blog-website,fix: correct Keploy VSCode extension link,open,2026-02-08T09:13:54Z,2026-03-09T07:10:14Z,Gagan202005,https://github.com/keploy/blog-website/pull/320
+3740,keploy,fix: remove readyChan double-send deadlock in proxy StartProxy,open,2026-02-08T16:26:55Z,2026-02-08T16:37:25Z,vishalharkal15,https://github.com/keploy/keploy/pull/3740
+3741,keploy,chore: update integration ref,open,2026-02-08T16:58:56Z,2026-02-10T19:41:08Z,officialasishkumar,https://github.com/keploy/keploy/pull/3741
+3743,keploy,feat: Implement in-protocol TLS handling in proxy instead of parsers,open,2026-02-08T20:13:26Z,2026-02-23T07:24:04Z,Sarthak160,https://github.com/keploy/keploy/pull/3743
+3,ecommerce_sample_app,Go,open,2026-02-09T06:29:24Z,2026-02-28T12:39:54Z,Yogeshjindal,https://github.com/keploy/ecommerce_sample_app/pull/3
+95,samples-python,feat: Add http-schema sample for schema-match testing,open,2026-02-09T17:47:23Z,2026-02-09T17:47:23Z,pathakharshit,https://github.com/keploy/samples-python/pull/95
+3757,keploy,sanity check,open,2026-02-10T12:00:36Z,2026-02-11T09:18:37Z,officialasishkumar,https://github.com/keploy/keploy/pull/3757
+785,docs,Remove deprecated v3.0.0 docs and UI Changes,open,2026-02-11T08:33:56Z,2026-02-13T06:17:20Z,atishaytripathi,https://github.com/keploy/docs/pull/785
+98,samples-python,fix: add connection header for schema match tests,open,2026-02-11T09:16:03Z,2026-02-11T09:16:03Z,pathakharshit,https://github.com/keploy/samples-python/pull/98
+322,blog-website,"fix: Navbar dropdown not opening on (iPad Mini ,iPad Air,iPad Pro) responsive viewport",open,2026-02-11T10:14:16Z,2026-03-06T08:48:54Z,Surajiitmjnu,https://github.com/keploy/blog-website/pull/322
+113,engineering-prompts,chore(deps): Update outdated prompt references,open,2026-02-11T14:22:40Z,2026-02-11T14:27:08Z,GewoonMerel,https://github.com/keploy/engineering-prompts/pull/113
+3773,keploy,fix(utgen): resolve staticcheck linter warnings in utgen package,open,2026-02-12T12:58:07Z,2026-02-12T13:07:12Z,akshat09867,https://github.com/keploy/keploy/pull/3773
+788,docs,chatbot - chatwoot,open,2026-02-12T13:48:56Z,2026-02-12T13:51:30Z,TvisharajiK,https://github.com/keploy/docs/pull/788
+323,blog-website,Added sticky share to social media component in blog website,open,2026-02-12T18:23:58Z,2026-03-05T09:28:28Z,DARSHAN-R-DARSHAN,https://github.com/keploy/blog-website/pull/323
+3775,keploy,feat: auto-set test delay based on recording startup time,open,2026-02-12T19:02:46Z,2026-02-19T09:37:07Z,Atul-Chahar,https://github.com/keploy/keploy/pull/3775
+3777,keploy,feat(replay): add configurable field level matchers for response comparison,open,2026-02-12T21:10:36Z,2026-02-22T14:11:53Z,roushnisareen,https://github.com/keploy/keploy/pull/3777
+789,docs,Add proper bottom spacing to h1 to prevent divider overlap,open,2026-02-12T21:13:53Z,2026-02-12T21:17:57Z,DARSHAN-R-DARSHAN,https://github.com/keploy/docs/pull/789
+3782,keploy,chore: removed windows logs,open,2026-02-13T12:00:50Z,2026-02-16T08:13:53Z,ayush3160,https://github.com/keploy/keploy/pull/3782
+3785,keploy,Update agent.go,open,2026-02-13T15:33:19Z,2026-02-13T15:35:09Z,debayanroy676,https://github.com/keploy/keploy/pull/3785
+325,blog-website,fix(ui): update footer social icons to darken on hover,open,2026-02-14T10:50:31Z,2026-03-05T09:19:47Z,krishikajain28,https://github.com/keploy/blog-website/pull/325
+6,samples-csharp,"fix(docker): add Dockerfile, .dockerignore, and docker-compose setup",open,2026-02-14T11:02:28Z,2026-02-14T11:03:43Z,Srinu346,https://github.com/keploy/samples-csharp/pull/6
+326,blog-website,feat(blog): improve TOC scrolling behavior and active highlighting,open,2026-02-14T17:12:43Z,2026-03-05T10:09:37Z,Srinu346,https://github.com/keploy/blog-website/pull/326
+792,docs,fix: DocSearch input styling,open,2026-02-15T06:35:28Z,2026-02-15T06:35:28Z,kams05-ops,https://github.com/keploy/docs/pull/792
+3789,keploy,feat(cli): add persistent test run registry and `keploy runs` command,open,2026-02-15T22:05:56Z,2026-02-17T12:34:34Z,DARSHAN-R-DARSHAN,https://github.com/keploy/keploy/pull/3789
+3793,keploy,feat: add MCP server for Keploy (TypeScript/Node.js),open,2026-02-16T07:05:22Z,2026-02-16T07:15:20Z,Vedanth2805,https://github.com/keploy/keploy/pull/3793
+3795,keploy,chore: update integration ref,open,2026-02-16T12:26:55Z,2026-02-16T12:28:50Z,officialasishkumar,https://github.com/keploy/keploy/pull/3795
+3797,keploy,feat: exclude user delay from test run summary time,open,2026-02-17T14:06:10Z,2026-02-17T14:14:23Z,nitin-sharma-20,https://github.com/keploy/keploy/pull/3797
+3799,keploy,feat(signal): enhance signal handling and context cancellation (#2566),open,2026-02-17T17:13:49Z,2026-02-17T17:44:39Z,Maximus-08,https://github.com/keploy/keploy/pull/3799
+327,blog-website,fix: open external LinkedIn link in new tab on author page,open,2026-02-17T19:02:25Z,2026-03-05T09:16:15Z,agarwalpranav0711,https://github.com/keploy/blog-website/pull/327
+3804,keploy,feat: implement configurable custom matchers for replay comparisons,open,2026-02-18T07:50:09Z,2026-02-18T07:54:41Z,PuneetKumar1790,https://github.com/keploy/keploy/pull/3804
+3807,keploy,move from 3306 to 4000,open,2026-02-18T11:53:54Z,2026-02-20T04:25:37Z,harshitashankar,https://github.com/keploy/keploy/pull/3807
+3812,keploy,Feat/kafka support with docker scripts,open,2026-02-19T09:33:09Z,2026-02-23T12:05:29Z,Yogeshjindal,https://github.com/keploy/keploy/pull/3812
+794,docs,Fix/footer bug for mobile view,open,2026-02-19T17:23:05Z,2026-02-21T15:47:39Z,khanparaYash,https://github.com/keploy/docs/pull/794
+328,blog-website,feat: setup Playwright e2e testing infrastructure,open,2026-02-19T18:11:14Z,2026-03-09T12:05:22Z,DSingh0304,https://github.com/keploy/blog-website/pull/328
+3813,keploy,feat: add http and sse streaming support,open,2026-02-20T05:25:40Z,2026-03-04T17:19:46Z,officialasishkumar,https://github.com/keploy/keploy/pull/3813
+3818,keploy,chore: update integration ref,open,2026-02-21T18:33:20Z,2026-02-21T18:35:02Z,officialasishkumar,https://github.com/keploy/keploy/pull/3818
+3820,keploy,feat: add dark mode theme toggle for CLI output,open,2026-02-22T02:01:18Z,2026-02-22T02:02:37Z,Pravinghodake153,https://github.com/keploy/keploy/pull/3820
+94,vscode-extension,docs: improve README structure and add clearer onboarding workflow,open,2026-02-22T11:56:04Z,2026-02-22T11:58:00Z,Diyap235,https://github.com/keploy/vscode-extension/pull/94
+3831,keploy,chore(replay): Collect obsolete test case IDs during run,open,2026-02-23T09:34:06Z,2026-03-03T11:39:36Z,AuraReaper,https://github.com/keploy/keploy/pull/3831
+329,blog-website,fix: add hover effect for resources link in navbar,open,2026-02-23T10:15:21Z,2026-03-05T09:24:20Z,vasu-CE,https://github.com/keploy/blog-website/pull/329
+196,website,fix: show GitHub stars count and add VS Code stats in mobile view,open,2026-02-23T17:34:59Z,2026-02-23T17:37:20Z,atul-upadhyay-7,https://github.com/keploy/website/pull/196
+3840,keploy,feat: Implement in-protocol TLS handling and other optimizations,open,2026-02-23T19:55:06Z,2026-02-24T12:49:45Z,Sarthak160,https://github.com/keploy/keploy/pull/3840
+117,samples-java,feat:Added CRUD Operations for book and author,open,2026-02-24T03:54:52Z,2026-02-28T13:23:55Z,hindochahitarth,https://github.com/keploy/samples-java/pull/117
+8,ecommerce_sample_app,"Improve README with complete architecture, setup instructions",open,2026-02-24T04:46:34Z,2026-02-24T05:01:40Z,Jerry-145,https://github.com/keploy/ecommerce_sample_app/pull/8
+332,blog-website,Fix navbar logo shrink problem,open,2026-02-24T06:33:00Z,2026-03-05T09:03:40Z,vasu-CE,https://github.com/keploy/blog-website/pull/332
+3845,keploy,"feat: add constants, language type, and ANSI-aware string highlightin…",open,2026-02-24T07:21:51Z,2026-02-24T07:23:11Z,ybthummar,https://github.com/keploy/keploy/pull/3845
+3846,keploy,feat: sse outgoing support,open,2026-02-24T08:50:25Z,2026-02-24T08:56:17Z,AkashKumar7902,https://github.com/keploy/keploy/pull/3846
+795,docs,Fix/mobile performance core web vitals,open,2026-02-24T10:39:20Z,2026-02-27T12:26:51Z,Aryan-B-Parikh,https://github.com/keploy/docs/pull/795
+3847,keploy,fix: set opts.Agent.Synchronous for sync mode to work properly,open,2026-02-24T11:55:48Z,2026-02-25T12:06:07Z,pathakharshit,https://github.com/keploy/keploy/pull/3847
+333,blog-website,chore: folder and slug instructions on readme,open,2026-02-24T12:15:27Z,2026-03-09T09:57:23Z,dhananjay6561,https://github.com/keploy/blog-website/pull/333
+334,blog-website,Fix: Align Hero Section and Navbar Widths,open,2026-02-24T12:47:14Z,2026-03-03T09:54:38Z,dhananjay6561,https://github.com/keploy/blog-website/pull/334
+3848,keploy,Community Channel Listings Are Inconsistent Between Main Website and Documentation Page,open,2026-02-24T13:18:46Z,2026-02-24T13:33:35Z,RutviShah2,https://github.com/keploy/keploy/pull/3848
+335,blog-website,"feat: redesign testimonial marquee with manual controls, add security,headers, and fix SEO issues",open,2026-02-24T16:26:01Z,2026-03-06T15:07:50Z,HEETMEHTA18,https://github.com/keploy/blog-website/pull/335
+52,student-program,gdg charusat team 036 Fix: Add lazy loading to testimonial images in index.html,open,2026-02-24T16:42:12Z,2026-02-25T06:31:48Z,Pratham3900,https://github.com/keploy/student-program/pull/52
+3855,keploy,fix: remove panic and add bounds checking in MySQL parsers #3851,open,2026-02-24T17:31:47Z,2026-02-24T17:38:58Z,Sp2736,https://github.com/keploy/keploy/pull/3855
+3856,keploy,feat(matcher): add semantic HTML response validation with canonicalization pipeline,open,2026-02-25T03:16:27Z,2026-02-25T03:38:03Z,ShresthSamyak,https://github.com/keploy/keploy/pull/3856
+53,student-program,Add lazy loading to testimonial images in index.html,open,2026-02-25T07:06:18Z,2026-02-25T07:12:35Z,Adityacode-hub,https://github.com/keploy/student-program/pull/53
+3857,keploy,ci: update default integration ref to alb-fix branch,open,2026-02-25T08:59:41Z,2026-02-25T09:13:28Z,Sarthak160,https://github.com/keploy/keploy/pull/3857
+3858,keploy,Add performance testing pipeline,open,2026-02-25T09:27:56Z,2026-03-09T06:13:17Z,Yogeshjindal,https://github.com/keploy/keploy/pull/3858
+3859,keploy,chore: update integration branch,open,2026-02-25T11:57:34Z,2026-02-25T12:03:19Z,officialasishkumar,https://github.com/keploy/keploy/pull/3859
+11,ecommerce_sample_app,Bug: Idempotency Key Not Checked Before Processing in order_service,open,2026-02-25T13:03:23Z,2026-02-26T17:31:23Z,kushpatel2601,https://github.com/keploy/ecommerce_sample_app/pull/11
+3861,keploy,fix: status_code_class assertion always returns 2xx (#3843),open,2026-02-25T14:50:01Z,2026-02-25T14:56:38Z,unnatii14,https://github.com/keploy/keploy/pull/3861
+3862,keploy,fix: code quality fixes in utgen/ai.go and utils — Team T118,open,2026-02-25T16:51:11Z,2026-02-26T17:08:50Z,24cs062,https://github.com/keploy/keploy/pull/3862
+12,ecommerce_sample_app,docs: improve and restructure README for better clarity,open,2026-02-25T19:24:46Z,2026-02-25T19:32:48Z,unnatii14,https://github.com/keploy/ecommerce_sample_app/pull/12
+3865,keploy,feat: outgoing sse support,open,2026-02-26T06:03:17Z,2026-03-09T06:58:22Z,AkashKumar7902,https://github.com/keploy/keploy/pull/3865
+54,student-program,Lazy Load Added,open,2026-02-26T07:41:45Z,2026-02-26T08:26:43Z,KrishPatel1905,https://github.com/keploy/student-program/pull/54
+3866,keploy,feat: add fqdn metadata to testcase,open,2026-02-26T09:02:24Z,2026-02-26T10:25:33Z,AkashKumar7902,https://github.com/keploy/keploy/pull/3866
+3868,keploy,security: implement io.LimitReader to prevent decompression bomb DoS,open,2026-02-26T14:01:19Z,2026-02-26T14:57:02Z,chaitany851P,https://github.com/keploy/keploy/pull/3868
+3873,keploy,fix(mysql): handle CLIENT_DEPRECATE_EOF capability flag in recorder,open,2026-02-27T07:58:20Z,2026-02-27T08:05:17Z,Mahi1206,https://github.com/keploy/keploy/pull/3873
+3874,keploy,feat-prevent-concurrent-cli fixed,open,2026-02-27T08:03:45Z,2026-02-28T08:48:07Z,Diyap235,https://github.com/keploy/keploy/pull/3874
+3876,keploy,[feature]: Enhancement: Add Test Execution Summary with Success Rate and Endpoint Coverage T113,open,2026-02-27T09:34:13Z,2026-03-01T01:14:45Z,7JankiPanchal,https://github.com/keploy/keploy/pull/3876
+3877,keploy,feat/3837-structured-logging fixed,open,2026-02-27T10:05:21Z,2026-03-02T03:30:05Z,Diyap235,https://github.com/keploy/keploy/pull/3877
+796,docs,docs: add proprietary CLI installation flow and update installation page,open,2026-02-27T14:17:58Z,2026-03-02T14:19:42Z,kirti763,https://github.com/keploy/docs/pull/796
+118,samples-java,Feat/category added,open,2026-02-27T14:47:00Z,2026-02-28T13:33:09Z,hindochahitarth,https://github.com/keploy/samples-java/pull/118
+3880,keploy,feat/add-health-check-cmd fixed,open,2026-02-27T15:46:48Z,2026-02-28T05:16:32Z,Yashvi29-power,https://github.com/keploy/keploy/pull/3880
+3881,keploy,feat(proxy): add connection ID tracking to incoming requests,open,2026-02-27T15:54:34Z,2026-02-27T15:55:37Z,Sarthak160,https://github.com/keploy/keploy/pull/3881
+3885,keploy,json-output-support fixed,open,2026-02-28T08:18:18Z,2026-02-28T09:08:39Z,Yashvi29-power,https://github.com/keploy/keploy/pull/3885
+3886,keploy,Feat/3882 log command context,open,2026-02-28T08:39:15Z,2026-03-02T12:19:03Z,Diyap235,https://github.com/keploy/keploy/pull/3886
+119,samples-java,Feature/update author,open,2026-02-28T12:33:12Z,2026-02-28T13:22:49Z,hindochahitarth,https://github.com/keploy/samples-java/pull/119
+120,samples-java,Feature/search books,open,2026-02-28T12:47:42Z,2026-02-28T13:23:10Z,hindochahitarth,https://github.com/keploy/samples-java/pull/120
+121,samples-java,Feature/book count,open,2026-02-28T13:42:41Z,2026-02-28T13:43:10Z,hindochahitarth,https://github.com/keploy/samples-java/pull/121
+56,student-program,[bug]: Combined Code Quality and Accessibility Issues #55,open,2026-02-28T14:58:19Z,2026-03-01T05:26:39Z,24dce027-jpg,https://github.com/keploy/student-program/pull/56
+3892,keploy,fix: correct typo 'DEPRICATED' → 'DEPRECATED' in deprecated flag message,open,2026-03-01T08:28:17Z,2026-03-01T08:34:37Z,DhineshPonnarasan,https://github.com/keploy/keploy/pull/3892
+3893,keploy,chore: bump GitHub action workflows to their latest version,open,2026-03-01T10:09:52Z,2026-03-01T19:50:40Z,deining,https://github.com/keploy/keploy/pull/3893
+797,docs,fixed the search bar and search icon alignments in the navbar search box,open,2026-03-01T14:18:20Z,2026-03-01T14:25:16Z,Prthmsh7,https://github.com/keploy/docs/pull/797
+3894,keploy,refactor: use min/max instead of if/else,open,2026-03-01T21:30:29Z,2026-03-01T21:32:45Z,deining,https://github.com/keploy/keploy/pull/3894
+3895,keploy,refactor: remove obsolete zero-key map pattern in proxy sessions and MockManagers,open,2026-03-02T14:12:57Z,2026-03-02T14:29:47Z,HemantSudarshan,https://github.com/keploy/keploy/pull/3895
+3900,keploy,fix: postgres trust auth,open,2026-03-06T08:00:45Z,2026-03-09T10:34:17Z,gouravkrosx,https://github.com/keploy/keploy/pull/3900
+798,docs,chore: add lastmod tag for the auto generated sitemap in docusaurus config,open,2026-03-06T14:06:44Z,2026-03-06T15:05:46Z,amaan-bhati,https://github.com/keploy/docs/pull/798
+339,blog-website,fix(navbar): align scrolled navbar width with content sections,open,2026-03-06T18:51:31Z,2026-03-06T18:51:31Z,Br1an67,https://github.com/keploy/blog-website/pull/339
+3901,keploy,fix: correct YAML decoding assertion type errors to prevent silent drop,open,2026-03-08T19:22:16Z,2026-03-08T19:30:36Z,raymondoyondi,https://github.com/keploy/keploy/pull/3901
