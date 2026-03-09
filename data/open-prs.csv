@@ -633,3 +633,4 @@ pr_number,repo_name,title,state,created_at,updated_at,author,pr_url
 2,ecommerce_sample_app,feat: integrate keploy for ci-cd,open,2025-11-10T13:29:46Z,2025-11-10T14:04:36Z,Sarthak160,https://github.com/keploy/ecommerce_sample_app/pull/2
 1,ecommerce_sample_app,feat: merge postman collection,open,2025-11-07T08:45:13Z,2025-11-07T08:45:22Z,Achanandhi-M,https://github.com/keploy/ecommerce_sample_app/pull/1
 339,blog-website,fix(navbar): align scrolled navbar width with content sections,open,2026-03-06T18:51:31Z,2026-03-06T18:51:31Z,Br1an67,https://github.com/keploy/blog-website/pull/339
+3901,keploy,fix: correct YAML decoding assertion type errors to prevent silent drop,open,2026-03-08T19:22:16Z,2026-03-08T19:30:36Z,raymondoyondi,https://github.com/keploy/keploy/pull/3901
