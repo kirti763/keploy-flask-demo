@@ -1433,3 +1433,4 @@ issue_number,repo_name,title,state,created_at,closed_at,author,issue_url
 2,jsondiff,feature: add json diff with unit tests,closed,2024-07-17T10:16:44Z,2025-04-18T08:32:23Z,shivamsouravjha,https://github.com/keploy/jsondiff/issues/2
 86,engineering-prompts,[docs]: add new domains to engineering-prompts repo.,closed,2025-06-19T11:20:30Z,2025-07-14T07:47:51Z,itsviv0,https://github.com/keploy/engineering-prompts/issues/86
 10,docker-images,"Version Drift, Script Redundancy, and Documentation Errors in docker-images",closed,2026-02-22T19:30:39Z,2026-02-22T19:30:50Z,PATELSHAIL7125,https://github.com/keploy/docker-images/issues/10
+3902,keploy,"[UX] Dead clicks on ""Choose Input Method"" causing drop-off on Test Generation page",closed,2026-03-09T06:38:26Z,2026-03-09T09:14:00Z,PrathamSikka24,https://github.com/keploy/keploy/issues/3902
