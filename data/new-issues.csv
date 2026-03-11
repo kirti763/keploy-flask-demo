@@ -349,3 +349,4 @@ issue_number,repo_name,title,state,created_at,updated_at,author,issue_url
 5,ecommerce_sample_app,Unhandled ValueError on quantity param in product_service - Team 177,open,2026-02-22T08:09:22Z,2026-02-22T08:34:42Z,BhavyaManvar,https://github.com/keploy/ecommerce_sample_app/issues/5
 4,ecommerce_sample_app,Missing Health Check Endpoints in All Microservices - Team 065,open,2026-02-22T06:19:51Z,2026-02-22T06:20:10Z,Shubhp0712,https://github.com/keploy/ecommerce_sample_app/issues/4
 11,docker-images,"Version Drift, Script Redundancy, and Documentation Errors in docker-images",open,2026-02-22T19:32:18Z,2026-02-22T19:32:39Z,PATELSHAIL7125,https://github.com/keploy/docker-images/issues/11
+3904,keploy,[bug]: Obfuscate binaries of ebpf,open,2026-03-10T08:57:06Z,2026-03-10T08:57:17Z,kapishupadhyay22,https://github.com/keploy/keploy/issues/3904
