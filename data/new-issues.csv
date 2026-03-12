@@ -350,3 +350,5 @@ issue_number,repo_name,title,state,created_at,updated_at,author,issue_url
 4,ecommerce_sample_app,Missing Health Check Endpoints in All Microservices - Team 065,open,2026-02-22T06:19:51Z,2026-02-22T06:20:10Z,Shubhp0712,https://github.com/keploy/ecommerce_sample_app/issues/4
 11,docker-images,"Version Drift, Script Redundancy, and Documentation Errors in docker-images",open,2026-02-22T19:32:18Z,2026-02-22T19:32:39Z,PATELSHAIL7125,https://github.com/keploy/docker-images/issues/11
 3904,keploy,[bug]: Obfuscate binaries of ebpf,open,2026-03-10T08:57:06Z,2026-03-10T08:57:17Z,kapishupadhyay22,https://github.com/keploy/keploy/issues/3904
+3908,keploy,[bug]: mocking=true with docker-compose does not reliably intercept downstream calls in a Spring Boot service using real Nacos/MySQL/Redis dependencies,open,2026-03-11T08:31:57Z,2026-03-11T08:32:18Z,akinnya,https://github.com/keploy/keploy/issues/3908
+3909,keploy,[bug]:  mocking=true does not reliably isolate downstream HTTP dependencies during replay in a simple docker-compose Java microservice chain,open,2026-03-11T09:10:13Z,2026-03-11T09:10:24Z,akinnya,https://github.com/keploy/keploy/issues/3909
