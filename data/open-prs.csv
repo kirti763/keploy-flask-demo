@@ -634,3 +634,14 @@ pr_number,repo_name,title,state,created_at,updated_at,author,pr_url
 3901,keploy,fix: correct YAML decoding assertion type errors to prevent silent drop,open,2026-03-08T19:22:16Z,2026-03-08T19:30:36Z,raymondoyondi,https://github.com/keploy/keploy/pull/3901
 3903,keploy,update: ebpf binary obfuscation,open,2026-03-10T08:44:40Z,2026-03-10T08:57:24Z,kapishupadhyay22,https://github.com/keploy/keploy/pull/3903
 3905,keploy,chore: using default mock manager,open,2026-03-11T05:20:28Z,2026-03-11T05:26:15Z,kapishupadhyay22,https://github.com/keploy/keploy/pull/3905
+3906,keploy,ci: sample pr,open,2026-03-11T07:33:22Z,2026-03-11T07:33:23Z,kapishupadhyay22,https://github.com/keploy/keploy/pull/3906
+3907,keploy,feat: update default integration ref to 'v3-resource-svc',open,2026-03-11T08:05:53Z,2026-03-11T08:07:24Z,officialasishkumar,https://github.com/keploy/keploy/pull/3907
+3910,keploy,feat(record): use MockEntry for correlation and mapping,open,2026-03-11T09:29:47Z,2026-03-11T11:18:44Z,AuraReaper,https://github.com/keploy/keploy/pull/3910
+3911,keploy,fix: unique mock recording logic,open,2026-03-11T09:48:14Z,2026-03-11T12:36:40Z,Yogeshjindal,https://github.com/keploy/keploy/pull/3911
+3912,keploy,fix: improve error messages for missing container name in Docker Compose,open,2026-03-11T13:33:43Z,2026-03-11T14:03:09Z,officialasishkumar,https://github.com/keploy/keploy/pull/3912
+209,samples-go,feat: add sample app for http postgres,open,2026-03-11T13:35:24Z,2026-03-11T13:46:32Z,AkashKumar7902,https://github.com/keploy/samples-go/pull/209
+3913,keploy,ci: add pipeline for http-postgres,open,2026-03-11T13:42:13Z,2026-03-11T13:52:25Z,AkashKumar7902,https://github.com/keploy/keploy/pull/3913
+800,docs,feat: add recording filters doc,open,2026-03-11T15:48:24Z,2026-03-11T15:53:06Z,amaan-bhati,https://github.com/keploy/docs/pull/800
+3914,keploy,fix: pkg/client/app silent errors,open,2026-03-11T22:06:33Z,2026-03-11T22:08:56Z,alrs,https://github.com/keploy/keploy/pull/3914
+340,blog-website,feat: updated march sitemap and script for automation,open,2026-03-11T22:09:37Z,2026-03-12T00:52:53Z,amaan-bhati,https://github.com/keploy/blog-website/pull/340
+346,blog-website,feat: automation of new urls  added in sitemap using new slugs on wordpress - 🚧,open,2026-03-12T01:00:10Z,2026-03-12T01:04:08Z,amaan-bhati,https://github.com/keploy/blog-website/pull/346
