@@ -2,7 +2,7 @@ name: Track Keploy PRs
 
 on:
   schedule:
-    - cron: "30 4 * * *"  
+    - cron: "0 4 * * *"  
   workflow_dispatch:        
 
 permissions:
@@ -18,7 +18,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0
+          fetch-depth: 1
 
       - name: Set up Node.js 20
         uses: actions/setup-node@v4
@@ -28,10 +28,13 @@ jobs:
       - name: Run PR tracker
         id: tracker
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.REPORT_TOKEN }}
         run: |
+          set +e
           node scripts/fetch-all-prs.js
-          echo "exit_code=$?" >> $GITHUB_OUTPUT
+          EXIT_CODE=$?
+          set -e
+          echo "exit_code=$EXIT_CODE" >> $GITHUB_OUTPUT
         continue-on-error: true
 
       - name: Check exit code
@@ -42,20 +45,19 @@ jobs:
             exit 1
           fi
           echo "Script finished with code $CODE"
-
       - name: Commit updated CSVs
         if: steps.tracker.outputs.exit_code == '0'
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git fetch origin main
-          git reset --soft origin/main
+
           git add data/open-prs.csv data/merged-prs.csv
+
           if git diff --cached --quiet; then
             echo "No changes to commit."
           else
             TIMESTAMP=$(date -u +"%Y-%m-%d %H:%M UTC")
             git commit -m "chore(data): update PRs CSVs [${TIMESTAMP}]"
-            git push origin main
+            git push
             echo "✅ CSVs committed and pushed."
           fi
