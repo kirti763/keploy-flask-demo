@@ -8,6 +8,10 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: track-issues-csv
+  cancel-in-progress: false
+
 jobs:
   fetch-issues:
     name: Fetch & Commit Issues
@@ -28,12 +32,24 @@ jobs:
       - name: Run issues tracker
         id: tracker
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.REPORT_TOKEN }}
         run: |
-          node scripts/fetch-new-issues.js
-          echo "exit_code=$?" >> $GITHUB_OUTPUT
-        continue-on-error: true
+          # Disable 'exit on error' so we can capture the script's exit code reliably
+          set +e
 
+          node scripts/fetch-new-issues.js
+          # Disable 'exit on error' so we can capture the script's exit code reliably
+          set +e
+
+          node scripts/fetch-new-issues.js
+          EXIT_CODE=$?
+
+          echo "exit_code=${EXIT_CODE}" >> "$GITHUB_OUTPUT"
+
+          # Always exit the step successfully; later steps inspect EXIT_CODE
+          exit 0
+          # Always exit the step successfully; later steps inspect EXIT_CODE
+          exit 0
       - name: Check exit code
         run: |
           CODE=${{ steps.tracker.outputs.exit_code }}
