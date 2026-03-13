@@ -34,21 +34,10 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.REPORT_TOKEN }}
         run: |
-          # Disable 'exit on error' so we can capture the script's exit code reliably
           set +e
-
-          node scripts/fetch-new-issues.js
-          # Disable 'exit on error' so we can capture the script's exit code reliably
-          set +e
-
           node scripts/fetch-new-issues.js
           EXIT_CODE=$?
-
           echo "exit_code=${EXIT_CODE}" >> "$GITHUB_OUTPUT"
-
-          # Always exit the step successfully; later steps inspect EXIT_CODE
-          exit 0
-          # Always exit the step successfully; later steps inspect EXIT_CODE
           exit 0
       - name: Check exit code
         run: |
