@@ -91,7 +91,7 @@ async function fetchRepoIssues(repoName, state) {
 
   while (true) {
     const { data } = await githubGet(
-      `/repos/${ORG}/${repoName}/issues?state=${state}&per_page=${PER_PAGE}&page=${page}&filter=all`
+      `/repos/${ORG}/${repoName}/issues?state=${state}&per_page=${PER_PAGE}&page=${page}`
     );
     if (!data || data.length === 0) break;
 
@@ -211,7 +211,6 @@ async function main() {
     await sleep(DELAY_MS);
   }
 
-  // Sort by date before writing
   newOpenList.sort((a, b) => new Date(a.issue.created_at) - new Date(b.issue.created_at));
   newClosedList.sort((a, b) => new Date(a.issue.created_at) - new Date(b.issue.created_at));
   console.log(`\n📅  Sorted ${newOpenList.length} open issues by created_at`);
