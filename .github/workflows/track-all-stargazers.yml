@@ -1,10 +1,9 @@
-name: Track Keploy Stargazers
+name: Track Keploy Main Stargazers
 
 on:
   schedule:
-    # Runs every day at 02:00 UTC
     - cron: "0 2 * * *"
-  workflow_dispatch: 
+  workflow_dispatch:
 
 permissions:
   contents: write
@@ -13,7 +12,7 @@ jobs:
   fetch-stargazers:
     name: Fetch & Commit Stargazers
     runs-on: ubuntu-latest
-    timeout-minutes: 60
+    timeout-minutes: 30
 
     steps:
       - name: Checkout repository
@@ -29,36 +28,47 @@ jobs:
       - name: Run stargazer tracker
         id: tracker
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-       
+          GITHUB_TOKEN: ${{ secrets.REPORT_TOKEN }}
         run: |
-          node scripts/fetch-all-stargazers.js
-          echo "exit_code=$?" >> $GITHUB_OUTPUT
+          set +e
+          node scripts/fetch-keploy-stargazers.js
+          EXIT_CODE=$?
+          set -e
+          echo "exit_code=$EXIT_CODE" >> $GITHUB_OUTPUT
         continue-on-error: true
 
       - name: Check exit code
         run: |
           CODE=${{ steps.tracker.outputs.exit_code }}
-          if [ "$CODE" = "1" ]; then
-            echo "❌ Script failed with a fatal error."
+          echo "Tracker script exit code: '${CODE}'"
+
+          # Fail if exit code is missing/undefined
+          if [ -z "$CODE" ]; then
+            echo "❌ Script did not report an exit code. Treating as failure."
             exit 1
           fi
-          echo "Script finished with code $CODE"
 
-      - name: Commit updated stargazers CSV
+          # Allow only expected success codes: 0 = updated, 2 = no new stargazers
+          if [ "$CODE" = "0" ] || [ "$CODE" = "2" ]; then
+            echo "✅ Script completed successfully with exit code $CODE."
+            exit 0
+          fi
+
+          echo "❌ Script failed with unexpected exit code: $CODE"
+          exit 1
+      - name: Commit updated CSV
         if: steps.tracker.outputs.exit_code == '0'
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
-          git add data/stargazers.csv
+          git add data/keploy-stargazers.csv
 
-          # Only commit if there are staged changes
           if git diff --cached --quiet; then
             echo "No changes to commit."
           else
             TIMESTAMP=$(date -u +"%Y-%m-%d %H:%M UTC")
-            git commit -m "chore(data): update stargazers CSV [${TIMESTAMP}]"
+            git commit -m "chore(data): update keploy-stargazers CSV [${TIMESTAMP}]"
             git push
             echo "✅ CSV committed and pushed."
           fi
