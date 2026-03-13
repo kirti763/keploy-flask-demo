@@ -645,3 +645,7 @@ pr_number,repo_name,title,state,created_at,updated_at,author,pr_url
 3914,keploy,fix: pkg/client/app silent errors,open,2026-03-11T22:06:33Z,2026-03-11T22:08:56Z,alrs,https://github.com/keploy/keploy/pull/3914
 340,blog-website,feat: updated march sitemap and script for automation,open,2026-03-11T22:09:37Z,2026-03-12T00:52:53Z,amaan-bhati,https://github.com/keploy/blog-website/pull/340
 346,blog-website,feat: automation of new urls  added in sitemap using new slugs on wordpress - 🚧,open,2026-03-12T01:00:10Z,2026-03-12T01:04:08Z,amaan-bhati,https://github.com/keploy/blog-website/pull/346
+3916,keploy,Mongo v3 sync,open,2026-03-12T08:23:12Z,2026-03-12T08:41:29Z,officialasishkumar,https://github.com/keploy/keploy/pull/3916
+3917,keploy,fix: upload latest,open,2026-03-12T08:55:32Z,2026-03-12T09:29:05Z,officialasishkumar,https://github.com/keploy/keploy/pull/3917
+3918,keploy,ci: update release fetching logic in workflow,open,2026-03-12T09:38:53Z,2026-03-12T09:46:42Z,officialasishkumar,https://github.com/keploy/keploy/pull/3918
+3919,keploy,feat: iterative test mode if test cases fail,open,2026-03-12T13:37:29Z,2026-03-12T14:02:44Z,kapishupadhyay22,https://github.com/keploy/keploy/pull/3919

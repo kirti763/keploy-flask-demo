@@ -3017,3 +3017,4 @@ pr_number,repo_name,title,state,created_at,merged_at,author,pr_url
 12,docker-images,chore: update GO_VERSION to 1.26 in keploy-ci Dockerfile,merged,2026-03-11T11:13:49Z,2026-03-11T11:16:53Z,charankamarapu,https://github.com/keploy/docker-images/pull/12
 13,docker-images,chore: update GO_VERSION to 1.26.0 in Dockerfile,merged,2026-03-11T11:31:40Z,2026-03-11T11:38:28Z,charankamarapu,https://github.com/keploy/docker-images/pull/13
 14,docker-images,chore: update go version,merged,2026-03-11T12:30:41Z,2026-03-11T12:37:40Z,charankamarapu,https://github.com/keploy/docker-images/pull/14
+3911,keploy,fix: unique mock recording logic,merged,2026-03-11T09:48:14Z,2026-03-12T08:08:46Z,Yogeshjindal,https://github.com/keploy/keploy/pull/3911
