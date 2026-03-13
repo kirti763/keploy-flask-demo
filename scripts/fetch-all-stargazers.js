@@ -1,4 +1,3 @@
-
 const https = require("https");
 const fs = require("fs");
 const path = require("path");
@@ -11,18 +10,14 @@ const DELAY_MS = 300;
 const PER_PAGE = 100;
 const GITHUB_TOKEN = process.env.GITHUB_TOKEN;
 
-const CSV_HEADER =
-  "repo_name,timestamp,username,profile_url,email,blog,twitter,total_stars_at_time\n";
-
-// ─── Token check ──────────────────────────────────────────────────────────────
+const CSV_HEADER = "repo_name,timestamp,username,profile_url\n";
 
 if (!GITHUB_TOKEN) {
   console.error("❌  GITHUB_TOKEN is not set.");
-  console.error("    Add it as a secret GH_PAT in your repo settings.");
+  console.error("    Create a PAT and add it as the REPORT_TOKEN secret in your repo settings,");
+  console.error("    then configure your workflow to export it as the GITHUB_TOKEN environment variable.");
   process.exit(1);
 }
-
-// ─── HTTP helper ──────────────────────────────────────────────────────────────
 
 function githubGet(urlPath, extraHeaders = {}) {
   return new Promise((resolve, reject) => {
@@ -48,19 +43,19 @@ function githubGet(urlPath, extraHeaders = {}) {
         if (res.statusCode === 401) {
           return reject(new Error(
             "401 Unauthorized — token is invalid or expired.\n" +
-            "Create a PAT at github.com/settings/tokens with scopes: public_repo + read:org\n" +
-            "Then add it as repository secret GH_PAT and update the workflow to use secrets.GH_PAT"
+            "Create a PAT at github.com/settings/tokens with scopes: public_repo + read:org.\n" +
+            "Then add it as the repository secret REPORT_TOKEN and configure the workflow to export it as GITHUB_TOKEN."
           ));
         }
 
         if (res.statusCode === 403) {
-          // Check if it's a rate limit
           const remaining = res.headers["x-ratelimit-remaining"];
           const reset = res.headers["x-ratelimit-reset"];
           const resetTime = reset ? new Date(parseInt(reset) * 1000).toISOString() : "unknown";
           return reject(new Error(
             `403 Rate limit hit. Remaining: ${remaining}. Resets at: ${resetTime}\n` +
-            "Switch to a PAT token (GH_PAT) to get 5000 requests/hour instead of 60."
+            "Switch to using a personal access token provided via the REPORT_TOKEN secret (mapped to GITHUB_TOKEN)\n" +
+            "to get 5000 requests/hour instead of 60."
           ));
         }
 
@@ -83,7 +78,6 @@ function githubGet(urlPath, extraHeaders = {}) {
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
-// ─── API wrappers ─────────────────────────────────────────────────────────────
 
 async function fetchOrgRepos() {
   console.log(`\n📦  Fetching public repos for org: ${ORG}`);
@@ -127,7 +121,6 @@ async function fetchRepoStargazers(repoName) {
   return stargazers;
 }
 
-// ─── CSV helpers ──────────────────────────────────────────────────────────────
 
 function csvEscape(value) {
   if (value === null || value === undefined) return "";
@@ -171,7 +164,6 @@ function ensureOutputFile() {
   }
 }
 
-// ─── Main ─────────────────────────────────────────────────────────────────────
 
 async function main() {
   console.log("🚀  Keploy Stargazer Tracker v3 starting…");
@@ -226,10 +218,6 @@ async function main() {
         csvEscape(entry.starred_at || ""),
         csvEscape(username),
         csvEscape(entry.user?.html_url || `https://github.com/${username}`),
-        "",   // email — not fetched (rate limit reasons)
-        "",   // blog  — not fetched
-        "",   // twitter — not fetched
-        csvEscape(totalStars),
       ].join(",");
 
       writeStream.write(row + "\n");
@@ -259,4 +247,3 @@ main().catch((err) => {
   console.error("\n💥  Fatal:", err.message);
   process.exit(1);
 });
-
