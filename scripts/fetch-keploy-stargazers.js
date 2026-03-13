@@ -9,7 +9,7 @@ const DELAY_MS = 300;
 const PER_PAGE = 100;
 const GITHUB_TOKEN = process.env.GITHUB_TOKEN;
 
-const CSV_HEADER = "username,profile_url,timestamp,total_stars_at_time\n";
+const CSV_HEADER = "username,profile_url,timestamp\n";
 
 if (!GITHUB_TOKEN) {
   console.error("❌  GITHUB_TOKEN is not set.");
@@ -138,7 +138,6 @@ async function main() {
       csvEscape(username),
       csvEscape(entry.user?.html_url || `https://github.com/${username}`),
       csvEscape(entry.starred_at || ""),
-      csvEscape(totalStars),
     ].join(",");
 
     writeStream.write(row + "\n");
