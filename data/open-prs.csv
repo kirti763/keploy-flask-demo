@@ -649,3 +649,5 @@ pr_number,repo_name,title,state,created_at,updated_at,author,pr_url
 3917,keploy,fix: upload latest,open,2026-03-12T08:55:32Z,2026-03-12T09:29:05Z,officialasishkumar,https://github.com/keploy/keploy/pull/3917
 3918,keploy,ci: update release fetching logic in workflow,open,2026-03-12T09:38:53Z,2026-03-12T09:46:42Z,officialasishkumar,https://github.com/keploy/keploy/pull/3918
 3919,keploy,feat: iterative test mode if test cases fail,open,2026-03-12T13:37:29Z,2026-03-12T14:02:44Z,kapishupadhyay22,https://github.com/keploy/keploy/pull/3919
+3921,keploy,feat: Add HTTP request and response capture functionality for streaming,open,2026-03-13T09:13:20Z,2026-03-13T10:02:47Z,officialasishkumar,https://github.com/keploy/keploy/pull/3921
+3920,keploy,refactor(replay): remove global replay hook state and return isolated configs,open,2026-03-13T08:48:58Z,2026-03-13T11:10:12Z,ayush3160,https://github.com/keploy/keploy/pull/3920
