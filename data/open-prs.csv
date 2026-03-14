@@ -651,3 +651,6 @@ pr_number,repo_name,title,state,created_at,updated_at,author,pr_url
 3919,keploy,feat: iterative test mode if test cases fail,open,2026-03-12T13:37:29Z,2026-03-12T14:02:44Z,kapishupadhyay22,https://github.com/keploy/keploy/pull/3919
 3921,keploy,feat: Add HTTP request and response capture functionality for streaming,open,2026-03-13T09:13:20Z,2026-03-13T10:02:47Z,officialasishkumar,https://github.com/keploy/keploy/pull/3921
 3920,keploy,refactor(replay): remove global replay hook state and return isolated configs,open,2026-03-13T08:48:58Z,2026-03-13T11:10:12Z,ayush3160,https://github.com/keploy/keploy/pull/3920
+3925,keploy,chore: update to go 1.26 and fix vitess build,open,2026-03-13T15:32:25Z,2026-03-14T05:01:37Z,slayerjain,https://github.com/keploy/keploy/pull/3925
+3924,keploy,feat: sampling of async requests while recording,open,2026-03-13T14:13:55Z,2026-03-13T15:26:57Z,kapishupadhyay22,https://github.com/keploy/keploy/pull/3924
+3923,keploy,fix: upgrade Go 1.26 and Vitess compatibility,open,2026-03-13T13:31:52Z,2026-03-13T14:34:26Z,officialasishkumar,https://github.com/keploy/keploy/pull/3923
