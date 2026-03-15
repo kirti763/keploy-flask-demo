@@ -654,3 +654,6 @@ pr_number,repo_name,title,state,created_at,updated_at,author,pr_url
 3925,keploy,chore: update to go 1.26 and fix vitess build,open,2026-03-13T15:32:25Z,2026-03-14T05:01:37Z,slayerjain,https://github.com/keploy/keploy/pull/3925
 3924,keploy,feat: sampling of async requests while recording,open,2026-03-13T14:13:55Z,2026-03-13T15:26:57Z,kapishupadhyay22,https://github.com/keploy/keploy/pull/3924
 3923,keploy,fix: upgrade Go 1.26 and Vitess compatibility,open,2026-03-13T13:31:52Z,2026-03-13T14:34:26Z,officialasishkumar,https://github.com/keploy/keploy/pull/3923
+3932,keploy,fix(agent): close response bodies in MockOutgoing and UpdateMockParams,open,2026-03-15T03:17:42Z,2026-03-15T03:20:20Z,furkankoykiran,https://github.com/keploy/keploy/pull/3932
+3928,keploy,fix(proxy): return error from startTCPDNSServer on failure,open,2026-03-15T00:13:52Z,2026-03-15T00:43:08Z,furkankoykiran,https://github.com/keploy/keploy/pull/3928
+3927,keploy,fix(utils): use-after-close in isGoBinary function,open,2026-03-14T23:59:29Z,2026-03-15T00:45:07Z,furkankoykiran,https://github.com/keploy/keploy/pull/3927

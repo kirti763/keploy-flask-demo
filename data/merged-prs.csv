@@ -3026,3 +3026,6 @@ pr_number,repo_name,title,state,created_at,merged_at,author,pr_url
 3895,keploy,refactor: remove obsolete zero-key map pattern in proxy sessions and MockManagers,merged,2026-03-02T14:12:57Z,2026-03-13T14:32:19Z,HemantSudarshan,https://github.com/keploy/keploy/pull/3895
 800,docs,feat: add recording filters doc,merged,2026-03-11T15:48:24Z,2026-03-13T14:56:24Z,amaan-bhati,https://github.com/keploy/docs/pull/800
 796,docs,docs: add proprietary CLI installation flow and update installation page,merged,2026-02-27T14:17:58Z,2026-03-13T12:59:50Z,kirti763,https://github.com/keploy/docs/pull/796
+3925,keploy,chore: update to go 1.26 and fix vitess build,merged,2026-03-13T15:32:25Z,2026-03-14T10:34:29Z,slayerjain,https://github.com/keploy/keploy/pull/3925
+3924,keploy,feat: sampling of async requests while recording,merged,2026-03-13T14:13:55Z,2026-03-14T08:30:19Z,kapishupadhyay22,https://github.com/keploy/keploy/pull/3924
+13,ecommerce_sample_app,Fix: startup path for Go order service,merged,2026-03-14T11:55:26Z,2026-03-14T12:06:28Z,officialasishkumar,https://github.com/keploy/ecommerce_sample_app/pull/13
