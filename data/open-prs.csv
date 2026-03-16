@@ -657,3 +657,4 @@ pr_number,repo_name,title,state,created_at,updated_at,author,pr_url
 3932,keploy,fix(agent): close response bodies in MockOutgoing and UpdateMockParams,open,2026-03-15T03:17:42Z,2026-03-15T03:20:20Z,furkankoykiran,https://github.com/keploy/keploy/pull/3932
 3928,keploy,fix(proxy): return error from startTCPDNSServer on failure,open,2026-03-15T00:13:52Z,2026-03-15T00:43:08Z,furkankoykiran,https://github.com/keploy/keploy/pull/3928
 3927,keploy,fix(utils): use-after-close in isGoBinary function,open,2026-03-14T23:59:29Z,2026-03-15T00:45:07Z,furkankoykiran,https://github.com/keploy/keploy/pull/3927
+347,blog-website,perf(ui): optimize avatar rendering by replacing <img> with next/image in testimonials,open,2026-03-15T13:25:03Z,2026-03-15T13:25:03Z,SadhanaShree25,https://github.com/keploy/blog-website/pull/347
