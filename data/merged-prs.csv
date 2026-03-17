@@ -3030,3 +3030,4 @@ pr_number,repo_name,title,state,created_at,merged_at,author,pr_url
 3924,keploy,feat: sampling of async requests while recording,merged,2026-03-13T14:13:55Z,2026-03-14T08:30:19Z,kapishupadhyay22,https://github.com/keploy/keploy/pull/3924
 13,ecommerce_sample_app,Fix: startup path for Go order service,merged,2026-03-14T11:55:26Z,2026-03-14T12:06:28Z,officialasishkumar,https://github.com/keploy/ecommerce_sample_app/pull/13
 3910,keploy,feat :replay/mapping models for mock metadata and iterative tests,merged,2026-03-11T09:29:47Z,2026-03-15T12:54:43Z,AuraReaper,https://github.com/keploy/keploy/pull/3910
+3933,keploy,ci: speed up release and Docker publish workflows,merged,2026-03-16T11:54:55Z,2026-03-16T12:20:59Z,AkashKumar7902,https://github.com/keploy/keploy/pull/3933
