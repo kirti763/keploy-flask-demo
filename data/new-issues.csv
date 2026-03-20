@@ -354,3 +354,4 @@ issue_number,repo_name,title,state,created_at,updated_at,author,issue_url
 3909,keploy,[bug]:  mocking=true does not reliably isolate downstream HTTP dependencies during replay in a simple docker-compose Java microservice chain,open,2026-03-11T09:10:13Z,2026-03-11T09:10:24Z,akinnya,https://github.com/keploy/keploy/issues/3909
 3922,keploy,Upgrade from unsupported Go 1.24 to Go 1.26,open,2026-03-13T09:18:33Z,2026-03-13T12:51:22Z,stefanb,https://github.com/keploy/keploy/issues/3922
 3926,keploy,Issue to test fetch all issues workflow,open,2026-03-13T17:44:13Z,2026-03-13T17:44:35Z,kirti763,https://github.com/keploy/keploy/issues/3926
+3940,keploy,[bug]: macOS Docker mode re-execs with sudo and prompts for password,open,2026-03-19T10:31:09Z,2026-03-19T10:31:35Z,officialasishkumar,https://github.com/keploy/keploy/issues/3940
