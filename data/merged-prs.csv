@@ -3033,3 +3033,9 @@ pr_number,repo_name,title,state,created_at,merged_at,author,pr_url
 3933,keploy,ci: speed up release and Docker publish workflows,merged,2026-03-16T11:54:55Z,2026-03-16T12:20:59Z,AkashKumar7902,https://github.com/keploy/keploy/pull/3933
 3935,keploy,feat: skip rcode!=0 DNS mocks from recording,merged,2026-03-17T09:21:30Z,2026-03-17T12:32:38Z,Yogeshjindal,https://github.com/keploy/keploy/pull/3935
 801,docs,docs: update Recording Filters tag to Enterprise,merged,2026-03-17T16:42:48Z,2026-03-17T16:44:20Z,PrathamSikka24,https://github.com/keploy/docs/pull/801
+3943,keploy,feat: add hook to get the noisy test case names,merged,2026-03-19T12:51:36Z,2026-03-19T13:24:03Z,ayush3160,https://github.com/keploy/keploy/pull/3943
+3942,keploy,feat: add mutex for recording and replaying on the same mock file,merged,2026-03-19T10:38:42Z,2026-03-19T12:17:11Z,ayush3160,https://github.com/keploy/keploy/pull/3942
+3941,keploy,fix: ignoring mock deletion of mapped mocks which have not ran,merged,2026-03-19T10:37:29Z,2026-03-19T13:31:59Z,kapishupadhyay22,https://github.com/keploy/keploy/pull/3941
+3939,keploy,chore: refine macOS sudo re-exec handling and command extraction,merged,2026-03-19T08:50:21Z,2026-03-19T10:26:54Z,officialasishkumar,https://github.com/keploy/keploy/pull/3939
+3903,keploy,update: ebpf binary obfuscation,merged,2026-03-10T08:44:40Z,2026-03-19T11:46:09Z,kapishupadhyay22,https://github.com/keploy/keploy/pull/3903
+348,blog-website,revamp: revamped the blog authors page,merged,2026-03-17T11:39:32Z,2026-03-19T10:00:56Z,dhananjay6561,https://github.com/keploy/blog-website/pull/348

@@ -662,3 +662,4 @@ pr_number,repo_name,title,state,created_at,updated_at,author,pr_url
 3937,keploy,optimizing replay,open,2026-03-17T13:06:16Z,2026-03-17T13:14:51Z,Yogeshjindal,https://github.com/keploy/keploy/pull/3937
 3936,keploy,feat: add last updated metadata and fix validation in normalize command,open,2026-03-17T11:48:39Z,2026-03-17T12:57:10Z,officialasishkumar,https://github.com/keploy/keploy/pull/3936
 348,blog-website,revamp: revamped the blog authors page,open,2026-03-17T11:39:32Z,2026-03-17T11:39:55Z,dhananjay6561,https://github.com/keploy/blog-website/pull/348
+3944,keploy,feat(mock): persist request and response timestamps in mappings,open,2026-03-19T18:11:49Z,2026-03-19T18:18:38Z,AuraReaper,https://github.com/keploy/keploy/pull/3944
