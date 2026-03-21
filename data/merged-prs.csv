@@ -3039,3 +3039,12 @@ pr_number,repo_name,title,state,created_at,merged_at,author,pr_url
 3939,keploy,chore: refine macOS sudo re-exec handling and command extraction,merged,2026-03-19T08:50:21Z,2026-03-19T10:26:54Z,officialasishkumar,https://github.com/keploy/keploy/pull/3939
 3903,keploy,update: ebpf binary obfuscation,merged,2026-03-10T08:44:40Z,2026-03-19T11:46:09Z,kapishupadhyay22,https://github.com/keploy/keploy/pull/3903
 348,blog-website,revamp: revamped the blog authors page,merged,2026-03-17T11:39:32Z,2026-03-19T10:00:56Z,dhananjay6561,https://github.com/keploy/blog-website/pull/348
+3950,keploy,ci: add E2E tests for DNS dedup and MySQL dual-conn handshake,merged,2026-03-20T15:45:11Z,2026-03-20T18:02:46Z,slayerjain,https://github.com/keploy/keploy/pull/3950
+3949,keploy,fix: improve HTTP mock matching and deduplicate DNS mocks,merged,2026-03-20T12:09:04Z,2026-03-20T14:43:55Z,slayerjain,https://github.com/keploy/keploy/pull/3949
+3947,keploy,fix: use destination address for MySQL initial handshake mock selection,merged,2026-03-20T09:39:12Z,2026-03-20T09:56:32Z,slayerjain,https://github.com/keploy/keploy/pull/3947
+3944,keploy,feat(mock): persist request and response timestamps in mappings,merged,2026-03-19T18:11:49Z,2026-03-20T09:04:05Z,AuraReaper,https://github.com/keploy/keploy/pull/3944
+3932,keploy,fix(agent): close response bodies in MockOutgoing and UpdateMockParams,merged,2026-03-15T03:17:42Z,2026-03-20T09:18:22Z,furkankoykiran,https://github.com/keploy/keploy/pull/3932
+3927,keploy,fix(utils): use-after-close in isGoBinary function,merged,2026-03-14T23:59:29Z,2026-03-20T11:57:55Z,furkankoykiran,https://github.com/keploy/keploy/pull/3927
+3894,keploy,refactor: use min/max instead of if/else,merged,2026-03-01T21:30:29Z,2026-03-20T11:57:30Z,deining,https://github.com/keploy/keploy/pull/3894
+210,samples-go,feat: add dns-dedup E2E sample app,merged,2026-03-20T15:50:00Z,2026-03-20T15:51:06Z,slayerjain,https://github.com/keploy/samples-go/pull/210
+122,samples-java,feat: add mysql-dual-conn E2E sample app,merged,2026-03-20T15:50:04Z,2026-03-20T15:51:09Z,slayerjain,https://github.com/keploy/samples-java/pull/122
