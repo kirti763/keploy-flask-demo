@@ -1436,3 +1436,6 @@ issue_number,repo_name,title,state,created_at,closed_at,author,issue_url
 3902,keploy,"[UX] Dead clicks on ""Choose Input Method"" causing drop-off on Test Generation page",closed,2026-03-09T06:38:26Z,2026-03-09T09:14:00Z,PrathamSikka24,https://github.com/keploy/keploy/issues/3902
 3922,keploy,Upgrade Go toolchain from unsupported 1.24 to current 1.26,closed,2026-03-13T09:18:33Z,2026-03-14T12:08:37Z,stefanb,https://github.com/keploy/keploy/issues/3922
 3871,keploy,"[bug]: AfterTestRun agent hook fails with ""connection refused"" in Docker Compose mode",closed,2026-02-26T20:01:23Z,2026-03-19T07:56:22Z,pathakharshit,https://github.com/keploy/keploy/issues/3871
+3821,keploy,[Team T188] Use-after-close in isGoBinary — reads ELF file sections after closing it,closed,2026-02-22T07:45:24Z,2026-03-20T11:57:56Z,24cs062,https://github.com/keploy/keploy/issues/3821
+3908,keploy,[bug]: mocking=true with docker-compose does not reliably intercept downstream calls in a Spring Boot service using real Nacos/MySQL/Redis dependencies,closed,2026-03-11T08:31:57Z,2026-03-20T14:43:57Z,akinnya,https://github.com/keploy/keploy/issues/3908
+3940,keploy,[bug]: macOS Docker mode re-execs with sudo and prompts for password,closed,2026-03-19T10:31:09Z,2026-03-20T06:39:09Z,officialasishkumar,https://github.com/keploy/keploy/issues/3940
