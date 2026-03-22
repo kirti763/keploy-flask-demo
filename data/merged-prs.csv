@@ -3048,3 +3048,6 @@ pr_number,repo_name,title,state,created_at,merged_at,author,pr_url
 3894,keploy,refactor: use min/max instead of if/else,merged,2026-03-01T21:30:29Z,2026-03-20T11:57:30Z,deining,https://github.com/keploy/keploy/pull/3894
 210,samples-go,feat: add dns-dedup E2E sample app,merged,2026-03-20T15:50:00Z,2026-03-20T15:51:06Z,slayerjain,https://github.com/keploy/samples-go/pull/210
 122,samples-java,feat: add mysql-dual-conn E2E sample app,merged,2026-03-20T15:50:04Z,2026-03-20T15:51:09Z,slayerjain,https://github.com/keploy/samples-java/pull/122
+3953,keploy,fix: ensure latest release resolves only after binaries and Docker image are ready,merged,2026-03-21T14:46:02Z,2026-03-21T15:51:10Z,slayerjain,https://github.com/keploy/keploy/pull/3953
+3951,keploy,feat: deprecate FallBackOnMiss and add mock mismatch diff reporting,merged,2026-03-20T18:01:10Z,2026-03-21T13:35:07Z,slayerjain,https://github.com/keploy/keploy/pull/3951
+803,docs,"Revert ""docs: add proprietary CLI installation flow and update instal…",merged,2026-03-21T09:05:35Z,2026-03-21T09:15:55Z,PrathamSikka24,https://github.com/keploy/docs/pull/803

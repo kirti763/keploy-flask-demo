@@ -669,3 +669,6 @@ pr_number,repo_name,title,state,created_at,updated_at,author,pr_url
 3945,keploy,fix: correct noise assertion type assertion in YAML decode (#3872),open,2026-03-20T06:10:09Z,2026-03-20T06:17:57Z,DhineshPonnarasan,https://github.com/keploy/keploy/pull/3945
 802,docs,Revamp documentation page for improved readability and visuals,open,2026-03-20T14:27:28Z,2026-03-20T15:43:52Z,dhananjay6561,https://github.com/keploy/docs/pull/802
 349,blog-website,Update Lighthouse CI workflow for pull requests,open,2026-03-20T10:53:30Z,2026-03-20T10:55:06Z,SadhanaShree25,https://github.com/keploy/blog-website/pull/349
+3955,keploy,feat(report): add JUnit XML output format,open,2026-03-22T04:42:54Z,2026-03-22T04:44:22Z,mvanhorn,https://github.com/keploy/keploy/pull/3955
+3954,keploy,"fix: repair release pipeline, self-hosted runner cleanup, and add CI gates",open,2026-03-22T03:48:24Z,2026-03-22T04:46:28Z,slayerjain,https://github.com/keploy/keploy/pull/3954
+3952,keploy,feat: add network packet capture for debug diagnostics,open,2026-03-21T14:26:39Z,2026-03-21T16:56:57Z,slayerjain,https://github.com/keploy/keploy/pull/3952
