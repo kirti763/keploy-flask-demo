@@ -3051,3 +3051,10 @@ pr_number,repo_name,title,state,created_at,merged_at,author,pr_url
 3953,keploy,fix: ensure latest release resolves only after binaries and Docker image are ready,merged,2026-03-21T14:46:02Z,2026-03-21T15:51:10Z,slayerjain,https://github.com/keploy/keploy/pull/3953
 3951,keploy,feat: deprecate FallBackOnMiss and add mock mismatch diff reporting,merged,2026-03-20T18:01:10Z,2026-03-21T13:35:07Z,slayerjain,https://github.com/keploy/keploy/pull/3951
 803,docs,"Revert ""docs: add proprietary CLI installation flow and update instal…",merged,2026-03-21T09:05:35Z,2026-03-21T09:15:55Z,PrathamSikka24,https://github.com/keploy/docs/pull/803
+3960,keploy,fix: replace hardcoded GitHub SSH host keys with dynamic fetch in release pipeline,merged,2026-03-22T16:28:35Z,2026-03-22T16:28:57Z,slayerjain,https://github.com/keploy/keploy/pull/3960
+3959,keploy,fix: add --platform linux/arm64 to macOS Docker build and run,merged,2026-03-22T11:24:26Z,2026-03-22T13:52:47Z,slayerjain,https://github.com/keploy/keploy/pull/3959
+3957,keploy,fix: narrow pkill pattern to avoid killing Docker Desktop on macOS CI,merged,2026-03-22T10:53:44Z,2026-03-22T10:53:56Z,slayerjain,https://github.com/keploy/keploy/pull/3957
+3956,keploy,feat(replay): introduce BeforeTestSetReplay hook in replayer,merged,2026-03-22T09:23:14Z,2026-03-22T15:20:56Z,AkashKumar7902,https://github.com/keploy/keploy/pull/3956
+3955,keploy,feat(report): add JUnit XML output format,merged,2026-03-22T04:42:54Z,2026-03-22T18:06:54Z,mvanhorn,https://github.com/keploy/keploy/pull/3955
+3954,keploy,"fix: repair release pipeline, self-hosted runner cleanup, and add CI gates",merged,2026-03-22T03:48:24Z,2026-03-22T10:41:58Z,slayerjain,https://github.com/keploy/keploy/pull/3954
+3938,keploy,feat: Implement TLS handling at proxy level instead of parser level,merged,2026-03-17T13:29:25Z,2026-03-22T21:41:49Z,Sarthak160,https://github.com/keploy/keploy/pull/3938
