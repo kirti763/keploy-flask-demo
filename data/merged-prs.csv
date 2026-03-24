@@ -3058,3 +3058,6 @@ pr_number,repo_name,title,state,created_at,merged_at,author,pr_url
 3955,keploy,feat(report): add JUnit XML output format,merged,2026-03-22T04:42:54Z,2026-03-22T18:06:54Z,mvanhorn,https://github.com/keploy/keploy/pull/3955
 3954,keploy,"fix: repair release pipeline, self-hosted runner cleanup, and add CI gates",merged,2026-03-22T03:48:24Z,2026-03-22T10:41:58Z,slayerjain,https://github.com/keploy/keploy/pull/3954
 3938,keploy,feat: Implement TLS handling at proxy level instead of parser level,merged,2026-03-17T13:29:25Z,2026-03-22T21:41:49Z,Sarthak160,https://github.com/keploy/keploy/pull/3938
+3963,keploy,feat: enhance normalization process with last updated tracking,merged,2026-03-23T11:00:16Z,2026-03-23T11:07:32Z,officialasishkumar,https://github.com/keploy/keploy/pull/3963
+3936,keploy,feat: add last updated metadata and fix validation in normalize command,merged,2026-03-17T11:48:39Z,2026-03-23T12:00:33Z,officialasishkumar,https://github.com/keploy/keploy/pull/3936
+805,docs,feat: Update CLI and configuration documentation for new flags and parameters,merged,2026-03-23T12:46:21Z,2026-03-23T13:12:13Z,officialasishkumar,https://github.com/keploy/docs/pull/805
