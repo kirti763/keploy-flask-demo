@@ -83,7 +83,7 @@ function githubGet(urlPath) {
         try {
           resolve({ data: JSON.parse(body) });
         } catch (e) {
-          reject(new Error(`JSON parse error: ${e.message}`));
+          reject(new Error(`JSON parse error: ${e.message}`));Expand commentComment on lines R68 to R86Resolved
         }
       });
     });
@@ -198,7 +198,7 @@ async function main() {
         });
       }
     } catch (err) {
-      console.warn(`⚠️  Could not fetch ${repoName}: ${err.message}`);
+      console.warn(`⚠️  Could not fetch ${repoName}: ${err.message}`);Expand commentComment on line R201Resolved
     }
  
     await sleep(DELAY_MS);
@@ -225,12 +225,17 @@ async function main() {
     stream.write(line + "\n");
   }
   stream.end();
+
+  // Ensure all data is flushed before allowing the process to exit.
+  await new Promise((resolve, reject) => {
+    stream.on("finish", resolve);
+    stream.on("error", reject);
+  });
  
   console.log("\n──────────────────────────────────────────────────");
   console.log(`✅  Done`);
   console.log(`   New rows written : ${newRows.length}`);
   console.log(`   Output           : ${OUTPUT_FILE}`);
-  process.exit(0);
 }
  
 main().catch((err) => {
