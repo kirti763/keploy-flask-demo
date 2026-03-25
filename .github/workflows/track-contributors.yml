@@ -57,17 +57,21 @@ jobs:
  
       - name: Commit updated CSV
         if: steps.tracker.outputs.exit_code == '0'
+        env:
+          TARGET_BRANCH: ${{ github.ref_name }}
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git fetch origin main
-          git reset --soft origin/main
+          BRANCH="${TARGET_BRANCH:-main}"
+          echo "Using target branch '${BRANCH}'. If this is unexpected, verify the workflow ref and repository default branch settings."
+          git fetch origin "$BRANCH"
+          git reset --soft "origin/$BRANCH"
           git add data/contributors.csv
           if git diff --cached --quiet; then
-            echo "No changes to commit."
+            echo "No changes to commit. If you expected updates, confirm that the contributor data source returned new entries."
           else
             TIMESTAMP=$(date -u +"%Y-%m-%d %H:%M UTC")
             git commit -m "chore(data): update contributors CSV [${TIMESTAMP}]"
-            git push origin main
+            git push origin "HEAD:${BRANCH}"
             echo "✅ CSV committed and pushed."
           fi
