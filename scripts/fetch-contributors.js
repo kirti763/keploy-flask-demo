@@ -83,7 +83,7 @@ function githubGet(urlPath) {
         try {
           resolve({ data: JSON.parse(body) });
         } catch (e) {
-          reject(new Error(`JSON parse error: ${e.message}`));
+          reject(new Error(`JSON parse error: ${e.message}`)); 
         }
       });
     });
@@ -199,7 +199,6 @@ async function main() {
       }
     } catch (err) {
       console.warn(`⚠️  Could not fetch ${repoName}: ${err.message}`);
-    }
  
     await sleep(DELAY_MS);
   }
@@ -242,4 +241,3 @@ main().catch((err) => {
   console.error("💥  Fatal:", err.message);
   process.exit(1);
 });
- 
