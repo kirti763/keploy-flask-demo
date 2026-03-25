@@ -83,7 +83,7 @@ function githubGet(urlPath) {
         try {
           resolve({ data: JSON.parse(body) });
         } catch (e) {
-          reject(new Error(`JSON parse error: ${e.message}`));Expand commentComment on lines R68 to R86Resolved
+          reject(new Error(`JSON parse error: ${e.message}`));
         }
       });
     });
@@ -198,7 +198,7 @@ async function main() {
         });
       }
     } catch (err) {
-      console.warn(`⚠️  Could not fetch ${repoName}: ${err.message}`);Expand commentComment on line R201Resolved
+      console.warn(`⚠️  Could not fetch ${repoName}: ${err.message}`);
     }
  
     await sleep(DELAY_MS);
