@@ -3061,3 +3061,4 @@ pr_number,repo_name,title,state,created_at,merged_at,author,pr_url
 3963,keploy,feat: enhance normalization process with last updated tracking,merged,2026-03-23T11:00:16Z,2026-03-23T11:07:32Z,officialasishkumar,https://github.com/keploy/keploy/pull/3963
 3936,keploy,feat: add last updated metadata and fix validation in normalize command,merged,2026-03-17T11:48:39Z,2026-03-23T12:00:33Z,officialasishkumar,https://github.com/keploy/keploy/pull/3936
 805,docs,feat: Update CLI and configuration documentation for new flags and parameters,merged,2026-03-23T12:46:21Z,2026-03-23T13:12:13Z,officialasishkumar,https://github.com/keploy/docs/pull/805
+3937,keploy,chore: Optimizing replay By Maps Lookup for DNS mocks,merged,2026-03-17T13:06:16Z,2026-03-24T13:32:03Z,Yogeshjindal,https://github.com/keploy/keploy/pull/3937
