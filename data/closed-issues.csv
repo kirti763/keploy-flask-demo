@@ -1439,3 +1439,4 @@ issue_number,repo_name,title,state,created_at,closed_at,author,issue_url
 3821,keploy,[Team T188] Use-after-close in isGoBinary — reads ELF file sections after closing it,closed,2026-02-22T07:45:24Z,2026-03-20T11:57:56Z,24cs062,https://github.com/keploy/keploy/issues/3821
 3908,keploy,[bug]: mocking=true with docker-compose does not reliably intercept downstream calls in a Spring Boot service using real Nacos/MySQL/Redis dependencies,closed,2026-03-11T08:31:57Z,2026-03-20T14:43:57Z,akinnya,https://github.com/keploy/keploy/issues/3908
 3940,keploy,[bug]: macOS Docker mode re-execs with sudo and prompts for password,closed,2026-03-19T10:31:09Z,2026-03-20T06:39:09Z,officialasishkumar,https://github.com/keploy/keploy/issues/3940
+3864,keploy,[feature]: Add performance testing pipeline for oss,closed,2026-02-26T05:42:33Z,2026-03-26T06:34:55Z,Yogeshjindal,https://github.com/keploy/keploy/issues/3864
