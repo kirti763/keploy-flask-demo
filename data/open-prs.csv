@@ -691,3 +691,9 @@ pr_number,repo_name,title,state,created_at,updated_at,author,pr_url
 807,docs,fix: update analytics script configuration,open,2026-03-26T13:04:00Z,2026-03-26T13:07:06Z,slayerjain,https://github.com/keploy/docs/pull/807
 806,docs,"docs: add ssePort, protocol config, and port mapping documentation",open,2026-03-26T12:33:38Z,2026-03-26T13:18:17Z,officialasishkumar,https://github.com/keploy/docs/pull/806
 351,blog-website,fix: update analytics and CSP configuration,open,2026-03-26T13:04:03Z,2026-03-26T13:09:00Z,slayerjain,https://github.com/keploy/blog-website/pull/351
+3988,keploy,chore: mongo conn fix test pr,open,2026-03-27T17:06:33Z,2026-03-27T17:11:15Z,Sarthak160,https://github.com/keploy/keploy/pull/3988
+3987,keploy,feat: auto-pass additive HTTP response schema changes during replay,open,2026-03-27T16:49:39Z,2026-03-27T17:08:30Z,AuraReaper,https://github.com/keploy/keploy/pull/3987
+3986,keploy,fix: add safe type assertion for TLS connection in proxy,open,2026-03-27T14:47:01Z,2026-03-27T14:53:27Z,srivilliamsai,https://github.com/keploy/keploy/pull/3986
+3985,keploy,fix: improve error handling in auth package,open,2026-03-27T14:13:58Z,2026-03-27T14:16:30Z,srivilliamsai,https://github.com/keploy/keploy/pull/3985
+3984,keploy,fix: correct HTTP status check logic in auth,open,2026-03-27T11:51:48Z,2026-03-27T11:53:02Z,srivilliamsai,https://github.com/keploy/keploy/pull/3984
+809,docs,docs: add Public REST API guide (/client/v1),open,2026-03-27T12:21:35Z,2026-03-27T18:20:20Z,slayerjain,https://github.com/keploy/docs/pull/809
