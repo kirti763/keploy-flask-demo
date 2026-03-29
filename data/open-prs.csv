@@ -697,3 +697,4 @@ pr_number,repo_name,title,state,created_at,updated_at,author,pr_url
 3985,keploy,fix: improve error handling in auth package,open,2026-03-27T14:13:58Z,2026-03-27T14:16:30Z,srivilliamsai,https://github.com/keploy/keploy/pull/3985
 3984,keploy,fix: correct HTTP status check logic in auth,open,2026-03-27T11:51:48Z,2026-03-27T11:53:02Z,srivilliamsai,https://github.com/keploy/keploy/pull/3984
 809,docs,docs: add Public REST API guide (/client/v1),open,2026-03-27T12:21:35Z,2026-03-27T18:20:20Z,slayerjain,https://github.com/keploy/docs/pull/809
+810,docs,docs: fix broken anchors in docs,open,2026-03-28T15:03:37Z,2026-03-28T15:04:10Z,boxcee-interview,https://github.com/keploy/docs/pull/810

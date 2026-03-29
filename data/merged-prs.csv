@@ -3072,3 +3072,4 @@ pr_number,repo_name,title,state,created_at,merged_at,author,pr_url
 807,docs,fix: update analytics script configuration,merged,2026-03-26T13:04:00Z,2026-03-27T10:45:37Z,slayerjain,https://github.com/keploy/docs/pull/807
 352,blog-website,Fix/resolve pr 351 review comments,merged,2026-03-27T09:35:45Z,2026-03-27T12:00:49Z,dhananjay6561,https://github.com/keploy/blog-website/pull/352
 351,blog-website,fix: update analytics and CSP configuration,merged,2026-03-26T13:04:03Z,2026-03-27T11:58:16Z,slayerjain,https://github.com/keploy/blog-website/pull/351
+809,docs,docs: add Public REST API guide (/client/v1),merged,2026-03-27T12:21:35Z,2026-03-28T19:40:45Z,slayerjain,https://github.com/keploy/docs/pull/809
