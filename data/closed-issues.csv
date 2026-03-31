@@ -1440,3 +1440,4 @@ issue_number,repo_name,title,state,created_at,closed_at,author,issue_url
 3908,keploy,[bug]: mocking=true with docker-compose does not reliably intercept downstream calls in a Spring Boot service using real Nacos/MySQL/Redis dependencies,closed,2026-03-11T08:31:57Z,2026-03-20T14:43:57Z,akinnya,https://github.com/keploy/keploy/issues/3908
 3940,keploy,[bug]: macOS Docker mode re-execs with sudo and prompts for password,closed,2026-03-19T10:31:09Z,2026-03-20T06:39:09Z,officialasishkumar,https://github.com/keploy/keploy/issues/3940
 3864,keploy,[feature]: Add performance testing pipeline for oss,closed,2026-02-26T05:42:33Z,2026-03-26T06:34:55Z,Yogeshjindal,https://github.com/keploy/keploy/issues/3864
+3904,keploy,[bug]: Obfuscate binaries of ebpf,closed,2026-03-10T08:57:06Z,2026-03-30T08:51:42Z,kapishupadhyay22,https://github.com/keploy/keploy/issues/3904
