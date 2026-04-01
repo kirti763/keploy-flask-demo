@@ -1441,3 +1441,6 @@ issue_number,repo_name,title,state,created_at,closed_at,author,issue_url
 3940,keploy,[bug]: macOS Docker mode re-execs with sudo and prompts for password,closed,2026-03-19T10:31:09Z,2026-03-20T06:39:09Z,officialasishkumar,https://github.com/keploy/keploy/issues/3940
 3864,keploy,[feature]: Add performance testing pipeline for oss,closed,2026-02-26T05:42:33Z,2026-03-26T06:34:55Z,Yogeshjindal,https://github.com/keploy/keploy/issues/3864
 3904,keploy,[bug]: Obfuscate binaries of ebpf,closed,2026-03-10T08:57:06Z,2026-03-30T08:51:42Z,kapishupadhyay22,https://github.com/keploy/keploy/issues/3904
+3965,keploy,[bug]: replay aborts remaining test sets after app startup failure in Docker Compose replay,closed,2026-03-24T04:30:29Z,2026-03-31T14:07:22Z,AuraReaper,https://github.com/keploy/keploy/issues/3965
+3968,keploy,[bug]: replay reports for startup failures should include readable failure reason and recent app logs,closed,2026-03-25T15:28:01Z,2026-03-31T14:07:52Z,AuraReaper,https://github.com/keploy/keploy/issues/3968
+3971,keploy,[feature]: Pass additive response schema changes during replay with an informational log,closed,2026-03-26T03:55:04Z,2026-03-31T14:06:20Z,AuraReaper,https://github.com/keploy/keploy/issues/3971
