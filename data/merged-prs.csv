@@ -3081,3 +3081,7 @@ pr_number,repo_name,title,state,created_at,merged_at,author,pr_url
 3987,keploy,feat: auto-pass additive HTTP response schema changes during replay,merged,2026-03-27T16:49:39Z,2026-03-31T13:27:48Z,AuraReaper,https://github.com/keploy/keploy/pull/3987
 3969,keploy,fix(replay): improve startup failure reporting and app log capture,merged,2026-03-25T15:37:31Z,2026-03-31T14:05:38Z,AuraReaper,https://github.com/keploy/keploy/pull/3969
 3964,keploy,Fix Replay Flow After Application Startup Failure,merged,2026-03-23T17:18:04Z,2026-03-31T11:08:19Z,AuraReaper,https://github.com/keploy/keploy/pull/3964
+817,docs,"docs: fix MCP type to http, add recording tools and workflow",merged,2026-04-01T14:03:33Z,2026-04-01T14:38:29Z,nehagup,https://github.com/keploy/docs/pull/817
+815,docs,docs: use prod Keploy Cloud URL in MCP config examples,merged,2026-04-01T09:26:11Z,2026-04-01T09:27:16Z,nehagup,https://github.com/keploy/docs/pull/815
+814,docs,"docs: MCP server setup for Claude Code, Cursor, Copilot, Antigravity",merged,2026-03-31T19:21:33Z,2026-04-01T08:35:10Z,nehagup,https://github.com/keploy/docs/pull/814
+354,blog-website,fix: add missing Script import in _document.tsx,merged,2026-03-31T12:26:32Z,2026-04-01T08:53:06Z,dhananjay6561,https://github.com/keploy/blog-website/pull/354
