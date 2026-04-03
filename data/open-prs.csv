@@ -712,3 +712,5 @@ pr_number,repo_name,title,state,created_at,updated_at,author,pr_url
 816,docs,docs: add Kubernetes deployment guide with ArgoCD and Flux CD,open,2026-04-01T11:30:04Z,2026-04-02T05:21:05Z,officialasishkumar,https://github.com/keploy/docs/pull/816
 356,blog-website,Aeo,open,2026-04-01T19:48:04Z,2026-04-01T19:51:20Z,nehagup,https://github.com/keploy/blog-website/pull/356
 145,public-apis-collection,Add ToolPipe API - 70+ Free Developer Utility APIs,open,2026-04-01T18:18:12Z,2026-04-02T01:21:50Z,Aldric-Core,https://github.com/keploy/public-apis-collection/pull/145
+3996,keploy,feat: enrich FailureInfo with FailureAssessment and mock mismatch data,open,2026-04-02T06:07:41Z,2026-04-02T06:12:49Z,AkashKumar7902,https://github.com/keploy/keploy/pull/3996
+357,blog-website,Remove commented-out AdSense script block,open,2026-04-02T11:57:02Z,2026-04-03T05:15:25Z,DSingh0304,https://github.com/keploy/blog-website/pull/357
