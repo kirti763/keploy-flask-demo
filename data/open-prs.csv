@@ -714,3 +714,10 @@ pr_number,repo_name,title,state,created_at,updated_at,author,pr_url
 145,public-apis-collection,Add ToolPipe API - 70+ Free Developer Utility APIs,open,2026-04-01T18:18:12Z,2026-04-02T01:21:50Z,Aldric-Core,https://github.com/keploy/public-apis-collection/pull/145
 3996,keploy,feat: enrich FailureInfo with FailureAssessment and mock mismatch data,open,2026-04-02T06:07:41Z,2026-04-02T06:12:49Z,AkashKumar7902,https://github.com/keploy/keploy/pull/3996
 357,blog-website,Remove commented-out AdSense script block,open,2026-04-02T11:57:02Z,2026-04-03T05:15:25Z,DSingh0304,https://github.com/keploy/blog-website/pull/357
+4000,keploy,feat(proxy): add CONNECT tunnel unwrapping for corporate HTTP proxy support,open,2026-04-03T19:54:20Z,2026-04-03T22:32:49Z,slayerjain,https://github.com/keploy/keploy/pull/4000
+3999,keploy,"feat: readonly record connections, TLS upgrader, memory limits",open,2026-04-03T19:00:29Z,2026-04-03T20:52:40Z,slayerjain,https://github.com/keploy/keploy/pull/3999
+3998,keploy,feat: auto-ignore flaky headers during mock matching,open,2026-04-03T15:19:35Z,2026-04-03T18:12:02Z,nehagup,https://github.com/keploy/keploy/pull/3998
+819,docs,feat: Phase 2 GEO/AEO — enrich schemas and llms.txt,open,2026-04-03T20:08:22Z,2026-04-03T20:14:58Z,slayerjain,https://github.com/keploy/docs/pull/819
+358,blog-website,"feat: Phase 2 GEO/AEO — Article+Person schema, enriched llms.txt",open,2026-04-03T20:09:23Z,2026-04-03T20:12:54Z,slayerjain,https://github.com/keploy/blog-website/pull/358
+198,website,fix: replace twitter.com with x.com in footer links (#3622),open,2026-04-04T03:04:59Z,2026-04-04T03:04:59Z,universe7creator,https://github.com/keploy/website/pull/198
+197,website,fix: replace #0 with / for Home link in footer,open,2026-04-03T23:47:09Z,2026-04-03T23:47:09Z,universe7creator,https://github.com/keploy/website/pull/197

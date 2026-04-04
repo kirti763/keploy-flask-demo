@@ -3090,3 +3090,5 @@ pr_number,repo_name,title,state,created_at,merged_at,author,pr_url
 3973,keploy,"feat: add SSE port, protocol config, and port mapping support",merged,2026-03-26T12:24:36Z,2026-04-02T08:58:22Z,officialasishkumar,https://github.com/keploy/keploy/pull/3973
 3921,keploy,fix: streaming HTTP capture with bounded buffering and improved error reporting,merged,2026-03-13T09:13:20Z,2026-04-02T09:12:27Z,officialasishkumar,https://github.com/keploy/keploy/pull/3921
 816,docs,docs: add Kubernetes deployment guide with ArgoCD and Flux CD,merged,2026-04-01T11:30:04Z,2026-04-02T08:09:12Z,officialasishkumar,https://github.com/keploy/docs/pull/816
+818,docs,aeo update,merged,2026-04-01T19:48:01Z,2026-04-03T20:00:45Z,nehagup,https://github.com/keploy/docs/pull/818
+356,blog-website,Aeo,merged,2026-04-01T19:48:04Z,2026-04-03T20:06:43Z,nehagup,https://github.com/keploy/blog-website/pull/356
