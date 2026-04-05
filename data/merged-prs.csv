@@ -3092,3 +3092,9 @@ pr_number,repo_name,title,state,created_at,merged_at,author,pr_url
 816,docs,docs: add Kubernetes deployment guide with ArgoCD and Flux CD,merged,2026-04-01T11:30:04Z,2026-04-02T08:09:12Z,officialasishkumar,https://github.com/keploy/docs/pull/816
 818,docs,aeo update,merged,2026-04-01T19:48:01Z,2026-04-03T20:00:45Z,nehagup,https://github.com/keploy/docs/pull/818
 356,blog-website,Aeo,merged,2026-04-01T19:48:04Z,2026-04-03T20:06:43Z,nehagup,https://github.com/keploy/blog-website/pull/356
+3998,keploy,feat: auto-ignore flaky headers during mock matching,merged,2026-04-03T15:19:35Z,2026-04-04T15:44:17Z,nehagup,https://github.com/keploy/keploy/pull/3998
+3995,keploy,fix: preserve startup/init mocks from deletion by RemoveUnusedMocks,merged,2026-04-02T03:27:49Z,2026-04-04T20:04:19Z,anjupathak03,https://github.com/keploy/keploy/pull/3995
+820,docs,"feat: Phase 3 — glossary CTR optimization, freshness signals, noindex old versions",merged,2026-04-04T19:43:21Z,2026-04-04T20:39:38Z,slayerjain,https://github.com/keploy/docs/pull/820
+819,docs,feat: Phase 2 GEO/AEO — enrich schemas and llms.txt,merged,2026-04-03T20:08:22Z,2026-04-04T16:48:39Z,slayerjain,https://github.com/keploy/docs/pull/819
+361,blog-website,fix: repair malformed vercel.json,merged,2026-04-04T19:43:16Z,2026-04-04T19:48:29Z,slayerjain,https://github.com/keploy/blog-website/pull/361
+359,blog-website,feat: enrich blog structured data and llms.txt for GEO/AEO,merged,2026-04-04T16:13:59Z,2026-04-04T19:17:54Z,slayerjain,https://github.com/keploy/blog-website/pull/359

@@ -721,3 +721,8 @@ pr_number,repo_name,title,state,created_at,updated_at,author,pr_url
 358,blog-website,"feat: Phase 2 GEO/AEO — Article+Person schema, enriched llms.txt",open,2026-04-03T20:09:23Z,2026-04-03T20:12:54Z,slayerjain,https://github.com/keploy/blog-website/pull/358
 198,website,fix: replace twitter.com with x.com in footer links (#3622),open,2026-04-04T03:04:59Z,2026-04-04T03:04:59Z,universe7creator,https://github.com/keploy/website/pull/198
 197,website,fix: replace #0 with / for Home link in footer,open,2026-04-03T23:47:09Z,2026-04-03T23:47:09Z,universe7creator,https://github.com/keploy/website/pull/197
+4003,keploy,fix: handle CLIENT_DEPRECATE_EOF in MySQL proxy recorder,open,2026-04-04T20:17:19Z,2026-04-04T22:04:05Z,slayerjain,https://github.com/keploy/keploy/pull/4003
+4002,keploy,fix: make macOS CI fully concurrent with 4 self-hosted runners,open,2026-04-04T19:46:05Z,2026-04-04T20:35:29Z,slayerjain,https://github.com/keploy/keploy/pull/4002
+213,samples-go,Add sse-preflight sample (SSE CORS preflight replay),open,2026-04-04T15:46:47Z,2026-04-04T17:35:22Z,anjupathak03,https://github.com/keploy/samples-go/pull/213
+362,blog-website,fix: resolve 799 duplicate meta descriptions + meta quality gates,open,2026-04-04T20:02:40Z,2026-04-04T20:51:55Z,slayerjain,https://github.com/keploy/blog-website/pull/362
+360,blog-website,fix: fixed the position bug of section underline for heading text,open,2026-04-04T19:03:49Z,2026-04-04T20:04:37Z,vaidik-bajpai,https://github.com/keploy/blog-website/pull/360
