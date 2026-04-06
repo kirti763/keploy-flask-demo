@@ -3098,3 +3098,11 @@ pr_number,repo_name,title,state,created_at,merged_at,author,pr_url
 819,docs,feat: Phase 2 GEO/AEO — enrich schemas and llms.txt,merged,2026-04-03T20:08:22Z,2026-04-04T16:48:39Z,slayerjain,https://github.com/keploy/docs/pull/819
 361,blog-website,fix: repair malformed vercel.json,merged,2026-04-04T19:43:16Z,2026-04-04T19:48:29Z,slayerjain,https://github.com/keploy/blog-website/pull/361
 359,blog-website,feat: enrich blog structured data and llms.txt for GEO/AEO,merged,2026-04-04T16:13:59Z,2026-04-04T19:17:54Z,slayerjain,https://github.com/keploy/blog-website/pull/359
+4005,keploy,"feat: readonly record connections, TLS upgrader, memory limits",merged,2026-04-05T14:09:02Z,2026-04-05T14:10:12Z,slayerjain,https://github.com/keploy/keploy/pull/4005
+4004,keploy,"Revert ""feat: readonly record connections, TLS upgrader, memory limits""",merged,2026-04-05T14:06:23Z,2026-04-05T14:06:35Z,slayerjain,https://github.com/keploy/keploy/pull/4004
+4003,keploy,fix: handle CLIENT_DEPRECATE_EOF in MySQL proxy recorder,merged,2026-04-04T20:17:19Z,2026-04-05T14:42:39Z,slayerjain,https://github.com/keploy/keploy/pull/4003
+4002,keploy,fix: make macOS CI fully concurrent with 4 self-hosted runners,merged,2026-04-04T19:46:05Z,2026-04-05T13:24:50Z,slayerjain,https://github.com/keploy/keploy/pull/4002
+3999,keploy,"feat: readonly record connections, TLS upgrader, memory limits",merged,2026-04-03T19:00:29Z,2026-04-05T14:06:07Z,slayerjain,https://github.com/keploy/keploy/pull/3999
+214,samples-go,feat: add connect-tunnel sample for CONNECT proxy E2E testing,merged,2026-04-05T14:49:18Z,2026-04-05T20:33:39Z,slayerjain,https://github.com/keploy/samples-go/pull/214
+821,docs,"fix: docs UI improvements — navbar link, heading styles, footer layout, banner",merged,2026-04-05T12:39:16Z,2026-04-05T18:01:40Z,slayerjain,https://github.com/keploy/docs/pull/821
+362,blog-website,fix: resolve 799 duplicate meta descriptions + meta quality gates,merged,2026-04-04T20:02:40Z,2026-04-05T17:35:44Z,slayerjain,https://github.com/keploy/blog-website/pull/362

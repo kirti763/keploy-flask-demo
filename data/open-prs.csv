@@ -726,3 +726,10 @@ pr_number,repo_name,title,state,created_at,updated_at,author,pr_url
 213,samples-go,Add sse-preflight sample (SSE CORS preflight replay),open,2026-04-04T15:46:47Z,2026-04-04T17:35:22Z,anjupathak03,https://github.com/keploy/samples-go/pull/213
 362,blog-website,fix: resolve 799 duplicate meta descriptions + meta quality gates,open,2026-04-04T20:02:40Z,2026-04-04T20:51:55Z,slayerjain,https://github.com/keploy/blog-website/pull/362
 360,blog-website,fix: fixed the position bug of section underline for heading text,open,2026-04-04T19:03:49Z,2026-04-04T20:04:37Z,vaidik-bajpai,https://github.com/keploy/blog-website/pull/360
+4013,keploy,feat: derive OpenAPI contracts from recorded traffic,open,2026-04-05T17:29:34Z,2026-04-05T18:19:31Z,mvanhorn,https://github.com/keploy/keploy/pull/4013
+4012,keploy,feat: add global --json flag for structured output across all commands,open,2026-04-05T17:03:11Z,2026-04-05T18:27:28Z,mvanhorn,https://github.com/keploy/keploy/pull/4012
+4011,keploy,feat: add watch mode for continuous recording during development,open,2026-04-05T16:18:13Z,2026-04-05T17:09:13Z,mvanhorn,https://github.com/keploy/keploy/pull/4011
+4010,keploy,feat: add automatic PII detection during recording,open,2026-04-05T16:12:14Z,2026-04-05T18:26:55Z,mvanhorn,https://github.com/keploy/keploy/pull/4010
+4008,keploy,feat: add test run diff command to compare results across runs,open,2026-04-05T16:01:41Z,2026-04-05T18:23:01Z,mvanhorn,https://github.com/keploy/keploy/pull/4008
+4007,keploy,fix(ci): isolate git/SSH config per run on Windows self-hosted runners,open,2026-04-05T14:58:30Z,2026-04-05T21:12:22Z,slayerjain,https://github.com/keploy/keploy/pull/4007
+4006,keploy,fix: make gRPC protoscope matching indentation-agnostic,open,2026-04-05T14:25:40Z,2026-04-05T14:30:39Z,anjupathak03,https://github.com/keploy/keploy/pull/4006
