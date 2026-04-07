@@ -1445,3 +1445,4 @@ issue_number,repo_name,title,state,created_at,closed_at,author,issue_url
 3968,keploy,[bug]: replay reports for startup failures should include readable failure reason and recent app logs,closed,2026-03-25T15:28:01Z,2026-03-31T14:07:52Z,AuraReaper,https://github.com/keploy/keploy/issues/3968
 3971,keploy,[feature]: Pass additive response schema changes during replay with an informational log,closed,2026-03-26T03:55:04Z,2026-03-31T14:06:20Z,AuraReaper,https://github.com/keploy/keploy/issues/3971
 3970,keploy,Fix: eBPF fails to load on Windows Docker due to rlimit probe error,closed,2026-03-25T20:12:34Z,2026-04-02T06:14:02Z,pathakharshit,https://github.com/keploy/keploy/issues/3970
+3974,keploy,"[feature]: Add SSE port, protocol-level port config, and replaceWith port mapping",closed,2026-03-26T12:26:05Z,2026-04-06T06:20:28Z,officialasishkumar,https://github.com/keploy/keploy/issues/3974
