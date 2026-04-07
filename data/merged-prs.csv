@@ -3106,3 +3106,8 @@ pr_number,repo_name,title,state,created_at,merged_at,author,pr_url
 214,samples-go,feat: add connect-tunnel sample for CONNECT proxy E2E testing,merged,2026-04-05T14:49:18Z,2026-04-05T20:33:39Z,slayerjain,https://github.com/keploy/samples-go/pull/214
 821,docs,"fix: docs UI improvements — navbar link, heading styles, footer layout, banner",merged,2026-04-05T12:39:16Z,2026-04-05T18:01:40Z,slayerjain,https://github.com/keploy/docs/pull/821
 362,blog-website,fix: resolve 799 duplicate meta descriptions + meta quality gates,merged,2026-04-04T20:02:40Z,2026-04-05T17:35:44Z,slayerjain,https://github.com/keploy/blog-website/pull/362
+4007,keploy,fix(ci): isolate git/SSH config per run on Windows self-hosted runners,merged,2026-04-05T14:58:30Z,2026-04-06T16:45:12Z,slayerjain,https://github.com/keploy/keploy/pull/4007
+4006,keploy,fix: make gRPC protoscope matching indentation-agnostic,merged,2026-04-05T14:25:40Z,2026-04-06T17:58:00Z,anjupathak03,https://github.com/keploy/keploy/pull/4006
+4000,keploy,feat(proxy): add CONNECT tunnel unwrapping for corporate HTTP proxy support,merged,2026-04-03T19:54:20Z,2026-04-06T19:27:16Z,slayerjain,https://github.com/keploy/keploy/pull/4000
+3996,keploy,feat: enrich FailureInfo with FailureAssessment and mock mismatch data,merged,2026-04-02T06:07:41Z,2026-04-06T13:23:43Z,AkashKumar7902,https://github.com/keploy/keploy/pull/3996
+213,samples-go,Add sse-preflight sample (SSE CORS preflight replay),merged,2026-04-04T15:46:47Z,2026-04-07T03:44:35Z,anjupathak03,https://github.com/keploy/samples-go/pull/213
