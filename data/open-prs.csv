@@ -735,3 +735,7 @@ pr_number,repo_name,title,state,created_at,updated_at,author,pr_url
 4006,keploy,fix: make gRPC protoscope matching indentation-agnostic,open,2026-04-05T14:25:40Z,2026-04-05T14:30:39Z,anjupathak03,https://github.com/keploy/keploy/pull/4006
 4014,keploy,feat: add SSE and HTTP streaming support,open,2026-04-06T14:36:52Z,2026-04-07T05:00:42Z,officialasishkumar,https://github.com/keploy/keploy/pull/4014
 215,samples-go,chore: add grpc-protoscope sample app for Keploy gRPC field-ordering bug,open,2026-04-06T09:57:08Z,2026-04-07T05:44:37Z,anjupathak03,https://github.com/keploy/samples-go/pull/215
+4022,keploy,feat: keep docker-compose content in memory to prevent env var exposure,open,2026-04-08T01:03:53Z,2026-04-08T01:10:18Z,ayush3160,https://github.com/keploy/keploy/pull/4022
+4020,keploy,fix: prioritize replay mocks by request timestamp,open,2026-04-07T19:22:42Z,2026-04-07T21:13:14Z,officialasishkumar,https://github.com/keploy/keploy/pull/4020
+216,samples-go,feat: postgres app for load testing,open,2026-04-08T05:08:32Z,2026-04-08T05:12:34Z,kapishupadhyay22,https://github.com/keploy/samples-go/pull/216
+822,docs,"feat: fix breadcrumb, content container and footer ui",open,2026-04-08T04:33:29Z,2026-04-08T04:40:40Z,amaan-bhati,https://github.com/keploy/docs/pull/822

@@ -3111,3 +3111,4 @@ pr_number,repo_name,title,state,created_at,merged_at,author,pr_url
 4000,keploy,feat(proxy): add CONNECT tunnel unwrapping for corporate HTTP proxy support,merged,2026-04-03T19:54:20Z,2026-04-06T19:27:16Z,slayerjain,https://github.com/keploy/keploy/pull/4000
 3996,keploy,feat: enrich FailureInfo with FailureAssessment and mock mismatch data,merged,2026-04-02T06:07:41Z,2026-04-06T13:23:43Z,AkashKumar7902,https://github.com/keploy/keploy/pull/3996
 213,samples-go,Add sse-preflight sample (SSE CORS preflight replay),merged,2026-04-04T15:46:47Z,2026-04-07T03:44:35Z,anjupathak03,https://github.com/keploy/samples-go/pull/213
+4008,keploy,feat: add test run diff command to compare results across runs,merged,2026-04-05T16:01:41Z,2026-04-07T20:41:46Z,mvanhorn,https://github.com/keploy/keploy/pull/4008
