@@ -3112,3 +3112,7 @@ pr_number,repo_name,title,state,created_at,merged_at,author,pr_url
 3996,keploy,feat: enrich FailureInfo with FailureAssessment and mock mismatch data,merged,2026-04-02T06:07:41Z,2026-04-06T13:23:43Z,AkashKumar7902,https://github.com/keploy/keploy/pull/3996
 213,samples-go,Add sse-preflight sample (SSE CORS preflight replay),merged,2026-04-04T15:46:47Z,2026-04-07T03:44:35Z,anjupathak03,https://github.com/keploy/samples-go/pull/213
 4008,keploy,feat: add test run diff command to compare results across runs,merged,2026-04-05T16:01:41Z,2026-04-07T20:41:46Z,mvanhorn,https://github.com/keploy/keploy/pull/4008
+823,docs,"feat(seo): GEO/AEO Phase 1 — schema, sitemap, keywords, headers, llms-full.txt",merged,2026-04-08T16:04:45Z,2026-04-08T21:59:29Z,slayerjain,https://github.com/keploy/docs/pull/823
+822,docs,"feat: fix breadcrumb, content container and footer ui",merged,2026-04-08T04:33:29Z,2026-04-08T09:39:42Z,amaan-bhati,https://github.com/keploy/docs/pull/822
+364,blog-website,"feat(seo): GEO/AEO Phase 1 — meta tags, favicon, robots.txt, llms-full.txt",merged,2026-04-08T16:04:42Z,2026-04-08T17:35:10Z,slayerjain,https://github.com/keploy/blog-website/pull/364
+363,blog-website,fix: crash on 404 page when post title or excerpt is null,merged,2026-04-08T10:38:10Z,2026-04-08T15:17:52Z,slayerjain,https://github.com/keploy/blog-website/pull/363

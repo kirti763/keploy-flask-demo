@@ -739,3 +739,9 @@ pr_number,repo_name,title,state,created_at,updated_at,author,pr_url
 4020,keploy,fix: prioritize replay mocks by request timestamp,open,2026-04-07T19:22:42Z,2026-04-07T21:13:14Z,officialasishkumar,https://github.com/keploy/keploy/pull/4020
 216,samples-go,feat: postgres app for load testing,open,2026-04-08T05:08:32Z,2026-04-08T05:12:34Z,kapishupadhyay22,https://github.com/keploy/samples-go/pull/216
 822,docs,"feat: fix breadcrumb, content container and footer ui",open,2026-04-08T04:33:29Z,2026-04-08T04:40:40Z,amaan-bhati,https://github.com/keploy/docs/pull/822
+4026,keploy,feat: noise-based obfuscation-aware mock matching across all parsers,open,2026-04-08T17:55:19Z,2026-04-08T18:07:38Z,ayush3160,https://github.com/keploy/keploy/pull/4026
+4024,keploy,feat: obfuscation-aware HTTP mock matching with match percentage logging,open,2026-04-08T13:04:09Z,2026-04-08T21:41:39Z,ayush3160,https://github.com/keploy/keploy/pull/4024
+4023,keploy,fix: prioritize replay mocks by request timestamp and fix build errors,open,2026-04-08T10:45:42Z,2026-04-08T10:51:36Z,vaani1127,https://github.com/keploy/keploy/pull/4023
+825,docs,"fix: GSC audit — descriptions, redirects, titles, breadcrumbs, headers",open,2026-04-08T22:08:22Z,2026-04-09T05:02:20Z,slayerjain,https://github.com/keploy/docs/pull/825
+824,docs,feat: set the design guideline agent guidelines for ui reviews,open,2026-04-08T18:16:16Z,2026-04-08T21:43:19Z,amaan-bhati,https://github.com/keploy/docs/pull/824
+365,blog-website,"fix: GSC audit — 28 duplicate URL redirects, OG tags, favicon",open,2026-04-08T22:08:37Z,2026-04-09T04:50:16Z,slayerjain,https://github.com/keploy/blog-website/pull/365
