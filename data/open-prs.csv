@@ -745,3 +745,9 @@ pr_number,repo_name,title,state,created_at,updated_at,author,pr_url
 825,docs,"fix: GSC audit — descriptions, redirects, titles, breadcrumbs, headers",open,2026-04-08T22:08:22Z,2026-04-09T05:02:20Z,slayerjain,https://github.com/keploy/docs/pull/825
 824,docs,feat: set the design guideline agent guidelines for ui reviews,open,2026-04-08T18:16:16Z,2026-04-08T21:43:19Z,amaan-bhati,https://github.com/keploy/docs/pull/824
 365,blog-website,"fix: GSC audit — 28 duplicate URL redirects, OG tags, favicon",open,2026-04-08T22:08:37Z,2026-04-09T04:50:16Z,slayerjain,https://github.com/keploy/blog-website/pull/365
+4036,keploy,feat(models): add first-class HBase mock storage slots,open,2026-04-09T13:07:01Z,2026-04-09T22:15:48Z,officialasishkumar,https://github.com/keploy/keploy/pull/4036
+4033,keploy,feat: aerospike mocks kind,open,2026-04-09T12:20:33Z,2026-04-09T12:27:41Z,khareyash05,https://github.com/keploy/keploy/pull/4033
+4031,keploy,fix(http): preserve comma-separated header values during replay,open,2026-04-09T10:57:29Z,2026-04-09T11:06:37Z,AkashKumar7902,https://github.com/keploy/keploy/pull/4031
+4027,keploy,feat: introduce RecordConn interface for unified conn contract,open,2026-04-09T08:00:28Z,2026-04-09T08:10:10Z,slayerjain,https://github.com/keploy/keploy/pull/4027
+828,docs,"perf(docs): add loading=""lazy"" decoding=""async"" to all <img> tags",open,2026-04-10T05:30:25Z,2026-04-10T05:37:37Z,Aryan-B-Parikh,https://github.com/keploy/docs/pull/828
+366,blog-website,ci: add IndexNow auto-submission for Bing indexing,open,2026-04-09T17:56:04Z,2026-04-09T18:01:51Z,nehagup,https://github.com/keploy/blog-website/pull/366
