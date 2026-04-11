@@ -3129,3 +3129,4 @@ pr_number,repo_name,title,state,created_at,merged_at,author,pr_url
 827,docs,feat: combined SEO/GEO/AEO + IndexNow auto-submission + build fix,merged,2026-04-09T18:17:48Z,2026-04-09T19:14:50Z,nehagup,https://github.com/keploy/docs/pull/827
 825,docs,"fix: GSC audit — descriptions, redirects, titles, breadcrumbs, headers",merged,2026-04-08T22:08:22Z,2026-04-09T15:42:08Z,slayerjain,https://github.com/keploy/docs/pull/825
 365,blog-website,"fix: GSC audit — 28 duplicate URL redirects, OG tags, favicon",merged,2026-04-08T22:08:37Z,2026-04-09T15:23:52Z,slayerjain,https://github.com/keploy/blog-website/pull/365
+216,samples-go,feat: postgres app for load testing,merged,2026-04-08T05:08:32Z,2026-04-10T09:22:52Z,kapishupadhyay22,https://github.com/keploy/samples-go/pull/216

@@ -751,3 +751,8 @@ pr_number,repo_name,title,state,created_at,updated_at,author,pr_url
 4027,keploy,feat: introduce RecordConn interface for unified conn contract,open,2026-04-09T08:00:28Z,2026-04-09T08:10:10Z,slayerjain,https://github.com/keploy/keploy/pull/4027
 828,docs,"perf(docs): add loading=""lazy"" decoding=""async"" to all <img> tags",open,2026-04-10T05:30:25Z,2026-04-10T05:37:37Z,Aryan-B-Parikh,https://github.com/keploy/docs/pull/828
 366,blog-website,ci: add IndexNow auto-submission for Bing indexing,open,2026-04-09T17:56:04Z,2026-04-09T18:01:51Z,nehagup,https://github.com/keploy/blog-website/pull/366
+4040,keploy,ci: add manual release trigger workflow,open,2026-04-10T19:36:48Z,2026-04-10T20:39:01Z,officialasishkumar,https://github.com/keploy/keploy/pull/4040
+4039,keploy,fix: reduce memory consumption during recording under load,open,2026-04-10T14:07:41Z,2026-04-10T16:57:21Z,charankamarapu,https://github.com/keploy/keploy/pull/4039
+4038,keploy,feat: pulsar mocks kind,open,2026-04-10T12:28:44Z,2026-04-10T12:35:44Z,khareyash05,https://github.com/keploy/keploy/pull/4038
+4037,keploy,fix: warn when infrastructure service ports are bypassed during recording,open,2026-04-10T09:26:35Z,2026-04-10T09:32:11Z,Aditya-eddy,https://github.com/keploy/keploy/pull/4037
+367,blog-website,"feat: migrate sitemap to App Router ISR (node:https, no custom crawler)",open,2026-04-10T15:01:28Z,2026-04-10T19:18:37Z,amaan-bhati,https://github.com/keploy/blog-website/pull/367
