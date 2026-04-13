@@ -757,3 +757,4 @@ pr_number,repo_name,title,state,created_at,updated_at,author,pr_url
 4037,keploy,fix: warn when infrastructure service ports are bypassed during recording,open,2026-04-10T09:26:35Z,2026-04-10T09:32:11Z,Aditya-eddy,https://github.com/keploy/keploy/pull/4037
 367,blog-website,"feat: migrate sitemap to App Router ISR (node:https, no custom crawler)",open,2026-04-10T15:01:28Z,2026-04-10T19:18:37Z,amaan-bhati,https://github.com/keploy/blog-website/pull/367
 4041,keploy,feat: single test executer,open,2026-04-11T08:10:12Z,2026-04-11T21:44:21Z,charankamarapu,https://github.com/keploy/keploy/pull/4041
+4044,keploy,feat: generate descriptive default testcase names during recording,open,2026-04-12T18:12:16Z,2026-04-12T22:07:41Z,slayerjain,https://github.com/keploy/keploy/pull/4044
