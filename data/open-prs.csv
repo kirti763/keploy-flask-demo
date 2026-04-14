@@ -758,3 +758,9 @@ pr_number,repo_name,title,state,created_at,updated_at,author,pr_url
 367,blog-website,"feat: migrate sitemap to App Router ISR (node:https, no custom crawler)",open,2026-04-10T15:01:28Z,2026-04-10T19:18:37Z,amaan-bhati,https://github.com/keploy/blog-website/pull/367
 4041,keploy,feat: single test executer,open,2026-04-11T08:10:12Z,2026-04-11T21:44:21Z,charankamarapu,https://github.com/keploy/keploy/pull/4041
 4044,keploy,feat: generate descriptive default testcase names during recording,open,2026-04-12T18:12:16Z,2026-04-12T22:07:41Z,slayerjain,https://github.com/keploy/keploy/pull/4044
+4047,keploy,docs: add priyanshu singh as individual adopter closes #3444,open,2026-04-13T19:37:22Z,2026-04-14T04:21:09Z,dev-priyanshu15,https://github.com/keploy/keploy/pull/4047
+4046,keploy,feat: add HBase mock schema slots and integration type,open,2026-04-13T17:05:40Z,2026-04-13T17:33:06Z,potatotify,https://github.com/keploy/keploy/pull/4046
+4045,keploy,"feat(proxy): extensibility hooks + Postgres SSL, ALPN, MySQL fixes",open,2026-04-13T08:34:27Z,2026-04-13T09:36:12Z,slayerjain,https://github.com/keploy/keploy/pull/4045
+371,blog-website,fix: update Lighthouse CI workflow to run on pull requests,open,2026-04-13T18:39:29Z,2026-04-13T18:39:29Z,SadhanaShree25,https://github.com/keploy/blog-website/pull/371
+370,blog-website,"feat: design, implement and test the design agent",open,2026-04-13T18:21:09Z,2026-04-13T18:46:35Z,amaan-bhati,https://github.com/keploy/blog-website/pull/370
+369,blog-website,"feat: design, implement and test the automated qa agent",open,2026-04-13T18:00:17Z,2026-04-13T18:46:15Z,amaan-bhati,https://github.com/keploy/blog-website/pull/369
