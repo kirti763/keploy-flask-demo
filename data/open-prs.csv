@@ -764,3 +764,16 @@ pr_number,repo_name,title,state,created_at,updated_at,author,pr_url
 371,blog-website,fix: update Lighthouse CI workflow to run on pull requests,open,2026-04-13T18:39:29Z,2026-04-13T18:39:29Z,SadhanaShree25,https://github.com/keploy/blog-website/pull/371
 370,blog-website,"feat: design, implement and test the design agent",open,2026-04-13T18:21:09Z,2026-04-13T18:46:35Z,amaan-bhati,https://github.com/keploy/blog-website/pull/370
 369,blog-website,"feat: design, implement and test the automated qa agent",open,2026-04-13T18:00:17Z,2026-04-13T18:46:15Z,amaan-bhati,https://github.com/keploy/blog-website/pull/369
+4053,keploy,fix: move compose dns settings to keploy-agent,open,2026-04-14T13:47:00Z,2026-04-15T05:09:55Z,officialasishkumar,https://github.com/keploy/keploy/pull/4053
+4051,keploy,feat: async decoding of packets for mysql and http outgoing,open,2026-04-14T13:30:59Z,2026-04-14T19:30:07Z,kapishupadhyay22,https://github.com/keploy/keploy/pull/4051
+4050,keploy,Dns issue,open,2026-04-14T13:10:06Z,2026-04-14T18:38:59Z,harshitashankar,https://github.com/keploy/keploy/pull/4050
+4049,keploy,fix: cgroup path for daemonset,open,2026-04-14T08:51:12Z,2026-04-14T09:01:48Z,khareyash05,https://github.com/keploy/keploy/pull/4049
+4048,keploy,fix: preserve negative DNS responses in mocks,open,2026-04-14T08:09:46Z,2026-04-14T09:21:34Z,officialasishkumar,https://github.com/keploy/keploy/pull/4048
+834,docs,feat: create qa agent skill for detailed code review,open,2026-04-14T23:12:10Z,2026-04-14T23:22:46Z,amaan-bhati,https://github.com/keploy/docs/pull/834
+832,docs,"audit: BreadcrumbList, robots policy, og:title, sidebar + Keploy vs Alternatives",open,2026-04-14T13:42:57Z,2026-04-14T18:42:59Z,slayerjain,https://github.com/keploy/docs/pull/832
+831,docs,feat: add design review skill for claude,open,2026-04-14T13:20:09Z,2026-04-14T22:41:49Z,amaan-bhati,https://github.com/keploy/docs/pull/831
+830,docs,feat: automated ai powered qa agent for pr reviews and commits on prs,open,2026-04-14T08:02:25Z,2026-04-14T11:29:34Z,amaan-bhati,https://github.com/keploy/docs/pull/830
+375,blog-website,feat: create qa agent skill for detailed code reviews,open,2026-04-14T23:03:49Z,2026-04-14T23:32:12Z,amaan-bhati,https://github.com/keploy/blog-website/pull/375
+373,blog-website,fix(seo): author page title + Person schema + nuanced robots policy,open,2026-04-14T13:41:58Z,2026-04-14T19:01:27Z,slayerjain,https://github.com/keploy/blog-website/pull/373
+372,blog-website,feat: add deisgn review skill with anti patern and design tokens,open,2026-04-14T13:17:09Z,2026-04-14T14:26:17Z,amaan-bhati,https://github.com/keploy/blog-website/pull/372
+16,docker-images,feat: add keploy-ci-azurecli image for Azure Blob Storage uploads,open,2026-04-14T08:51:42Z,2026-04-14T08:58:19Z,Yogeshjindal,https://github.com/keploy/docker-images/pull/16

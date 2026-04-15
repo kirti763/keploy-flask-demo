@@ -3136,3 +3136,6 @@ pr_number,repo_name,title,state,created_at,merged_at,author,pr_url
 3994,keploy,"feat: Memory limit for agent during recording, incoming proxy passthrough",merged,2026-04-01T09:25:09Z,2026-04-13T12:51:04Z,kapishupadhyay22,https://github.com/keploy/keploy/pull/3994
 829,docs,docs(public-api): add API docs URL alongside base URL,merged,2026-04-14T04:42:54Z,2026-04-14T04:44:57Z,slayerjain,https://github.com/keploy/docs/pull/829
 368,blog-website,chore: added two urls to redirect in config,merged,2026-04-13T12:09:43Z,2026-04-13T12:51:28Z,ALOK07K,https://github.com/keploy/blog-website/pull/368
+4039,keploy,fix: reduce memory consumption during recording under load,merged,2026-04-10T14:07:41Z,2026-04-14T17:51:47Z,charankamarapu,https://github.com/keploy/keploy/pull/4039
+833,docs,fix(ci): harden Submit docs URLs to IndexNow step,merged,2026-04-14T15:31:51Z,2026-04-14T17:21:20Z,slayerjain,https://github.com/keploy/docs/pull/833
+366,blog-website,ci: add IndexNow auto-submission for Bing indexing,merged,2026-04-09T17:56:04Z,2026-04-14T13:49:36Z,nehagup,https://github.com/keploy/blog-website/pull/366
