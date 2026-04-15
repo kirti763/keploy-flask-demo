@@ -366,3 +366,4 @@ issue_number,repo_name,title,state,created_at,updated_at,author,issue_url
 4019,keploy,[bug]: Keploy Community section misalignment on SAAS white paper page compared to homepage,open,2026-04-07T19:17:16Z,2026-04-07T19:18:38Z,Gourish112,https://github.com/keploy/keploy/issues/4019
 4021,keploy,[bug]: replay mock filtering can select stale dependency mocks when trailing calls cross the testcase response boundary,open,2026-04-07T21:12:54Z,2026-04-07T21:23:35Z,officialasishkumar,https://github.com/keploy/keploy/issues/4021
 4034,keploy,"[feature]: First-class HBase mock storage (Kind, IntegrationType, MockSpec fields)",open,2026-04-09T12:54:37Z,2026-04-09T12:54:37Z,officialasishkumar,https://github.com/keploy/keploy/issues/4034
+4052,keploy,[bug]: move resolver settings to keploy-agent during compose injection,open,2026-04-14T13:46:41Z,2026-04-14T13:46:41Z,officialasishkumar,https://github.com/keploy/keploy/issues/4052
