@@ -777,3 +777,6 @@ pr_number,repo_name,title,state,created_at,updated_at,author,pr_url
 373,blog-website,fix(seo): author page title + Person schema + nuanced robots policy,open,2026-04-14T13:41:58Z,2026-04-14T19:01:27Z,slayerjain,https://github.com/keploy/blog-website/pull/373
 372,blog-website,feat: add deisgn review skill with anti patern and design tokens,open,2026-04-14T13:17:09Z,2026-04-14T14:26:17Z,amaan-bhati,https://github.com/keploy/blog-website/pull/372
 16,docker-images,feat: add keploy-ci-azurecli image for Azure Blob Storage uploads,open,2026-04-14T08:51:42Z,2026-04-14T08:58:19Z,Yogeshjindal,https://github.com/keploy/docker-images/pull/16
+4063,keploy,"feat: add JSON serialization format for testcases, mocks, reports",open,2026-04-15T12:07:21Z,2026-04-15T15:14:28Z,ayush3160,https://github.com/keploy/keploy/pull/4063
+4062,keploy,fix: add Logs field to TestReport,open,2026-04-15T11:48:26Z,2026-04-15T11:49:33Z,ooaaooaa123,https://github.com/keploy/keploy/pull/4062
+374,blog-website,feat: implement cronjob based sitemap automation,open,2026-04-14T16:52:48Z,2026-04-15T22:05:28Z,amaan-bhati,https://github.com/keploy/blog-website/pull/374
