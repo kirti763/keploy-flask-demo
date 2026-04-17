@@ -780,3 +780,8 @@ pr_number,repo_name,title,state,created_at,updated_at,author,pr_url
 4063,keploy,"feat: add JSON serialization format for testcases, mocks, reports",open,2026-04-15T12:07:21Z,2026-04-15T15:14:28Z,ayush3160,https://github.com/keploy/keploy/pull/4063
 4062,keploy,fix: add Logs field to TestReport,open,2026-04-15T11:48:26Z,2026-04-15T11:49:33Z,ooaaooaa123,https://github.com/keploy/keploy/pull/4062
 374,blog-website,feat: implement cronjob based sitemap automation,open,2026-04-14T16:52:48Z,2026-04-15T22:05:28Z,amaan-bhati,https://github.com/keploy/blog-website/pull/374
+4073,keploy,feat: strict mock-window containment + per-test window plumbing,open,2026-04-16T18:55:27Z,2026-04-17T05:34:41Z,slayerjain,https://github.com/keploy/keploy/pull/4073
+4072,keploy,fix: apply consumed state to unfiltered mocks,open,2026-04-16T16:10:24Z,2026-04-16T20:34:31Z,VivekArgSharma,https://github.com/keploy/keploy/pull/4072
+4071,keploy,Add AGENTS.md and Claude Code skills for agent-assisted contribution,open,2026-04-16T11:04:47Z,2026-04-17T05:58:24Z,officialasishkumar,https://github.com/keploy/keploy/pull/4071
+4065,keploy,fix: rejecting root path in macos for calculating memory,open,2026-04-16T07:52:49Z,2026-04-16T07:57:48Z,kapishupadhyay22,https://github.com/keploy/keploy/pull/4065
+377,blog-website,"fix(seo): add hub pages, sitemap/redirect updates, and schema/a11y fixes",open,2026-04-16T12:43:19Z,2026-04-16T12:48:37Z,dhananjay6561,https://github.com/keploy/blog-website/pull/377
