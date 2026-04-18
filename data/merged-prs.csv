@@ -3154,3 +3154,4 @@ pr_number,repo_name,title,state,created_at,merged_at,author,pr_url
 124,samples-java,"fix(ps-cache-kotlin): correct README ports, DB config, and reproduction steps",merged,2026-04-16T20:51:31Z,2026-04-16T20:51:49Z,slayerjain,https://github.com/keploy/samples-java/pull/124
 123,samples-java,feat: add ps-cache-kotlin sample for connection-affinity testing,merged,2026-04-16T17:01:01Z,2026-04-16T19:16:03Z,slayerjain,https://github.com/keploy/samples-java/pull/123
 16,docker-images,feat: add keploy-ci-azurecli image for Azure Blob Storage uploads,merged,2026-04-14T08:51:42Z,2026-04-16T06:30:44Z,Yogeshjindal,https://github.com/keploy/docker-images/pull/16
+3978,keploy,chore: prune pkg/agent/proxy/integrations/http function and imports,merged,2026-03-26T22:36:51Z,2026-04-17T14:37:17Z,alrs,https://github.com/keploy/keploy/pull/3978
