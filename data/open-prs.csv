@@ -785,3 +785,5 @@ pr_number,repo_name,title,state,created_at,updated_at,author,pr_url
 4071,keploy,Add AGENTS.md and Claude Code skills for agent-assisted contribution,open,2026-04-16T11:04:47Z,2026-04-17T05:58:24Z,officialasishkumar,https://github.com/keploy/keploy/pull/4071
 4065,keploy,fix: rejecting root path in macos for calculating memory,open,2026-04-16T07:52:49Z,2026-04-16T07:57:48Z,kapishupadhyay22,https://github.com/keploy/keploy/pull/4065
 377,blog-website,"fix(seo): add hub pages, sitemap/redirect updates, and schema/a11y fixes",open,2026-04-16T12:43:19Z,2026-04-16T12:48:37Z,dhananjay6561,https://github.com/keploy/blog-website/pull/377
+4075,keploy,fix(runner): HTTP probe in waitForApp to avoid docker-compose port-forwarder race,open,2026-04-18T22:16:35Z,2026-04-18T23:03:47Z,charankamarapu,https://github.com/keploy/keploy/pull/4075
+836,docs,docs: update GSoC contribution guide from 2023 to 2026,open,2026-04-18T10:17:21Z,2026-04-18T10:17:51Z,Manthan-Shirsath,https://github.com/keploy/docs/pull/836

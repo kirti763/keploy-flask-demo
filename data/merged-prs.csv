@@ -3155,3 +3155,5 @@ pr_number,repo_name,title,state,created_at,merged_at,author,pr_url
 123,samples-java,feat: add ps-cache-kotlin sample for connection-affinity testing,merged,2026-04-16T17:01:01Z,2026-04-16T19:16:03Z,slayerjain,https://github.com/keploy/samples-java/pull/123
 16,docker-images,feat: add keploy-ci-azurecli image for Azure Blob Storage uploads,merged,2026-04-14T08:51:42Z,2026-04-16T06:30:44Z,Yogeshjindal,https://github.com/keploy/docker-images/pull/16
 3978,keploy,chore: prune pkg/agent/proxy/integrations/http function and imports,merged,2026-03-26T22:36:51Z,2026-04-17T14:37:17Z,alrs,https://github.com/keploy/keploy/pull/3978
+4074,keploy,fix: remove agent ready file before starting,merged,2026-04-18T13:20:54Z,2026-04-18T15:37:00Z,ayush3160,https://github.com/keploy/keploy/pull/4074
+4065,keploy,fix: rejecting root path in macos/kind cluster for calculating memory,merged,2026-04-16T07:52:49Z,2026-04-18T18:44:08Z,kapishupadhyay22,https://github.com/keploy/keploy/pull/4065
