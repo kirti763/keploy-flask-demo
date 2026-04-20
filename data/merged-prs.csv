@@ -3157,3 +3157,9 @@ pr_number,repo_name,title,state,created_at,merged_at,author,pr_url
 3978,keploy,chore: prune pkg/agent/proxy/integrations/http function and imports,merged,2026-03-26T22:36:51Z,2026-04-17T14:37:17Z,alrs,https://github.com/keploy/keploy/pull/3978
 4074,keploy,fix: remove agent ready file before starting,merged,2026-04-18T13:20:54Z,2026-04-18T15:37:00Z,ayush3160,https://github.com/keploy/keploy/pull/4074
 4065,keploy,fix: rejecting root path in macos/kind cluster for calculating memory,merged,2026-04-16T07:52:49Z,2026-04-18T18:44:08Z,kapishupadhyay22,https://github.com/keploy/keploy/pull/4065
+4078,keploy,"fix(proxy,tools): keep ERROR level, attach next_step guidance",merged,2026-04-19T17:19:51Z,2026-04-19T18:21:00Z,slayerjain,https://github.com/keploy/keploy/pull/4078
+4077,keploy,"ci(windows/go-dedup): gate readiness probe on keploy PID, neutralize replay stderr",merged,2026-04-19T13:49:13Z,2026-04-19T16:52:42Z,slayerjain,https://github.com/keploy/keploy/pull/4077
+4076,keploy,fix(syncMock): bounded-block sendToOutChan so burst capture doesn't silently drop mocks,merged,2026-04-19T12:52:04Z,2026-04-19T13:33:21Z,slayerjain,https://github.com/keploy/keploy/pull/4076
+4075,keploy,fix(runner): HTTP probe in waitForApp to avoid docker-compose port-forwarder race,merged,2026-04-18T22:16:35Z,2026-04-19T12:32:31Z,charankamarapu,https://github.com/keploy/keploy/pull/4075
+4073,keploy,feat: strict mock-window containment + Lifetime model (Phase 1),merged,2026-04-16T18:55:27Z,2026-04-19T07:12:51Z,slayerjain,https://github.com/keploy/keploy/pull/4073
+4045,keploy,"feat(proxy): extensibility hooks + Postgres SSL, ALPN, MySQL fixes",merged,2026-04-13T08:34:27Z,2026-04-19T08:16:48Z,slayerjain,https://github.com/keploy/keploy/pull/4045
