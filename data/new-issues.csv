@@ -368,3 +368,5 @@ issue_number,repo_name,title,state,created_at,updated_at,author,issue_url
 4034,keploy,"[feature]: First-class HBase mock storage (Kind, IntegrationType, MockSpec fields)",open,2026-04-09T12:54:37Z,2026-04-09T12:54:37Z,officialasishkumar,https://github.com/keploy/keploy/issues/4034
 4052,keploy,[bug]: move resolver settings to keploy-agent during compose injection,open,2026-04-14T13:46:41Z,2026-04-14T13:46:41Z,officialasishkumar,https://github.com/keploy/keploy/issues/4052
 4070,keploy,[feature]: add AGENTS.md and Claude Code skills for agent-assisted contribution,open,2026-04-16T11:04:14Z,2026-04-16T11:04:14Z,officialasishkumar,https://github.com/keploy/keploy/issues/4070
+4083,keploy,[bug]: mappings.yaml backfill attributes mocks to wrong test; self-heal warning spam; agent mode unset on record/test,open,2026-04-20T16:42:51Z,2026-04-20T16:43:22Z,slayerjain,https://github.com/keploy/keploy/issues/4083
+4085,keploy,Enable time freezing during auto-replay,open,2026-04-21T03:01:56Z,2026-04-21T04:46:08Z,Shivanipandey31,https://github.com/keploy/keploy/issues/4085
