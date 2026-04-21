@@ -3163,3 +3163,6 @@ pr_number,repo_name,title,state,created_at,merged_at,author,pr_url
 4075,keploy,fix(runner): HTTP probe in waitForApp to avoid docker-compose port-forwarder race,merged,2026-04-18T22:16:35Z,2026-04-19T12:32:31Z,charankamarapu,https://github.com/keploy/keploy/pull/4075
 4073,keploy,feat: strict mock-window containment + Lifetime model (Phase 1),merged,2026-04-16T18:55:27Z,2026-04-19T07:12:51Z,slayerjain,https://github.com/keploy/keploy/pull/4073
 4045,keploy,"feat(proxy): extensibility hooks + Postgres SSL, ALPN, MySQL fixes",merged,2026-04-13T08:34:27Z,2026-04-19T08:16:48Z,slayerjain,https://github.com/keploy/keploy/pull/4045
+4084,keploy,"fix: correct mappings.yaml backfill, silence self-heal spam, restore agent mode wiring",merged,2026-04-20T16:45:08Z,2026-04-20T18:44:33Z,slayerjain,https://github.com/keploy/keploy/pull/4084
+4082,keploy,fix: generic mock flush when response complete,merged,2026-04-20T15:16:08Z,2026-04-20T17:00:16Z,kapishupadhyay22,https://github.com/keploy/keploy/pull/4082
+4012,keploy,feat: add global --json flag for structured output across all commands,merged,2026-04-05T17:03:11Z,2026-04-20T06:56:22Z,mvanhorn,https://github.com/keploy/keploy/pull/4012

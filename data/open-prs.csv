@@ -788,3 +788,10 @@ pr_number,repo_name,title,state,created_at,updated_at,author,pr_url
 4075,keploy,fix(runner): HTTP probe in waitForApp to avoid docker-compose port-forwarder race,open,2026-04-18T22:16:35Z,2026-04-18T23:03:47Z,charankamarapu,https://github.com/keploy/keploy/pull/4075
 836,docs,docs: update GSoC contribution guide from 2023 to 2026,open,2026-04-18T10:17:21Z,2026-04-18T10:17:51Z,Manthan-Shirsath,https://github.com/keploy/docs/pull/836
 4079,keploy,feat(mockdb): per-MockYaml format override (#225 dependency),open,2026-04-19T17:31:35Z,2026-04-20T05:39:38Z,slayerjain,https://github.com/keploy/keploy/pull/4079
+4089,keploy,fix(tls): merge system CA bundle with Keploy MITM CA in shared-volume mode (closes #4088),open,2026-04-21T05:58:19Z,2026-04-21T06:00:08Z,slayerjain,https://github.com/keploy/keploy/pull/4089
+4087,keploy,fix(agent): gate /agent/ready on CA bundle being written (closes #4086),open,2026-04-21T05:56:07Z,2026-04-21T05:56:08Z,slayerjain,https://github.com/keploy/keploy/pull/4087
+4081,keploy,ci: prevent workflows from failing on fork pushes to main,open,2026-04-20T13:51:23Z,2026-04-21T04:36:13Z,srivilliamsai,https://github.com/keploy/keploy/pull/4081
+4080,keploy,ci: migrate fuzzer downloads from AWS S3 to Azure Blob Storage,open,2026-04-20T06:45:18Z,2026-04-20T10:47:04Z,Yogeshjindal,https://github.com/keploy/keploy/pull/4080
+837,docs,feat: add announcement bar with updated gittogether details,open,2026-04-20T17:08:20Z,2026-04-20T18:44:21Z,amaan-bhati,https://github.com/keploy/docs/pull/837
+379,blog-website,feat: add anouncement bar ui and update for gittogether,open,2026-04-20T15:38:47Z,2026-04-20T20:14:06Z,amaan-bhati,https://github.com/keploy/blog-website/pull/379
+378,blog-website,fix(footer): correct Twitter/X handle to official @keploy account,open,2026-04-20T10:32:24Z,2026-04-20T10:32:24Z,Mrsandeep27,https://github.com/keploy/blog-website/pull/378
