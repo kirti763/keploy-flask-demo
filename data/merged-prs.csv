@@ -3166,3 +3166,12 @@ pr_number,repo_name,title,state,created_at,merged_at,author,pr_url
 4084,keploy,"fix: correct mappings.yaml backfill, silence self-heal spam, restore agent mode wiring",merged,2026-04-20T16:45:08Z,2026-04-20T18:44:33Z,slayerjain,https://github.com/keploy/keploy/pull/4084
 4082,keploy,fix: generic mock flush when response complete,merged,2026-04-20T15:16:08Z,2026-04-20T17:00:16Z,kapishupadhyay22,https://github.com/keploy/keploy/pull/4082
 4012,keploy,feat: add global --json flag for structured output across all commands,merged,2026-04-05T17:03:11Z,2026-04-20T06:56:22Z,mvanhorn,https://github.com/keploy/keploy/pull/4012
+4097,keploy,ci: replace ttl.sh with artifacts and reuse prebuilt binaries for Docker,merged,2026-04-21T18:00:05Z,2026-04-21T20:58:15Z,slayerjain,https://github.com/keploy/keploy/pull/4097
+4096,keploy,feat(test): enable strictMockWindow by default,merged,2026-04-21T16:57:48Z,2026-04-21T17:23:31Z,slayerjain,https://github.com/keploy/keploy/pull/4096
+4094,keploy,fix(models): persist HTTPReq/HTTPResp Timestamp as RFC3339Nano in BSON,merged,2026-04-21T15:11:23Z,2026-04-21T15:26:50Z,ayush3160,https://github.com/keploy/keploy/pull/4094
+4091,keploy,feat: log pruned mock details during UpdateMocks,merged,2026-04-21T10:45:53Z,2026-04-21T11:11:17Z,ayush3160,https://github.com/keploy/keploy/pull/4091
+4089,keploy,fix(tls): merge system CA bundle with Keploy MITM CA in shared-volume mode (closes #4088),merged,2026-04-21T05:58:19Z,2026-04-21T12:41:15Z,slayerjain,https://github.com/keploy/keploy/pull/4089
+4087,keploy,fix(agent): gate /agent/ready on CA bundle being written (closes #4086),merged,2026-04-21T05:56:07Z,2026-04-21T12:35:38Z,slayerjain,https://github.com/keploy/keploy/pull/4087
+222,samples-go,feat: add Apache Pulsar sample app (gin-pulsar),merged,2026-04-21T08:10:22Z,2026-04-21T13:48:35Z,khareyash05,https://github.com/keploy/samples-go/pull/222
+837,docs,feat: add announcement bar with updated gittogether details,merged,2026-04-20T17:08:20Z,2026-04-21T15:56:53Z,amaan-bhati,https://github.com/keploy/docs/pull/837
+379,blog-website,feat: add anouncement bar ui and update for gittogether,merged,2026-04-20T15:38:47Z,2026-04-21T10:15:40Z,amaan-bhati,https://github.com/keploy/blog-website/pull/379

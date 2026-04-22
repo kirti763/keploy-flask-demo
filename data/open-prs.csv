@@ -795,3 +795,12 @@ pr_number,repo_name,title,state,created_at,updated_at,author,pr_url
 837,docs,feat: add announcement bar with updated gittogether details,open,2026-04-20T17:08:20Z,2026-04-20T18:44:21Z,amaan-bhati,https://github.com/keploy/docs/pull/837
 379,blog-website,feat: add anouncement bar ui and update for gittogether,open,2026-04-20T15:38:47Z,2026-04-20T20:14:06Z,amaan-bhati,https://github.com/keploy/blog-website/pull/379
 378,blog-website,fix(footer): correct Twitter/X handle to official @keploy account,open,2026-04-20T10:32:24Z,2026-04-20T10:32:24Z,Mrsandeep27,https://github.com/keploy/blog-website/pull/378
+4101,keploy,feat(postgres): add v3 mock kinds + yaml envelopes + register integration,open,2026-04-21T23:53:58Z,2026-04-22T05:40:11Z,slayerjain,https://github.com/keploy/keploy/pull/4101
+4100,keploy,fix: base64-encode non-UTF-8 HTTP bodies to stop yaml marshal crash,open,2026-04-21T23:03:53Z,2026-04-21T23:18:16Z,ayush3160,https://github.com/keploy/keploy/pull/4100
+4099,keploy,fix(replay): write mappings for streaming test cases,open,2026-04-21T22:23:09Z,2026-04-21T22:28:19Z,ayush3160,https://github.com/keploy/keploy/pull/4099
+4095,keploy,fix(mysql): prevent zero/overflow read deadline in replay command phase,open,2026-04-21T15:22:16Z,2026-04-21T19:54:23Z,officialasishkumar,https://github.com/keploy/keploy/pull/4095
+4093,keploy,fix(dns): attach udp4/6 recvmsg hooks to SNAT DNS reply source,open,2026-04-21T12:50:58Z,2026-04-22T05:35:56Z,officialasishkumar,https://github.com/keploy/keploy/pull/4093
+4090,keploy,chore/error-handling,open,2026-04-21T10:40:07Z,2026-04-21T12:12:22Z,praagyajain,https://github.com/keploy/keploy/pull/4090
+224,samples-go,feat(nethttp-mysql): add net/http + MySQL sample for replay regression,open,2026-04-21T15:20:43Z,2026-04-21T15:25:55Z,officialasishkumar,https://github.com/keploy/samples-go/pull/224
+223,samples-go,feat(dns-strict-resolver): add unconnected-UDP strict DNS sample,open,2026-04-21T13:12:12Z,2026-04-21T21:38:07Z,officialasishkumar,https://github.com/keploy/samples-go/pull/223
+380,blog-website,Add Rotating Video Ad Banner with Fallback in BlogSidebar,open,2026-04-21T08:54:06Z,2026-04-22T05:14:33Z,dhananjay6561,https://github.com/keploy/blog-website/pull/380
