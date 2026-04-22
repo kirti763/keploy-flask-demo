@@ -370,3 +370,5 @@ issue_number,repo_name,title,state,created_at,updated_at,author,issue_url
 4070,keploy,[feature]: add AGENTS.md and Claude Code skills for agent-assisted contribution,open,2026-04-16T11:04:14Z,2026-04-16T11:04:14Z,officialasishkumar,https://github.com/keploy/keploy/issues/4070
 4083,keploy,[bug]: mappings.yaml backfill attributes mocks to wrong test; self-heal warning spam; agent mode unset on record/test,open,2026-04-20T16:42:51Z,2026-04-20T16:43:22Z,slayerjain,https://github.com/keploy/keploy/issues/4083
 4085,keploy,Enable time freezing during auto-replay,open,2026-04-21T03:01:56Z,2026-04-21T04:46:08Z,Shivanipandey31,https://github.com/keploy/keploy/issues/4085
+4092,keploy,[bug]: record-mode DNS resolution fails with EAI_AGAIN for strict DNS clients (RFC 5452 source validation),open,2026-04-21T12:50:15Z,2026-04-21T12:50:15Z,officialasishkumar,https://github.com/keploy/keploy/issues/4092
+4098,keploy,Streaming test cases missing from mappings.yaml due to double-drain of consumed mocks,open,2026-04-21T22:22:46Z,2026-04-21T22:22:46Z,ayush3160,https://github.com/keploy/keploy/issues/4098

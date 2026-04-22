@@ -1447,3 +1447,6 @@ issue_number,repo_name,title,state,created_at,closed_at,author,issue_url
 3970,keploy,Fix: eBPF fails to load on Windows Docker due to rlimit probe error,closed,2026-03-25T20:12:34Z,2026-04-02T06:14:02Z,pathakharshit,https://github.com/keploy/keploy/issues/3970
 3974,keploy,"[feature]: Add SSE port, protocol-level port config, and replaceWith port mapping",closed,2026-03-26T12:26:05Z,2026-04-06T06:20:28Z,officialasishkumar,https://github.com/keploy/keploy/issues/3974
 4069,keploy,[docs]: Expand Rename Test-Sets with discovery semantics and --test-sets usage,closed,2026-04-16T10:42:35Z,2026-04-16T10:51:34Z,officialasishkumar,https://github.com/keploy/keploy/issues/4069
+4085,keploy,Enable time freezing during auto-replay,closed,2026-04-21T03:01:56Z,2026-04-21T05:41:07Z,Shivanipandey31,https://github.com/keploy/keploy/issues/4085
+4086,keploy,agent: /agent/ready has no explicit gate on CA bundle being written,closed,2026-04-21T05:36:47Z,2026-04-21T12:35:39Z,slayerjain,https://github.com/keploy/keploy/issues/4086
+4088,keploy,agent: shared CA volume contains only Keploy MITM CA — non-proxied HTTPS fails CERTIFICATE_VERIFY_FAILED,closed,2026-04-21T05:57:47Z,2026-04-21T12:41:16Z,slayerjain,https://github.com/keploy/keploy/issues/4088
