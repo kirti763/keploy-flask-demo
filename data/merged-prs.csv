@@ -3175,3 +3175,9 @@ pr_number,repo_name,title,state,created_at,merged_at,author,pr_url
 222,samples-go,feat: add Apache Pulsar sample app (gin-pulsar),merged,2026-04-21T08:10:22Z,2026-04-21T13:48:35Z,khareyash05,https://github.com/keploy/samples-go/pull/222
 837,docs,feat: add announcement bar with updated gittogether details,merged,2026-04-20T17:08:20Z,2026-04-21T15:56:53Z,amaan-bhati,https://github.com/keploy/docs/pull/837
 379,blog-website,feat: add anouncement bar ui and update for gittogether,merged,2026-04-20T15:38:47Z,2026-04-21T10:15:40Z,amaan-bhati,https://github.com/keploy/blog-website/pull/379
+4104,keploy,fix: stabilize Linux integration CI,merged,2026-04-22T11:44:52Z,2026-04-22T15:49:41Z,officialasishkumar,https://github.com/keploy/keploy/pull/4104
+4103,keploy,ci: stabilize Java Linux Maven setup,merged,2026-04-22T10:51:31Z,2026-04-22T12:30:29Z,officialasishkumar,https://github.com/keploy/keploy/pull/4103
+4099,keploy,fix(replay): write mappings for streaming test cases,merged,2026-04-21T22:23:09Z,2026-04-22T09:12:11Z,ayush3160,https://github.com/keploy/keploy/pull/4099
+4036,keploy,feat(mockdb): add parser-owned YAML mapper hooks,merged,2026-04-09T13:07:01Z,2026-04-23T05:22:07Z,officialasishkumar,https://github.com/keploy/keploy/pull/4036
+4013,keploy,feat: derive OpenAPI contracts from recorded traffic,merged,2026-04-05T17:29:34Z,2026-04-22T13:46:59Z,mvanhorn,https://github.com/keploy/keploy/pull/4013
+126,samples-java,feat(sap-demo-java): add Customer 360 SAP S/4HANA + Postgres sample,merged,2026-04-22T06:06:07Z,2026-04-22T06:25:06Z,slayerjain,https://github.com/keploy/samples-java/pull/126
