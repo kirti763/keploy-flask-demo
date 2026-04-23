@@ -372,3 +372,5 @@ issue_number,repo_name,title,state,created_at,updated_at,author,issue_url
 4085,keploy,Enable time freezing during auto-replay,open,2026-04-21T03:01:56Z,2026-04-21T04:46:08Z,Shivanipandey31,https://github.com/keploy/keploy/issues/4085
 4092,keploy,[bug]: record-mode DNS resolution fails with EAI_AGAIN for strict DNS clients (RFC 5452 source validation),open,2026-04-21T12:50:15Z,2026-04-21T12:50:15Z,officialasishkumar,https://github.com/keploy/keploy/issues/4092
 4098,keploy,Streaming test cases missing from mappings.yaml due to double-drain of consumed mocks,open,2026-04-21T22:22:46Z,2026-04-21T22:22:46Z,ayush3160,https://github.com/keploy/keploy/issues/4098
+4102,keploy,[bug]: MySQL replay command-phase hot-loop on zero/overflow read deadline,open,2026-04-22T06:10:44Z,2026-04-22T06:12:18Z,officialasishkumar,https://github.com/keploy/keploy/issues/4102
+4108,keploy,"[feature]: Add k6 load-test CI pipelines for MySQL, MongoDB, and gRPC sample apps",open,2026-04-23T04:37:14Z,2026-04-23T05:16:32Z,pathakharshit,https://github.com/keploy/keploy/issues/4108

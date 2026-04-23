@@ -1450,3 +1450,5 @@ issue_number,repo_name,title,state,created_at,closed_at,author,issue_url
 4085,keploy,Enable time freezing during auto-replay,closed,2026-04-21T03:01:56Z,2026-04-21T05:41:07Z,Shivanipandey31,https://github.com/keploy/keploy/issues/4085
 4086,keploy,agent: /agent/ready has no explicit gate on CA bundle being written,closed,2026-04-21T05:36:47Z,2026-04-21T12:35:39Z,slayerjain,https://github.com/keploy/keploy/issues/4086
 4088,keploy,agent: shared CA volume contains only Keploy MITM CA — non-proxied HTTPS fails CERTIFICATE_VERIFY_FAILED,closed,2026-04-21T05:57:47Z,2026-04-21T12:41:16Z,slayerjain,https://github.com/keploy/keploy/issues/4088
+4034,keploy,"[feature]: First-class HBase mock storage (Kind, IntegrationType, MockSpec fields)",closed,2026-04-09T12:54:37Z,2026-04-23T05:22:08Z,officialasishkumar,https://github.com/keploy/keploy/issues/4034
+4098,keploy,Streaming test cases missing from mappings.yaml due to double-drain of consumed mocks,closed,2026-04-21T22:22:46Z,2026-04-22T09:12:12Z,ayush3160,https://github.com/keploy/keploy/issues/4098
