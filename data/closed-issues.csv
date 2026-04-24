@@ -1452,3 +1452,4 @@ issue_number,repo_name,title,state,created_at,closed_at,author,issue_url
 4088,keploy,agent: shared CA volume contains only Keploy MITM CA — non-proxied HTTPS fails CERTIFICATE_VERIFY_FAILED,closed,2026-04-21T05:57:47Z,2026-04-21T12:41:16Z,slayerjain,https://github.com/keploy/keploy/issues/4088
 4034,keploy,"[feature]: First-class HBase mock storage (Kind, IntegrationType, MockSpec fields)",closed,2026-04-09T12:54:37Z,2026-04-23T05:22:08Z,officialasishkumar,https://github.com/keploy/keploy/issues/4034
 4098,keploy,Streaming test cases missing from mappings.yaml due to double-drain of consumed mocks,closed,2026-04-21T22:22:46Z,2026-04-22T09:12:12Z,ayush3160,https://github.com/keploy/keploy/issues/4098
+4102,keploy,[bug]: MySQL replay command-phase hot-loop on zero/overflow read deadline,closed,2026-04-22T06:10:44Z,2026-04-23T22:01:33Z,officialasishkumar,https://github.com/keploy/keploy/issues/4102
