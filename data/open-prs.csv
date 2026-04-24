@@ -814,3 +814,10 @@ pr_number,repo_name,title,state,created_at,updated_at,author,pr_url
 127,samples-java,fix(sap-demo-java): resolve three runtime bugs found during Keploy record/replay validation,open,2026-04-22T13:05:41Z,2026-04-23T05:13:15Z,slayerjain,https://github.com/keploy/samples-java/pull/127
 381,blog-website,added a video banner,open,2026-04-22T12:20:40Z,2026-04-23T04:41:05Z,dhananjay6561,https://github.com/keploy/blog-website/pull/381
 1,orderflow,Tweak order response fields,open,2026-04-22T09:54:58Z,2026-04-22T09:58:11Z,charankamarapu,https://github.com/keploy/orderflow/pull/1
+4113,keploy,feat(proxy): V2 parser isolation foundation + HTTP/MySQL/generic native migration,open,2026-04-23T18:09:39Z,2026-04-24T06:06:14Z,slayerjain,https://github.com/keploy/keploy/pull/4113
+4112,keploy,feat(log): pluggable redactor for secret obfuscation in log output,open,2026-04-23T09:21:16Z,2026-04-23T12:05:06Z,ayush3160,https://github.com/keploy/keploy/pull/4112
+839,docs,docs: document Java dynamic dedup,open,2026-04-23T12:00:39Z,2026-04-24T06:02:39Z,officialasishkumar,https://github.com/keploy/docs/pull/839
+838,docs,docs: add Kubernetes Proxy REST API and Static Deduplication guides (v4),open,2026-04-23T11:53:45Z,2026-04-24T06:02:32Z,officialasishkumar,https://github.com/keploy/docs/pull/838
+180,java-sdk,feat: add Java dynamic dedup agent,open,2026-04-23T11:59:56Z,2026-04-24T06:02:38Z,officialasishkumar,https://github.com/keploy/java-sdk/pull/180
+131,samples-java,feat(sap-demo-java): runtime-selectable Postgres or MySQL backend via Spring profile,open,2026-04-23T13:16:42Z,2026-04-23T13:25:21Z,slayerjain,https://github.com/keploy/samples-java/pull/131
+130,samples-java,feat: add Java dynamic dedup sample,open,2026-04-23T12:00:12Z,2026-04-24T06:02:39Z,officialasishkumar,https://github.com/keploy/samples-java/pull/130

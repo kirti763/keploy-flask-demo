@@ -3181,3 +3181,15 @@ pr_number,repo_name,title,state,created_at,merged_at,author,pr_url
 4036,keploy,feat(mockdb): add parser-owned YAML mapper hooks,merged,2026-04-09T13:07:01Z,2026-04-23T05:22:07Z,officialasishkumar,https://github.com/keploy/keploy/pull/4036
 4013,keploy,feat: derive OpenAPI contracts from recorded traffic,merged,2026-04-05T17:29:34Z,2026-04-22T13:46:59Z,mvanhorn,https://github.com/keploy/keploy/pull/4013
 126,samples-java,feat(sap-demo-java): add Customer 360 SAP S/4HANA + Postgres sample,merged,2026-04-22T06:06:07Z,2026-04-22T06:25:06Z,slayerjain,https://github.com/keploy/samples-java/pull/126
+4120,keploy,feat: consolidate v3 post-merge suite (#4111 + #4115 + #4117 + #4118),merged,2026-04-23T23:43:09Z,2026-04-24T05:54:39Z,slayerjain,https://github.com/keploy/keploy/pull/4120
+4119,keploy,ci(release): make Publish step idempotent on existing release,merged,2026-04-23T23:27:46Z,2026-04-23T23:28:49Z,slayerjain,https://github.com/keploy/keploy/pull/4119
+4116,keploy,"ci(setup-private-parsers): hardcode GitHub host keys, drop ssh-keyscan (fixes v3.5.0 Windows release leg)",merged,2026-04-23T23:17:42Z,2026-04-23T23:18:11Z,slayerjain,https://github.com/keploy/keploy/pull/4116
+4114,keploy,"ci(workflows): drop post-#4101 INTEGRATION_REF SHA pin, default to main",merged,2026-04-23T22:24:57Z,2026-04-23T22:25:15Z,slayerjain,https://github.com/keploy/keploy/pull/4114
+4111,keploy,fix(matcher): case-insensitive noise key match in SubstringKeyMatch,merged,2026-04-23T09:20:23Z,2026-04-23T23:45:45Z,slayerjain,https://github.com/keploy/keploy/pull/4111
+4110,keploy,"fix(http-recorder): exit chunkedResponse on last-chunk suffix, not strict equality",merged,2026-04-23T08:15:31Z,2026-04-23T09:17:06Z,slayerjain,https://github.com/keploy/keploy/pull/4110
+4109,keploy,chore: remove deprecated utgen service,merged,2026-04-23T07:35:37Z,2026-04-23T07:59:54Z,gouravkrosx,https://github.com/keploy/keploy/pull/4109
+4101,keploy,feat(postgres): add v3 mock kinds + yaml envelopes + register integration,merged,2026-04-21T23:53:58Z,2026-04-23T21:58:20Z,slayerjain,https://github.com/keploy/keploy/pull/4101
+4095,keploy,fix(mysql): prevent zero/overflow read deadline in replay command phase,merged,2026-04-21T15:22:16Z,2026-04-23T21:37:24Z,officialasishkumar,https://github.com/keploy/keploy/pull/4095
+224,samples-go,feat(nethttp-mysql): add net/http + MySQL sample for replay regression,merged,2026-04-21T15:20:43Z,2026-04-23T12:04:01Z,officialasishkumar,https://github.com/keploy/samples-go/pull/224
+129,samples-java,"docs(sap-demo-java): add architecture diagram, focus on keploy benefits",merged,2026-04-23T11:27:47Z,2026-04-23T11:58:55Z,slayerjain,https://github.com/keploy/samples-java/pull/129
+128,samples-java,"docs(sap-demo-java): explain real-world use case, scrub Tricentis references",merged,2026-04-23T11:20:49Z,2026-04-23T11:22:39Z,slayerjain,https://github.com/keploy/samples-java/pull/128
