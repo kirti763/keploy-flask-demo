@@ -821,3 +821,8 @@ pr_number,repo_name,title,state,created_at,updated_at,author,pr_url
 180,java-sdk,feat: add Java dynamic dedup agent,open,2026-04-23T11:59:56Z,2026-04-24T06:02:38Z,officialasishkumar,https://github.com/keploy/java-sdk/pull/180
 131,samples-java,feat(sap-demo-java): runtime-selectable Postgres or MySQL backend via Spring profile,open,2026-04-23T13:16:42Z,2026-04-23T13:25:21Z,slayerjain,https://github.com/keploy/samples-java/pull/131
 130,samples-java,feat: add Java dynamic dedup sample,open,2026-04-23T12:00:12Z,2026-04-24T06:02:39Z,officialasishkumar,https://github.com/keploy/samples-java/pull/130
+4127,keploy,"refactor: remove login, rerecord, and mock registry from OSS",open,2026-04-24T13:33:19Z,2026-04-24T18:12:36Z,gouravkrosx,https://github.com/keploy/keploy/pull/4127
+4126,keploy,feat(postgres/v3): logical-value PostgresV3Cell schema (any-typed Value + gob/yaml dispatch),open,2026-04-24T11:57:26Z,2026-04-25T05:45:39Z,slayerjain,https://github.com/keploy/keploy/pull/4126
+4124,keploy,Port 4000,open,2026-04-24T09:55:27Z,2026-04-24T10:26:49Z,harshitashankar,https://github.com/keploy/keploy/pull/4124
+4122,keploy,fix(supervisor): route V2 EmitMock via syncMock for session-window buffer,open,2026-04-24T08:18:40Z,2026-04-24T22:10:44Z,slayerjain,https://github.com/keploy/keploy/pull/4122
+840,docs,feat: Automate Google Search Console indexing via Indexing API + smart sitemap diff,open,2026-04-24T14:26:09Z,2026-04-24T15:13:51Z,dhananjay6561,https://github.com/keploy/docs/pull/840
