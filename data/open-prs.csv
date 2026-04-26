@@ -826,3 +826,5 @@ pr_number,repo_name,title,state,created_at,updated_at,author,pr_url
 4124,keploy,Port 4000,open,2026-04-24T09:55:27Z,2026-04-24T10:26:49Z,harshitashankar,https://github.com/keploy/keploy/pull/4124
 4122,keploy,fix(supervisor): route V2 EmitMock via syncMock for session-window buffer,open,2026-04-24T08:18:40Z,2026-04-24T22:10:44Z,slayerjain,https://github.com/keploy/keploy/pull/4122
 840,docs,feat: Automate Google Search Console indexing via Indexing API + smart sitemap diff,open,2026-04-24T14:26:09Z,2026-04-24T15:13:51Z,dhananjay6561,https://github.com/keploy/docs/pull/840
+841,docs,docs: add Static Deduplication guide (v4),open,2026-04-25T22:47:01Z,2026-04-26T00:03:17Z,officialasishkumar,https://github.com/keploy/docs/pull/841
+181,java-sdk,feat: add Java dynamic dedup agent,open,2026-04-25T13:40:51Z,2026-04-25T22:55:08Z,officialasishkumar,https://github.com/keploy/java-sdk/pull/181
