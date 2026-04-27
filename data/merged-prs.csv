@@ -3200,3 +3200,6 @@ pr_number,repo_name,title,state,created_at,merged_at,author,pr_url
 4129,keploy,revert: remove default keploy with paid features install from keploy.sh,merged,2026-04-25T15:31:20Z,2026-04-25T15:46:56Z,gouravkrosx,https://github.com/keploy/keploy/pull/4129
 4127,keploy,"refactor: remove login, rerecord, and mock registry from OSS",merged,2026-04-24T13:33:19Z,2026-04-25T14:46:12Z,gouravkrosx,https://github.com/keploy/keploy/pull/4127
 4122,keploy,fix(supervisor): route V2 EmitMock via syncMock for session-window buffer,merged,2026-04-24T08:18:40Z,2026-04-25T14:55:56Z,slayerjain,https://github.com/keploy/keploy/pull/4122
+4126,keploy,feat(postgres/v3): logical-value PostgresV3Cell schema (any-typed Value + gob/yaml dispatch),merged,2026-04-24T11:57:26Z,2026-04-26T14:15:05Z,slayerjain,https://github.com/keploy/keploy/pull/4126
+4106,keploy,fix(runner): align UpdateMockParams contract with replay + agent mock-lifetime rewrite,merged,2026-04-22T19:58:18Z,2026-04-26T14:59:55Z,charankamarapu,https://github.com/keploy/keploy/pull/4106
+841,docs,docs: add Static Deduplication guide,merged,2026-04-25T22:47:01Z,2026-04-26T10:42:12Z,officialasishkumar,https://github.com/keploy/docs/pull/841
