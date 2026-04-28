@@ -1453,3 +1453,5 @@ issue_number,repo_name,title,state,created_at,closed_at,author,issue_url
 4034,keploy,"[feature]: First-class HBase mock storage (Kind, IntegrationType, MockSpec fields)",closed,2026-04-09T12:54:37Z,2026-04-23T05:22:08Z,officialasishkumar,https://github.com/keploy/keploy/issues/4034
 4098,keploy,Streaming test cases missing from mappings.yaml due to double-drain of consumed mocks,closed,2026-04-21T22:22:46Z,2026-04-22T09:12:12Z,ayush3160,https://github.com/keploy/keploy/issues/4098
 4102,keploy,[bug]: MySQL replay command-phase hot-loop on zero/overflow read deadline,closed,2026-04-22T06:10:44Z,2026-04-23T22:01:33Z,officialasishkumar,https://github.com/keploy/keploy/issues/4102
+4052,keploy,[bug]: move resolver settings to keploy-agent during compose injection,closed,2026-04-14T13:46:41Z,2026-04-27T08:15:51Z,officialasishkumar,https://github.com/keploy/keploy/issues/4052
+4138,keploy,V2 supervisor: parser error returns tear down the application's TCP connection (violates I2),closed,2026-04-27T11:51:28Z,2026-04-27T12:20:13Z,ayush3160,https://github.com/keploy/keploy/issues/4138
