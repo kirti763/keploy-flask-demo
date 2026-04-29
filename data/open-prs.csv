@@ -836,3 +836,8 @@ pr_number,repo_name,title,state,created_at,updated_at,author,pr_url
 4136,keploy,feat: generate descriptive default testcase names during recording,open,2026-04-27T09:40:04Z,2026-04-27T16:54:22Z,Aditya-eddy,https://github.com/keploy/keploy/pull/4136
 4133,keploy,fix: ALPN negotiation blocks HTTP/2 upgrade for HTTP/1.1 requests with Upgrade header #3898,open,2026-04-27T08:15:45Z,2026-04-27T12:43:43Z,Aayush17sty,https://github.com/keploy/keploy/pull/4133
 843,docs,docs: rewrite installation page and add OSS install to contribution g…,open,2026-04-27T17:55:55Z,2026-04-28T06:01:05Z,PrathamSikka24,https://github.com/keploy/docs/pull/843
+4157,keploy,feat(replay): TLSConfig hook on SimulationConfig + Hooks for HTTPS test cases,open,2026-04-29T00:33:09Z,2026-04-29T00:38:21Z,khareyash05,https://github.com/keploy/keploy/pull/4157
+4151,keploy,"feat(agent): propagate KEPLOY_PG_V3_*, KEPLOY_STRICT_MOCK_WINDOW, KEPLOY_MOCK_FORMAT into agent container",open,2026-04-28T06:43:09Z,2026-04-28T06:48:10Z,AkashKumar7902,https://github.com/keploy/keploy/pull/4151
+845,docs,[codex] revert k8s proxy docs updates,open,2026-04-29T06:11:18Z,2026-04-29T06:15:26Z,officialasishkumar,https://github.com/keploy/docs/pull/845
+4,orderflow,Remove unnecessary newline in main.go,open,2026-04-28T18:18:33Z,2026-04-28T18:18:33Z,charankamarapu,https://github.com/keploy/orderflow/pull/4
+3,orderflow,Fix typo in README.md,open,2026-04-28T18:17:11Z,2026-04-28T18:17:11Z,charankamarapu,https://github.com/keploy/orderflow/pull/3
