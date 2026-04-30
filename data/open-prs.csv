@@ -841,3 +841,10 @@ pr_number,repo_name,title,state,created_at,updated_at,author,pr_url
 845,docs,[codex] revert k8s proxy docs updates,open,2026-04-29T06:11:18Z,2026-04-29T06:15:26Z,officialasishkumar,https://github.com/keploy/docs/pull/845
 4,orderflow,Remove unnecessary newline in main.go,open,2026-04-28T18:18:33Z,2026-04-28T18:18:33Z,charankamarapu,https://github.com/keploy/orderflow/pull/4
 3,orderflow,Fix typo in README.md,open,2026-04-28T18:17:11Z,2026-04-28T18:17:11Z,charankamarapu,https://github.com/keploy/orderflow/pull/3
+4160,keploy,fix: pass nsfs dev to BPF for bpf_get_ns_current_pid_tgid,open,2026-04-30T05:26:48Z,2026-04-30T06:02:38Z,Aditya-eddy,https://github.com/keploy/keploy/pull/4160
+848,docs,docs: document Java dedup agent setup,open,2026-04-29T21:51:45Z,2026-04-30T05:10:45Z,officialasishkumar,https://github.com/keploy/docs/pull/848
+847,docs,[codex] docs: explain k8s proxy benefits,open,2026-04-29T15:59:42Z,2026-04-29T16:25:11Z,officialasishkumar,https://github.com/keploy/docs/pull/847
+846,docs,docs(static-dedup): document custom-dedup-fields → schema enums; note k8s-proxy auth WIP,open,2026-04-29T09:28:31Z,2026-04-30T05:43:29Z,khareyash05,https://github.com/keploy/docs/pull/846
+183,java-sdk,feat: run Java dedup as java agent,open,2026-04-29T21:51:33Z,2026-04-30T05:08:27Z,officialasishkumar,https://github.com/keploy/java-sdk/pull/183
+133,samples-java,feat: attach Java dedup agent in sample,open,2026-04-29T21:52:01Z,2026-04-30T06:04:59Z,officialasishkumar,https://github.com/keploy/samples-java/pull/133
+100,samples-python,add(django-permission-cohort-postgres): minimal sample for keploy/integrations e2e lane,open,2026-04-29T13:04:09Z,2026-04-29T22:59:47Z,AkashKumar7902,https://github.com/keploy/samples-python/pull/100
