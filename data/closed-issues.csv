@@ -1455,3 +1455,4 @@ issue_number,repo_name,title,state,created_at,closed_at,author,issue_url
 4102,keploy,[bug]: MySQL replay command-phase hot-loop on zero/overflow read deadline,closed,2026-04-22T06:10:44Z,2026-04-23T22:01:33Z,officialasishkumar,https://github.com/keploy/keploy/issues/4102
 4052,keploy,[bug]: move resolver settings to keploy-agent during compose injection,closed,2026-04-14T13:46:41Z,2026-04-27T08:15:51Z,officialasishkumar,https://github.com/keploy/keploy/issues/4052
 4138,keploy,V2 supervisor: parser error returns tear down the application's TCP connection (violates I2),closed,2026-04-27T11:51:28Z,2026-04-27T12:20:13Z,ayush3160,https://github.com/keploy/keploy/issues/4138
+3727,keploy,Issue: Deprecated Next.js Image Configuration & Console Statements,closed,2026-02-05T18:21:09Z,2026-04-30T14:03:41Z,Abhineshhh,https://github.com/keploy/keploy/issues/3727
