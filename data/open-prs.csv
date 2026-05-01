@@ -848,3 +848,12 @@ pr_number,repo_name,title,state,created_at,updated_at,author,pr_url
 183,java-sdk,feat: run Java dedup as java agent,open,2026-04-29T21:51:33Z,2026-04-30T05:08:27Z,officialasishkumar,https://github.com/keploy/java-sdk/pull/183
 133,samples-java,feat: attach Java dedup agent in sample,open,2026-04-29T21:52:01Z,2026-04-30T06:04:59Z,officialasishkumar,https://github.com/keploy/samples-java/pull/133
 100,samples-python,add(django-permission-cohort-postgres): minimal sample for keploy/integrations e2e lane,open,2026-04-29T13:04:09Z,2026-04-29T22:59:47Z,AkashKumar7902,https://github.com/keploy/samples-python/pull/100
+4162,keploy,fix(testdb): correct YAML noise assertion decode type assertion (#3872),open,2026-04-30T18:14:10Z,2026-04-30T20:48:05Z,SAY-5,https://github.com/keploy/keploy/pull/4162
+97,samples-typescript,feat(parse-server-mongo): make sample compat-lane ready,open,2026-05-01T01:19:42Z,2026-05-01T06:32:53Z,AkashKumar7902,https://github.com/keploy/samples-typescript/pull/97
+96,samples-typescript,feat(umami-postgres): keploy compat lane sample,open,2026-05-01T01:05:28Z,2026-05-01T06:19:51Z,AkashKumar7902,https://github.com/keploy/samples-typescript/pull/96
+853,docs,docs(k8s-proxy): document Console + browser widget for PAT exchange,open,2026-05-01T06:00:38Z,2026-05-01T06:15:52Z,khareyash05,https://github.com/keploy/docs/pull/853
+852,docs,Update agent-test-generation.md,open,2026-04-30T21:07:55Z,2026-04-30T21:07:55Z,charankamarapu,https://github.com/keploy/docs/pull/852
+851,docs,Add Perl + MongoDB Quickstart (Addressed review feedback),open,2026-04-30T16:54:49Z,2026-04-30T16:55:28Z,Akshat005Chaudhary,https://github.com/keploy/docs/pull/851
+134,samples-java,feat(restheart-mongo): keploy compat lane sample,open,2026-05-01T01:05:41Z,2026-05-01T06:32:55Z,AkashKumar7902,https://github.com/keploy/samples-java/pull/134
+101,samples-python,feat: add doccano-django sample for keploy postgres-v3 bind regression,open,2026-04-30T23:17:31Z,2026-05-01T00:37:52Z,AkashKumar7902,https://github.com/keploy/samples-python/pull/101
+7,orderflow,fix: change order successful message,open,2026-04-30T19:30:05Z,2026-04-30T20:27:14Z,charankamarapu,https://github.com/keploy/orderflow/pull/7

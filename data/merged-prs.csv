@@ -3234,3 +3234,10 @@ pr_number,repo_name,title,state,created_at,merged_at,author,pr_url
 4158,keploy,fix(mockmanager): add DeleteStartupMock for boot-tier consumption,merged,2026-04-29T08:14:46Z,2026-04-29T09:21:50Z,AkashKumar7902,https://github.com/keploy/keploy/pull/4158
 95,samples-typescript,chore(parse-server-mongo): enrich flow.sh to reliably trigger boot-phase divergence,merged,2026-04-29T10:03:22Z,2026-04-29T10:46:44Z,AkashKumar7902,https://github.com/keploy/samples-typescript/pull/95
 94,samples-typescript,feat(parse-server-mongo): minimal Parse Server + MongoDB sample,merged,2026-04-29T09:25:27Z,2026-04-29T09:42:28Z,AkashKumar7902,https://github.com/keploy/samples-typescript/pull/94
+4136,keploy,feat: generate descriptive default testcase names during recording,merged,2026-04-27T09:40:04Z,2026-04-30T13:24:14Z,Aditya-eddy,https://github.com/keploy/keploy/pull/4136
+850,docs,fix: caveats for enums,merged,2026-04-30T11:55:38Z,2026-04-30T11:57:20Z,khareyash05,https://github.com/keploy/docs/pull/850
+848,docs,docs: document Java dedup agent setup,merged,2026-04-29T21:51:45Z,2026-04-30T23:49:59Z,officialasishkumar,https://github.com/keploy/docs/pull/848
+846,docs,docs(static-dedup): document custom-dedup-fields → schema enums; note k8s-proxy auth WIP,merged,2026-04-29T09:28:31Z,2026-04-30T10:50:20Z,khareyash05,https://github.com/keploy/docs/pull/846
+183,java-sdk,feat: run Java dedup as java agent,merged,2026-04-29T21:51:33Z,2026-04-30T09:58:46Z,officialasishkumar,https://github.com/keploy/java-sdk/pull/183
+133,samples-java,feat: attach Java dedup agent in sample,merged,2026-04-29T21:52:01Z,2026-04-30T23:49:01Z,officialasishkumar,https://github.com/keploy/samples-java/pull/133
+6,orderflow,Add Keploy sandbox CI workflow,merged,2026-04-30T18:43:10Z,2026-04-30T19:07:03Z,charankamarapu,https://github.com/keploy/orderflow/pull/6
