@@ -857,3 +857,5 @@ pr_number,repo_name,title,state,created_at,updated_at,author,pr_url
 134,samples-java,feat(restheart-mongo): keploy compat lane sample,open,2026-05-01T01:05:41Z,2026-05-01T06:32:55Z,AkashKumar7902,https://github.com/keploy/samples-java/pull/134
 101,samples-python,feat: add doccano-django sample for keploy postgres-v3 bind regression,open,2026-04-30T23:17:31Z,2026-05-01T00:37:52Z,AkashKumar7902,https://github.com/keploy/samples-python/pull/101
 7,orderflow,fix: change order successful message,open,2026-04-30T19:30:05Z,2026-04-30T20:27:14Z,charankamarapu,https://github.com/keploy/orderflow/pull/7
+4163,keploy,fix(replay): fold comma-separated request headers into a single wire field,open,2026-05-01T14:22:54Z,2026-05-01T14:45:48Z,ayush3160,https://github.com/keploy/keploy/pull/4163
+854,docs,docs: update Claude Code MCP config key and API key placeholder,open,2026-05-01T10:09:08Z,2026-05-01T10:44:45Z,PrathamSikka24,https://github.com/keploy/docs/pull/854
