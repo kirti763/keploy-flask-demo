@@ -376,3 +376,4 @@ issue_number,repo_name,title,state,created_at,updated_at,author,issue_url
 4108,keploy,"[feature]: Add k6 load-test CI pipelines for MySQL, MongoDB, and gRPC sample apps",open,2026-04-23T04:37:14Z,2026-04-23T05:16:32Z,pathakharshit,https://github.com/keploy/keploy/issues/4108
 4144,keploy,[feature]: descriptive default testcase filenames during recording,open,2026-04-27T13:27:14Z,2026-04-27T13:28:33Z,Aditya-eddy,https://github.com/keploy/keploy/issues/4144
 4164,keploy,"[bug]: Replayer splits comma-separated request headers, causing duplicate-name fields that break dict(**request.headers) middlewares",open,2026-05-01T14:24:37Z,2026-05-01T14:24:37Z,ayush3160,https://github.com/keploy/keploy/issues/4164
+4165,keploy,incoming HTTP/1.1 proxy: stale upstream pool entries cause silent request drops + downstream 503/UC,open,2026-05-02T15:34:29Z,2026-05-02T15:34:29Z,ayush3160,https://github.com/keploy/keploy/issues/4165
