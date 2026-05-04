@@ -3243,3 +3243,4 @@ pr_number,repo_name,title,state,created_at,merged_at,author,pr_url
 6,orderflow,Add Keploy sandbox CI workflow,merged,2026-04-30T18:43:10Z,2026-04-30T19:07:03Z,charankamarapu,https://github.com/keploy/orderflow/pull/6
 852,docs,Update agent-test-generation.md,merged,2026-04-30T21:07:55Z,2026-05-01T11:34:18Z,charankamarapu,https://github.com/keploy/docs/pull/852
 382,blog-website,"feat: fix llm vidibility bug fix, article body appearence in server sent html",merged,2026-05-01T10:55:38Z,2026-05-01T14:49:16Z,amaan-bhati,https://github.com/keploy/blog-website/pull/382
+847,docs,[codex] docs: explain k8s proxy benefits,merged,2026-04-29T15:59:42Z,2026-05-04T06:25:44Z,officialasishkumar,https://github.com/keploy/docs/pull/847
