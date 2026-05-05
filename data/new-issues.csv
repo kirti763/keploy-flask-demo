@@ -377,3 +377,5 @@ issue_number,repo_name,title,state,created_at,updated_at,author,issue_url
 4144,keploy,[feature]: descriptive default testcase filenames during recording,open,2026-04-27T13:27:14Z,2026-04-27T13:28:33Z,Aditya-eddy,https://github.com/keploy/keploy/issues/4144
 4164,keploy,"[bug]: Replayer splits comma-separated request headers, causing duplicate-name fields that break dict(**request.headers) middlewares",open,2026-05-01T14:24:37Z,2026-05-01T14:24:37Z,ayush3160,https://github.com/keploy/keploy/issues/4164
 4165,keploy,incoming HTTP/1.1 proxy: stale upstream pool entries cause silent request drops + downstream 503/UC,open,2026-05-02T15:34:29Z,2026-05-02T15:34:29Z,ayush3160,https://github.com/keploy/keploy/issues/4165
+4169,keploy,ci: stale-pool-race latest-leg becomes a no-op once #4166 ships in keploy:latest,open,2026-05-04T10:14:15Z,2026-05-04T10:14:15Z,ayush3160,https://github.com/keploy/keploy/issues/4169
+4171,keploy,Configurable record buffer (per-connection memory + queue size) for large-payload / high-concurrency apps,open,2026-05-04T18:03:29Z,2026-05-04T18:03:29Z,Aditya-eddy,https://github.com/keploy/keploy/issues/4171
