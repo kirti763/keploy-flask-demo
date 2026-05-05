@@ -3244,3 +3244,6 @@ pr_number,repo_name,title,state,created_at,merged_at,author,pr_url
 852,docs,Update agent-test-generation.md,merged,2026-04-30T21:07:55Z,2026-05-01T11:34:18Z,charankamarapu,https://github.com/keploy/docs/pull/852
 382,blog-website,"feat: fix llm vidibility bug fix, article body appearence in server sent html",merged,2026-05-01T10:55:38Z,2026-05-01T14:49:16Z,amaan-bhati,https://github.com/keploy/blog-website/pull/382
 847,docs,[codex] docs: explain k8s proxy benefits,merged,2026-04-29T15:59:42Z,2026-05-04T06:25:44Z,officialasishkumar,https://github.com/keploy/docs/pull/847
+4166,keploy,fix(record): MSG_PEEK + replay-on-stale for HTTP/1.1 upstream pool reuse,merged,2026-05-02T15:35:21Z,2026-05-04T10:25:03Z,ayush3160,https://github.com/keploy/keploy/pull/4166
+4112,keploy,feat(log): pluggable redactor for secret obfuscation in log output,merged,2026-04-23T09:21:16Z,2026-05-04T09:20:17Z,ayush3160,https://github.com/keploy/keploy/pull/4112
+856,docs,docs(java-dedup): clarify pom.xml changes are optional,merged,2026-05-04T12:52:26Z,2026-05-04T14:56:04Z,officialasishkumar,https://github.com/keploy/docs/pull/856

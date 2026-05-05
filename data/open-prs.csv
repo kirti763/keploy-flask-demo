@@ -861,3 +861,9 @@ pr_number,repo_name,title,state,created_at,updated_at,author,pr_url
 854,docs,docs: update Claude Code MCP config key and API key placeholder,open,2026-05-01T10:09:08Z,2026-05-01T10:44:45Z,PrathamSikka24,https://github.com/keploy/docs/pull/854
 4167,keploy,ci(echo-sql/macos): de-flake by pre-pulling images + retrying on agent timeout,open,2026-05-02T17:18:58Z,2026-05-02T17:24:05Z,slayerjain,https://github.com/keploy/keploy/pull/4167
 4166,keploy,fix(record): MSG_PEEK + replay-on-stale for HTTP/1.1 upstream pool reuse,open,2026-05-02T15:35:21Z,2026-05-02T20:21:36Z,ayush3160,https://github.com/keploy/keploy/pull/4166
+4172,keploy,feat(record): expose per-connection record buffer as configurable,open,2026-05-04T18:03:46Z,2026-05-04T18:13:18Z,Aditya-eddy,https://github.com/keploy/keploy/pull/4172
+4170,keploy,ci(stale-pool-race): asymmetric drop-rate gates instead of continue-on-error,open,2026-05-04T10:17:06Z,2026-05-04T10:36:47Z,ayush3160,https://github.com/keploy/keploy/pull/4170
+4168,keploy,chore: remove json-pass-supported CI scaffolding,open,2026-05-04T07:46:56Z,2026-05-04T07:46:58Z,ayush3160,https://github.com/keploy/keploy/pull/4168
+857,docs,"seo: HowTo schema, glossary DefinedTermSet, docs landing fixes",open,2026-05-04T17:36:52Z,2026-05-04T18:34:44Z,slayerjain,https://github.com/keploy/docs/pull/857
+855,docs,fix(docs): remove /docs/ prefix from internal server installation links,open,2026-05-04T10:26:37Z,2026-05-04T18:20:23Z,tmchow,https://github.com/keploy/docs/pull/855
+383,blog-website,seo: blog index H1 + HowTo schema for tutorial posts,open,2026-05-04T17:34:06Z,2026-05-04T18:34:44Z,slayerjain,https://github.com/keploy/blog-website/pull/383
