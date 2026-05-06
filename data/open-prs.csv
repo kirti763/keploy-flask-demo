@@ -867,3 +867,6 @@ pr_number,repo_name,title,state,created_at,updated_at,author,pr_url
 857,docs,"seo: HowTo schema, glossary DefinedTermSet, docs landing fixes",open,2026-05-04T17:36:52Z,2026-05-04T18:34:44Z,slayerjain,https://github.com/keploy/docs/pull/857
 855,docs,fix(docs): remove /docs/ prefix from internal server installation links,open,2026-05-04T10:26:37Z,2026-05-04T18:20:23Z,tmchow,https://github.com/keploy/docs/pull/855
 383,blog-website,seo: blog index H1 + HowTo schema for tutorial posts,open,2026-05-04T17:34:06Z,2026-05-04T18:34:44Z,slayerjain,https://github.com/keploy/blog-website/pull/383
+386,blog-website,fix: prevent desktop navbar from redirecting on touch devices,open,2026-05-06T01:59:55Z,2026-05-06T02:00:23Z,debayanCODES-1,https://github.com/keploy/blog-website/pull/386
+385,blog-website,feat: add command palette search to navbar using fuse.js(#3081),open,2026-05-06T01:41:32Z,2026-05-06T01:41:32Z,debayanCODES-1,https://github.com/keploy/blog-website/pull/385
+384,blog-website,fix(navbar): make non-scrolled blog navbar full width on desktop,open,2026-05-05T09:54:48Z,2026-05-05T16:28:05Z,mvanhorn,https://github.com/keploy/blog-website/pull/384
