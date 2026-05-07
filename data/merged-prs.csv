@@ -3257,3 +3257,9 @@ pr_number,repo_name,title,state,created_at,merged_at,author,pr_url
 843,docs,docs: rewrite installation page and add OSS install to contribution guide,merged,2026-04-27T17:55:55Z,2026-05-05T09:05:32Z,PrathamSikka24,https://github.com/keploy/docs/pull/843
 134,samples-java,feat(restheart-mongo): keploy compat lane sample + Java line coverage gate,merged,2026-05-01T01:05:41Z,2026-05-05T13:59:01Z,AkashKumar7902,https://github.com/keploy/samples-java/pull/134
 101,samples-python,feat(doccano-django): keploy compat lane sample + Python line coverage gate,merged,2026-04-30T23:17:31Z,2026-05-05T13:59:10Z,AkashKumar7902,https://github.com/keploy/samples-python/pull/101
+4182,keploy,feat(telemetry): add RecordSessionCompleted event and mocks-consumed on TestRun,merged,2026-05-06T14:20:32Z,2026-05-06T17:05:43Z,gouravkrosx,https://github.com/keploy/keploy/pull/4182
+4181,keploy,fix(agent): skip-and-continue on per-mock encode error in HandleOutgoing,merged,2026-05-06T08:04:22Z,2026-05-06T08:33:09Z,ayush3160,https://github.com/keploy/keploy/pull/4181
+4180,keploy,"fix(postgres-v3): handle [16]uint8 in PostgresV3Cell.Gob{En,De}code",merged,2026-05-06T08:03:17Z,2026-05-06T09:07:20Z,ayush3160,https://github.com/keploy/keploy/pull/4180
+4163,keploy,fix(replay): fold comma-separated request headers into a single wire field,merged,2026-05-01T14:22:54Z,2026-05-06T11:48:08Z,ayush3160,https://github.com/keploy/keploy/pull/4163
+4131,keploy,feat(proxy): record pcap + TLS keylog per test-set behind --capture-packets,merged,2026-04-27T02:18:19Z,2026-05-06T13:15:12Z,ayush3160,https://github.com/keploy/keploy/pull/4131
+4093,keploy,fix(dns): attach udp4/6 recvmsg hooks to SNAT DNS reply source,merged,2026-04-21T12:50:58Z,2026-05-06T18:20:13Z,officialasishkumar,https://github.com/keploy/keploy/pull/4093
