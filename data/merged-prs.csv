@@ -3263,3 +3263,8 @@ pr_number,repo_name,title,state,created_at,merged_at,author,pr_url
 4163,keploy,fix(replay): fold comma-separated request headers into a single wire field,merged,2026-05-01T14:22:54Z,2026-05-06T11:48:08Z,ayush3160,https://github.com/keploy/keploy/pull/4163
 4131,keploy,feat(proxy): record pcap + TLS keylog per test-set behind --capture-packets,merged,2026-04-27T02:18:19Z,2026-05-06T13:15:12Z,ayush3160,https://github.com/keploy/keploy/pull/4131
 4093,keploy,fix(dns): attach udp4/6 recvmsg hooks to SNAT DNS reply source,merged,2026-04-21T12:50:58Z,2026-05-06T18:20:13Z,officialasishkumar,https://github.com/keploy/keploy/pull/4093
+4186,keploy,fix(testdb): propagate auto-assigned name back onto tc.Name,merged,2026-05-07T22:42:32Z,2026-05-07T23:09:17Z,slayerjain,https://github.com/keploy/keploy/pull/4186
+4184,keploy,feat(agent): SetFreezeAnchor hook to seed freeze offset before user-app boot,merged,2026-05-07T10:51:57Z,2026-05-07T23:17:53Z,ayush3160,https://github.com/keploy/keploy/pull/4184
+4160,keploy,fix: pass nsfs dev to BPF for bpf_get_ns_current_pid_tgid,merged,2026-04-30T05:26:48Z,2026-05-07T12:42:59Z,Aditya-eddy,https://github.com/keploy/keploy/pull/4160
+4157,keploy,feat(replay): TLSConfig hook on SimulationConfig + Hooks for HTTPS test cases,merged,2026-04-29T00:33:09Z,2026-05-07T07:21:25Z,khareyash05,https://github.com/keploy/keploy/pull/4157
+17,docker-images,feat(keploy-ci-java): bundle jattach v2.2 (multi-arch),merged,2026-05-07T11:31:55Z,2026-05-07T11:54:04Z,AkashKumar7902,https://github.com/keploy/docker-images/pull/17
