@@ -872,3 +872,4 @@ pr_number,repo_name,title,state,created_at,updated_at,author,pr_url
 384,blog-website,fix(navbar): make non-scrolled blog navbar full width on desktop,open,2026-05-05T09:54:48Z,2026-05-05T16:28:05Z,mvanhorn,https://github.com/keploy/blog-website/pull/384
 4183,keploy,fix(pcap): drop redundant handler flush racing with capture goroutine,open,2026-05-06T15:10:03Z,2026-05-06T18:38:54Z,ayush3160,https://github.com/keploy/keploy/pull/4183
 387,blog-website,feat: fix the ga tag data not being logged in due to lazyload,open,2026-05-07T08:15:15Z,2026-05-07T08:26:58Z,amaan-bhati,https://github.com/keploy/blog-website/pull/387
+4189,keploy,fix(log): keep per-test-set agent log non-empty in DockerCompose mode,open,2026-05-08T17:19:36Z,2026-05-08T17:24:59Z,ayush3160,https://github.com/keploy/keploy/pull/4189

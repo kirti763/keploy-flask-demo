@@ -3268,3 +3268,5 @@ pr_number,repo_name,title,state,created_at,merged_at,author,pr_url
 4160,keploy,fix: pass nsfs dev to BPF for bpf_get_ns_current_pid_tgid,merged,2026-04-30T05:26:48Z,2026-05-07T12:42:59Z,Aditya-eddy,https://github.com/keploy/keploy/pull/4160
 4157,keploy,feat(replay): TLSConfig hook on SimulationConfig + Hooks for HTTPS test cases,merged,2026-04-29T00:33:09Z,2026-05-07T07:21:25Z,khareyash05,https://github.com/keploy/keploy/pull/4157
 17,docker-images,feat(keploy-ci-java): bundle jattach v2.2 (multi-arch),merged,2026-05-07T11:31:55Z,2026-05-07T11:54:04Z,AkashKumar7902,https://github.com/keploy/docker-images/pull/17
+4188,keploy,fix(replay): continue to next test set when user-app exits in DockerCompose mode,merged,2026-05-08T13:59:47Z,2026-05-08T14:24:29Z,gouravkrosx,https://github.com/keploy/keploy/pull/4188
+4187,keploy,feat(log): add debug-level file sink helper to utils/log,merged,2026-05-08T11:42:55Z,2026-05-08T15:18:01Z,ayush3160,https://github.com/keploy/keploy/pull/4187
