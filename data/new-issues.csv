@@ -381,3 +381,4 @@ issue_number,repo_name,title,state,created_at,updated_at,author,issue_url
 4171,keploy,Configurable record buffer (per-connection memory + queue size) for large-payload / high-concurrency apps,open,2026-05-04T18:03:29Z,2026-05-04T18:03:29Z,Aditya-eddy,https://github.com/keploy/keploy/issues/4171
 4173,keploy,[bug]: 60s tail latency on outbound captures when upstream closes idle keepalive conn,open,2026-05-05T08:10:07Z,2026-05-05T08:10:07Z,ayush3160,https://github.com/keploy/keploy/issues/4173
 4175,keploy,[bug]: silent mock drops at recording time — outChan cap of 100 collapses under modest parallel load,open,2026-05-05T12:07:38Z,2026-05-05T12:07:38Z,ayush3160,https://github.com/keploy/keploy/issues/4175
+146,public-apis-collection,Add OpenMercantil to public APIs,open,2026-05-11T06:18:14Z,2026-05-11T06:18:14Z,PabloCirre,https://github.com/keploy/public-apis-collection/issues/146
