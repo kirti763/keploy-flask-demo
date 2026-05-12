@@ -874,3 +874,6 @@ pr_number,repo_name,title,state,created_at,updated_at,author,pr_url
 387,blog-website,feat: fix the ga tag data not being logged in due to lazyload,open,2026-05-07T08:15:15Z,2026-05-07T08:26:58Z,amaan-bhati,https://github.com/keploy/blog-website/pull/387
 4189,keploy,fix(log): keep per-test-set agent log non-empty in DockerCompose mode,open,2026-05-08T17:19:36Z,2026-05-08T17:24:59Z,ayush3160,https://github.com/keploy/keploy/pull/4189
 4190,keploy,feat(aerospike): add Aerospike Kind + model package,open,2026-05-10T16:55:43Z,2026-05-11T04:45:03Z,Aditya-eddy,https://github.com/keploy/keploy/pull/4190
+231,samples-go,Add aerospike-tls: Aerospike-Go sample with Keploy TLS record/replay,open,2026-05-11T10:39:34Z,2026-05-11T12:03:58Z,Aditya-eddy,https://github.com/keploy/samples-go/pull/231
+135,samples-java,Add spring-aerospike: Aerospike-Java sample with Keploy record/replay,open,2026-05-11T12:44:21Z,2026-05-11T12:49:32Z,Aditya-eddy,https://github.com/keploy/samples-java/pull/135
+102,samples-python,fastapi-sqlalchemy-pg-catalog: minimal repro sample for keploy/integrations#193,open,2026-05-11T18:40:38Z,2026-05-12T06:34:07Z,AkashKumar7902,https://github.com/keploy/samples-python/pull/102
