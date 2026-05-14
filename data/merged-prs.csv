@@ -3273,3 +3273,5 @@ pr_number,repo_name,title,state,created_at,merged_at,author,pr_url
 4194,keploy,fix(matcher): wildcard form segments with embedded unix timestamps,merged,2026-05-11T18:51:58Z,2026-05-11T19:18:11Z,ayush3160,https://github.com/keploy/keploy/pull/4194
 4193,keploy,"fix(log): rotate debug file per test set, not per test case",merged,2026-05-11T13:06:07Z,2026-05-11T14:28:51Z,ayush3160,https://github.com/keploy/keploy/pull/4193
 4192,keploy,feat(matcher): noise-aware exact-body match for form-encoded bodies,merged,2026-05-11T10:27:17Z,2026-05-11T12:14:05Z,ayush3160,https://github.com/keploy/keploy/pull/4192
+4198,keploy,chore(proxy/mockmanager): DEBUG_TRACE log on SetFilteredMocks swap,merged,2026-05-13T13:28:02Z,2026-05-13T14:40:05Z,ayush3160,https://github.com/keploy/keploy/pull/4198
+4196,keploy,fix(proxy/relay): add pre-dispatch pause to close postgres SSL preamble race,merged,2026-05-13T11:21:27Z,2026-05-13T12:25:15Z,AkashKumar7902,https://github.com/keploy/keploy/pull/4196
