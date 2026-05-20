@@ -3283,3 +3283,6 @@ pr_number,repo_name,title,state,created_at,merged_at,author,pr_url
 4201,keploy,fix(proxy/relay): flush C2D stash to dst before preamble Read in handleUpgradeTLS,merged,2026-05-18T08:23:14Z,2026-05-18T09:39:04Z,AkashKumar7902,https://github.com/keploy/keploy/pull/4201
 861,docs,docs(time-freezing): correct the Go version claim — works on all supported Go releases,merged,2026-05-18T15:44:25Z,2026-05-18T16:21:33Z,gouravkrosx,https://github.com/keploy/docs/pull/861
 860,docs,docs(k8s-proxy): use ns.deployment form in branch-merge example,merged,2026-05-18T11:35:03Z,2026-05-18T11:36:32Z,charankamarapu,https://github.com/keploy/docs/pull/860
+4204,keploy,feat(test): --keep-app-alive — start user app once across all test-sets,merged,2026-05-19T11:49:48Z,2026-05-19T13:17:42Z,ayush3160,https://github.com/keploy/keploy/pull/4204
+4203,keploy,fix(proxy): reuse MockManager across test-sets so long-lived parsers see new mocks,merged,2026-05-18T18:49:32Z,2026-05-19T13:56:23Z,ayush3160,https://github.com/keploy/keploy/pull/4203
+4200,keploy,fix(v1): mysql2 + mockdb + runner + recorder drain — five V1 sandbox replay fixes,merged,2026-05-16T14:02:00Z,2026-05-19T08:04:29Z,gouravkrosx,https://github.com/keploy/keploy/pull/4200

@@ -885,3 +885,5 @@ pr_number,repo_name,title,state,created_at,updated_at,author,pr_url
 4200,keploy,fix(v1): mysql2 + mockdb + runner + recorder drain — five V1 sandbox replay fixes,open,2026-05-16T14:02:00Z,2026-05-16T15:59:17Z,gouravkrosx,https://github.com/keploy/keploy/pull/4200
 4203,keploy,fix(proxy): reuse MockManager across test-sets so long-lived parsers see new mocks,open,2026-05-18T18:49:32Z,2026-05-18T18:55:11Z,ayush3160,https://github.com/keploy/keploy/pull/4203
 4202,keploy,fix(http): tier safe-method outbound mocks (GET/HEAD/OPTIONS) as LifetimeSession,open,2026-05-18T12:09:34Z,2026-05-18T12:14:44Z,AkashKumar7902,https://github.com/keploy/keploy/pull/4202
+4206,keploy,fix(proxy): refuse Postgres SSLRequest when TLS interception is disabled,open,2026-05-19T19:19:07Z,2026-05-19T19:29:48Z,jaadu611,https://github.com/keploy/keploy/pull/4206
+4205,keploy,ci(fuzzer/postgres): build postgres-fuzzer from go-fuzzers branch for fix validation,open,2026-05-19T13:16:33Z,2026-05-19T14:13:06Z,ayush3160,https://github.com/keploy/keploy/pull/4205
