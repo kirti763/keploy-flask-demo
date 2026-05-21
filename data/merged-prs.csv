@@ -3286,3 +3286,6 @@ pr_number,repo_name,title,state,created_at,merged_at,author,pr_url
 4204,keploy,feat(test): --keep-app-alive — start user app once across all test-sets,merged,2026-05-19T11:49:48Z,2026-05-19T13:17:42Z,ayush3160,https://github.com/keploy/keploy/pull/4204
 4203,keploy,fix(proxy): reuse MockManager across test-sets so long-lived parsers see new mocks,merged,2026-05-18T18:49:32Z,2026-05-19T13:56:23Z,ayush3160,https://github.com/keploy/keploy/pull/4203
 4200,keploy,fix(v1): mysql2 + mockdb + runner + recorder drain — five V1 sandbox replay fixes,merged,2026-05-16T14:02:00Z,2026-05-19T08:04:29Z,gouravkrosx,https://github.com/keploy/keploy/pull/4200
+4207,keploy,fix(agent): keep ingress proxy alive across /agent/incoming stream lifetime,merged,2026-05-20T14:00:29Z,2026-05-20T15:55:52Z,ayush3160,https://github.com/keploy/keploy/pull/4207
+862,docs,docs(k8s-proxy): add Developer + LLM Workflow playbook (two-prompt autonomous flow),merged,2026-05-20T08:24:01Z,2026-05-20T11:31:05Z,charankamarapu,https://github.com/keploy/docs/pull/862
+18,docker-images,chore(playwright): install ffmpeg in keploy-ci-playwright,merged,2026-05-21T05:56:01Z,2026-05-21T06:10:55Z,manasmanohar,https://github.com/keploy/docker-images/pull/18
