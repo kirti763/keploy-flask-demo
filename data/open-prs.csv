@@ -887,3 +887,4 @@ pr_number,repo_name,title,state,created_at,updated_at,author,pr_url
 4202,keploy,fix(http): tier safe-method outbound mocks (GET/HEAD/OPTIONS) as LifetimeSession,open,2026-05-18T12:09:34Z,2026-05-18T12:14:44Z,AkashKumar7902,https://github.com/keploy/keploy/pull/4202
 4206,keploy,fix(proxy): refuse Postgres SSLRequest when TLS interception is disabled,open,2026-05-19T19:19:07Z,2026-05-19T19:29:48Z,jaadu611,https://github.com/keploy/keploy/pull/4206
 4205,keploy,ci(fuzzer/postgres): build postgres-fuzzer from go-fuzzers branch for fix validation,open,2026-05-19T13:16:33Z,2026-05-19T14:13:06Z,ayush3160,https://github.com/keploy/keploy/pull/4205
+4210,keploy,feat/schema-summary,open,2026-05-21T09:07:15Z,2026-05-22T07:16:04Z,praagyajain,https://github.com/keploy/keploy/pull/4210

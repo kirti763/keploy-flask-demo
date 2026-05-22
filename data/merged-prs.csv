@@ -3289,3 +3289,7 @@ pr_number,repo_name,title,state,created_at,merged_at,author,pr_url
 4207,keploy,fix(agent): keep ingress proxy alive across /agent/incoming stream lifetime,merged,2026-05-20T14:00:29Z,2026-05-20T15:55:52Z,ayush3160,https://github.com/keploy/keploy/pull/4207
 862,docs,docs(k8s-proxy): add Developer + LLM Workflow playbook (two-prompt autonomous flow),merged,2026-05-20T08:24:01Z,2026-05-20T11:31:05Z,charankamarapu,https://github.com/keploy/docs/pull/862
 18,docker-images,chore(playwright): install ffmpeg in keploy-ci-playwright,merged,2026-05-21T05:56:01Z,2026-05-21T06:10:55Z,manasmanohar,https://github.com/keploy/docker-images/pull/18
+4212,keploy,feat(replay): expose TestResult.MockMismatches for every test,merged,2026-05-21T09:41:50Z,2026-05-21T11:40:43Z,charankamarapu,https://github.com/keploy/keploy/pull/4212
+4209,keploy,ci: concurrent sampling ci test,merged,2026-05-21T08:45:50Z,2026-05-21T14:07:06Z,kapishupadhyay22,https://github.com/keploy/keploy/pull/4209
+4208,keploy,fix(mysql): support TiDB on port 4000 and fix replay mock selection,merged,2026-05-21T08:28:33Z,2026-05-21T09:57:32Z,khareyash05,https://github.com/keploy/keploy/pull/4208
+232,samples-go,feat: app for testing concurrent sampling,merged,2026-05-21T08:44:56Z,2026-05-21T10:13:20Z,kapishupadhyay22,https://github.com/keploy/samples-go/pull/232
