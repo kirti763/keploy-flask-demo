@@ -382,3 +382,4 @@ issue_number,repo_name,title,state,created_at,updated_at,author,issue_url
 4173,keploy,[bug]: 60s tail latency on outbound captures when upstream closes idle keepalive conn,open,2026-05-05T08:10:07Z,2026-05-05T08:10:07Z,ayush3160,https://github.com/keploy/keploy/issues/4173
 4175,keploy,[bug]: silent mock drops at recording time — outChan cap of 100 collapses under modest parallel load,open,2026-05-05T12:07:38Z,2026-05-05T12:07:38Z,ayush3160,https://github.com/keploy/keploy/issues/4175
 146,public-apis-collection,Add OpenMercantil to public APIs,open,2026-05-11T06:18:14Z,2026-05-11T06:18:14Z,PabloCirre,https://github.com/keploy/public-apis-collection/issues/146
+4211,keploy,[feature]: Add e2e CI coverage for --enable-sampling concurrent-request bypass,open,2026-05-21T09:08:25Z,2026-05-21T09:08:40Z,kapishupadhyay22,https://github.com/keploy/keploy/issues/4211
