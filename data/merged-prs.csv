@@ -3293,3 +3293,6 @@ pr_number,repo_name,title,state,created_at,merged_at,author,pr_url
 4209,keploy,ci: concurrent sampling ci test,merged,2026-05-21T08:45:50Z,2026-05-21T14:07:06Z,kapishupadhyay22,https://github.com/keploy/keploy/pull/4209
 4208,keploy,fix(mysql): support TiDB on port 4000 and fix replay mock selection,merged,2026-05-21T08:28:33Z,2026-05-21T09:57:32Z,khareyash05,https://github.com/keploy/keploy/pull/4208
 232,samples-go,feat: app for testing concurrent sampling,merged,2026-05-21T08:44:56Z,2026-05-21T10:13:20Z,kapishupadhyay22,https://github.com/keploy/samples-go/pull/232
+4215,keploy,test(mysql/recorder): de-flake race_drain_test on contended CI runners,merged,2026-05-25T07:24:51Z,2026-05-25T07:37:36Z,gouravkrosx,https://github.com/keploy/keploy/pull/4215
+4214,keploy,chore: update expired Slack invite link,merged,2026-05-25T06:34:08Z,2026-05-25T06:43:29Z,manasmanohar,https://github.com/keploy/keploy/pull/4214
+864,docs,chore: update expired Slack invite link,merged,2026-05-25T06:34:33Z,2026-05-25T06:42:41Z,manasmanohar,https://github.com/keploy/docs/pull/864
