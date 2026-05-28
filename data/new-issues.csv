@@ -384,3 +384,5 @@ issue_number,repo_name,title,state,created_at,updated_at,author,issue_url
 146,public-apis-collection,Add OpenMercantil to public APIs,open,2026-05-11T06:18:14Z,2026-05-11T06:18:14Z,PabloCirre,https://github.com/keploy/public-apis-collection/issues/146
 4211,keploy,[feature]: Add e2e CI coverage for --enable-sampling concurrent-request bypass,open,2026-05-21T09:08:25Z,2026-05-21T09:08:40Z,kapishupadhyay22,https://github.com/keploy/keploy/issues/4211
 4218,keploy,doc: Latency Numbers using Proxy for Recording,open,2026-05-26T06:21:57Z,2026-05-26T06:21:57Z,khareyash05,https://github.com/keploy/keploy/issues/4218
+4221,keploy,"[bug]: schema-match prints ""Testrun passed"" banner for tests that fail on header check",open,2026-05-27T10:56:12Z,2026-05-27T11:17:24Z,Aditya-eddy,https://github.com/keploy/keploy/issues/4221
+4223,keploy,[bug]: pprof HTTP Server Lacks Authentication and Binding Controls,open,2026-05-27T16:56:46Z,2026-05-27T16:57:13Z,Priyanshu8023,https://github.com/keploy/keploy/issues/4223
