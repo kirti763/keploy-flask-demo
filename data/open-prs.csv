@@ -891,3 +891,6 @@ pr_number,repo_name,title,state,created_at,updated_at,author,pr_url
 4213,keploy,feat(image): non-root + capability-only agent execution support,open,2026-05-22T12:50:40Z,2026-05-22T12:56:05Z,ayush3160,https://github.com/keploy/keploy/pull/4213
 863,docs,docs(k8s-proxy-llm-workflow): point Routine A at legacy /tr MCP tools,open,2026-05-24T20:40:08Z,2026-05-24T20:48:30Z,charankamarapu,https://github.com/keploy/docs/pull/863
 4220,keploy,Verify/before tc drop,open,2026-05-26T12:47:28Z,2026-05-26T12:59:32Z,pathakharshit,https://github.com/keploy/keploy/pull/4220
+4224,keploy,fix(dns): Drop NXDOMAIN upstream responses in test mode,open,2026-05-28T06:15:55Z,2026-05-28T07:08:51Z,Gauravsingh096,https://github.com/keploy/keploy/pull/4224
+4222,keploy,fix: pay --keep-app-alive startup delay when leading test-set is empty,open,2026-05-27T12:14:14Z,2026-05-27T15:20:19Z,ayush3160,https://github.com/keploy/keploy/pull/4222
+865,docs,docs(k8s-proxy-llm-workflow): document --cluster for local cloud replay,open,2026-05-28T05:23:17Z,2026-05-28T05:23:17Z,charankamarapu,https://github.com/keploy/docs/pull/865

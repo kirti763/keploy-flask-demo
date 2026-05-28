@@ -3300,3 +3300,5 @@ pr_number,repo_name,title,state,created_at,merged_at,author,pr_url
 4216,keploy,ci(fuzzer): fetch fuzzer binaries from Azure instead of stale S3,merged,2026-05-25T11:35:10Z,2026-05-25T13:13:35Z,ayush3160,https://github.com/keploy/keploy/pull/4216
 4063,keploy,"feat: add JSON serialization format for testcases, mocks, reports",merged,2026-04-15T12:07:21Z,2026-05-26T11:19:51Z,ayush3160,https://github.com/keploy/keploy/pull/4063
 863,docs,docs(k8s-proxy-llm-workflow): point Routine A at legacy /tr MCP tools,merged,2026-05-24T20:40:08Z,2026-05-27T05:50:54Z,charankamarapu,https://github.com/keploy/docs/pull/863
+857,docs,"seo: HowTo schema, glossary DefinedTermSet, docs landing fixes",merged,2026-05-04T17:36:52Z,2026-05-27T13:23:41Z,slayerjain,https://github.com/keploy/docs/pull/857
+136,samples-java,feat(spring-mysql-redis): add endpoint to trigger COM_STMT_RESET,merged,2026-05-27T10:59:31Z,2026-05-27T11:02:38Z,khareyash05,https://github.com/keploy/samples-java/pull/136
