@@ -3302,3 +3302,6 @@ pr_number,repo_name,title,state,created_at,merged_at,author,pr_url
 863,docs,docs(k8s-proxy-llm-workflow): point Routine A at legacy /tr MCP tools,merged,2026-05-24T20:40:08Z,2026-05-27T05:50:54Z,charankamarapu,https://github.com/keploy/docs/pull/863
 857,docs,"seo: HowTo schema, glossary DefinedTermSet, docs landing fixes",merged,2026-05-04T17:36:52Z,2026-05-27T13:23:41Z,slayerjain,https://github.com/keploy/docs/pull/857
 136,samples-java,feat(spring-mysql-redis): add endpoint to trigger COM_STMT_RESET,merged,2026-05-27T10:59:31Z,2026-05-27T11:02:38Z,khareyash05,https://github.com/keploy/samples-java/pull/136
+4225,keploy,ci(java/mysql-dual-conn): exercise COM_STMT_RESET in record traffic,merged,2026-05-28T12:15:02Z,2026-05-29T06:15:54Z,khareyash05,https://github.com/keploy/keploy/pull/4225
+866,docs,docs(installation): note that the one-click installer defaults to Community Edition,merged,2026-05-28T09:59:52Z,2026-05-28T11:00:56Z,gouravkrosx,https://github.com/keploy/docs/pull/866
+865,docs,docs(k8s-proxy-llm-workflow): document --cluster for local cloud replay,merged,2026-05-28T05:23:17Z,2026-05-29T05:41:11Z,charankamarapu,https://github.com/keploy/docs/pull/865
