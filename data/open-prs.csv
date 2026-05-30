@@ -895,3 +895,6 @@ pr_number,repo_name,title,state,created_at,updated_at,author,pr_url
 4222,keploy,fix: pay --keep-app-alive startup delay when leading test-set is empty,open,2026-05-27T12:14:14Z,2026-05-27T15:20:19Z,ayush3160,https://github.com/keploy/keploy/pull/4222
 865,docs,docs(k8s-proxy-llm-workflow): document --cluster for local cloud replay,open,2026-05-28T05:23:17Z,2026-05-28T05:23:17Z,charankamarapu,https://github.com/keploy/docs/pull/865
 137,samples-java,feat(mysql-dual-conn): add endpoint to trigger COM_STMT_RESET,open,2026-05-28T12:12:10Z,2026-05-28T12:12:10Z,khareyash05,https://github.com/keploy/samples-java/pull/137
+4228,keploy,feat(cli): Community Edition upgrade banner on OSS binary,open,2026-05-29T13:42:04Z,2026-05-29T13:46:04Z,gouravkrosx,https://github.com/keploy/keploy/pull/4228
+4226,keploy,fix(mysql/replay): synthesize PREPARE_OK for JDBC cachePrepStmts orphaned mocks,open,2026-05-29T08:16:00Z,2026-05-29T11:54:14Z,khareyash05,https://github.com/keploy/keploy/pull/4226
+869,docs,chore: replace older slack urls with updated invite linnk,open,2026-05-29T10:22:20Z,2026-05-29T11:25:59Z,amaan-bhati,https://github.com/keploy/docs/pull/869

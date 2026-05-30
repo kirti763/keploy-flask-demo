@@ -3305,3 +3305,14 @@ pr_number,repo_name,title,state,created_at,merged_at,author,pr_url
 4225,keploy,ci(java/mysql-dual-conn): exercise COM_STMT_RESET in record traffic,merged,2026-05-28T12:15:02Z,2026-05-29T06:15:54Z,khareyash05,https://github.com/keploy/keploy/pull/4225
 866,docs,docs(installation): note that the one-click installer defaults to Community Edition,merged,2026-05-28T09:59:52Z,2026-05-28T11:00:56Z,gouravkrosx,https://github.com/keploy/docs/pull/866
 865,docs,docs(k8s-proxy-llm-workflow): document --cluster for local cloud replay,merged,2026-05-28T05:23:17Z,2026-05-29T05:41:11Z,charankamarapu,https://github.com/keploy/docs/pull/865
+4227,keploy,feat: update slack urls to updated invite link,merged,2026-05-29T11:46:24Z,2026-05-29T11:50:07Z,amaan-bhati,https://github.com/keploy/keploy/pull/4227
+97,gsoc,chore: replace the slack url to updated invite url,merged,2026-05-29T12:38:02Z,2026-05-29T13:16:00Z,amaan-bhati,https://github.com/keploy/gsoc/pull/97
+233,samples-go,fix(aerospike-tls):  Noise body.duration and disable strictMockWindow,merged,2026-05-29T11:15:32Z,2026-05-29T16:28:04Z,Gauravsingh096,https://github.com/keploy/samples-go/pull/233
+40,.github,chore: replace the slack url to updated invite url,merged,2026-05-29T12:17:43Z,2026-05-29T12:22:42Z,amaan-bhati,https://github.com/keploy/.github/pull/40
+98,samples-typescript,chore: replace the slack url to updated invite url,merged,2026-05-29T12:31:07Z,2026-05-29T13:16:57Z,amaan-bhati,https://github.com/keploy/samples-typescript/pull/98
+868,docs,docs(macos-install): restore Homebrew install as option 2,merged,2026-05-29T09:32:24Z,2026-05-29T10:48:10Z,gouravkrosx,https://github.com/keploy/docs/pull/868
+867,docs,docs(macos-install): drop brew install as primary; one-click curl is the only step,merged,2026-05-29T08:46:28Z,2026-05-29T09:12:38Z,gouravkrosx,https://github.com/keploy/docs/pull/867
+138,samples-java,chore: replace the slack url to updated invite url,merged,2026-05-29T12:27:06Z,2026-05-29T13:17:15Z,amaan-bhati,https://github.com/keploy/samples-java/pull/138
+103,samples-python,chore: replace the slack url to updated invite url,merged,2026-05-29T12:23:36Z,2026-05-29T13:17:30Z,amaan-bhati,https://github.com/keploy/samples-python/pull/103
+389,blog-website,temp: replace expired slack urls with new slack cahnnel invite,merged,2026-05-29T10:26:21Z,2026-05-29T11:23:37Z,amaan-bhati,https://github.com/keploy/blog-website/pull/389
+55,writers-program,chore: replace the slack url to updated invite url,merged,2026-05-29T12:36:21Z,2026-05-29T13:16:33Z,amaan-bhati,https://github.com/keploy/writers-program/pull/55
