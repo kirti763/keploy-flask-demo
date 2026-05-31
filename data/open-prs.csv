@@ -898,3 +898,4 @@ pr_number,repo_name,title,state,created_at,updated_at,author,pr_url
 4228,keploy,feat(cli): Community Edition upgrade banner on OSS binary,open,2026-05-29T13:42:04Z,2026-05-29T13:46:04Z,gouravkrosx,https://github.com/keploy/keploy/pull/4228
 4226,keploy,fix(mysql/replay): synthesize PREPARE_OK for JDBC cachePrepStmts orphaned mocks,open,2026-05-29T08:16:00Z,2026-05-29T11:54:14Z,khareyash05,https://github.com/keploy/keploy/pull/4226
 869,docs,chore: replace older slack urls with updated invite linnk,open,2026-05-29T10:22:20Z,2026-05-29T11:25:59Z,amaan-bhati,https://github.com/keploy/docs/pull/869
+148,public-apis-collection,Add Longevity World Cup API,open,2026-05-30T16:42:57Z,2026-05-30T16:42:57Z,nopara73,https://github.com/keploy/public-apis-collection/pull/148
