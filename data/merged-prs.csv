@@ -3318,3 +3318,6 @@ pr_number,repo_name,title,state,created_at,merged_at,author,pr_url
 55,writers-program,chore: replace the slack url to updated invite url,merged,2026-05-29T12:36:21Z,2026-05-29T13:16:33Z,amaan-bhati,https://github.com/keploy/writers-program/pull/55
 4229,keploy,fix: mock window resolve range race fix,merged,2026-05-30T13:30:10Z,2026-05-30T14:58:42Z,kapishupadhyay22,https://github.com/keploy/keploy/pull/4229
 4228,keploy,feat(cli): Community Edition upgrade banner on OSS binary,merged,2026-05-29T13:42:04Z,2026-05-30T09:35:46Z,gouravkrosx,https://github.com/keploy/keploy/pull/4228
+231,samples-go,Add aerospike-tls: Aerospike-Go sample with Keploy TLS record/replay,merged,2026-05-11T10:39:34Z,2026-06-01T08:13:21Z,Aditya-eddy,https://github.com/keploy/samples-go/pull/231
+135,samples-java,Add spring-aerospike: Aerospike-Java sample with Keploy record/replay,merged,2026-05-11T12:44:21Z,2026-06-01T07:57:54Z,Aditya-eddy,https://github.com/keploy/samples-java/pull/135
+387,blog-website,feat: fix the ga tag data not being logged in due to lazyload,merged,2026-05-07T08:15:15Z,2026-06-01T08:30:24Z,amaan-bhati,https://github.com/keploy/blog-website/pull/387
