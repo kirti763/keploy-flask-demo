@@ -386,3 +386,4 @@ issue_number,repo_name,title,state,created_at,updated_at,author,issue_url
 4218,keploy,doc: Latency Numbers using Proxy for Recording,open,2026-05-26T06:21:57Z,2026-05-26T06:21:57Z,khareyash05,https://github.com/keploy/keploy/issues/4218
 4221,keploy,"[bug]: schema-match prints ""Testrun passed"" banner for tests that fail on header check",open,2026-05-27T10:56:12Z,2026-05-27T11:17:24Z,Aditya-eddy,https://github.com/keploy/keploy/issues/4221
 4223,keploy,[bug]: pprof HTTP Server Lacks Authentication and Binding Controls,open,2026-05-27T16:56:46Z,2026-05-27T16:57:13Z,Priyanshu8023,https://github.com/keploy/keploy/issues/4223
+4233,keploy,Schema-based request-body noise detection & persistence for HTTP mocks (auto-replay),open,2026-06-02T07:31:28Z,2026-06-02T07:34:11Z,Aditya-eddy,https://github.com/keploy/keploy/issues/4233
