@@ -899,3 +899,11 @@ pr_number,repo_name,title,state,created_at,updated_at,author,pr_url
 4226,keploy,fix(mysql/replay): synthesize PREPARE_OK for JDBC cachePrepStmts orphaned mocks,open,2026-05-29T08:16:00Z,2026-05-29T11:54:14Z,khareyash05,https://github.com/keploy/keploy/pull/4226
 869,docs,chore: replace older slack urls with updated invite linnk,open,2026-05-29T10:22:20Z,2026-05-29T11:25:59Z,amaan-bhati,https://github.com/keploy/docs/pull/869
 148,public-apis-collection,Add Longevity World Cup API,open,2026-05-30T16:42:57Z,2026-05-30T16:42:57Z,nopara73,https://github.com/keploy/public-apis-collection/pull/148
+4234,keploy,feat: schema-based request-body noise detection for HTTP mocks,open,2026-06-02T07:32:15Z,2026-06-02T07:39:57Z,Aditya-eddy,https://github.com/keploy/keploy/pull/4234
+4232,keploy,fix(schema-match): Populate HeadersResult and fix banner ordering for missing banner,open,2026-06-02T06:18:37Z,2026-06-02T07:55:26Z,Gauravsingh096,https://github.com/keploy/keploy/pull/4232
+4231,keploy,feat(proxy): SCRAM-SHA-256-PLUS support across TLS-MITM via LD_PRELOAD shim,open,2026-06-01T11:24:24Z,2026-06-01T14:32:38Z,ayush3160,https://github.com/keploy/keploy/pull/4231
+4230,keploy,fix: Fixing pipeline for aerospike parser,open,2026-06-01T10:43:33Z,2026-06-01T10:50:34Z,Gauravsingh096,https://github.com/keploy/keploy/pull/4230
+98,gsoc,chore: replace the temp slack url to permanent route,open,2026-06-01T14:17:05Z,2026-06-01T14:44:06Z,amaan-bhati,https://github.com/keploy/gsoc/pull/98
+870,docs,chore: replace the temp slack url to permanent route,open,2026-06-01T14:45:52Z,2026-06-01T14:49:39Z,amaan-bhati,https://github.com/keploy/docs/pull/870
+390,blog-website,chore: replace the temp slack url to permanent route,open,2026-06-01T14:47:16Z,2026-06-01T14:48:55Z,amaan-bhati,https://github.com/keploy/blog-website/pull/390
+149,public-apis-collection,Add CharitySense API,open,2026-06-02T01:18:45Z,2026-06-02T02:41:54Z,mtweak,https://github.com/keploy/public-apis-collection/pull/149
