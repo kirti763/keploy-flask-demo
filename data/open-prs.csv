@@ -907,3 +907,8 @@ pr_number,repo_name,title,state,created_at,updated_at,author,pr_url
 870,docs,chore: replace the temp slack url to permanent route,open,2026-06-01T14:45:52Z,2026-06-01T14:49:39Z,amaan-bhati,https://github.com/keploy/docs/pull/870
 390,blog-website,chore: replace the temp slack url to permanent route,open,2026-06-01T14:47:16Z,2026-06-01T14:48:55Z,amaan-bhati,https://github.com/keploy/blog-website/pull/390
 149,public-apis-collection,Add CharitySense API,open,2026-06-02T01:18:45Z,2026-06-02T02:41:54Z,mtweak,https://github.com/keploy/public-apis-collection/pull/149
+4240,keploy,fix(mapdb): replace local mappings on Insert instead of merging,open,2026-06-02T17:20:02Z,2026-06-02T17:25:26Z,charankamarapu,https://github.com/keploy/keploy/pull/4240
+4239,keploy,feat(cbshim): eBPF channel-binding shim — SCRAM-SHA-256-PLUS across keploy's TLS MITM (uprobe approach),open,2026-06-02T12:55:07Z,2026-06-02T14:58:13Z,ayush3160,https://github.com/keploy/keploy/pull/4239
+4238,keploy,Feat(replay): add KMS-based decryption of ENC: values at replay time,open,2026-06-02T12:33:21Z,2026-06-03T08:16:12Z,Vedanshi27vishu,https://github.com/keploy/keploy/pull/4238
+4237,keploy,fix(record): drain in-flight mocks on graceful stop,open,2026-06-02T11:52:22Z,2026-06-02T11:57:44Z,pathakharshit,https://github.com/keploy/keploy/pull/4237
+4236,keploy,fix(proxy): restore happy-eyeballs for TLS upstream dial,open,2026-06-02T11:34:31Z,2026-06-02T11:34:32Z,Gauravsingh096,https://github.com/keploy/keploy/pull/4236

@@ -3324,3 +3324,9 @@ pr_number,repo_name,title,state,created_at,merged_at,author,pr_url
 4226,keploy,fix(mysql/replay): synthesize PREPARE_OK for JDBC cachePrepStmts orphaned mocks,merged,2026-05-29T08:16:00Z,2026-06-01T10:44:39Z,khareyash05,https://github.com/keploy/keploy/pull/4226
 139,samples-java,"fix(tidb-stmt-cache): use TiDB built-in defaults, drop bogus command flags",merged,2026-06-01T10:31:25Z,2026-06-02T07:12:12Z,khareyash05,https://github.com/keploy/samples-java/pull/139
 137,samples-java,"feat(mysql-dual-conn, tidb-stmt-cache): exercise COM_STMT_RESET + prepared-stmt orphan-EXECUTE",merged,2026-05-28T12:12:10Z,2026-06-01T10:08:43Z,khareyash05,https://github.com/keploy/samples-java/pull/137
+4235,keploy,fix(mysql/replay): in-window mock selection for stateful prepared reads + don't base64-decode BLOB text,merged,2026-06-02T10:28:46Z,2026-06-02T13:01:01Z,gouravkrosx,https://github.com/keploy/keploy/pull/4235
+4232,keploy,fix(schema-match): Populate HeadersResult and fix banner ordering for missing banner,merged,2026-06-02T06:18:37Z,2026-06-02T09:04:23Z,Gauravsingh096,https://github.com/keploy/keploy/pull/4232
+4224,keploy,fix(dns): Drop NXDOMAIN upstream responses in test mode,merged,2026-05-28T06:15:55Z,2026-06-02T09:04:56Z,Gauravsingh096,https://github.com/keploy/keploy/pull/4224
+98,gsoc,chore: replace the temp slack url to permanent route,merged,2026-06-01T14:17:05Z,2026-06-02T15:18:56Z,amaan-bhati,https://github.com/keploy/gsoc/pull/98
+870,docs,chore: replace the temp slack url to permanent route,merged,2026-06-01T14:45:52Z,2026-06-02T15:18:02Z,amaan-bhati,https://github.com/keploy/docs/pull/870
+390,blog-website,chore: replace the temp slack url to permanent route,merged,2026-06-01T14:47:16Z,2026-06-02T15:16:09Z,amaan-bhati,https://github.com/keploy/blog-website/pull/390
