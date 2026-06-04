@@ -1465,3 +1465,4 @@ issue_number,repo_name,title,state,created_at,closed_at,author,issue_url
 4179,keploy,[bug]: HandleOutgoing exits on first per-mock encode error — silently drops every subsequent mock for the rest of the recording,closed,2026-05-06T08:02:14Z,2026-05-06T08:33:11Z,ayush3160,https://github.com/keploy/keploy/issues/4179
 4185,keploy,[bug]: testdb upsert does not propagate auto-assigned tc.Name back to caller (live recording shows only 1 testcase),closed,2026-05-07T22:41:03Z,2026-05-07T23:09:18Z,slayerjain,https://github.com/keploy/keploy/issues/4185
 4191,keploy,"[bug]: HBase, Pulsar, and ZooKeeper replay mismatches",closed,2026-05-11T06:14:17Z,2026-05-11T06:17:05Z,officialasishkumar,https://github.com/keploy/keploy/issues/4191
+4221,keploy,"[bug]: schema-match prints ""Testrun passed"" banner for tests that fail on header check",closed,2026-05-27T10:56:12Z,2026-06-03T08:59:19Z,Aditya-eddy,https://github.com/keploy/keploy/issues/4221
