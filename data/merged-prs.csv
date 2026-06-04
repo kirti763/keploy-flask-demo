@@ -3330,3 +3330,5 @@ pr_number,repo_name,title,state,created_at,merged_at,author,pr_url
 98,gsoc,chore: replace the temp slack url to permanent route,merged,2026-06-01T14:17:05Z,2026-06-02T15:18:56Z,amaan-bhati,https://github.com/keploy/gsoc/pull/98
 870,docs,chore: replace the temp slack url to permanent route,merged,2026-06-01T14:45:52Z,2026-06-02T15:18:02Z,amaan-bhati,https://github.com/keploy/docs/pull/870
 390,blog-website,chore: replace the temp slack url to permanent route,merged,2026-06-01T14:47:16Z,2026-06-02T15:16:09Z,amaan-bhati,https://github.com/keploy/blog-website/pull/390
+4242,keploy,fix: http mock - test scoped specified,merged,2026-06-03T09:53:28Z,2026-06-03T10:58:54Z,kapishupadhyay22,https://github.com/keploy/keploy/pull/4242
+383,blog-website,seo: blog index H1 + HowTo schema for tutorial posts,merged,2026-05-04T17:34:06Z,2026-06-03T17:49:16Z,slayerjain,https://github.com/keploy/blog-website/pull/383
