@@ -3332,3 +3332,6 @@ pr_number,repo_name,title,state,created_at,merged_at,author,pr_url
 390,blog-website,chore: replace the temp slack url to permanent route,merged,2026-06-01T14:47:16Z,2026-06-02T15:16:09Z,amaan-bhati,https://github.com/keploy/blog-website/pull/390
 4242,keploy,fix: http mock - test scoped specified,merged,2026-06-03T09:53:28Z,2026-06-03T10:58:54Z,kapishupadhyay22,https://github.com/keploy/keploy/pull/4242
 383,blog-website,seo: blog index H1 + HowTo schema for tutorial posts,merged,2026-05-04T17:34:06Z,2026-06-03T17:49:16Z,slayerjain,https://github.com/keploy/blog-website/pull/383
+4243,keploy,ci: end-to-end pipeline for schema-based req-body noise detection,merged,2026-06-04T08:39:59Z,2026-06-04T10:04:23Z,Aditya-eddy,https://github.com/keploy/keploy/pull/4243
+4234,keploy,feat: schema-based request-body noise detection for HTTP mocks,merged,2026-06-02T07:32:15Z,2026-06-04T11:08:27Z,Aditya-eddy,https://github.com/keploy/keploy/pull/4234
+234,samples-go,feat(mux-elasticsearch): opt-in schema-noise demo mode for outgoing ES body,merged,2026-06-04T08:39:30Z,2026-06-04T09:20:46Z,Aditya-eddy,https://github.com/keploy/samples-go/pull/234
