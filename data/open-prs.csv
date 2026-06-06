@@ -913,3 +913,6 @@ pr_number,repo_name,title,state,created_at,updated_at,author,pr_url
 4237,keploy,fix(record): drain in-flight mocks on graceful stop,open,2026-06-02T11:52:22Z,2026-06-02T11:57:44Z,pathakharshit,https://github.com/keploy/keploy/pull/4237
 4236,keploy,fix(proxy): restore happy-eyeballs for TLS upstream dial,open,2026-06-02T11:34:31Z,2026-06-02T11:34:32Z,Gauravsingh096,https://github.com/keploy/keploy/pull/4236
 140,samples-java,feat(tidb-stmt-cache): add Pulsar partitioned-topic replay scenario,open,2026-06-03T11:40:50Z,2026-06-03T11:52:37Z,khareyash05,https://github.com/keploy/samples-java/pull/140
+4248,keploy,fix(postgres): decode timestamps with >4-digit and negative years,open,2026-06-05T23:04:35Z,2026-06-05T23:09:54Z,slayerjain,https://github.com/keploy/keploy/pull/4248
+4247,keploy,feat(cbshim): wire BPF channel-binding shim into proxy + docker generators,open,2026-06-05T22:34:44Z,2026-06-05T22:45:24Z,ayush3160,https://github.com/keploy/keploy/pull/4247
+391,blog-website,chore: minor styling tweaks for the urls used in blogs,open,2026-06-05T09:18:35Z,2026-06-05T16:25:03Z,amaan-bhati,https://github.com/keploy/blog-website/pull/391

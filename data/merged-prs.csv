@@ -3335,3 +3335,13 @@ pr_number,repo_name,title,state,created_at,merged_at,author,pr_url
 4243,keploy,ci: end-to-end pipeline for schema-based req-body noise detection,merged,2026-06-04T08:39:59Z,2026-06-04T10:04:23Z,Aditya-eddy,https://github.com/keploy/keploy/pull/4243
 4234,keploy,feat: schema-based request-body noise detection for HTTP mocks,merged,2026-06-02T07:32:15Z,2026-06-04T11:08:27Z,Aditya-eddy,https://github.com/keploy/keploy/pull/4234
 234,samples-go,feat(mux-elasticsearch): opt-in schema-noise demo mode for outgoing ES body,merged,2026-06-04T08:39:30Z,2026-06-04T09:20:46Z,Aditya-eddy,https://github.com/keploy/samples-go/pull/234
+4246,keploy,feat(cbshim): forward channelBindingShim to replay + scoped CAP_SYS_ADMIN,merged,2026-06-05T22:04:36Z,2026-06-05T22:09:06Z,slayerjain,https://github.com/keploy/keploy/pull/4246
+4245,keploy,ci: de-flake run_sample_tls_pcap (local TLS upstream),merged,2026-06-05T12:36:56Z,2026-06-05T13:25:11Z,ayush3160,https://github.com/keploy/keploy/pull/4245
+4244,keploy,chore: enabling mapping for test mode by default,merged,2026-06-05T09:50:31Z,2026-06-05T09:54:43Z,kapishupadhyay22,https://github.com/keploy/keploy/pull/4244
+4239,keploy,refactor(cbshim): extract OSS-side interface; move SCRAM-PLUS impl to enterprise,merged,2026-06-02T12:55:07Z,2026-06-05T14:01:32Z,ayush3160,https://github.com/keploy/keploy/pull/4239
+41,.github,chore: replace the temp slack url to permanent route,merged,2026-06-05T09:15:28Z,2026-06-05T13:45:00Z,amaan-bhati,https://github.com/keploy/.github/pull/41
+99,samples-typescript,chore: replace the temp slack url to permanent route,merged,2026-06-05T11:58:50Z,2026-06-05T13:46:28Z,amaan-bhati,https://github.com/keploy/samples-typescript/pull/99
+141,samples-java,chore: replace the temp slack url to permanent route,merged,2026-06-05T11:46:37Z,2026-06-05T13:45:50Z,amaan-bhati,https://github.com/keploy/samples-java/pull/141
+104,samples-python,chore: replace the temp slack url to permanent route,merged,2026-06-05T09:29:30Z,2026-06-05T13:45:36Z,amaan-bhati,https://github.com/keploy/samples-python/pull/104
+392,blog-website,chore: add redirects for updated blog URLs,merged,2026-06-05T13:15:37Z,2026-06-05T14:08:00Z,amaan-bhati,https://github.com/keploy/blog-website/pull/392
+56,writers-program,chore: replace the temp slack url to permanent route,merged,2026-06-05T12:04:04Z,2026-06-05T13:46:53Z,amaan-bhati,https://github.com/keploy/writers-program/pull/56
