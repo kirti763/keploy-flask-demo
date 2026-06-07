@@ -916,3 +916,4 @@ pr_number,repo_name,title,state,created_at,updated_at,author,pr_url
 4248,keploy,fix(postgres): decode timestamps with >4-digit and negative years,open,2026-06-05T23:04:35Z,2026-06-05T23:09:54Z,slayerjain,https://github.com/keploy/keploy/pull/4248
 4247,keploy,feat(cbshim): wire BPF channel-binding shim into proxy + docker generators,open,2026-06-05T22:34:44Z,2026-06-05T22:45:24Z,ayush3160,https://github.com/keploy/keploy/pull/4247
 391,blog-website,chore: minor styling tweaks for the urls used in blogs,open,2026-06-05T09:18:35Z,2026-06-05T16:25:03Z,amaan-bhati,https://github.com/keploy/blog-website/pull/391
+4249,keploy,chore(cbshim): demote per-attach proxy logs to debug,open,2026-06-07T04:55:35Z,2026-06-07T05:12:47Z,slayerjain,https://github.com/keploy/keploy/pull/4249

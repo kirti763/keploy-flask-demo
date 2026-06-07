@@ -3345,3 +3345,4 @@ pr_number,repo_name,title,state,created_at,merged_at,author,pr_url
 104,samples-python,chore: replace the temp slack url to permanent route,merged,2026-06-05T09:29:30Z,2026-06-05T13:45:36Z,amaan-bhati,https://github.com/keploy/samples-python/pull/104
 392,blog-website,chore: add redirects for updated blog URLs,merged,2026-06-05T13:15:37Z,2026-06-05T14:08:00Z,amaan-bhati,https://github.com/keploy/blog-website/pull/392
 56,writers-program,chore: replace the temp slack url to permanent route,merged,2026-06-05T12:04:04Z,2026-06-05T13:46:53Z,amaan-bhati,https://github.com/keploy/writers-program/pull/56
+4248,keploy,fix(postgres): decode timestamps with >4-digit and negative years,merged,2026-06-05T23:04:35Z,2026-06-07T01:04:15Z,slayerjain,https://github.com/keploy/keploy/pull/4248
