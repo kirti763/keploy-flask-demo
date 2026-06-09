@@ -388,3 +388,8 @@ issue_number,repo_name,title,state,created_at,updated_at,author,issue_url
 4223,keploy,[bug]: pprof HTTP Server Lacks Authentication and Binding Controls,open,2026-05-27T16:56:46Z,2026-05-27T16:57:13Z,Priyanshu8023,https://github.com/keploy/keploy/issues/4223
 4233,keploy,Schema-based request-body noise detection & persistence for HTTP mocks (auto-replay),open,2026-06-02T07:31:28Z,2026-06-02T07:34:11Z,Aditya-eddy,https://github.com/keploy/keploy/issues/4233
 4241,keploy,[bug]: Navbar layout breaks at md breakpoint (768px).,open,2026-06-02T19:09:20Z,2026-06-02T19:13:27Z,vaidik-bajpai,https://github.com/keploy/keploy/issues/4241
+4255,keploy,"Bug: Record and replay functionality incomplete, edge cases not handled",open,2026-06-09T04:06:27Z,2026-06-09T04:06:51Z,anshul23102,https://github.com/keploy/keploy/issues/4255
+4256,keploy,Enhancement: Add support for gRPC and GraphQL testing,open,2026-06-09T04:06:28Z,2026-06-09T04:06:28Z,anshul23102,https://github.com/keploy/keploy/issues/4256
+4257,keploy,Security: Recorded test data may contain sensitive information,open,2026-06-09T04:06:29Z,2026-06-09T04:06:29Z,anshul23102,https://github.com/keploy/keploy/issues/4257
+4258,keploy,Enhancement: Add CI/CD integration and GitHub Actions support,open,2026-06-09T04:06:30Z,2026-06-09T04:06:30Z,anshul23102,https://github.com/keploy/keploy/issues/4258
+4259,keploy,"Bug: Performance degrades with large test suites, slow execution",open,2026-06-09T04:06:31Z,2026-06-09T04:06:31Z,anshul23102,https://github.com/keploy/keploy/issues/4259
