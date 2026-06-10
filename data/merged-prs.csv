@@ -3354,3 +3354,7 @@ pr_number,repo_name,title,state,created_at,merged_at,author,pr_url
 4251,keploy,feat(replay): add --strict-failure flag to fail response-divergent tests instead of demoting to OBSOLETE,merged,2026-06-07T23:08:02Z,2026-06-08T09:12:49Z,charankamarapu,https://github.com/keploy/keploy/pull/4251
 874,docs,feat: add internal blog links to regression-testing glossary page,merged,2026-06-08T15:44:05Z,2026-06-09T02:26:48Z,amaan-bhati,https://github.com/keploy/docs/pull/874
 873,docs,docs(skill): document --strict-failure on cloud replay; drop update_mock guidance,merged,2026-06-07T23:09:55Z,2026-06-08T10:16:00Z,charankamarapu,https://github.com/keploy/docs/pull/873
+4265,keploy,fix(replay): flow body noise into mock-matching NoiseConfig,merged,2026-06-09T15:12:08Z,2026-06-09T16:04:56Z,slayerjain,https://github.com/keploy/keploy/pull/4265
+4264,keploy,fix(mysql/replay): in-window COM_QUERY stateful reads + graceful SEND_LONG_DATA + TiDB e2e,merged,2026-06-09T15:12:06Z,2026-06-09T16:57:55Z,slayerjain,https://github.com/keploy/keploy/pull/4264
+875,docs,"skill: classify by intent first, not by commit/uncommit alone",merged,2026-06-09T10:34:38Z,2026-06-09T10:57:42Z,charankamarapu,https://github.com/keploy/docs/pull/875
+143,samples-java,feat(tidb-stmt-cache): add /api/cross orphaned same-param-shape endpoint,merged,2026-06-09T12:39:59Z,2026-06-09T14:57:15Z,slayerjain,https://github.com/keploy/samples-java/pull/143

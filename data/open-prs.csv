@@ -920,3 +920,5 @@ pr_number,repo_name,title,state,created_at,updated_at,author,pr_url
 4251,keploy,feat(replay): add --strict-failure flag to fail response-divergent tests instead of demoting to OBSOLETE,open,2026-06-07T23:08:02Z,2026-06-07T23:54:33Z,charankamarapu,https://github.com/keploy/keploy/pull/4251
 873,docs,docs(skill): document --strict-failure on cloud replay; drop update_mock guidance,open,2026-06-07T23:09:55Z,2026-06-08T06:23:46Z,charankamarapu,https://github.com/keploy/docs/pull/873
 142,samples-java,fix(restheart-mongo): deterministic GraphQL app cache + expires_in noise,open,2026-06-08T05:47:33Z,2026-06-08T05:49:38Z,slayerjain,https://github.com/keploy/samples-java/pull/142
+4266,keploy,"fix(agent): make agent-ready timeout configurable (KEPLOY_AGENT_READY_TIMEOUT), default 60s→120s",open,2026-06-10T04:36:10Z,2026-06-10T05:19:02Z,slayerjain,https://github.com/keploy/keploy/pull/4266
+4253,keploy,feat(cbshim): multi-factory support so multiple shim impls coexist,open,2026-06-08T13:22:56Z,2026-06-08T13:28:07Z,ayush3160,https://github.com/keploy/keploy/pull/4253
