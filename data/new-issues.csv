@@ -393,3 +393,5 @@ issue_number,repo_name,title,state,created_at,updated_at,author,issue_url
 4257,keploy,Security: Recorded test data may contain sensitive information,open,2026-06-09T04:06:29Z,2026-06-09T04:06:29Z,anshul23102,https://github.com/keploy/keploy/issues/4257
 4258,keploy,Enhancement: Add CI/CD integration and GitHub Actions support,open,2026-06-09T04:06:30Z,2026-06-09T04:06:30Z,anshul23102,https://github.com/keploy/keploy/issues/4258
 4259,keploy,"Bug: Performance degrades with large test suites, slow execution",open,2026-06-09T04:06:31Z,2026-06-09T04:06:31Z,anshul23102,https://github.com/keploy/keploy/issues/4259
+4261,keploy,"[bug]: COM_STMT_FETCH / useCursorFetch=true not supported — cursor rows never recorded, replay drops the connection",open,2026-06-09T13:42:34Z,2026-06-09T13:42:34Z,slayerjain,https://github.com/keploy/keploy/issues/4261
+4262,keploy,[bug]: streamed-BLOB (COM_STMT_SEND_LONG_DATA) recording mis-pairs the pipelined RESET+SLD+EXECUTE sequence,open,2026-06-09T13:42:56Z,2026-06-09T13:42:56Z,slayerjain,https://github.com/keploy/keploy/issues/4262
