@@ -3358,3 +3358,5 @@ pr_number,repo_name,title,state,created_at,merged_at,author,pr_url
 4264,keploy,fix(mysql/replay): in-window COM_QUERY stateful reads + graceful SEND_LONG_DATA + TiDB e2e,merged,2026-06-09T15:12:06Z,2026-06-09T16:57:55Z,slayerjain,https://github.com/keploy/keploy/pull/4264
 875,docs,"skill: classify by intent first, not by commit/uncommit alone",merged,2026-06-09T10:34:38Z,2026-06-09T10:57:42Z,charankamarapu,https://github.com/keploy/docs/pull/875
 143,samples-java,feat(tidb-stmt-cache): add /api/cross orphaned same-param-shape endpoint,merged,2026-06-09T12:39:59Z,2026-06-09T14:57:15Z,slayerjain,https://github.com/keploy/samples-java/pull/143
+100,samples-typescript,fix(node-dependency-matrix): recalibrate dedup expectedTestcasesExact 18->19 for agent v3.5.44,merged,2026-06-10T11:15:40Z,2026-06-10T13:03:21Z,slayerjain,https://github.com/keploy/samples-typescript/pull/100
+393,blog-website,chore: add 301 redirect for essential-free-api-testing-tools blog slug,merged,2026-06-10T10:53:11Z,2026-06-10T17:53:18Z,amaan-bhati,https://github.com/keploy/blog-website/pull/393

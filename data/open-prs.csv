@@ -922,3 +922,5 @@ pr_number,repo_name,title,state,created_at,updated_at,author,pr_url
 142,samples-java,fix(restheart-mongo): deterministic GraphQL app cache + expires_in noise,open,2026-06-08T05:47:33Z,2026-06-08T05:49:38Z,slayerjain,https://github.com/keploy/samples-java/pull/142
 4266,keploy,"fix(agent): make agent-ready timeout configurable (KEPLOY_AGENT_READY_TIMEOUT), default 60s→120s",open,2026-06-10T04:36:10Z,2026-06-10T05:19:02Z,slayerjain,https://github.com/keploy/keploy/pull/4266
 4253,keploy,feat(cbshim): multi-factory support so multiple shim impls coexist,open,2026-06-08T13:22:56Z,2026-06-08T13:28:07Z,ayush3160,https://github.com/keploy/keploy/pull/4253
+4267,keploy,fix(compose): build+create the stack before arming the agent-readiness timer,open,2026-06-10T10:32:46Z,2026-06-10T11:51:43Z,slayerjain,https://github.com/keploy/keploy/pull/4267
+876,docs,chore/canonical glossary,open,2026-06-10T11:05:25Z,2026-06-10T14:35:04Z,amaan-bhati,https://github.com/keploy/docs/pull/876
